@@ -1,18 +1,22 @@
-site_name: My site
+site_name: CropModelling
 nav:
-    - Home: index.md
+    - Course website: index.md
     - Precourse preparations: precourse.md
     - Course schedule: course_schedule.md
     - Exercises: exercises.md
+    - Integrations:
+        - Overview: integrations/overview.md
+        - Master plan: integrations/master-plan.md
+        - ICASA guide: integrations/icasa-guide.md
 
 theme:
   name: material
   logo: assets/images/SIB_logo.svg
   favicon: assets/images/SIB_logo.svg
+  features:
+    - navigation.footer
 
-# Repository
-repo_name: sib-swiss/course_website_template
-repo_url: https://github.com/sib-swiss/course_website_template
+# Repository (removed to hide top-right repo link)
 
 markdown_extensions:
   - abbr
@@ -35,3 +39,7 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+
+extra:
+  generator: false
+  copyright: 'Based on the <a href="https://github.com/sib-swiss/course_website_template">SIB Swiss course website template</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>), © respective authors, changes made.'
