@@ -1,18 +1,20 @@
-# Course website
 
-Copyright: (SIB Swiss Institute of Bioinformatics if you are a SIB staff member) 
 
-## Authors:
+## About
 
-* Author 1
-* Author 2
-* Author 3
+**Victor Nyabuti Ong'era** is a PhD Candidate in Sustainable Development & Climate Change at IUSS Pavia. His research focuses on crop simulation models and climate risk reduction, bridging climate model outputs with agricultural decision-making.
 
-## Learning outcomes
+## Contact
 
-* Learning outcome 1
-* Learning outcome 2
+IUSS Pavia  
+PhD Program in Sustainable Development & Climate Change  
+Pavia, Lombardy, Italy  
+Email: victor.ongera@iusspavia.it  
+GitHub: [Ongevic](https://github.com/Ongevic)  
+LinkedIn: [Victor Nyabuti Ong'era](https://www.linkedin.com/in/victor-nyabuti-ongera-156394114/)
 
-## Learning experiences
+---
 
-To reach the learning outcomes we will use lectures, exercises, polls and group work. During exercises, you are free to discuss with other participants. During lectures, focus on the lecture only.
+## Attribution
+
+Based on the [SIB Swiss course website template](https://github.com/sib-swiss/course_website_template) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)), © respective authors, changes made.
