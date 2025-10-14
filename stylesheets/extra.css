@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  /* Site-wide color palette to match integrations */
+  --md-primary-fg-color:        #4a5d3a; /* deep green */
+  --md-primary-fg-color--light: #6b7d5a;
+  --md-primary-fg-color--dark:  #37472b;
+  --md-accent-fg-color:         #7b8f6a; /* soft green accent */
+
+  /* Use Inter as the primary text font (Material respects this var) */
+  --md-text-font:               "Inter";
+}
+
+/* Fallback to ensure Inter is applied across the site */
+html,
+body,
+.md-typeset {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Improve text size and readability for About/Contact sections */
+.md-typeset h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.md-typeset p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.md-typeset strong {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* Make contact info more readable */
+.md-typeset h2 + p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+}

@@ -1,0 +1,1046 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../master-plan/">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/SIB_logo.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
+    
+    
+      
+        <title>ICASA guide - CropModelling</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2a3383ac.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#icasa-file-x-creation-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CropModelling" class="md-header__button md-logo" aria-label="CropModelling" data-md-component="logo">
+      
+  <img src="../../assets/images/SIB_logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CropModelling
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ICASA guide
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CropModelling" class="md-nav__button md-logo" aria-label="CropModelling" data-md-component="logo">
+      
+  <img src="../../assets/images/SIB_logo.svg" alt="logo">
+
+    </a>
+    CropModelling
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Course website
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../precourse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Precourse preparations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course_schedule/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Course schedule
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../exercises/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Exercises
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Integrations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Integrations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../master-plan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Master plan
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    ICASA guide
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    ICASA guide
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#icasa-file-x-creation-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      ICASA File X creation guide
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="ICASA File X creation guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-to-icasa-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction to ICASA Standards
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quick-start-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quick start templates
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-by-step-file-x-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step-by-step File X creation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step-by-step File X creation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-file-setup-and-basic-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      1) File setup and basic structure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-general-simulation-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      2) General simulation controls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-treatments" class="md-nav__link">
+    <span class="md-ellipsis">
+      3) Treatments
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-cultivars" class="md-nav__link">
+    <span class="md-ellipsis">
+      4) Cultivars
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fields" class="md-nav__link">
+    <span class="md-ellipsis">
+      5) Fields
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-initial-soil-conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      6) Initial soil conditions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-planting-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      7) Planting details
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-irrigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      8) Irrigation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-fertilizers" class="md-nav__link">
+    <span class="md-ellipsis">
+      9) Fertilizers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-harvest-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      10) Harvest details
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#validation-and-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Validation and testing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best practices
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#icasa-file-x-creation-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      ICASA File X creation guide
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="ICASA File X creation guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-to-icasa-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction to ICASA Standards
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quick-start-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quick start templates
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-by-step-file-x-creation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step-by-step File X creation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step-by-step File X creation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-file-setup-and-basic-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      1) File setup and basic structure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-general-simulation-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      2) General simulation controls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-treatments" class="md-nav__link">
+    <span class="md-ellipsis">
+      3) Treatments
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-cultivars" class="md-nav__link">
+    <span class="md-ellipsis">
+      4) Cultivars
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-fields" class="md-nav__link">
+    <span class="md-ellipsis">
+      5) Fields
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-initial-soil-conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      6) Initial soil conditions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-planting-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      7) Planting details
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-irrigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      8) Irrigation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-fertilizers" class="md-nav__link">
+    <span class="md-ellipsis">
+      9) Fertilizers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-harvest-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      10) Harvest details
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#validation-and-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Validation and testing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best practices
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>ICASA guide</h1>
+
+<h2 id="icasa-file-x-creation-guide">ICASA File X creation guide</h2>
+<p>This native page mirrors your ICASA guide with MkDocs Material components so it renders perfectly without raw HTML.</p>
+<h3 id="introduction-to-icasa-standards">Introduction to ICASA Standards</h3>
+<p>ICASA standards ensure consistency, interoperability, and proper documentation of agricultural field experiments.</p>
+<div class="admonition info">
+<p class="admonition-title">Why ICASA matters</p>
+<ul>
+<li>Consistency: standardized variable names and formats</li>
+<li>Interoperability: share data across models and platforms</li>
+<li>Documentation: complete metadata for reproducibility</li>
+<li>Quality control: validation and error checking</li>
+</ul>
+</div>
+<h3 id="quick-start-templates">Quick start templates</h3>
+<p>Choose a template to get started quickly or follow the detailed guide below.</p>
+<div class="tabbed-set" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Basic crop experiment</label><div class="tabbed-content">
+<ul>
+<li>Single crop variety</li>
+<li>Basic weather data</li>
+<li>Standard soil profile</li>
+<li>Control treatment</li>
+</ul>
+</div>
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Irrigation study</label><div class="tabbed-content">
+<ul>
+<li>Multiple irrigation levels</li>
+<li>Water stress analysis</li>
+<li>Irrigation scheduling</li>
+<li>Yield response</li>
+</ul>
+</div>
+<input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><label for="__tabbed_1_3">Fertilizer trial</label><div class="tabbed-content">
+<ul>
+<li>Nitrogen rates</li>
+<li>Application timing</li>
+<li>Soil analysis</li>
+<li>Economic analysis</li>
+</ul>
+</div>
+<input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><label for="__tabbed_1_4">Variety comparison</label><div class="tabbed-content">
+<ul>
+<li>Multiple cultivars</li>
+<li>Phenology tracking</li>
+<li>Yield components</li>
+<li>Adaptation analysis</li>
+</ul>
+</div>
+</div>
+<h3 id="step-by-step-file-x-creation">Step-by-step File X creation</h3>
+<h4 id="1-file-setup-and-basic-structure">1) File setup and basic structure</h4>
+<div class="highlight"><pre><span></span><code>*EXP.DETAILS: UFGA2024 soybean irrigation study
+@INSI    . . . . . . . .  INSTITUTION
+UFGA
+@LONGLATI  . . . . . . .  LONGITUDE LATITUDE
+-82.37 29.63
+@ELEV  . . . . . . . .  ELEVATION
+40
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">ICASA naming convention</p>
+<p><code>INSTI + YEAR + EXNO + CROP + "." + EXT</code> (e.g., <code>UFGA2401.SBX</code>)</p>
+</div>
+<h4 id="2-general-simulation-controls">2) General simulation controls</h4>
+<div class="highlight"><pre><span></span><code>@N GENERAL
+NYERS NREPS START SDATE RSEED
+1 1 S 2024180 2150
+
+@N OPTIONS
+WATER NITROGEN PHOSPHOR MINERAL DISEASES
+Y Y N N N
+
+@N METHODS
+LIGHT EVAPOTRANSPIRATION PHOTOSYNTHESIS
+1 1 1
+
+@N MANAGEMENT
+PLANTING IRRIGATION FERTILIZER RESIDUE HARVEST
+R R F R R
+
+@N OUTPUTS
+DAILY SUMMARY GROWTH WATER NITROGEN
+Y Y Y Y Y
+</code></pre></div>
+<h4 id="3-treatments">3) Treatments</h4>
+<div class="highlight"><pre><span></span><code>@N TREATMENTS    4
+@N TRNO R O C TNAME
+ 1 1 1 1 1 Control - No irrigation
+ 2 1 1 1 2 Low irrigation - 50% ET
+ 3 1 1 1 3 Medium irrigation - 75% ET
+ 4 1 1 1 4 High irrigation - 100% ET
+</code></pre></div>
+<h4 id="4-cultivars">4) Cultivars</h4>
+<div class="highlight"><pre><span></span><code>@N CULTIVARS
+@N CR INGENO CNAME
+SB UF000001 McCurdy 84aa
+</code></pre></div>
+<h4 id="5-fields">5) Fields</h4>
+<div class="highlight"><pre><span></span><code>@N FIELDS
+@N ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST
+UFGA0001 UFGA2024      0     0 DR000  100    0    0
+@N  SOIL_ID
+UFGA0001
+</code></pre></div>
+<h4 id="6-initial-soil-conditions">6) Initial soil conditions</h4>
+<div class="highlight"><pre><span></span><code>@N INITIAL CONDITIONS
+@N PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD  ICRTILL
+MA 2024180  1000   -99     1     0    15   -99
+@N  ICBL  SH2O  SNH4  SNO3
+  5 0.25  1.5  8.2
+ 15 0.27  1.2  7.8
+ 30 0.30  1.0  6.5
+ 60 0.32  0.8  5.2
+ 90 0.35  0.6  4.1
+</code></pre></div>
+<h4 id="7-planting-details">7) Planting details</h4>
+<div class="highlight"><pre><span></span><code>@N PLANTING DETAILS
+@N PDDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+2024181   -99   12.   -99     S     R    61    -99     5   -99   -99   -99   -99   -99
+</code></pre></div>
+<h4 id="8-irrigation">8) Irrigation</h4>
+<div class="highlight"><pre><span></span><code>@N IRRIGATION
+@N IMDATE IMTYPE  IMCOD  IIRRI  IMDEP  IMTHR  IMAMT  IMEA  IMEV  IMRO
+2024190     IR     1      25    30    0.50    25     1.0   0.0   0.0
+2024200     IR     1      25    30    0.50    25     1.0   0.0   0.0
+2024210     IR     1      25    30    0.50    25     1.0   0.0   0.0
+</code></pre></div>
+<h4 id="9-fertilizers">9) Fertilizers</h4>
+<div class="highlight"><pre><span></span><code>@N FERTILIZERS
+@N FDATE  FMCD  FACD  FAMN  FAMP  FAMK  FAMC  FAMO  FLIT  FMDEP  FMTHR
+2024180 FE005 AP002    30     0     0     0     0     0    10   -99
+2024190 FE005 AP002    40     0     0     0     0     0    10   -99
+</code></pre></div>
+<h4 id="10-harvest-details">10) Harvest details</h4>
+<div class="highlight"><pre><span></span><code>@N HARVEST DETAILS
+@N HDATE  HASTC  HCOM  HPC  HBPC HPLW  HPLD  HPWD HARVNO
+2024300     M     C    0     0   -99   -99   -99   -99
+</code></pre></div>
+<h3 id="validation-and-testing">Validation and testing</h3>
+<div class="admonition tip">
+<p class="admonition-title">Syntax checklist</p>
+<ul>
+<li><code>*</code> section headers present</li>
+<li><code>@</code> variable headers present</li>
+<li>Proper spacing and alignment</li>
+<li>Missing values use <code>-99</code></li>
+<li>Dates in <code>YYYYDDD</code> format</li>
+</ul>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Common issues</p>
+<ul>
+<li>Treatment levels don&rsquo;t match section entries</li>
+<li>Invalid date sequences</li>
+<li>Missing required sections</li>
+<li>Inconsistent units</li>
+<li>Broken file references</li>
+</ul>
+</div>
+<h3 id="best-practices">Best practices</h3>
+<ul>
+<li>Use consistent naming conventions and version control</li>
+<li>Validate before running, check parameter ranges</li>
+<li>Share standard formats and document metadata</li>
+</ul>
+<h3 id="resources">Resources</h3>
+<ul>
+<li>ICASA v2.0 Standards: <code>https://dssat.net/data/standards_v2/</code></li>
+<li>ICASA Standards Paper: <code>https://dssat.net/wp-content/uploads/2014/02/White2013ICASA_V2_standards.pdf</code></li>
+<li>Master Variable List: <code>https://agmip.github.io/ICASA.html</code></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../master-plan/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Master plan">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Master plan
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
