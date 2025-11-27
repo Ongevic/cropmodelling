@@ -2,6 +2,14 @@ site_name: CropModelling
 nav:
     - Course website: index.md
     - Precourse preparations: precourse.md
+    - Introductory Skills:
+        - Linux: modules/intro_linux.md
+        - Python: modules/intro_python.md
+        - R: modules/intro_r.md
+        - CDO Tools: modules/intro_cdo.md
+    - Climate Data Handling:
+        - Raw Datasets: modules/raw_datasets.md
+        - Processing Climate Data: modules/climate_data_processing.md
     - Course schedule: course_schedule.md
     - Exercises: exercises.md
     - Integrations:
