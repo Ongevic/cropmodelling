@@ -1,0 +1,26 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:01
+
+*RUN   1        : Irrigated, 200 kg N/ha    MZCER048 FLSC8101    1
+ MODEL          : MZCER048 - Maize
+ EXPERIMENT     : FLSC8101 MZ N X IRRIG., S.C. (CERES MAIZE BK)
+ DATA PATH      :
+ TREATMENT  1   : Irrigated, 200 kg N/ha    MZCER048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ IPWTH   YEAR DOY = 1981  89
+ Value of TAV, average annual soil temperature, is missing.                    
+ A default value of 20.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 1981  89
+ Value of TAMP, amplitude of soil temperature function, is missing.            
+ A default value of  5.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         

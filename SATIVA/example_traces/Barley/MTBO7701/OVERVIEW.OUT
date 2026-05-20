@@ -1,0 +1,184 @@
+*SIMULATION OVERVIEW FILE
+  
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:43
+
+*RUN   1        : Irrig 0 Kg N/ha           CSCER048 MTBO7701    1
+ MODEL          : CSCER048 - Barley
+ EXPERIMENT     : MTBO7701 BA N LEVELS+SPLITS,BOZEMAN  9FE(N),2IR  (DSSAT3)
+ DATA PATH      :
+ TREATMENT  1   : Irrig 0 Kg N/ha           CSCER048
+
+
+ CROP           : Barley           CULTIVAR : Maris Badger     ECOTYPE :US0001
+ STARTING DATE  : APR 20 1977
+ PLANTING DATE  : APR 21 1977      PLANTS/m2 :   200.0    ROW SPACING :  10.cm
+ WEATHER        : MTBO   1977
+ SOIL           : IBBA980060     TEXTURE : -99   -   Bozeman
+ SOIL INIT COND : DEPTH:180cm EXTR. H2O:234.0mm  NO3: 50.7kg/ha  NH4: 46.8kg/ha
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)
+ IRRIGATION     :      250 mm IN     4 APPLICATIONS
+ NITROGEN BAL.  : SOIL-N & N-UPTAKE SIMULATION; NO N-FIXATION
+ N-FERTILIZER   :        0 kg/ha IN     0 APPLICATIONS
+ RESIDUE/MANURE : INITIAL :  1000 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:N  PHOSPH :N  PESTS  :N
+                  PHOTO   :C  ET      :R  INFIL:S  HYDROL :R  SOM    :G
+                  CO2 333ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :R  RESIDUE:N  HARVEST:M
+                  WEATHER :M  TILLAGE :N
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.280 0.410 0.490 0.130 0.410   1.00   1.30   7.00   3.00   2.00   1.16
+  5- 15 0.280 0.410 0.490 0.130 0.410   0.85   1.30   7.00   3.00   2.00   1.08
+ 15- 30 0.280 0.410 0.490 0.130 0.410   0.70   1.30   7.00   3.00   2.00   1.00
+ 30- 45 0.280 0.410 0.490 0.130 0.410   0.30   1.30   7.00   2.00   2.00   0.91
+ 45- 60 0.280 0.410 0.490 0.130 0.410   0.30   1.30   7.00   2.00   2.00   0.91
+ 60- 90 0.280 0.410 0.490 0.130 0.410   0.10   1.30   7.00   2.00   2.00   0.61
+ 90-120 0.280 0.410 0.490 0.130 0.410   0.05   1.30   7.00   2.00   2.00   0.59
+120-150 0.280 0.410 0.490 0.130 0.410   0.03   1.30   7.00   2.00   2.00   0.29
+150-180 0.280 0.410 0.490 0.130 0.410   0.00   1.30   7.00   2.00   2.00   0.24
+
+TOT-180  50.4  73.8  88.2  23.4  73.8  <--cm   -  kg/ha-->   50.7   46.8 144040
+SOIL ALBEDO    : 0.12      EVAPORATION LIMIT :12.00         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :60.00      DRAINAGE RATE     : 0.60         FERT. FACTOR : 1.00
+
+ Barley           CULTIVAR: IB0030-Maris Badger       ECOTYPE: US0001
+   P1V   P1D    P5    G1    G2    G3 PHINT
+   0.0 142.0 763.2  22.7  37.3  2.05  64.0
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+  
+ RUN NO.      1   N LEVELS+SPLITS,BOZEMAN  9FE(N),2IR  (DSSAT3)               
+
+ ...... DATE ......  GROWTH STAGE BIOMASS   LEAF       CROP N      STRESS
+ YEARDOY DOM MON DAP ............. kg/ha AREA NUMBER  kg/ha   %   H2O    N
+ 1977111  21 Apr 365 7 Sowing         0  0.00   0.0     0   0.0  0.00  0.00
+ 1977112  22 Apr   1 8 Germinate      0  0.00   0.0     0   0.0  0.00  0.00
+ 1977115  25 Apr   4 9 Emergence      0  0.00   0.0     0   0.0  0.00  0.00
+ 1977151  31 May  40 1 Max Prim     250  0.29   6.4     4   1.5  0.08  0.46
+ 1977166  15 Jun  55 2 End Veg      507  0.81  10.5     7   1.5  0.01  0.62
+ 1977177  26 Jun  66 3 End Ear Gr  1158  0.72  10.5    12   1.0  0.00  0.42
+ 1977191  10 Jul  80 4 Bg Gr Fill  2480  0.65  10.5    15   0.6  0.00  0.09
+ 1977231  19 Aug 120 5 End Gr Fil  5253  0.23  10.5    33   0.6  0.00  0.20
+ 1977231  19 Aug 120 6 Harvest     5253  0.23  10.5    33   0.6  0.00  0.95
+  
+ BIOMASS = Above-ground dry wt (kg/ha)
+ LEAF AREA  = Leaf area index (m2/m2)
+ LEAF NUMBER  = Leaf number produced on main axis
+ CROP N  = Above-ground N (kg/ha)
+ CROP N% = Above-ground N conc (%)
+ H2O STRESS = Photosynthesis stress,average (0-1,0=none)
+ N STRESS = Photosynthesis stress,average (0-1,0=none)
+  
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                             SIMULATED     MEASURED
+      --------                             ---------     --------
+      Emergence (DAP)                            4          -99
+      Anthesis (DAP)                            69           69
+      Maturity (DAP)                           120          119
+      Product wt (kg dm/ha;no loss)           1405         1240
+      Product unit weight (g dm)             0.037        0.051
+      Product number (no/m2)                  3766         2355
+      Product number (no/group)                9.2         15.0
+      Product harvest index (ratio)           0.27         0.60
+      Maximum leaf area index                  0.8        -99.0
+      Final leaf number (one axis)            10.5        -99.0
+      Final shoot number (#/m2)                409          157
+      Canopy (tops) wt (kg dm/ha)             5253         2070
+      Vegetative wt (kg dm/ha)                3848          830
+      Root wt (kg dm/ha)                       242          -99
+      Assimilate wt (kg dm/ha)                5685          -99
+      Senesced wt (kg dm/ha)                    70          -99
+      Reserves wt (kg dm/ha)                  2688          -99
+      N uptake (kg/ha)                        35.6        -99.0
+      N senesced (kg/ha)                       0.9        -99.0
+      Above-ground N (kg/ha)                  32.7        -99.0
+      Root N (kg/ha)                           3.0        -99.0
+      Vegetative N (kg/ha)                     5.9        -99.0
+      Product N (kg/ha)                       26.9        -99.0
+      Product N harvest index (ratio)         0.82       -99.00
+      Product N (%)                            1.9        -99.0
+      Vegetative N (%)                         0.2        -99.0
+      Leaf+stem wt,anthesis (kg dm/ha)        1488          -99
+      Leaf+stem N,anthesis (kg/ha)            12.9        -99.0
+      Leaf N,anthesis (%)                      2.6        -99.0
+
+  Seed N must be added to N uptake to obtain a         
+  balance with N in above-ground plus root material    
+
+  Measured data are obtained from the A file,either    
+  directly or by calculation from other other variables
+  using the expressions given below:                   
+                                                       
+  Product wt       Harvest wt (HWAH) /                 
+                               (Harvest%/100) (HPC)    
+  Canopy wt        Grain wt (HWAM)+Vegetative wt (VWAm)
+  Vegetative wt    Canopy wt (CWAM) - grain wt (HWAM)  
+    = leaf+stem+retained dead material                 
+  Product unit wt  Grain yield (HWAM)/Grain # (G#AM)   
+  Product #/area   Product#/tiller (H#SM) *            
+                                   tiller number (T#AM)
+  Product #/group  Product#/area (H#AM) /              
+                                tiller number (T#AM)   
+  Harvest index    Product wt (HWAM)/Canopy wt.(CWAM)  
+                                                       
+  The same procedure is followed for nitrogen aspects  
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|-------------Environment--------------|----------------Stress-----------------|
+                              |--------Average-------|---Cumulative--|         (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp Solar Photop         Evapo |----Water---|--Nitrogen--|--Phosphorus-|
+                         Span   Max   Min   Rad  [day]   Rain  Trans  Photo         Photo         Photo
+                         days    °C    °C MJ/m2     hr     mm     mm  synth Growth ' synth Growth  synth Growth
+--------------------------------------------------------------------------------------------------------------
+ Germinate  - Max Prim     36  17.6   3.8  11.9  16.21   97.6   69.1  0.077  0.132  0.457  0.457 -99.00 -99.00
+ Max Prim   - End Veg      15  24.3  10.3  14.1  17.24   47.6   30.3  0.011  0.028  0.617  0.617 -99.00 -99.00
+ End Veg    - End Ear Gr   11  24.4  10.3  19.0  17.42    8.6   39.1  0.000  0.000  0.415  0.415 -99.00 -99.00
+ End Ear Gr - Bg Gr Fill   14  24.3   8.5  18.9  17.31   52.1   50.8  0.000  0.000  0.087  0.087 -99.00 -99.00
+ Bg Gr Fill - End Gr Fil   40  27.9  10.8  18.0  16.30    8.9   84.5  0.000  0.000  0.196  0.196 -99.00 -99.00
+  
+ Germinate  - End Gr Fil  116  23.5   8.2  15.8  16.62  214.8  273.8  0.025  0.045  0.339  0.339 -99.00 -99.00
+--------------------------------------------------------------------------------------------------------------
+
+
+*RESOURCE PRODUCTIVITY
+
+ Growing season length: 116 days 
+
+ Precipitation during growth season        214.8 mm[rain]
+   Dry Matter Productivity                  2.45 kg[DM]/m3[rain]          =   24.5 kg[DM]/ha per mm[rain]
+   Yield Productivity                       0.65 kg[grain yield]/m3[rain] =    6.5 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growth season   273.8 mm[ET]
+   Dry Matter Productivity                  1.92 kg[DM]/m3[ET]            =   19.2 kg[DM]/ha per mm[ET]
+   Yield Productivity                       0.51 kg[grain yield]/m3[ET]   =    5.1 kg[yield]/ha per mm[ET]
+
+ Transpiration during growth season        111.8 mm[EP]
+   Dry Matter Productivity                  4.70 kg[DM]/m3[EP]            =   47.0 kg[DM]/ha per mm[EP]
+   Yield Productivity                       1.26 kg[grain yield]/m3[EP]   =   12.6 kg[yield]/ha per mm[EP]
+
+ Irrigation during growing season          250.0 mm[irrig]
+   Dry Matter Productivity                  2.10 kg[DM]/m3[irrig]         =   21.0 kg[DM]/ha per mm[irrig]
+   Yield Productivity                       0.56 kg[grain yield]/m3[irrig]=    5.6 kg[yield]/ha per mm[irrig]
+
+ N uptake during growing season             35.6 kg[N uptake]/ha
+   Dry Matter Productivity                 147.4 kg[DM]/kg[N uptake]
+   Yield Productivity                       39.4 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+          BARLEY YIELD :     1405 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

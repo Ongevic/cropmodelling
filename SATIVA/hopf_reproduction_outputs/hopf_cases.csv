@@ -1,0 +1,16 @@
+simulation_no,experiment,trno,site,year,cultivar,nitrogen_kg_ha,planting_date,density_plants_m2,project_file,situation
+1,UFCI2101,1,PSREU,2021,IH Williams,280,2021-05-05,53.8,C:/Users/chich/Downloads/DSSAT Files/sativa/dssat-csm-data/Hemp/UFCI2101.HMX,UFCI2101_1
+2,UFCI2101,2,PSREU,2021,NWG 2730,0,2021-05-05,64,C:/Users/chich/Downloads/DSSAT Files/sativa/dssat-csm-data/Hemp/UFCI2101.HMX,UFCI2101_2
+3,UFCI2101,3,PSREU,2021,NWG 2730,280,2021-05-05,60.5,C:/Users/chich/Downloads/DSSAT Files/sativa/dssat-csm-data/Hemp/UFCI2101.HMX,UFCI2101_3
+4,UFCI2201,1,PSREU,2022,IH Williams,0,2022-05-04,50.7,C:/Users/chich/Downloads/DSSAT Files/sativa/dssat-csm-data/Hemp/UFCI2201.HMX,UFCI2201_1
+5,UFCI2201,2,PSREU,2022,IH Williams,280,2022-05-04,40.8,C:/Users/chich/Downloads/DSSAT Files/sativa/dssat-csm-data/Hemp/UFCI2201.HMX,UFCI2201_2
+6,UFCI2201,3,PSREU,2022,NWG 2730,0,2022-05-04,30.5,C:/Users/chich/Downloads/DSSAT Files/sativa/dssat-csm-data/Hemp/UFCI2201.HMX,UFCI2201_3
+7,UFCI2201,4,PSREU,2022,NWG 2730,168,2022-05-04,40.5,C:/Users/chich/Downloads/DSSAT Files/sativa/dssat-csm-data/Hemp/UFCI2201.HMX,UFCI2201_4
+8,UFJA2101,1,WFREC,2021,IH Williams,0,2021-05-26,66.8,C:/Users/chich/Downloads/DSSAT Files/sativa/dssat-csm-data/Hemp/UFJA2101.HMX,UFJA2101_1
+9,UFJA2101,2,WFREC,2021,IH Williams,224,2021-05-26,68.6,C:/Users/chich/Downloads/DSSAT Files/sativa/dssat-csm-data/Hemp/UFJA2101.HMX,UFJA2101_2
+10,UFJA2101,3,WFREC,2021,NWG 2730,0,2021-05-26,71.5,C:/Users/chich/Downloads/DSSAT Files/sativa/dssat-csm-data/Hemp/UFJA2101.HMX,UFJA2101_3
+11,UFJA2101,4,WFREC,2021,NWG 2730,112,2021-05-26,71.5,C:/Users/chich/Downloads/DSSAT Files/sativa/dssat-csm-data/Hemp/UFJA2101.HMX,UFJA2101_4
+12,UFJA2201,1,WFREC,2022,IH Williams,0,2022-05-13,99.9,C:/Users/chich/Downloads/DSSAT Files/sativa/dssat-csm-data/Hemp/UFJA2201.HMX,UFJA2201_1
+13,UFJA2201,2,WFREC,2022,IH Williams,280,2022-05-13,71.9,C:/Users/chich/Downloads/DSSAT Files/sativa/dssat-csm-data/Hemp/UFJA2201.HMX,UFJA2201_2
+14,UFJA2201,3,WFREC,2022,NWG 2730,0,2022-05-13,69.8,C:/Users/chich/Downloads/DSSAT Files/sativa/dssat-csm-data/Hemp/UFJA2201.HMX,UFJA2201_3
+15,UFJA2201,4,WFREC,2022,NWG 2730,280,2022-05-13,82.8,C:/Users/chich/Downloads/DSSAT Files/sativa/dssat-csm-data/Hemp/UFJA2201.HMX,UFJA2201_4

@@ -1,0 +1,15 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:17
+
+*RUN   1        : 97-Soren STINE (MG3.6)    CRGRO048 IUAM9702    1
+ MODEL          : CRGRO048 - Soybean
+ EXPERIMENT     : IUAM9702 SB SORENSON FARM (NEAR AMES), SOYBEAN POT. YIELD STUD
+ DATA PATH      :
+ TREATMENT  1   : 97-Soren STINE (MG3.6)    CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1997 133
+ Soil photosynthesis factor (SLPF) = 0.92                                      

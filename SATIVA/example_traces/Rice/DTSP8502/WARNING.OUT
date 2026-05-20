@@ -1,0 +1,25 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:12
+
+*RUN   1        : 0-0-0 NPK                 RICER048 DTSP8502    1
+ MODEL          : RICER048 - Rice
+ EXPERIMENT     : DTSP8502 RI EFFECTS OF APPL. N & ENVIR. ON RICE
+ DATA PATH      :
+ TREATMENT  1   : 0-0-0 NPK                 RICER048
+  
+
+ IPRES   YEAR DOY =    0   0
+ Residue application   1                                                       
+ Incorporation percentage not specified, and incorporation depth > 0.          
+ Applied residues will be incorporated to a depth of  15.0 cm.                 
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1985 246
+ A default soil water conductivity constant will be used:                      
+ SWCON =  0.25 (fraction/day).                                                 

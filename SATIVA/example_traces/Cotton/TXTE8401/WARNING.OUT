@@ -1,0 +1,18 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:51
+
+*RUN   1        : 1984 season               CRGRO048 TXTE8401    1
+ MODEL          : CRGRO048 - Cotton
+ EXPERIMENT     : TXTE8401 CO 1984 COTTON ROOT GROWTH AND SOIL WATER EXTRACTION
+ DATA PATH      :
+ TREATMENT  1   : 1984 season               CRGRO048
+  
+
+ SOLORG  YEAR DOY = 1984 156
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   3 is unlikely:      9.4                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              

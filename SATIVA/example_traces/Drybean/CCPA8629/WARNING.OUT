@@ -1,0 +1,16 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:52
+
+*RUN   1        : Porrillo Sin.  0.3 m row  CRGRO048 CCPA8629    1
+ MODEL          : CRGRO048 - Dry bean
+ EXPERIMENT     : CCPA8629 BN 3 CULTIVARS, 2 ROW WIDTHS, 2 DENSITIES
+ DATA PATH      :
+ TREATMENT  1   : Porrillo Sin.  0.3 m row  CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              

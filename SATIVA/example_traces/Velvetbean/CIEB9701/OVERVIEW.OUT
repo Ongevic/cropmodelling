@@ -1,0 +1,143 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:32
+
+*RUN   1        : El Batan black            CRGRO048 CIEB9701    1
+ MODEL          : CRGRO048 - Velvet bean
+ EXPERIMENT     : CIEB9701 VB 1997 CIMMYT ES EL BATAN
+ DATA PATH      :
+ TREATMENT  1   : El Batan black            CRGRO048
+
+
+ CROP           : Velvet bean      CULTIVAR : Veracruz Black   ECOTYPE :VB0001
+ STARTING DATE  : JUN  9 1997
+ PLANTING DATE  : JUN 21 1997      PLANTS/m2 :     2.5    ROW SPACING :  80.cm
+ HARVEST DATE   : OCT 15 1997
+ WEATHER        : CIEB   1997
+ SOIL           : CI00960001     TEXTURE : CSI   -   El Batan
+ SOIL INIT COND : DEPTH:150cm EXTR. H2O:156.3mm  NO3:  0.0kg/ha  NH4:  0.0kg/ha
+ WATER BALANCE  : RAINFED
+ IRRIGATION     : NOT IRRIGATED
+ NITROGEN BAL.  : SOIL-N, N-UPTAKE & DYNAMIC N-FIXATION SIMULATION
+ N-FERTILIZER   : NO N-FERTILIZER APPLIED
+ RESIDUE/MANURE : INITIAL :     0 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:Y  PHOSPH :N  PESTS  :N
+                  PHOTO   :L  ET      :R  INFIL:S  HYDROL :R  SOM    :G
+                  CO2 363ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :N  FERT :N  RESIDUE:N  HARVEST:R
+                  WEATHER :M  TILLAGE :N
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.171 0.290 0.359 0.119 0.290   0.75   1.50   6.20   0.00   0.00   0.80
+  5- 15 0.171 0.290 0.359 0.119 0.290   0.75   1.50   6.20   0.00   0.00   0.80
+ 15- 30 0.201 0.318 0.358 0.117 0.318   0.50   1.50   6.30   0.00   0.00   0.70
+ 30- 45 0.178 0.296 0.359 0.118 0.296   0.35   1.60   6.30   0.00   0.00   0.90
+ 45- 60 0.164 0.274 0.341 0.110 0.274   0.35   1.60   6.00   0.00   0.00   0.30
+ 60- 75 0.058 0.186 0.325 0.128 0.186   0.35   1.60   6.00   0.00   0.00   0.20
+ 75- 90 0.048 0.154 0.338 0.106 0.154   0.20   1.70   6.00   0.00   0.00   0.20
+ 90-120 0.039 0.125 0.327 0.086 0.125   0.15   1.70   6.00   0.00   0.00   0.15
+120-150 0.039 0.125 0.327 0.086 0.125   0.15   1.70   6.00   0.00   0.00   0.15
+
+TOT-150  14.6  30.3  50.8  15.6  30.3  <--cm   -  kg/ha-->    0.0    0.0  87750
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT :10.50         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.40         FERT. FACTOR : 1.00
+
+ Velvet bean      CULTIVAR: CI0004-Veracruz Black     ECOTYPE: VB0001
+ CSDVAR :12.00  PPSEN  : 0.66  EMG-FLW:57.92  FLW-FSD:15.00  FSD-PHM : 55.49
+ WTPSD  :1.100  SDPDVR : 4.50  SDFDUR :22.00  PODDUR :20.00  XFRUIT  :  1.00
+ THRESH : 70.0  SDPRO  :0.265  SDLIP   : 0.043
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     El Batan black          
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+  9 JUN    0 Start Sim        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+ 21 JUN    0 Sowing           0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+  2 JUL   11 Emergence       14   0.05   0.0    1  4.8  0.00  0.00  0.00  0.00     0
+  2 JUL   11 End Juven.      14   0.05   0.0    1  4.8  0.00  0.00  0.00  0.00     0
+ 12 JUL   21 Unifoliate      19   0.05   1.1    1  4.2  0.00  0.19  0.00  0.00     0
+  6 AUG   46 Flower Ind      46   0.07   5.0    2  4.3  0.00  0.00  0.00  0.00     0
+
+     Freeze occurred at  116 days after planting.                                  
+       (DAY : 1997288 )                                                            
+ 15 OCT  116 Harvest        264   0.00  12.8    6  2.4  0.00  0.01  0.00  0.00     0
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Emergence day (dap)                                     11          -99
+      Anthesis day (dap)                                     -99          -99
+      Physiological maturity day (dap)                       -99          -99
+      Yield at harvest maturity (kg [dm]/ha)                   0          -99
+      Pod/Ear/Panicle weight at maturity (kg [dm]/ha)          0          -99
+      Tops weight at anthesis (kg [dm]/ha)                     0          -99
+      Tops weight at maturity (kg [dm]/ha)                   264          -99
+      By-product produced (stalk) at maturity (kg[dm]/ha     260          -99
+      Number at maturity (no/m2)                               0          -99
+      Unit wt at maturity (g [dm]/unit)                   0.0000          -99
+      Number at maturity (no/unit)                          0.00          -99
+      Harvest index at maturity                            0.000          -99
+      Threshing % at maturity                               0.00          -99
+      Leaf area index, maximum                              0.41          -99
+      Leaf number per stem at maturity                     12.84          -99
+      Canopy height (m)                                     0.29          -99
+      Tops N at anthesis (kg/ha)                               0          -99
+      Tops N at maturity (kg/ha)                               6          -99
+      Stem N at maturity (kg/ha)                               6          -99
+      Grain N at maturity (kg/ha)                              0          -99
+      Grain N at maturity (%)                               0.00          -99
+      Grain oil at maturity (%)                             0.00          -99
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|--------------------------------------Environment--------------------------------------|-----------------Stress-----------------|
+                              |---------------Average--------------|-----Cumulative-----|--------Count of days--------|          (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp  Temp Solar Photop                Evapo    Pot TMIN TMIN TMAX TMAX TMAX RAIN|----Water----|---Nitrogen--|-Phosphorus-|
+                         Span   Max   Min  Mean   Rad  [day]    CO2   Rain  Trans     ET   <    <    >    >    >    >   Photo         Photo         Photo
+                         days     C     C     C MJ/m2     hr    ppm     mm     mm    mm   0 C  2 C 30 C 32 C 34 C  0mm  synth Growth  synth Growth  synth Growth
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Emergence -First Flower  105  24.2   8.7  16.5  15.2  12.46  363.9  276.2  239.5  362.6    0    0    0    0    0   59  0.000  0.000  0.000  0.022  0.000  0.000
+ Emergence  - Phys. Mat.  105  24.2   8.7  16.5  15.2  12.46  363.9  276.2  239.5  362.6    0    0    0    0    0   59  0.000  0.000  0.000  0.022  0.000  0.000
+   
+ Planting to Harvest      117  24.2   8.8  16.5  15.3  12.53  363.8  351.9  275.4  408.7    0    0    0    0    0   69  0.000  0.000  0.000  0.019  0.000  0.000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*Resource Productivity
+ Growing season length: 117 days 
+
+ Precipitation during growing season       351.9 mm[rain]
+   Dry Matter Productivity                  0.07 kg[DM]/m3[rain]          =    0.7 kg[DM]/ha per mm[rain]
+   Yield Productivity                       0.00 kg[grain yield]/m3[rain] =    0.0 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season  275.4 mm[ET]
+   Dry Matter Productivity                  0.10 kg[DM]/m3[ET]            =    1.0 kg[DM]/ha per mm[ET]
+   Yield Productivity                       0.00 kg[grain yield]/m3[ET]   =    0.0 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season        32.3 mm[EP]
+   Dry Matter Productivity                  0.82 kg[DM]/m3[EP]            =    8.2 kg[DM]/ha per mm[EP]
+   Yield Productivity                       0.00 kg[grain yield]/m3[EP]   =    0.0 kg[yield]/ha per mm[EP]
+
+ N uptake during growing season               14 kg[N uptake]/ha
+   Dry Matter Productivity                  18.8 kg[DM]/kg[N uptake]
+   Yield Productivity                        0.0 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+               Velvet bean YIELD :        0 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

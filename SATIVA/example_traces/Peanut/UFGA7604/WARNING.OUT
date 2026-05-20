@@ -1,0 +1,15 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:04
+
+*RUN   1        : CONTROL, NO SHADE         CRGRO048 UFGA7604    1
+ MODEL          : CRGRO048 - Peanut
+ EXPERIMENT     : UFGA7604 PN 1976 SHADING STUDY - FLORUNNER
+ DATA PATH      :
+ TREATMENT  1   : CONTROL, NO SHADE         CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1976 113
+ Soil photosynthesis factor (SLPF) = 0.92                                      

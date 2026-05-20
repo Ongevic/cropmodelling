@@ -1,0 +1,30 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:32
+
+*RUN   1        : 95F-180 N AI, N-B "off"   CRGRO048 UFQU9502   14
+ MODEL          : CRGRO048 - Tomato
+ EXPERIMENT     : UFQU9502 TM FALL 1995,SOLARSET,N-RATE,DRIP-IRR
+ DATA PATH      :
+ TREATMENT 14   : 95F-180 N AI, N-B "off"   CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1995 192
+ Soil photosynthesis factor (SLPF) = 0.96                                      
+
+ SOILDYN  YEAR DOY = 1995 192
+ The pH of one or more soil layers at initialization                           
+ was outside the range pH=1-10, which is unlikely.                             
+ It was set by DSSAT to pH=7.                                                  
+
+ IPWTH   YEAR DOY = 1995 192
+ Value of TAV, average annual soil temperature, is missing.                    
+ A default value of 20.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 1995 192
+ Value of TAMP, amplitude of soil temperature function, is missing.            
+ A default value of  5.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         

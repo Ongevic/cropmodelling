@@ -1,0 +1,15 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:52
+
+*RUN   1        : IRRIGATED                 CRGRO048 UFGA8401    1
+ MODEL          : CRGRO048 - Cowpea
+ EXPERIMENT     : UFGA8401 CP COWPEA,IRRIGATED & NON-IRRIGATED
+ DATA PATH      :
+ TREATMENT  1   : IRRIGATED                 CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1984 146
+ Soil photosynthesis factor (SLPF) = 0.94                                      

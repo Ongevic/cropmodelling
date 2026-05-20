@@ -1,0 +1,25 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:27
+
+*RUN   1        : T7, 7-d interval          CRGRO048 AUTA8101    1
+ MODEL          : CRGRO048 - Sunflower
+ EXPERIMENT     : AUTA8101 SU TATURA 1981/82, CONNOR ET AL 1985
+ DATA PATH      :
+ TREATMENT  1   : T7, 7-d interval          CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1981 330
+ Initial soil water content < LL.                                              
+                                                                               
+          FileX              SW @  Revised                                     
+ Layer  Init SW       LL   AirDry  Init SW                                     
+     2    0.210    0.230             0.230                                     
+     3    0.210    0.230             0.230                                     
+    11    0.270    0.310             0.310                                     
+    12    0.270    0.380             0.380                                     
+    13    0.270    0.380             0.380                                     
+    14    0.270    0.380             0.380                                     
+    15    0.090    0.370             0.370                                     

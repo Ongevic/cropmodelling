@@ -1,0 +1,22 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:42
+
+*RUN   1        : DRYLAND -    0 KG N/HA    PRFRM048 UFON9701    1
+ MODEL          : PRFRM048 - Bahia grass
+ EXPERIMENT     : UFON9701 BH ONA, POMONA FINE SAND, 2 YR SEQ.
+ DATA PATH      :
+ TREATMENT  1   : DRYLAND -    0 KG N/HA    PRFRM048
+  
+
+ SOILDYN  YEAR DOY = 1996  61
+ Soil photosynthesis factor (SLPF) = 0.92                                      
+
+ FRHARV  YEAR DOY = 1996  61
+ File not found. Please check file name or create file.                        
+ File: UFON9701.MOW                                                            
+    Line:     0                                                                
+    Error key: FRHARV                                                          
+ Simulations terminated.                                                       

@@ -1,0 +1,19 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:50
+
+*RUN   1        : ICCV 88202                CRGRO048 ITBW9306    1
+ MODEL          : CRGRO048 - Chickpea
+ EXPERIMENT     : ITBW9306 CH CULTIVARS; BLACK WATERSHED; 1993
+ DATA PATH      :
+ TREATMENT  1   : ICCV 88202                CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1993 313
+ Soil photosynthesis factor (SLPF) = 0.94                                      

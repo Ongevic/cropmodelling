@@ -1,0 +1,669 @@
+--- PAGE 1 ---
+Agrosyst Geosci Environ. 2025;8:e70145. wileyonlinelibrary.com/journal/agg2 1o f3 3
+https://doi.org/10.1002/agg2.70145
+Received: 12 July 2024 Accepted: 2 May 2025
+DOI: 10.1002/agg2.70145
+ORIGINAL ARTICLE
+Special Section: Industrial Hemp Production and Management
+Adaptation of the process-based CSM-CROPGRO model to
+simulate the growth and development of industrial hemp for seed
+and fiber production
+Alwin Hopf1 Kenneth J. Boote1 Yogendra Upadhyaya2 Hardeep Singh2
+Michael J. Mulvaney2 Navdeep Kaur3 Lakesh K. Sharma3 Zachary Brym4
+Jonathan A. Watson1 Gerrit Hoogenboom1,5
+1Department of Agricultural and Biological Engineering, University of Florida, Gainesville, Florida, USA
+2Department of Agronomy, University of Florida, West Florida Research and Education Center, Milton, Florida, USA
+3Soil, Water, and Ecosystem Sciences Department, University of Florida, Gainesville, Florida, USA
+4Department of Agronomy, Tropical Research and Education Center, University of Florida, Homestead, Florida, USA
+5Global Food Systems Institute, University of Florida, Gainesville, Florida, USA
+Correspondence
+Alwin Hopf, Department of Agricultural
+and Biological Engineering, University of
+Florida, Gainesville, FL 32611, USA.
+Email: alwinhopf@gmail.com
+Assigned to Associate Editor Jodie McVane.
+Present addresses
+Michael J. Mulvaney, Plant and Soil
+Sciences, Mississippi State University,
+Starkville, MS 39762, USA, and Navdeep
+Kaur, Department of Plant Science, Penn
+State University, State College, PA 16802,
+USA.
+Funding information
+Florida Department of Agriculture and
+Consumer Services, Office of Agricultural
+Water Policy
+Abstract
+Industrial hemp ( Cannabis sativa L.) is a re-emerging crop in the United States
+with unique agronomic challenges that require location-specific studies and guid-
+ance. Digital farming tools, such as crop growth models, can facilitate this process by
+enabling a better understanding of the farming system. Crop growth models predict
+the growth and development of crops over time using weather, soil, management,
+and physiological parameters as inputs. The goal of this study was to develop a
+new hemp model in the Cropping System Model (CSM)-CROPGRO module in the
+Decision Support System for Agrotechnology Transfer (DSSAT). Experimental data
+spanning two cultivars, both grown over two seasons and two sites in Florida, were
+used for model calibration and evaluation. Model adaptations were made in (1) tis-
+sue composition and assimilate partitioning, (2) cardinal temperatures for different
+growth and development processes, and (3) leaf photosynthesis and senescence. The
+results show a good simulation of aboveground biomass (d= 0.91, root mean square
+error [RMSE] = 482 kg ha−1), stem weight (d = 0.83, RMSE = 430 kg ha−1), and
+time to flowering ( +4t o −5 days), capturing the differences among cultivars and
+planting dates. A seasonal analysis using the adapted model showed the impact of
+variable planting dates on hemp phenology, biomass, and grain production. Future
+Abbreviations: CSM, Cropping System Model; DSS, decision support systems; DSSAT, Decision Support System for Agrotechnology Transfer; LAI, leaf
+area index; MSE, mean squared error; PAR, photosynthetically active radiation; PD, photothermal day; RMSE, root mean square error; RUE, radiation use
+efficiency.
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original
+work is properly cited.
+© 2025 The Author(s). Agrosystems, Geosciences & Environment published by Wiley Periodicals LLC on behalf of Crop Science Society of America and American Society of
+Agronomy.
+
+
+--- PAGE 2 ---
+2o f3 3 HOPF ET AL .
+work should include a more detailed observation and mechanistic simulation of self-
+thinning and evaluation with data representing different production environments and
+cultivars. The CROPGRO-Hemp model will provide a basis for growers, researchers,
+and other stakeholders to systematically analyze hemp production systems in Florida
+and internationally.
+Plain Language Summary
+Industrial hemp is a crop grown for fiber and seed, with renewed interest in the United
+States due to its many uses and sustainable benefits. This study developed and tested
+a new computer model to predict how hemp grows and produces fiber and seed in
+Florida. The model helps farmers and researchers understand how different planting
+dates, locations, and plant types affect hemp growth. The model accurately predicted
+hemp growth, flowering time, and yield using field data. It showed that planting hemp
+around June 1 in northern Florida gives the highest fiber yield, due to the plant’s
+response to day length. The model also found that longer daylight or special hemp
+types can greatly increase productivity. The new hemp model is a valuable tool for
+planning and improving hemp farming in Florida and beyond. Choosing the right
+planting date and hemp type is crucial for best production. The model will help guide
+future research and farming decisions.
+1 INTRODUCTION
+Industrial hemp ( Cannabis sativa L.) is an annual dioecious
+plant with versatile uses for fiber, seed, oil, and medicinal pur-
+poses. It belongs to the family Cannabaceae, along with hops
+(Humulus lupulus L.) and hackberries (Celtis spp.). Hemp has
+a long history of cultivation and use, dating back as far as
+8000 years ago in China, India, and the Middle East (Small,
+2015). It is considered a more sustainable and water-efficient
+alternative to cotton (Gossypium L.) fiber (Schumacher et al.,
+2020; Wise et al., 2023) and has use in various industrial
+applications from manufacturing to construction (Ranalli &
+Venturi, 2004; Rehman et al., 2021; Van der Werf et al.,
+1996). Given recent policy changes and the legalization of the
+crop, hemp has found renewed interest, especially in North
+America. Subsequently, several regional research programs
+were formed (Cherney & Small, 2016; Mylavarapu et al.,
+2020) to study production and economics of hemp, but also
+its social-ecological aspects such as invasion risk and con-
+sumer perception (Canavan et al.,2022; Rampold et al.,2021).
+The open-field acreage for fiber, seed and grain hemp in
+2023 in the United States totaled 7056 ha and had a value
+of $16.82 million, a significant increase over 2022 (USDA
+NASS, 2024). Despite the wide range of uses and potential
+markets (Expert Market Research, 2024; G. Kaur & Kander,
+2023), multiple studies highlight the current limited knowl-
+edge and research needs on hemp production and economics
+(Adesina et al., 2020; Mark et al., 2020).
+On the agronomic side, understanding the variability and
+interaction of genetic, environmental, and management fac-
+tors is a critical step when introducing a new crop to
+identify or develop locally adapted cultivars and manage-
+ment approaches (Hatfield & Walthall, 2015). Given the
+complexity of these interactions, data science and process-
+based crop growth modeling are approaches to advance our
+understanding of the hemp crop and the surrounding agricul-
+ture system (Jones et al., 2017; Tsuji et al., 1998). A crop
+growth model simulates the growth and development of a crop
+and connected soil–plant–atmosphere processes, such as the
+plant and soil water and nutrient balances, based on underly-
+ing physical and biological relations (Jones et al., 2003). A
+process-based model goes beyond empirical correlations by
+defining a mechanistic relationships of underlying processes
+driving plant growth (Cuddington et al.,2013; Spitters,1990).
+It is to be differentiated from purely data-driven models or
+artificial intelligence in data requirements, incorporation of
+biophysical knowledge, and explainability of results, although
+recent work combines advantages from both approaches
+(Maestrini et al., 2022; Worrall et al., 2023; N. Zhang
+et al., 2023).
+Agricultural decision support systems (DSS) collate these
+models and data sources to study agricultural systems by
+ 26396696, 2025, 2, Downloaded from https://acsess.onlinelibrary.wiley.com/doi/10.1002/agg2.70145 by Universita Di Pavia, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 3 ---
+HOPF ET AL . 3o f3 3
+evaluating cultivars, forecasting production under different
+growing conditions, and comparing management alternatives.
+Crop growth models and DSS, such as the Decision Support
+System for Agrotechnology Transfer (DSSAT, Hoogenboom
+et al., 2019, 2024 ; Jones et al., 2003), are often high-
+lighted for their applications in precision agriculture (Thorp
+et al., 2008). They can contribute to increasing the sus-
+tainability of farming practices by providing information to
+increase outputs while reducing inputs (Aubert et al., 2012).
+Therefore, developing a process-based model for simulat-
+ing the growth and development of industrial hemp can
+be a significant contribution to advancing our understand-
+ing of the hemp plant and developing sustainable cropping
+systems.
+Previous models simulating the growth and development
+of hemp have been developed or adapted for selected fiber
+and seed cultivars grown in different environments, build-
+ing upon different physiological modeling approaches. In
+one of the first hemp model studies, Van der Werf et al.
+(1999) simulated hemp production potential in Europe using
+the “Light Interception and Utilization” model (Spitters et
+al., 1989) with temperature-dependent development and dry
+matter production and partitioning based on the concepts of
+light interception and radiation use efficiency (RUE). Lisson
+et al. ( 2000) modeled different fiber hemp cultivars in Aus-
+tralia with the “Agricultural Production Systems sIMulator”
+model (Keating et al.,2003). Phenology was modeled using a
+growing degree day approach with an empirically determined
+base temperature of 1˚C and optimum temperature of 29˚C
+and the biomass accumulation was based on an RUE coeffi-
+cient multiplied by intercepted radiation. Intercepted radiation
+was calculated using Beer’s law based on incident photosyn-
+thetically active radiation (PAR), an extinction coefficient,
+and the leaf area index (LAI). Total LAI was simulated by
+coupling individual processes for leaf appearance, leaf senes-
+cence, and leaf expansion as functions of thermal time. A
+recently published study by Žydelis et al. ( 2022) adapted the
+AgroC model (Klosterhalfen et al., 2017) for hemp, which
+uses SUCROS (Spitters et al.,1989)f o rt h ec r o pg r o w t hc o m -
+ponent. Photosynthesis was modeled using a light response
+curve for different canopy depths and integrated over a day,
+with differentiation between direct and diffuse light and pho-
+tosynthetic characteristics of single leaves. Photosynthesis is
+further reduced by a factor for drought and temperature stress,
+if applicable. In another approach based on the “AquaCrop”
+model, Steduto et al. ( 2009), Wimalasiri, Jahanshiri, Chi-
+monyo, Azam-Ali, et al. ( 2021), and Wimalasiri, Jahanshiri,
+Chimonyo, Kuruppuarachchi, et al. ( 2021) adapted a sugar-
+cane model to predict fiber and seed hemp. “AquaCrop” is a
+water-focused model. Hence, photosynthesis is not included
+and solely summarized and integrated into a single coeffi-
+cient of water productivity. Leaf area expansion is indirectly
+included in the logistically growing ground cover, reduced by
+Core Ideas
+∙An existing crop growth model was adapted for
+hemp seed and fiber production with Florida
+experimental data.
+∙Recommended planting date in northern Florida
+of June 1 for fiber production due to photoperiod
+response.
+∙Significant productivity gains are possible under
+extended day length or with shorter critical
+daylength cultivars.
+an aging coefficient and late-season senescence. Contrasting
+to this simplified approach, a series of detailed experiments
+by Tang et al. ( 2016, 2017 , 2018) resulted in a calibration
+of the GECROS model for hemp (European Commission,
+2017; Yin & van Laar, 2005). GECROS uses a biochemi-
+cally more sophisticated “Farquhar-von Caemmerer-Berry”
+model (Farquhar et al., 1980) with a specific focus on
+photosynthesis-transpiration coupling via stomatal conduc-
+tance and detailed carbon (C)–nitrogen (N) interactions with
+leaf area. Focusing exclusively on phenology, Amaducci
+et al. ( 2008, 2012) developed a temperature-driven phenol-
+ogy model for post-emergence hemp and application for
+biomass production across Europe. Lastly, another fiber hemp
+model by Baldini et al. ( 2020) directly predicts seed yield
+as a function of potential yield reduced by water or tem-
+perature stress without simulating photosynthesis or other
+detailed physiological processes. These different modeling
+approaches provide an overview of key physiological aspects
+but also different production scenarios and research ques-
+tions for hemp production. The complexity or simplicity of
+different modeling approaches is not a judgment of use-
+fulness or model quality, as the appropriate model choice
+depends on available data, the intended application, and the
+type of model user, among other factors (K. J. Boote et al.,
+1996).
+Our review of these previous modeling activities on indus-
+trial hemp concludes that many models and underlying
+datasets are not publicly available, have not been calibrated
+with data from North America, and are not built with a
+specific focus on evaluating agronomic management, includ-
+ing the accessibility of the model to non-technical users.
+Therefore, to advance and complement previous modeling
+activities, the overall goal of this research project was to
+develop a process-based model for hemp based on the Crop-
+ping System Model (CSM) of DSSAT for field applications.
+The specific objectives of this study were to (1) obtain exper-
+imental data from field trials in Florida and the literature
+for model development, (2) calibrate and improve the genetic
+ 26396696, 2025, 2, Downloaded from https://acsess.onlinelibrary.wiley.com/doi/10.1002/agg2.70145 by Universita Di Pavia, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 4 ---
+4o f3 3 HOPF ET AL .
+parameters of the model and underlying physiological equa-
+tions, and (3) demonstrate the potential application of the
+model through a seasonal analysis of different production sce-
+narios for two locations in Florida with different day length,
+soil, and climatic conditions.
+2 MATERIALS AND METHODS
+2.1 Experimental data
+Agronomic hemp trials were conducted in 2021 and 2022 at
+multiple sites across Florida under the auspices of the Univer-
+sity of Florida’s Industrial Hemp Program ( https://programs.
+ifas.ufl.edu/hemp). These trials included different planting
+dates, fertilization rates, and cultivars. Initial model devel-
+opment was based on two sites: the Plant Science Research
+and Education Unit (PSREU,https://plantscienceunit.ifas.ufl.
+edu) near Citra in north-central Florida (29.409˚ N,−82.171˚
+W) with Arredondo sand soil series and the West Florida
+Research and Education Center (WFREC, https://wfrec.ifas.
+ufl.edu) near Jay in north-western Florida (30.777˚ N, 87.142˚
+W) with Dothan fine sandy loam soil series. The full
+experimental setup, including a description of pre-plant soil
+characteristics, measurement methodology, and results for
+other hemp trials at these sites that were not included in the
+model development process, can be found in the respective
+publication for the PSREU site (N. Kaur et al., 2024) and the
+WFREC site (Nwosu et al., 2025). To the extent possible,
+experimental data collection was conducted in accordance
+with standards for crop modeling (K. J. Boote et al., 2016;
+White et al., 2013) and the recently established industry
+and research standards for industrial hemp physiology and
+morphology (Brym et al., 2023).
+The trials used for model adaptation included the fiber cul-
+tivar IH Williams (IND Hemp, also known as SS-Beta) and
+the multi-purpose cultivar NWG 2730 (New West Genetics).
+Trials were laid out in a randomized complete block design
+with six nitrogen (N) fertilizer rates (0, 56, 112, 168, 224, and
+280 kg N ha−1) in the form of urea as treatments. The plots
+were 7.62 m long and 3.6 m wide with 0.2 m planting row
+spacing and 2 m or wider alleys between plots. Seeds were
+direct sown with a live seed rate of 300,000–544,500 ha −1 at
+different dates in May of each year depending on weather and
+seed availability. At the PSREU site, fertilizer was applied in
+split applications with 20% at planting, 30% at 20 days after
+planting, and 50% at 40 days after planting. The WFREC
+site had an initial application of 56 kg N ha −1 at 10 days
+after planting followed by the remaining N amount at circa 35
+days after planting using a drop spreader (GDY-6506TR-PPL,
+Gandy Company). Overhead irrigation, from a central pivot
+system at site PSREU and lateral move system at site WFREC,
+was applied in one or more doses of 13–19 mm during the
+first 45 days after sowing to improve plant establishment and
+incorporate N. At the WFREC site, weed control was con-
+ducted pre-planting with 1.4 L ha−1 grass and broadleaf weed
+herbicide (Dual Magnum, Syngenta) and post-planting with
+a cultivator or manual removal. The PSREU site only con-
+ducted post-planting weed control with a cultivator or manual
+removal.
+Among the various trials conducted at these sites, only
+the best-performing experiments with minimal weed pressure,
+an acceptable germination rate, and good crop performance
+were chosen for model adaptation and calibration. A total of
+15 combinations of different site, year, cultivar, and fertil-
+ization combinations were selected as they performed well
+in the field trials and had the most observations, and they
+are described in more detail in the Section “ 2.4 Simula-
+tion Settings and Inputs” and Table 2. However, compared
+to other locations and particularly sites in Europe or China
+with a longer cultivation history, total dry biomass productiv-
+ity was generally lower due to a shortened vegetative growth
+phase and early flowering as well as general challenges with
+seed quality and plant establishment. Measurements for total
+biomass, tissue partitioning, number of nodes on main stem,
+plant height, and maximum plant width were obtained multi-
+ple times throughout the season with three or more repetitions
+per treatment. For each biomass measurement, plants from
+a representative area of circa 0.25 m × 0.25 m in the early
+growth stages increasing to 1.0 m× 1.0 m in the later growth
+stages with increasing plant size were harvested and analyzed.
+Plant height, width, and number of nodes were measured on
+the removed plants and at additional dates throughout the
+season on standing plants without harvesting them. Addi-
+tionally, phenological observations were recorded for some
+experiments, including emergence, beginning flowering (first
+terminal flower), full flowering (50% of male plants termi-
+nal flowering), start of seed formation, and when the majority
+of seeds were mature. Terminal flowering is defined as the
+first defined clusters of florets at the shoot apex following
+Brym et al. ( 2023). Missing observations for terminal flow-
+ering were estimated as 10 days before 50% of male plants
+flowering based on a time series of phenological observa-
+tions at other sites. Travel distance limited the number of
+field visits possible, leading to a varying number of mea-
+surements for some experiments. A high degree of variability
+was found between blocks of the same treatment, likely
+due to within-field variations and weed pressure in some
+plots. Besides the specific field experiment described, more
+general knowledge on hemp physiology, phenology, and man-
+agement response derived from the remaining sites of the
+University of Florida’s Industrial Hemp Program was also
+considered during the model development and adaptation
+process.
+ 26396696, 2025, 2, Downloaded from https://acsess.onlinelibrary.wiley.com/doi/10.1002/agg2.70145 by Universita Di Pavia, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 5 ---
+HOPF ET AL . 5o f3 3
+TABLE 1 Monthly weather indicators at PSREU and WFREC locations during the 2021 and 2022 growing seasons.
+Site Time period
+Average
+temperature (˚C)
+Average
+dewpoint (˚C)
+Average relative
+humidity (%)
+Cumulative
+monthly rainfall
+(mm)
+Average daily total
+solar radiation
+(MJ m−2)
+Average daily
+windspeed
+(km h−1)
+PSREU May 2021 23.9 17.5 71 47 21.1 8.2
+June 2021 25.8 22.9 86 334 15.0 7.2
+July 2021 26.6 24.0 87 156 16.0 6.6
+August 2021 27.1 24.5 87 168 15.4 6.8
+September 2021 25.3 22.5 86 167 14.4 5.3
+May 2022 24.7 20.0 78 109 20.1 7.2
+June 2022 27.4 23.1 80 60 20.3 7.2
+July 2022 27.2 24.0 85 137 18.1 6
+August 2022 26.9 23.9 86 256 16.4 5.1
+September 2022 25.3 22.7 87 122 13.3 6.4
+WFREC May 2021 22.2 17.1 76 198 22.1 10.6
+June 2021 25.4 22.7 86 321 19.1 9.2
+July 2021 26.0 23.9 90 295 18.3 6.1
+August 2021 26.3 23.9 88 300 18.2 7.4
+September 2021 23.7 21.2 88 187 16.0 6.6
+May 2022 23.7 19.7 81 253 21.0 9.3
+June 2022 26.9 22.9 81 106 22.1 7.2
+July 2022 26.0 24.1 90 262 17.8 6
+August 2022 25.5 23.6 90 197 16.7 6
+September 2022 23.9 19.4 79 10 18.7 7.7
+Note: The PSREU site is the Plant Science Research and Education Unit in Citra, FL. The WFREC site is the West Florida Research and Education Center in Jay, FL .
+Average wind speed taken 10 m height above ground; all other measurements taken at 2 m height above ground.
+2.2 Weather data
+The weather data for the two experimental locations were
+obtained from the Florida Automated Weather Network
+(FAWN, Lusher et al., 2008). The station “Citra” (29.410˚
+N 82.173˚ W) was installed in 2003 and is located near the
+PSREU field trials. The station “Jay” (30.775˚ N 87.141˚
+W) was installed in 2003 and is located near the WFREC
+field trials. Both stations provide daily minimum and maxi-
+mum air temperature, daily total precipitation, daily total solar
+radiation, wind speed, and relative humidity, in addition to
+more detailed measurements (Table 1). Both field sites are
+characterized by a humid subtropical climate with a rainy
+season from May through October. The day length, which
+is relevant for the simulation of photoperiod and phenology,
+is calculated based on solar declination, latitude, and longi-
+tude of the station. To evaluate the simulation of flowering
+dates for sites outside of Florida, satellite-derived weather
+data from NASA-Power (NASA, 2018) were obtained for
+Urbana, IL (40.114˚ N, 88.234˚ W); Hyde, MI (45.734˚
+N, 87.203˚ W); and Manhattan, KS (39.184˚ N, 96.572˚
+W). The sites have phenology observations in the Midwest-
+ern Hemp Database (Alberti, 2021; University of Illinois,
+2024) for the same cultivars but at different latitudes which
+makes them suitable for the evaluation of the phenology
+simulation.
+2.3 Software, source code, and statistics
+The crop simulations were performed with the CSM model
+(Jones et al., 2003) in the modeling software DSSAT 4.8.2
+(Hoogenboom et al., 2019, 2024) available at http://www.
+dssat.net. The source code is available via a GitHub repository
+at https://github.com/DSSAT/dssat-csm-os. DSSAT encom-
+passes a wide range of models and groups of models, with
+overarching data infrastructure, graphical user interface, and
+support functions. CROPGRO is one specific group of mod-
+els within the CSM and was the framework for the hemp
+model development. Model parameters changed during the
+model development for hemp will be presented in Section
+“ 3.1 Model Development Process.” The full set of param-
+eters and required files for CSM–CROPGRO-Hemp, later
+referred to as CROPGRO-Hemp, are provided as Supporting
+Information 1 and will be implemented in a future version
+of DSSAT for public release. Statistical analysis and visual-
+ization of the results were performed in R-Studio 2023.06.2
+(RStudio Team, 2020) and R 3.4.2 (R Core Team, 2021).
+ 26396696, 2025, 2, Downloaded from https://acsess.onlinelibrary.wiley.com/doi/10.1002/agg2.70145 by Universita Di Pavia, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 6 ---
+6o f3 3 HOPF ET AL .
+The package “DSSAT” was used for automatically running
+DSSAT simulations in the R interface, “ggplot2” for plot-
+ting of simulated and observed data, and “tidyverse,” “dplyr,”
+“hydroGOF,” and “ggpubr” for data analysis. Schemata and
+additional visualization were created in LaTeX using the
+package “TikZ.” The general recommendations provided by
+J.-Y. Yang et al. (2014) were followed for the overall analysis.
+The Wilmott Index of Model Agreement (d, [Equation1]) was
+used to assess the agreement between a model’s predictions
+and observed data and, thereby, general model performance
+(Willmott et al., 2012). It is a dimensionless index related
+to the Nash–Sutcliffe efficiency index with values ranging
+between 0.0 and 1.0, with a value closer to 1 indicating a better
+model performance.
+𝑑=1−
+∑ 𝑁
+𝑖=1
+(𝑃𝑖−𝑂𝑖
+)2
+∑ 𝑁
+𝑖=1
+(||𝑃𝑖−̄𝑂||+ ||𝑂𝑖−̄𝑂||
+)2,0 ≤ 𝑑≤ 1 (1)
+With𝑃𝑖is the predicted value,𝑂𝑖is the observed value, and
+̄𝑂is the observed mean. The root mean square error (RMSE,
+[Equation 2]) was used to evaluate the deviation between the
+observed and simulated periodic harvests. A lower RMSE
+is considered better, with an RMSE of 0 indicating perfect
+agreement between the model and observation. RMSE is
+the square root of the mean squared error (MSE). MSE is
+calculated by dividing the sum of the squared differences
+between the predicted and observed values by the number of
+observations.
+RMSE =
+√ ∑ 𝑁
+𝑖=1
+(𝑃𝑖−𝑂𝑗
+)2
+𝑁 (2)
+With 𝑁 is the number of data points, 𝑃𝑖is the predicted
+value and 𝑂𝑖is the observed value. The coefficient of deter-
+mination R2 was not used because the analysis was done on
+auto-correlated time-series data.
+2.4 Simulation settings and inputs
+Crop model input and simulation files were created for each
+individual experiment to resemble the field trials and sim-
+ulate growth and development under both zero N input and
+high N fertilizer applications (Table2). The maximum rate of
+280 kg N ha−1 applied in the experiments is at the upper end,
+if not beyond, the recommended N fertilization range iden-
+tified in the literature (N. Kaur et al., 2023). This treatment
+was selected for the development of the model to simulate
+a scenario close to potential production that is limited only
+by the weather conditions. In selected experiments, a lower
+N rate was chosen for the simulation setup because more in-
+season observations were available for the lower treatment
+or because high N rates performed worse than moderate N
+rates. The underlying adverse external effects or irregularities
+in local field conditions would be challenging to quantify and
+adequately represent in an initial model version. Due to vary-
+ing seed emergence rates and thinning during the first weeks
+of crop establishment, the observed plant stands were signif-
+icantly below the targeted plant density. Since self-thinning
+is not yet included in the CROPGRO model framework, the
+planting density for modeling purposes was based on the stand
+count that was obtained at 4 weeks after the first emergence,
+assuming that these plants would survive until the end of
+the season. The simulation of potassium (K) and phosphorus
+(P) dynamics and N-fixing bacteria symbiosis was deacti-
+vated in the simulation settings because of a lack of suitable
+data for calibration and because it is not applicable to hemp
+as a nonlegume crop, although the DSSAT framework gen-
+erally supports these capabilities. Enabled by the modular
+structure of DSSAT and CROPGRO, several submodules are
+available to simulate the same biophysical and biochemical
+processes based on different scientific principles or assump-
+tions. The “CENTURY” module (Gijsman et al., 2002)w a s
+chosen for soil organic matter, the “Ritchie Water Balance”
+(Ritchie, 1998) for hydrology, the “Soil Conservation Series”
+for infiltration, the “Ritchie-Ceres” for soil evaporation, the
+“Modified Soil Profile” for soil horizon distribution, and
+“Priestley-Taylor” for potential evapotranspiration (Hoogen-
+boom et al., 2019). The choice of individual submodules was
+based on the CROPGRO-Soybean ( Glycine max ) template
+and was deemed feasible given the experimental data that
+were available and the modeling results that were obtained.
+Different future research questions, locations, and experi-
+mental data might necessitate an evaluation of alternative
+modules. To evaluate the simulation of flowering dates for
+sites outside of Florida, simplified simulations were set up
+with deactivated water and N dynamics and standard soil pro-
+file and management information, since only the phenology
+simulation was of interest.
+2.5 Soil data
+Soil profile information (Table 3) was obtained by measure-
+ments and estimated based on comparison to soil profiles from
+previous crop modeling studies and the soil series descrip-
+tion for a Dothan fine sandy loam at WFREC (K. J. Boote
+et al., 2021; USDA NRCS, 2017) and for an Arredondo
+sand at PSREU (de Souza Nóia Júnior et al., 2022;U S D A
+NRCS, 2018). The stable soil organic carbon pool was man-
+ually determined throughout the model calibration process to
+achieve the desired plant biomass growth response to the zero
+N fertilizer treatments. This step is required when using the
+CENTURY module in DSSAT to adequately simulate soil–
+plant–nitrogen processes, particularly in experiments with no
+ 26396696, 2025, 2, Downloaded from https://acsess.onlinelibrary.wiley.com/doi/10.1002/agg2.70145 by Universita Di Pavia, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 7 ---
+HOPF ET AL . 7o f3 3
+TABLE 2 Overview of simulated experiments in Florida.
+Simulation
+No. Code Site Year Cultivar Fertilizer (kg N ha −1) Planting Date Density (plants m −2)
+1 UFCI2101 PSREU 2021 IH Williams 280 May 5, 2021 53.8
+2 UFCI2101 PSREU 2021 NWG 2730 0 May 5, 2021 64.0
+3 UFCI2101 PSREU 2021 NWG 2730 280 May 5, 2021 60.5
+4 UFCI2201 PSREU 2022 IH Williams 0 May 4, 2022 50.7
+5 UFCI2201 PSREU 2022 IH Williams 280 May 4, 2022 40.8
+6 UFCI2201 PSREU 2022 NWG 2730 0 May 4, 2022 30.5
+7 UFCI2201 PSREU 2022 NWG 2730 168 May 4, 2022 40.5
+8 UFJA2101 WFREC 2021 IH Williams 0 May 26, 2021 66.8
+9 UFJA2101 WFREC 2021 IH Williams 224 May 26, 2021 68.6
+10 UFJA2101 WFREC 2021 NWG 2730 0 May 26, 2021 71.5
+11 UFJA2101 WFREC 2021 NWG 2730 112 May 26, 2021 71.5
+12 UFJA2201 WFREC 2022 IH Williams 0 May 13, 2022 99.9
+13 UFJA2201 WFREC 2022 IH Williams 280 May 13, 2022 71.9
+14 UFJA2201 WFREC 2022 NWG 2730 0 May 13, 2022 69.8
+15 UFJA2201 WFREC 2022 NWG 2730 280 May 13, 2022 82.8
+Note: The PSREU site is the Plant Science Research and Education Unit in Citra, FL. The WFREC site is the West Florida Research and Education Center in Jay, FL .
+Planting density for modeling is based on stand count at 4 weeks after emergence. Cultivar IH Williams also known as SS-Beta. No 0 kg N ha−1 experiment was conducted
+for IH Williams in 2021 at PSREU site.
+or low N input (Gijsman et al.,2002). The soil water parame-
+ters “SLLL,” “SDUL,” and “SSAT” determine water-holding
+capabilities and are calculated based on the soil texture. In
+the absence of measurements, initial soil water was estimated
+at 75% of available water and soil N content at 50 kg N
+ha−1 evenly spread across all soil layers on January 1 of
+each season to allow the CENTURY module to initialize until
+planting. Previous crop residue of hemp and bahiagrass (Pas-
+palum notatum ) was estimated as 2000 kg ha −1 with an N
+concentration of 1%.
+2.6 Model adaptation and calibration
+process
+The existing models for soybean and cotton of CSM-
+CROPGRO were used as a template, as they are well-studied
+crops with extensive model development, applications, and
+supporting experimental data for the model parameters (K.
+Boote et al., 1997; Hoogenboom et al., 1992;L ie ta l . ,2019;
+Thorp et al., 2014). The CROPGRO parameters for soy-
+bean and cotton, therefore, served as reference values to
+which hemp was compared. Furthermore, both the grain and
+fiber aspects of hemp production are relevant aspects in this
+study, which have similarities with both soybean and cotton
+production systems. CROPGRO is a generic modeling tem-
+plate within DSSAT, initially developed for grain legumes
+with hourly leaf-level photosynthesis calculations coupled
+with hedgerow-type light interception (K. Boote & Pickering,
+1994). Additionally, it contains soil–plant–nitrogen and water
+balance as well as photosynthetic, vegetative, and reproduc-
+tive growth and development processes (K. J. Boote, Jones, &
+Hoogenboom, 1998; K. J. Boote, Jones, Hoogenboom, et al.,
+1998). Physiological and genetic parameters in CROPGRO
+describe the complex traits of the crop, separated into species,
+ecotype, and cultivar parameters. The hierarchical organiza-
+tion aims to provide a universal foundation for a crop (species
+parameters), which is then further customized for distinct
+groups of ecotypes and individual cultivars. The template and
+parameters for the species, ecotype, and cultivar files were
+adjusted following the example of recent adaptations of the
+CROPGRO model for guar ( Cyamopsis tetragonoloba;K .J .
+Boote et al., 2023), carinata ( Brassica carinata;K .J .B o o t e
+et al., 2021), strawberry ( Fragaria× ananassa; Hopf et al.,
+2022), safflower ( Carthamus tinctorius ; Singh et al., 2016),
+and alfalfa (Medicago sativa; Malik et al., 2018). The overall
+process was predominantly manual, with iterative adjustment
+of parameters and comparison between simulated model out-
+puts and observed data (Figure 1). Whereas some parameters
+were clearly defined through experimental evidence or litera-
+ture review, other parameters were estimated from a feasible
+range of values across other crop species of CSM-CROPGRO.
+The optimization tools GLUE and GENCALC (He et al.,
+2010; Hunt et al.,1993; Jones et al.,2011) included in DSSAT
+were used to a limited extent for the calibration of the cultivar
+parameters for phenology.
+ 26396696, 2025, 2, Downloaded from https://acsess.onlinelibrary.wiley.com/doi/10.1002/agg2.70145 by Universita Di Pavia, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+--- PAGE 8 ---
+8o f3 3 HOPF ET AL .
+TABLE 3 Soil profile information for Arredondo sand (PSREU site) and Dothan fine sandy loam (WFREC site).
+Soil texture Soil water Soil nitrogen
+Depth (m)
+Clay
+(%) Silt (%)
+BD (g
+cm−3)
+SLLL (cm3
+cm−3)
+SDUL (cm3
+cm−3)
+SSAT (cm3
+cm−3)
+SH2O (cm3
+cm−3)*** SLOC (%) SASC (%)
+SNH4 (g
+elemental N
+Mg−1)***
+SNO3 (g
+elemental N
+Mg−1)***
+PSREU
+0.05 2.4 7.1 1.42 0.070 0.142 0.493 0.124 0.75 0.56/0.64* 0.2 1.9
+0.15 2.1 6.3 1.45 0.024 0.161 0.487 0.127 0.75 0.56/0.64* 0.2 1.9
+0.30 2.3 4.1 1.59 0.016 0.104 0.407 0.082 0.34 0.26/0.29* 0.2 1.9
+0.50 2.2 4.0 1.59 0.014 0.106 0.405 0.083 0.14 0.11/0.12* 0.2 1.9
+0.90 2.4 3.3 1.60 0.011 0.113 0.408 0.087 0.09 0.07/0.08* 0.2 1.9
+1.20 1.9 3.3 1.60 0.021 0.08 0.385 0.065 0.07 0.05/0.06* 0.2 1.9
+1.50 1.9 3.3 1.63 0.021 0.08 0.385 0.065 0.07 0.05/0.06* 0.2 1.9
+WFREC
+0.05 15 15.5 1.6 0.103 0.218 0.406 0.189 0.89 0.53/0.49** 0.2 1.9
+0.15 15 15.5 1.6 0.103 0.218 0.406 0.189 0.89 0.53/0.49** 0.2 1.9
+0.30 20 12.5 1.6 0.125 0.239 0.413 0.210 0.32 0.19/0.18** 0.2 1.9
+0.60 20 12 1.6 0.135 0.251 0.415 0.222 0.10 0.06/0.06** 0.2 1.9
+0.90 20 11 1.6 0.147 0.261 0.417 0.233 0.04 0.02/0.02** 0.2 1.9
+1.20 20 10 1.6 0.147 0.261 0.417 0.233 0.04 0.02/0.02** 0.2 1.9
+1.50 20 7 1.6 0.125 0.236 0.412 0.208 0.02 0.01/0.01** 0.2 1.9
+Note: The PSREU site is the Plant Science Research and Education Unit in Citra, FL. The WFREC site is the West Florida Research and Education Center in Jay, FL .B D = bulk density. Soil lower limit of plant extractable soil
+moisture (SLLL), drained upper limit (SDUL) and saturation (SSAT) determine water holding capabilities of the soil. Stable soil organic carbon (SAS C) is in absolute units, but as a percentage of soil organic carbon (SLOC),
+which amounts to 75% (*) in 2021, 80% in 2022 at the PSREU site 60% (**) in 2021, 55% in 2022 at the WFREC site. Initial (***) soil water (SH2O), soil ammonium (SNH4), and soil nitrate (SNO3) estimated as 75% available
+water and 50 kg N ha−1 on January 1 of each season.
+ 26396696, 2025, 2, Downloaded from https://acsess.onlinelibrary.wiley.com/doi/10.1002/agg2.70145 by Universita Di Pavia, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

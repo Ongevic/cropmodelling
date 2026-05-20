@@ -1,0 +1,117 @@
+*EXP.DETAILS: UHKN8901PI POPULATION, KUNIA, UH EXP.1989-6                            
+
+*FILES
+@N  EXP.DATA    AFILE        ADIR
+  1 EXP         UHKN8901.PIA                                                                                 
+@N  SPECIES     SPFILE       SPDIR
+  1 SPE         PIALO048.SPE C:\DSSAT48\GENOTYPE\                                                            
+@N  ECOTYPE     EFILE        EDIR
+  1 ECO         PIALO048.ECO C:\DSSAT48\GENOTYPE\                                                            
+@N  CULTIVAR    CFILE        CDIR
+  1 CUL         PIALO048.CUL C:\DSSAT48\GENOTYPE\                                                            
+@N  SOIL        SFILE        SDIR
+  1 SOIL        SOIL.SOL     C:\DSSAT48\SOIL\                                                                
+@N  WEATHER     WFILE        WDIR
+  1 WEATH       UHKN8903.WTH C:\DSSAT48\Weather\                                                             
+
+*SIMULATION CONTROL
+@N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
+  1 GE              1     1     S 1989160  2150 POPULATION, KUNIA, UH EX  PIALO048
+@N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+  1 OP              Y     Y     N     N     N     N     Y     N     M
+@N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL METMP MEGHG
+  1 ME              M     M     E     R     S     C     R     1     G     R     1     D     0
+@N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+  1 MA              R     R     R     R     M
+@N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
+  1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     Y
+
+!AUTOMATIC MANAGEM
+@N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+  1 PL              -99     -99   40.  100.   30.   40.   10.
+@N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+  1 IR            30.   50.  100. GS000 IR001  10.0 1.000
+@N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+  1 NI            30.   50.   25. FE001 GS000
+@N  RESIDUES    RIPCN RTIME RIDEP
+  1 RE           100.     1   20.
+@N  HARVEST     HFRST   HLAST HPCNP HRCNR
+  1 HA              0     -99  100.    0.
+
+*TREATMENTS
+@N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
+  1  1 0 0 Plant Population 2.61 p/m   1   1   0   1   1   1   0   0   1   0   0   0   1
+
+*CULTIVARS
+@C  CR INGENO CNAME
+  1 PI IB0066 SC-F153         
+
+*FIELDS
+@L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL    PMALB  PMWD
+  1 UHKN0001 UHKN8903   0.0    0. DR000    0.  100. 00000 -99    110. IBPI910013-99.00 -99.0
+@L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
+  1         0.00000         0.00000      0.00               1.0  100.   1.0   0.0   -99   -99
+
+*INITIAL CONDITIONS
+@C  PCR     ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+  1 PI    1989160   200     0  1.00  1.00 -99.0  2000  0.53  0.00    0.   30.
+@C   ICBL  SH2O  SNH4  SNO3
+  1    5. 0.260   3.4   3.6
+  1   15. 0.260   2.8   2.8
+  1   30. 0.300   1.9   1.4
+  1   45. 0.370   1.1   0.7
+  1   60. 0.337   1.0   0.6
+  1   90. 0.300   0.6   0.5
+  1  110. 0.320   0.1   0.4
+
+*PLANTING DETAILS
+@P    PDATE   EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+  1 1989166     -99   2.6   2.6     S     R   53.    0.   5.0  595.  -99. -99.0 -99.0   0.0     0   0.0     0     0
+
+*IRRIGATION
+@I   IEFF  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+  1 1.000   30.   75.  -99. GS000 IR001   0.0
+@I    IDATE  IROP IRVAL
+  1 1989337 IR005  43.0
+  1 1989339 IR005  22.0
+  1 1989341 IR005  18.0
+  1 1989350 IR005   8.0
+  1 1989355 IR005  11.0
+  1 1989357 IR005   6.0
+  1 1989364 IR005   6.0
+  1 1990006 IR005   6.0
+  1 1990009 IR005   6.0
+  1 1990013 IR005   5.0
+  1 1990019 IR005   5.0
+  1 1990020 IR005   5.0
+  1 1990026 IR005  19.0
+  1 1990041 IR005   9.0
+  1 1990043 IR005   9.0
+  1 1990055 IR005  15.0
+  1 1990059 IR005  10.0
+  1 1990069 IR005  17.0
+  1 1990073 IR005  13.0
+  1 1990075 IR005  14.0
+  1 1990078 IR005  15.0
+  1 1990082 IR005  12.0
+  1 1990084 IR005  18.0
+  1 1990088 IR005  12.0
+
+*FERTILIZERS
+@F    FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+
+*RESIDUES
+@R    RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET
+
+*CHEMICALS
+@C    CDATE CHCOD CHAMT  CHME CHDEP   CHT
+  1 1990260 CH102  1.00 AP006 -99.0   -99  -99                                     
+
+*TILLAGE
+@T    TDATE TIMPL  TDEP
+
+*ENVIRONMENT
+@E    ODATE  EDAY  ERAD  EMAX  EMIN ERAIN  ECO2  EDEW EWIND
+
+*HARVEST
+@H    HDATE  HSTG  HCOM HSIZE   HPC  HBPC

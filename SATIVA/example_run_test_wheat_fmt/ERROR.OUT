@@ -1,0 +1,14 @@
+*RUN-TIME ERRORS OUTPUT FILE
+
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release    APR 28, 2026; 22:31:32
+
+*RUN   1
+
+KSAS8101.WHX, Trt    0
+ 
+ Treatment not found.  Please check inputs or input file.                       
+  
+File: KSAS8101.WHX   Line:    25   Error key: IPEXP 
+
+Additional information may be available in WARNING.OUT file.

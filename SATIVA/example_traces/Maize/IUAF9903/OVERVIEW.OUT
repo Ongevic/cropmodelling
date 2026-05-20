@@ -1,0 +1,149 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:02
+
+*RUN   1        : No Damage                 MZCER048 IUAF9903    1
+ MODEL          : MZCER048 - Maize
+ EXPERIMENT     : IUAF9903 MZ IUAF9903 EXAMPLES OF HAIL DAMAGE
+ DATA PATH      :
+ TREATMENT  1   : No Damage                 MZCER048
+
+
+ CROP           : Maize            CULTIVAR : DK 611           ECOTYPE :IB0001
+ STARTING DATE  : APR 25 1999
+ PLANTING DATE  : MAY 27 1999      PLANTS/m2 :     7.4    ROW SPACING :  76.cm
+ HARVEST DATE   : OCT 31 1999
+ WEATHER        : IUAF   1999
+ SOIL           : ISUV950008     TEXTURE : -99   -   CLARION LOAM
+ SOIL INIT COND : DEPTH:152cm EXTR. H2O:243.3mm  NO3:  2.5kg/ha  NH4:  0.0kg/ha
+ WATER BALANCE  : RAINFED
+ IRRIGATION     : NOT IRRIGATED
+ NITROGEN BAL.  : SOIL-N & N-UPTAKE SIMULATION; NO N-FIXATION
+ N-FERTILIZER   :      224 kg/ha IN     1 APPLICATIONS
+ RESIDUE/MANURE : INITIAL :     0 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:N  PHOSPH :N  PESTS  :Y
+                  PHOTO   :R  ET      :R  INFIL:S  HYDROL :R  SOM    :G
+                  CO2 368ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :N  FERT :R  RESIDUE:R  HARVEST:R
+                  WEATHER :M  TILLAGE :Y
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.110 0.300 0.361 0.190 0.189   1.00   1.45   6.40   1.00   0.00   2.03
+  5- 15 0.110 0.300 0.361 0.190 0.189   1.00   1.45   6.40   1.00   0.00   2.03
+ 15- 18 0.110 0.300 0.361 0.190 0.189   1.00   1.45   6.40   0.50   0.00   2.03
+ 18- 31 0.110 0.300 0.361 0.190 0.222   1.00   1.45   6.40   0.08   0.00   2.03
+ 31- 46 0.110 0.300 0.361 0.190 0.228   1.00   1.45   6.40   0.00   0.00   2.03
+ 46- 56 0.129 0.310 0.371 0.181 0.277   1.00   1.60   6.70   0.00   0.00   0.44
+ 56- 66 0.129 0.310 0.371 0.181 0.310   1.00   1.60   6.70   0.00   0.00   0.44
+ 66- 91 0.129 0.310 0.371 0.181 0.318   0.50   1.60   6.70   0.00   0.00   0.44
+ 91-111 0.107 0.229 0.369 0.122 0.298   0.50   1.60   7.90   0.00   0.00   0.15
+111-132 0.107 0.229 0.369 0.122 0.280   0.50   1.60   7.90   0.00   0.00   0.15
+132-152 0.107 0.229 0.369 0.122 0.280   0.50   1.60   7.90   0.00   0.00   0.15
+
+TOT-152  17.4  41.7  55.8  24.3  41.0  <--cm   -  kg/ha-->    2.5    0.0 181721
+SOIL ALBEDO    : 0.09      EVAPORATION LIMIT : 9.80         MIN. FACTOR  : 0.50
+RUNOFF CURVE # :84.00      DRAINAGE RATE     : 0.40         FERT. FACTOR : 1.00
+
+ Maize            CULTIVAR: IB1052-DK 611             ECOTYPE: IB0001
+ P1     : 260.00  P2     : 0.1000  P5     : 800.00
+ G2     : 980.00  G3     :  5.700  PHINT  : 48.000
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     No Damage               
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+ 25 APR    0 Start Sim        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     7
+ 27 MAY    0 Sowing           0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     8
+ 28 MAY    1 Germinate        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     9
+  3 JUN    7 Emergence       30   0.00   1.9    1  4.4  0.00  0.01  0.00  0.00     1
+ 23 JUN   27 End Juveni     194   0.39   8.1    7  3.5  0.00  0.00  0.00  0.00     2
+ 28 JUN   32 Floral Ini     409   0.73   9.8   15  3.6  0.00  0.00  0.00  0.00     3
+  5 AUG   70 75% Silkin    9127   4.78  20.2  180  2.0  0.00  0.00  0.00  0.00     4
+ 18 AUG   83 Beg Gr Fil   12683   4.48  20.2  180  1.4  0.00  0.00  0.00  0.00     5
+  Crop mature on JD 300 due to slowed grain filling
+ 28 OCT  154 End Gr Fil   21190   0.00  20.2  151  0.7  0.00  0.38  0.00  0.00     6
+ 29 OCT  155 Maturity     21190   0.00  20.2  151  0.7  0.00  1.00  0.00  0.00    10
+ 31 OCT  157 Harvest      21190   0.00  20.2  151  0.7  0.00  1.00  0.00  0.00    10
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Anthesis day (dap)                                      70          -99
+      Physiological maturity day (dap)                       155          -99
+      Yield at harvest maturity (kg [dm]/ha)               10189          -99
+      Number at maturity (no/m2)                            3844          -99
+      Unit wt at maturity (g [dm]/unit)                   0.2650          -99
+      Number at maturity (no/unit)                         519.5          -99
+      Tops weight at maturity (kg [dm]/ha)                 21190          -99
+      By-product produced (stalk) at maturity (kg[dm]/ha   11081          -99
+      Leaf area index, maximum                              4.81          -99
+      Harvest index at maturity                            0.481          -99
+      Grain N at maturity (kg/ha)                            151          -99
+      Tops N at maturity (kg/ha)                             151          -99
+      Stem N at maturity (kg/ha)                               0          -99
+      Grain N at maturity (%)                                1.5          -99
+      Tops weight at anthesis (kg [dm]/ha)                  8773          -99
+      Tops N at anthesis (kg/ha)                             176          -99
+      Leaf number per stem at maturity                     20.18          -99
+      Emergence day (dap)                                      7          -99
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|--------------------------------------Environment--------------------------------------|-----------------Stress-----------------|
+                              |---------------Average--------------|-----Cumulative-----|--------Count of days--------|          (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp  Temp Solar Photop                Evapo    Pot TMIN TMIN TMAX TMAX TMAX RAIN|----Water----|---Nitrogen--|-Phosphorus-|
+                         Span   Max   Min  Mean   Rad  [day]    CO2   Rain  Trans     ET   <    <    >    >    >    >   Photo         Photo         Photo
+                         days     C     C     C MJ/m2     hr    ppm     mm     mm    mm   0 C  2 C 30 C 32 C 34 C  0mm  synth Growth  synth Growth  synth Growth
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Emergence-End Juvenile    20  25.3  15.8  20.6  17.3  15.01  368.1  142.3   64.2   88.1    0    0    4    0    0   10  0.000  0.000  0.002  0.006  0.000  0.000
+ End Juvenil-Floral Init    5  29.2  19.0  24.1  20.9  15.06  368.2   24.4   22.8   27.5    0    0    3    0    0    2  0.000  0.000  0.001  0.002  0.000  0.000
+ Floral Init-End Lf Grow   38  29.5  18.8  24.1  21.7  14.69  368.2  147.8  194.8  198.8    0    0   19   14    4   19  0.000  0.000  0.000  0.000  0.000  0.000
+ End Lf Grth-Beg Grn Fil   13  26.6  15.9  21.2  18.8  13.88  368.3   48.6   53.6   53.8    0    0    2    0    0    6  0.000  0.000  0.000  0.000  0.000  0.000
+ Grain Filling Phase       71  21.7   8.1  14.9  15.7  11.94  368.4  155.9  181.9  230.1    8   12    4    0    0   11  0.000  0.000  0.280  0.363  0.000  0.000
+   
+ Planting to Harvest      157  24.8  12.8  18.8  18.0  13.35  368.3  536.5  530.5  644.5    8   12   32   14    4   51  0.000  0.000  0.142  0.184  0.000  0.000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*Resource Productivity
+ Growing season length: 157 days 
+
+ Precipitation during growing season       536.5 mm[rain]
+   Dry Matter Productivity                  3.95 kg[DM]/m3[rain]          =   39.5 kg[DM]/ha per mm[rain]
+   Yield Productivity                       1.90 kg[grain yield]/m3[rain] =   19.0 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season  530.5 mm[ET]
+   Dry Matter Productivity                  3.99 kg[DM]/m3[ET]            =   39.9 kg[DM]/ha per mm[ET]
+   Yield Productivity                       1.92 kg[grain yield]/m3[ET]   =   19.2 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season       375.0 mm[EP]
+   Dry Matter Productivity                  5.65 kg[DM]/m3[EP]            =   56.5 kg[DM]/ha per mm[EP]
+   Yield Productivity                       2.72 kg[grain yield]/m3[EP]   =   27.2 kg[yield]/ha per mm[EP]
+
+ N applied during growing season            224. kg[N applied]/ha
+   Dry Matter Productivity                  94.6 kg[DM]/kg[N applied]
+   Yield Productivity                       45.5 kg[yield]/kg[N applied]
+
+ N uptake during growing season              262 kg[N uptake]/ha
+   Dry Matter Productivity                  80.9 kg[DM]/kg[N uptake]
+   Yield Productivity                       38.9 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+                     Maize YIELD :    10189 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

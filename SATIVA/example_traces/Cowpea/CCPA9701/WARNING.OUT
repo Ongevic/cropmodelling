@@ -1,0 +1,26 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:51
+
+*RUN   1        : VERDE BRASIL              CRGRO048 CCPA9701    1
+ MODEL          : CRGRO048 - Cowpea
+ EXPERIMENT     : CCPA9701 CP 1997/98 CIAT CALI, COLOMBIA COWPEA
+ DATA PATH      :
+ TREATMENT  1   : VERDE BRASIL              CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1997 310
+ Initial soil water content < LL.                                              
+                                                                               
+          FileX              SW @  Revised                                     
+ Layer  Init SW       LL   AirDry  Init SW                                     
+     2    0.213    0.216             0.216                                     
+
+ SOILDYN  YEAR DOY = 1997 310
+ Soil photosynthesis factor (SLPF) = 0.97                                      

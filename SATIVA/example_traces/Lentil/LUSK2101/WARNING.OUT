@@ -1,0 +1,16 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:58
+
+*RUN   1        : Rainfed Maximim 2021      CRGRO048 LUSK2101    1
+ MODEL          : CRGRO048 - Lentil
+ EXPERIMENT     : LUSK2101 LT RAINFED LENTIL AT LUSKVILLA, QC
+ DATA PATH      :
+ TREATMENT  1   : Rainfed Maximim 2021      CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Soil layer 1 thicker than 5 cm.                                               
+ Soil water algorithms may become unstable.                                    

@@ -1,0 +1,20 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:07
+
+*RUN   1        : 90 EARLY BUNCH            CRGRO048 UFGA9002    1
+ MODEL          : CRGRO048 - Peanut
+ EXPERIMENT     : UFGA9002 PN 1990 IRP, FOUR CULTIVARS
+ DATA PATH      :
+ TREATMENT  1   : 90 EARLY BUNCH            CRGRO048
+  
+
+ IPRES   YEAR DOY =    0   0
+ Residue application   1                                                       
+ Incorporation percentage not specified, and incorporation depth > 0.          
+ Applied residues will be incorporated to a depth of  15.0 cm.                 
+
+ SOILDYN  YEAR DOY = 1990 135
+ Soil photosynthesis factor (SLPF) = 0.92                                      

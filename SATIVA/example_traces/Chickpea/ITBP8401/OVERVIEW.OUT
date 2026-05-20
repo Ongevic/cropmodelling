@@ -1,0 +1,164 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:49
+
+*RUN   1        : UI IRRIGATION; ANNIGERI   CRGRO048 ITBP8401    1
+ MODEL          : CRGRO048 - Chickpea
+ EXPERIMENT     : ITBP8401 CH IRRIGATION * CULTIVARS; 1984 BP 12 FIELD
+ DATA PATH      :
+ TREATMENT  1   : UI IRRIGATION; ANNIGERI   CRGRO048
+
+
+ CROP           : Chickpea         CULTIVAR : ANNIGERI v48cali ECOTYPE :DESI
+ STARTING DATE  : OCT 25 1984
+ PLANTING DATE  : NOV  4 1984      PLANTS/m2 :    30.0    ROW SPACING :  30.cm
+ WEATHER        : ITHY   1984
+ SOIL           : ICCH910005     TEXTURE : -99   - VERY FINE MONTMORILLONITI
+ SOIL INIT COND : DEPTH:180cm EXTR. H2O:171.2mm  NO3:  0.0kg/ha  NH4:  0.0kg/ha
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)
+ IRRIGATION     :       45 mm IN     2 APPLICATIONS
+ NITROGEN BAL.  : SOIL-N, N-UPTAKE & DYNAMIC N-FIXATION SIMULATION
+ N-FERTILIZER   :       18 kg/ha IN     1 APPLICATIONS
+ RESIDUE/MANURE : INITIAL :  1000 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:Y  PHOSPH :N  PESTS  :N
+                  PHOTO   :L  ET      :R  INFIL:S  HYDROL :R  SOM    :G
+                  CO2 345ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :R  RESIDUE:R  HARVEST:M
+                  WEATHER :M  TILLAGE :Y
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.265 0.337 0.395 0.072 0.303   1.00   1.50   8.80   0.00   0.00   0.73
+  5- 15 0.200 0.337 0.395 0.137 0.356   1.00   1.50   8.80   0.00   0.00   0.73
+ 15- 20 0.200 0.337 0.395 0.137 0.356   1.00   1.50   8.80   0.00   0.00   0.73
+ 20- 30 0.159 0.309 0.407 0.150 0.284   0.64   1.51   9.20   0.00   0.00   0.54
+ 30- 40 0.154 0.310 0.407 0.156 0.303   0.47   1.51   9.20   0.00   0.00   0.54
+ 40- 50 0.161 0.307 0.416 0.146 0.316   0.41   1.37   9.40   0.00   0.00   0.47
+ 50- 60 0.155 0.300 0.416 0.145 0.329   0.35   1.37   9.40   0.00   0.00   0.47
+ 60- 75 0.165 0.292 0.424 0.127 0.343   0.28   1.38   9.40   0.00   0.00   0.39
+ 75- 90 0.165 0.262 0.424 0.097 0.300   0.22   1.38   9.40   0.00   0.00   0.39
+ 90-110 0.167 0.225 0.451 0.058 0.303   0.17   1.40   9.40   0.00   0.00   0.28
+110-130 0.160 0.222 0.451 0.062 0.230   0.12   1.40   9.40   0.00   0.00   0.28
+130-155 0.160 0.222 0.443 0.062 0.223   0.07   1.40   9.40   0.00   0.00   0.25
+155-180 0.165 0.222 0.443 0.057 0.223   0.04   1.40   9.40   0.00   0.00   0.25
+
+TOT-180  30.2  47.4  77.3  17.1  50.6  <--cm   -  kg/ha-->    0.0    0.0 100412
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT : 6.00         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :85.00      DRAINAGE RATE     : 0.70         FERT. FACTOR : 0.90
+
+ Chickpea         CULTIVAR: IB0001-ANNIGERI v48cali   ECOTYPE: DESI
+ CSDVAR :11.00  PPSEN  :-0.14  EMG-FLW:32.00  FLW-FSD:18.50  FSD-PHM : 31.00
+ WTPSD  :0.230  SDPDVR : 1.20  SDFDUR :22.00  PODDUR :17.00  XFRUIT  :  0.95
+ THRESH : 82.0  SDPRO  :0.216  SDLIP   : 0.048
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     UI IRRIGATION; ANNIGERI 
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+ 25 OCT    0 Start Sim        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+  4 NOV    0 Sowing           0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+  9 NOV    5 Emergence       23   0.01   0.5    1  4.0  0.00  0.00  0.00  0.00     0
+  9 NOV    5 End Juven.      23   0.01   0.5    1  4.0  0.00  0.00  0.00  0.00     0
+ 10 NOV    6 Unifoliate      24   0.02   1.0    1  4.0  0.00  0.00  0.00  0.00     0
+ 14 NOV   10 Flower Ind      32   0.03   3.1    1  4.1  0.00  0.00  0.00  0.00     0
+ 17 DEC   43 First Flwr     391   0.55  19.3   14  3.6  0.01  0.00  0.00  0.00     1
+ 26 DEC   52 First Pod      682   0.87  23.4   24  3.5  0.01  0.00  0.00  0.00     3
+  7 JAN   64 First Seed    1308   1.30  29.8   40  3.1  0.01  0.00  0.00  0.00     5
+  8 JAN   65 End Msnode    1375   1.34  30.4   42  3.0  0.00  0.00  0.00  0.00     5
+ 14 JAN   71 End Pod       1798   1.41  30.4   50  2.8  0.09  0.00  0.00  0.00     5
+  2 FEB   90 End Leaf      2308   1.11  30.4   56  2.4  0.72  0.00  0.00  0.00     5
+  3 FEB   91 Phys. Mat     2303   1.09  30.4   55  2.4  0.89  0.00  0.00  0.00     7
+ 11 FEB   99 Harv. Mat     1865   0.32  30.4   42  2.3  0.85  0.00  0.00  0.00     8
+ 11 FEB   99 Harvest       1865   0.32  30.4   42  2.3  0.00  0.00  0.00  0.00     8
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Emergence day (dap)                                      5          -99
+      Anthesis day (dap)                                      43           40
+      First pod day (dap)                                     52          -99
+      First seed day (dap)                                    64           52
+      Physiological maturity day (dap)                        91           83
+      Harvest maturity day (dap)                              99           97
+      Yield at harvest maturity (kg [dm]/ha)                 751         1534
+      Pod/Ear/Panicle weight at maturity (kg [dm]/ha)       1137          -99
+      Tops weight at anthesis (kg [dm]/ha)                   391          -99
+      Tops weight at maturity (kg [dm]/ha)                  1865         2690
+      By-product produced (stalk) at maturity (kg[dm]/ha    1110          815
+      Number at maturity (no/m2)                             637          -99
+      Unit wt at maturity (g [dm]/unit)                   0.1179        0.217
+      Number at maturity (no/unit)                          1.20          -99
+      Harvest index at maturity                            0.403          -99
+      Threshing % at maturity                              66.08          -99
+      Leaf area index, maximum                              1.41         1.00
+      Leaf number per stem at maturity                     30.35          -99
+      Canopy height (m)                                     0.57          -99
+      Tops N at anthesis (kg/ha)                              14          -99
+      Tops N at maturity (kg/ha)                              42          -99
+      Stem N at maturity (kg/ha)                               6          -99
+      Grain N at maturity (kg/ha)                             25          -99
+      Grain N at maturity (%)                               3.36          -99
+      Grain oil at maturity (%)                             4.75          -99
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|--------------------------------------Environment--------------------------------------|-----------------Stress-----------------|
+                              |---------------Average--------------|-----Cumulative-----|--------Count of days--------|          (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp  Temp Solar Photop                Evapo    Pot TMIN TMIN TMAX TMAX TMAX RAIN|----Water----|---Nitrogen--|-Phosphorus-|
+                         Span   Max   Min  Mean   Rad  [day]    CO2   Rain  Trans     ET   <    <    >    >    >    >   Photo         Photo         Photo
+                         days     C     C     C MJ/m2     hr    ppm     mm     mm    mm   0 C  2 C 30 C 32 C 34 C  0mm  synth Growth  synth Growth  synth Growth
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Emergence -First Flower   38  28.5  13.1  20.8  16.4  11.05  345.0    0.0   40.0  141.1    0    0    6    0    0    0  0.000  0.006  0.000  0.000  0.000  0.000
+ First Flower-First Seed   21  28.3  14.0  21.2  14.6  10.97  345.2    1.8   34.8   68.5    0    0    2    0    0    1  0.000  0.008  0.000  0.000  0.000  0.000
+ First Seed - Phys. Mat.   27  29.5  16.6  23.0  16.6  11.12  345.2    0.0   39.6  103.2    0    0    9    0    0    0  0.361  0.561  0.000  0.000  0.000  0.000
+ Emergence  - Phys. Mat.   86  28.8  14.4  21.6  16.1  11.05  345.1    1.8  114.4  312.8    0    0   17    0    0    1  0.113  0.181  0.000  0.000  0.000  0.000
+   
+ Planting to Harvest      100  29.2  14.7  21.9  16.4  11.08  345.1    1.8  130.1  373.9    0    0   25    7    0    1  0.153  0.223  0.000  0.000  0.000  0.000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*Resource Productivity
+ Growing season length: 100 days 
+
+ Precipitation during growing season         1.8 mm[rain]
+   Dry Matter Productivity                103.62 kg[DM]/m3[rain]          = 1036.2 kg[DM]/ha per mm[rain]
+   Yield Productivity                      41.72 kg[grain yield]/m3[rain] =  417.2 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season  130.1 mm[ET]
+   Dry Matter Productivity                  1.43 kg[DM]/m3[ET]            =   14.3 kg[DM]/ha per mm[ET]
+   Yield Productivity                       0.58 kg[grain yield]/m3[ET]   =    5.8 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season        89.9 mm[EP]
+   Dry Matter Productivity                  2.08 kg[DM]/m3[EP]            =   20.8 kg[DM]/ha per mm[EP]
+   Yield Productivity                       0.84 kg[grain yield]/m3[EP]   =    8.4 kg[yield]/ha per mm[EP]
+
+ Irrigation during growing season           45.0 mm[irrig]
+   Dry Matter Productivity                  4.14 kg[DM]/m3[irrig]         =   41.4 kg[DM]/ha per mm[irrig]
+   Yield Productivity                       1.67 kg[grain yield]/m3[irrig]=   16.7 kg[yield]/ha per mm[irrig]
+
+ N applied during growing season             18. kg[N applied]/ha
+   Dry Matter Productivity                 103.6 kg[DM]/kg[N applied]
+   Yield Productivity                       41.7 kg[yield]/kg[N applied]
+
+ N uptake during growing season               23 kg[N uptake]/ha
+   Dry Matter Productivity                  81.1 kg[DM]/kg[N uptake]
+   Yield Productivity                       32.7 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+                  Chickpea YIELD :      751 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

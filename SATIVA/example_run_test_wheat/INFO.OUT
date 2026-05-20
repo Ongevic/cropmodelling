@@ -1,0 +1,97 @@
+*INFO DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 18:23:07
+
+*RUN   1        : DRYLAND  - 0 KG N/HA               KSAS8101    1
+
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)
+ DATA PATH      :
+ TREATMENT  1   : DRYLAND  - 0 KG N/HA
+  
+
+ MAKEFW  YEAR DOY =    0   0
+ Y4KDOY - Weather file                                                         
+ Not able to find 7-digits first weather date                                  
+ Set simulation to 5-digits first weather date                                 
+
+ CSM     YEAR DOY = 1981 279
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = KSAS8101.WHX                                                         
+ FILEB  = DSSBatch.V48                                                         
+ FILEIO = DSSAT48.INP                                                          
+ MODEL  = CSCER048                                                             
+ TRTNUM =     1                                                                
+
+ SOILDYN  YEAR DOY = 1981 279
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   CEC, STONES, ADCOEF, SAEA                                                   
+ These defaults may or may not be important to your results.                   
+
+ RETC  YEAR DOY = 1981 279
+ Soil RETC parameters:                                                         
+  LYR DS  SWCN   WCR    Hb Lambd  Alpha     m     n Texture                    
+   1   5-99.00 0.027  18.5 0.390  0.003 0.323 1.477 ClayLoam                   
+   2  15-99.00 0.027  18.5 0.390  0.003 0.323 1.477 ClayLoam                   
+   3  30-99.00 0.027  19.9 0.418  0.003 0.341 1.517 ClayLoam                   
+   4  45-99.00 0.015  18.8 0.451  0.003 0.357 1.555 ClayLoam                   
+   5  60-99.00 0.015  18.8 0.451  0.003 0.357 1.555 ClayLoam                   
+   6  90-99.00 0.012   8.5 0.362  0.006 0.303 1.434 ClayLoam                   
+   7 120-99.00 0.012   7.6 0.348  0.007 0.296 1.420 ClayLoam                   
+   8 150-99.00 0.012   7.6 0.348  0.007 0.296 1.420 ClayLoam                   
+   9 180-99.00 0.012   7.6 0.348  0.007 0.296 1.420 ClayLoam                   
+
+ SETPM     YEAR DOY = 1981 279
+ Simulating flat surface with no plastic mulch.                                                                               
+
+ SOILDYN  YEAR DOY = 1981 279
+ Soil ID: IBWH980018                                                           
+   HAYNIE                                                                      
+ COARSE-SILTY, MIXED,CALCAREOUS,MESIC TYP UDIFLUVEN                            
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.14  0.60  60.0  1.00  1.00 IB001                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.072 0.225 0.275 1.000  1.15  0.61  30.0  30.0  40.0   7.0     
+   2  15    10 0.072 0.225 0.275 1.000  1.15  0.61  30.0  30.0  40.0   7.0     
+   3  30    15 0.070 0.240 0.290 0.700  1.16  0.61  30.0  30.0  40.0   7.0     
+   4  45    15 0.040 0.154 0.194 0.200  1.21  0.59  30.0  30.0  40.0   7.0     
+   5  60    15 0.040 0.154 0.194 0.200  1.21  0.59  30.0  30.0  40.0   7.0     
+   6  90    30 0.032 0.091 0.141 0.050  1.23  0.29  30.0  30.0  40.0   7.0     
+   7 120    30 0.032 0.087 0.137 0.030  1.31  0.24  30.0  30.0  40.0   7.0     
+   8 150    30 0.032 0.087 0.137 0.010  1.31  0.20  30.0  30.0  40.0   7.0     
+   9 180    30 0.032 0.087 0.137 0.010  1.31  0.20  30.0  30.0  40.0   7.0     
+
+ SOILDYN  YEAR DOY = 1981 279
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  SLCF                                                  
+   L  Exch  Coef  kg/ha     %                                                  
+   1  15.5   0.0   1.74   0.0                                                  
+   2  15.5   0.0   0.87   0.0                                                  
+   3  15.5   0.0   0.57   0.0                                                  
+   4  15.5   0.0   0.55   0.0                                                  
+   5  15.5   0.0   0.55   0.0                                                  
+   6  15.5   0.0   0.27   0.0                                                  
+   7  15.5   0.0   0.25   0.0                                                  
+   8  15.5   0.0   0.25   0.0                                                  
+   9  15.5   0.0   0.25   0.0                                                  
+
+ IPWTH   YEAR DOY = 1981 279
+ C:\DSSAT48\Weather\KSAS8101.WTH                                               
+ Found daily weather data headers for:                                         
+   SRAD           Col   7 -  11                                                
+   TMAX           Col  13 -  17                                                
+   TMIN           Col  19 -  23                                                
+   RAIN           Col  25 -  29                                                
+
+ CO2VAL  YEAR DOY = 1981 279
+  800 CO2 data points read from file.                                          
+ C:\DSSAT48\StandardData\CO2048.WDA                                            
+
+ ENDRUN  YEAR DOY = 1982 174
+ Normal end of run        1                                                    

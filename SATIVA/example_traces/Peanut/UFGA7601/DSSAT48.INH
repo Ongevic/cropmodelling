@@ -1,0 +1,100 @@
+*EXP.DETAILS: UFGA7601PN 1976 IRRIGATED, FLORUNNER                                   
+
+*FILES
+@N  EXP.DATA    AFILE        ADIR
+  1 EXP         UFGA7601.PNA                                                                                 
+@N  SPECIES     SPFILE       SPDIR
+  1 SPE         PNGRO048.SPE C:\DSSAT48\GENOTYPE\                                                            
+@N  ECOTYPE     EFILE        EDIR
+  1 ECO         PNGRO048.ECO C:\DSSAT48\GENOTYPE\                                                            
+@N  CULTIVAR    CFILE        CDIR
+  1 CUL         PNGRO048.CUL C:\DSSAT48\GENOTYPE\                                                            
+@N  SOIL        SFILE        SDIR
+  1 SOIL        SOIL.SOL     C:\DSSAT48\SOIL\                                                                
+@N  WEATHER     WFILE        WDIR
+  1 WEATH       UFGA7601.WTH C:\DSSAT48\Weather\                                                             
+
+*SIMULATION CONTROL
+@N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
+  1 GE              1     1     S 1976126  2150 IRRIGATED, FLORUNNER      CRGRO048
+@N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+  1 OP              Y     Y     Y     N     N     N     N     N     M
+@N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL METMP MEGHG
+  1 ME              M     M     E     R     S     L     R     1     G     R     2     D     0
+@N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+  1 MA              R     R     R     N     R
+@N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
+  1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N
+
+!AUTOMATIC MANAGEM
+@N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+  1 PL              -99     -99   40.  100.   30.   40.   10.
+@N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+  1 IR            30.   50.  100. GS000 IR001  10.0 0.750
+@N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+  1 NI            30.   50.   25. GS001 GS000
+@N  RESIDUES    RIPCN RTIME RIDEP
+  1 RE           100.     1   20.
+@N  HARVEST     HFRST   HLAST HPCNP HRCNR
+  1 HA              0     -99  100.    0.
+
+*TREATMENTS
+@N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
+  1  1 0 0 IRRIGATED                   1   1   0   1   1   1   1   0   0   0   0   1   1
+
+*CULTIVARS
+@C  CR INGENO CNAME
+  1 PN IB0002 FLORUNNER       
+
+*FIELDS
+@L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL    PMALB  PMWD
+  1 UFGA0003 UFGA7601   0.0    0. DR000    0.  100. 00000 S      180. IBPN910015-99.00 -99.0
+@L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
+  1         0.00000         0.00000      0.00               1.0  100.   1.0   0.0   -99   -99
+
+*INITIAL CONDITIONS
+@C  PCR     ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+  1 PN    1976126   100     0  1.00  1.00 -99.0  1000  0.80  0.00  100.   15.
+@C   ICBL  SH2O  SNH4  SNO3
+  1    5. 0.086   0.6   1.5
+  1   15. 0.086   0.6   1.5
+  1   30. 0.086   0.6   1.5
+  1   45. 0.086   0.6   1.5
+  1   60. 0.086   0.6   1.5
+  1   90. 0.076   0.6   0.6
+  1  120. 0.076   0.6   0.5
+  1  150. 0.130   0.6   0.5
+  1  180. 0.258   0.6   0.5
+
+*PLANTING DETAILS
+@P    PDATE   EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+  1 1976126     -99  12.9  12.9     S     R   31.    0.   4.0  -99.  -99. -99.0 -99.0   0.0
+
+*IRRIGATION
+@I   IEFF  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+  1 0.750   30.   75.  -99. GS000 IR001   0.0
+@I    IDATE  IROP IRVAL
+  1 1976126 IR001  10.0
+  1 1976132 IR001  15.0
+  1 1976204 IR001  25.0
+  1 1976246 IR001  25.0
+
+*FERTILIZERS
+@F    FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+  1 1976126 FE006 AP001    5.   11.    0.    0.    0.    0.   -99
+
+*RESIDUES
+@R    RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET
+
+*CHEMICALS
+@C    CDATE CHCOD CHAMT  CHME CHDEP   CHT
+
+*TILLAGE
+@T    TDATE TIMPL  TDEP
+
+*ENVIRONMENT
+@E    ODATE  EDAY  ERAD  EMAX  EMIN ERAIN  ECO2  EDEW EWIND
+
+*HARVEST
+@H    HDATE  HSTG  HCOM HSIZE   HPC  HBPC
+  1 1976259 GS003 IBHCS IBHCS  100.    0.

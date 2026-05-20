@@ -1,0 +1,7 @@
+$BATCH(DSSAT Batch File)
+!
+! Batch file for: ddd
+! Created: 2026-02-12 15:59:07
+!
+@FILEX                                                                                        TRTNO     RP     SQ     OP     CO
+ddd.BARX                                                                                         1      1      0      0      0

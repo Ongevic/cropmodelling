@@ -1,0 +1,22 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:28
+
+*RUN   1        : 0N                        SWCER048 UFCI0201    1
+ MODEL          : SWCER048 - Sweet corn
+ EXPERIMENT     : UFCI0201 SW 2002 SWEET CORN NRATE STUDY
+ DATA PATH      :
+ TREATMENT  1   : 0N                        SWCER048
+  
+
+ SOILDYN  YEAR DOY = 2002   1
+ Initial soil water content < LL.                                              
+                                                                               
+          FileX              SW @  Revised                                     
+ Layer  Init SW       LL   AirDry  Init SW                                     
+     3    0.056    0.075             0.075                                     
+
+ SOILDYN  YEAR DOY = 2002   1
+ Soil photosynthesis factor (SLPF) = 0.92                                      

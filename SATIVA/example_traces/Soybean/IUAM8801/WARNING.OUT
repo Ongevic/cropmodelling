@@ -1,0 +1,40 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:16
+
+*RUN   1        : Wms-82 rainfed            CRGRO048 IUAM8801    1
+ MODEL          : CRGRO048 - Soybean
+ EXPERIMENT     : IUAM8801 SB ASA 1988 STUDY, WILLIAMS-82 & ELGIN-87
+ DATA PATH      :
+ TREATMENT  1   : Wms-82 rainfed            CRGRO048
+  
+
+ IPRES   YEAR DOY =    0   0
+ Residue application   1                                                       
+ Incorporation percentage not specified, and incorporation depth > 0.          
+ Applied residues will be incorporated to a depth of  25.0 cm.                 
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1988 132
+ Organic C data in one or more soil layers are zero or missing.                
+ A minimum value of OC in this layer  will be estimated using soil texture.    
+       Depth  Clay  Silt    OC                                                 
+ Layer  (cm)   (%)   (%)   (%)                                                 
+     1     5  30.0  30.0  0.97 (estimated)                                     
+     2    15  30.0  30.0  0.97 (estimated)                                     
+     3    17  30.0  30.0  0.97 (estimated)                                     
+     4    29  30.0  30.0  0.97 (estimated)                                     
+     5    43  30.0  30.0  0.97 (estimated)                                     
+     6    55  30.0  30.0  0.97 (estimated)                                     
+     7    67  30.0  30.0  0.97 (estimated)                                     
+     8    79  30.0  30.0  0.97 (estimated)                                     
+     9    94  30.0  30.0  0.97 (estimated)                                     
+    10   123  30.0  30.0  0.97 (estimated)                                     
+    11   152  30.0  30.0  0.97 (estimated)                                     
+    12   177  30.0  30.0  0.97 (estimated)                                     
+    13   202  30.0  30.0  0.97 (estimated)                                     

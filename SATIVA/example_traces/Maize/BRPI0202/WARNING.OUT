@@ -1,0 +1,15 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:00
+
+*RUN   1        : AG9010 - Rainfed          MZCER048 BRPI0202    1
+ MODEL          : MZCER048 - Maize
+ EXPERIMENT     : BRPI0202 MZ MAIZE IRRIGATED AND RAINFALL
+ DATA PATH      :
+ TREATMENT  1   : AG9010 - Rainfed          MZCER048
+  
+
+ SOILDYN  YEAR DOY = 2002  60
+ Soil photosynthesis factor (SLPF) = 0.90                                      

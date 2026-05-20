@@ -1,0 +1,14 @@
+*Output file list
+
+@FILENAME          DESCRIPTION
+Pest.OUT           Daily pest and disease damage output file         
+PlantC.OUT         Daily plant carbon output file                    
+PlantGro.OUT       Daily plant growth output file                    
+PlantN.OUT         Daily plant nitrogen output file                  
+Weather.OUT        Daily weather output file                         
+Evaluate.OUT       Evaluation output file (simulated vs. measured)   
+OVERVIEW.OUT       Seasonal overview output file                     
+Summary.OUT        Seasonal summary output file                      
+INFO.OUT           Information output file                           
+WARNING.OUT        Warning messages                                  
+LUN.LST            List of output files generated                    

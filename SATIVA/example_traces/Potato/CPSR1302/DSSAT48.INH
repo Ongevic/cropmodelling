@@ -1,0 +1,112 @@
+*EXP.DETAILS: CPSR1302PT CIP 2013 3 CULTIVARS                                        
+
+*FILES
+@N  EXP.DATA    AFILE        ADIR
+  1 EXP         CPSR1302.PTA                                                                                 
+@N  SPECIES     SPFILE       SPDIR
+  1 SPE         PTSUB048.SPE C:\DSSAT48\GENOTYPE\                                                            
+@N  ECOTYPE     EFILE        EDIR
+  1 ECO         PTSUB048.ECO C:\DSSAT48\GENOTYPE\                                                            
+@N  CULTIVAR    CFILE        CDIR
+  1 CUL         PTSUB048.CUL C:\DSSAT48\GENOTYPE\                                                            
+@N  SOIL        SFILE        SDIR
+  1 SOIL        CP.SOL       C:\DSSAT48\SOIL\                                                                
+@N  WEATHER     WFILE        WDIR
+  1 WEATH       CPSR1301.WTH C:\DSSAT48\Weather\                                                             
+
+*SIMULATION CONTROL
+@N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
+  1 GE              1     1     S 2013213  2150 DEFAULT SIMULATION CONTR  PTSUB048
+@N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+  1 OP              Y     Y     N     N     N     N     N     Y     M
+@N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL METMP MEGHG
+  1 ME              M     M     E     R     S     C     R     1     P     R     2     D     0
+@N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+  1 MA              R     A     R     R     R
+@N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
+  1 OU              N     Y     A     1     Y     Y     Y     Y     Y     Y     A     Y     Y
+
+!AUTOMATIC MANAGEM
+@N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+  1 PL              -99     -99   40.  100.   30.   40.   10.
+@N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+  1 IR            30.   50.  100. GS000 IR001  10.0 1.000
+@N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+  1 NI            30.   50.   25. FE001 GS000
+@N  RESIDUES    RIPCN RTIME RIDEP
+  1 RE           100.     1   20.
+@N  HARVEST     HFRST   HLAST HPCNP HRCNR
+  1 HA              0     -99  100.    0.
+
+*TREATMENTS
+@N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
+  1  1 1 0 Achirana                    1   1   1   1   1   1   1   0   0   0   0   1   1
+
+*CULTIVARS
+@C  CR INGENO CNAME
+  1 PT AR0003 ACHIRANA        
+
+*FIELDS
+@L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL    PMALB  PMWD
+  1 CPSR1302 CPSR1301   0.0  -99.   -99  -99.  100.   -99 L      -99. CPSR000022-99.00 -99.0
+@L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
+  1       -75.35639       -11.12750    830.00               1.0  100.   1.0 -99.0   -99   -99
+
+*INITIAL CONDITIONS
+@C  PCR     ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+  1 99    2013213     0     0  1.00  1.00 -99.0     0  0.00  0.00  100.    0.
+@C   ICBL  SH2O  SNH4  SNO3
+  1    5. 0.128   0.8   6.8
+  1   15. 0.128   0.8   6.8
+  1   30. 0.128   0.8   6.8
+  1   45. 0.139   0.8   6.8
+  1   60. 0.139   0.8   6.8
+  1   90. 0.155   0.8   6.8
+
+*PLANTING DETAILS
+@P    PDATE   EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+  1 2013213 2013228   3.3   3.3     S     9  100.  -99.   5.0  444.  -99. -99.0 -99.0   2.0
+
+*IRRIGATION
+@I   IEFF  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+  1 1.000   30.   75.  -99. GS000 IR001   0.0
+@I    IDATE  IROP IRVAL
+  1 2013213 IR004  15.0
+  1 2013219 IR004  39.0
+  1 2013225 IR004  29.0
+  1 2013228 IR004  30.0
+  1 2013232 IR004  29.0
+  1 2013236 IR004  30.0
+  1 2013241 IR004  16.0
+  1 2013249 IR004  15.0
+  1 2013255 IR004  40.0
+  1 2013258 IR004  28.0
+  1 2013262 IR004  31.0
+  1 2013267 IR004  31.0
+  1 2013271 IR004  30.0
+  1 2013277 IR004  31.0
+  1 2013285 IR004  33.0
+  1 2013292 IR004  22.0
+
+*FERTILIZERS
+@F    FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+  1 2013213 FE005 AP004    5.  150.  -99.  -99.  -99.  -99.   -99
+  1 2013213 FE013 AP004    5.    0.  300.  -99.  -99.  -99.   -99
+  1 2013213 FE016 AP004    5.    0.  -99.  265.  -99.  -99.   -99
+  1 2013253 FE005 AP004    5.  150.  -99.  -99.  -99.  -99.   -99
+
+*RESIDUES
+@R    RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET
+
+*CHEMICALS
+@C    CDATE CHCOD CHAMT  CHME CHDEP   CHT
+
+*TILLAGE
+@T    TDATE TIMPL  TDEP
+
+*ENVIRONMENT
+@E    ODATE  EDAY  ERAD  EMAX  EMIN ERAIN  ECO2  EDEW EWIND
+
+*HARVEST
+@H    HDATE  HSTG  HCOM HSIZE   HPC  HBPC
+  1 2013318 GS000   -99   -99  100.    0.

@@ -1,0 +1,97 @@
+# .gitignore for R / DSSAT Calibration Project
+
+# R History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# User-specific files
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# OAuth2 token
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+# DSSAT Output files (large binary files)
+*.OUT
+*.LST
+*.ERR
+ERROR.OUT
+WARNING.OUT
+INFO.OUT
+
+# DSSAT temporary files
+WORK/
+Work/
+work/
+*.SDA
+*.CDE
+*.tmp
+
+# Results directory (optional - remove if you want to track results)
+results/
+Sakha95_CORRECTED_results/
+*_results/
+output/
+
+# Large data files (optional)
+*.zip
+*.tar.gz
+*.7z
+
+# Plot files (if regenerated)
+*.png
+*.pdf
+*.jpg
+*.jpeg
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows image file caches
+Desktop.ini
+
+# Folder config file
+desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac OS
+.AppleDouble
+.LSOverride
+
+# Backup files
+*~
+*.bak
+*.backup
+*.old
+
+# Debug files
+debug_info.txt
+debug_*.txt

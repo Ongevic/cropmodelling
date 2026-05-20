@@ -1,0 +1,16 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:45
+
+*RUN   1        : 81 Treatment 1            CRGRO048 CCYU8101    1
+ MODEL          : CRGRO048 - Brachiaria
+ EXPERIMENT     : CCYU8101 BR BRACHIARIA ON YURIMAGUAS
+ DATA PATH      :
+ TREATMENT  1   : 81 Treatment 1            CRGRO048
+  
+
+ SOMINI  YEAR DOY = 1980 308
+ Reported initial value of total N ( 0.12% in layer 2) was not used            
+ because resulting C:N ratios were not within range of acceptable values.      

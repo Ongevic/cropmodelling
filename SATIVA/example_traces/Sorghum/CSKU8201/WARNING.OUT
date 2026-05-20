@@ -1,0 +1,46 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:15
+
+*RUN   1        : Sprinkler IR,   0 kg N/ha SGCER048 CSKU8201    1
+ MODEL          : SGCER048 - Sorghum
+ EXPERIMENT     : CSKU8201 SG KUNNUNURRA IRRIGATION EXP 1982
+ DATA PATH      :
+ TREATMENT  1   : Sprinkler IR,   0 kg N/ha SGCER048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1982 145
+ Soil photosynthesis factor (SLPF) = 0.80                                      
+
+ SOILDYN  YEAR DOY = 1982 145
+ The CENTURY-based soil-organic-matter module needs                            
+ soil texture data, but the specified soil profile                             
+ does not have those for some layers. The model will                           
+ run with the default 30% clay, 30% silt, 40% sand.                            
+ This may give incorrect results.                                              
+
+ IPWTH   YEAR DOY = 1982 145
+ Value of TAV, average annual soil temperature, is missing.                    
+ A default value of 20.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 1982 145
+ Value of TAMP, amplitude of soil temperature function, is missing.            
+ A default value of  5.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ SOILNI  YEAR DOY = 1982 145
+ N content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:N ratio.                 
+   - Previous crop code                 :    SG                                
+   - Recommended N content for surface residue (%):   1.1                      
+   - Value read from file               : 1.600%                               
+   - Value changed to                   : 1.320%                               
+ To change allowable N content, modify SCN parameter                           
+   in RESCH048.SDA file.                                                       

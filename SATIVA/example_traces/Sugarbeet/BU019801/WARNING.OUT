@@ -1,0 +1,36 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:23
+
+*RUN   1        : Bucharest 1998                     BU019801    1
+
+ EXPERIMENT     : BU019801 BS BUCHAREST, ROMANIA 1998
+ DATA PATH      :
+ TREATMENT  1   : Bucharest 1998
+  
+
+ IPEXP   YEAR DOY =    0   0
+ Photosynthesis method (PHOTO in FILEX) has been changed                       
+ from "L" to "C" for compatibility with crop model, BSCER.                     
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ IPWTH   YEAR DOY = 1998  94
+ Value of TAV, average annual soil temperature, is missing.                    
+ A default value of 20.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 1998  94
+ Value of TAMP, amplitude of soil temperature function, is missing.            
+ A default value of  5.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ SOLORG  YEAR DOY = 1998  94
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   3 is unlikely:      9.4                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              

@@ -1,0 +1,68 @@
+*MODEL INPUT FILE            B     1     1     1   999     0
+*FILES              
+MODEL          CRGRO048
+FILEX          USON0801.CNX                                                                                 
+FILEA          USON0801.CNA                                                                                 
+FILET          USON0801.CNT                                                                                 
+SPECIES        CNGRO048.SPE C:\DSSAT48\GENOTYPE\                                                            
+ECOTYPE        CNGRO048.ECO C:\DSSAT48\GENOTYPE\                                                            
+CULTIVAR       CNGRO048.CUL C:\DSSAT48\GENOTYPE\                                                            
+PESTS          CNGRO048.PST C:\DSSAT48\PEST\                                                                
+SOILS          US.SOL       C:\DSSAT48\SOIL\                                                                
+WEATHERW       USON0701.WTH C:\DSSAT48\Weather\                                                             
+OUTPUT         OVERVIEW
+*SIMULATION CONTROL 
+                   1     1     S 2007313  2150 DEFAULT SIMULATION CONTR 
+                   N     N     N     N     N     N     N     Y     M
+                   M     M     E     R     S     L     R     1     G     R     2     D     0
+                   R     R     R     N     M
+                   N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+!AUTOMATIC MANAGEM  
+                   -99     -99   40.  100.   30.   40.   10.
+                 30.   50.  100. GS000 IR001  10.0 1.000
+                 30.   50.   25. FE001 GS000
+                100.     1   20.
+                     0     -99  100.    0.
+*EXP.DETAILS        
+  1USON0801 CN RAPESEED, OTTANA ITALY - N-N-N KABEL-LOW SR DIFF TEMP       
+*TREATMENTS         
+  1 1 1 0 Ottana 2008              
+*CULTIVARS          
+   CN OT0001 KABEL (11)      
+*FIELDS             
+   USON0001 USON0701   0.0  -99.   -99  -99. 100.0   -99 -99    -99. USOT070001-99.00 -99.0
+    -99.0000000000  -99.0000000000   -99.000               1.0  100.   1.0 -99.0   -99   -99
+*INITIAL CONDITIONS 
+   GW    2007313   -99   -99  1.00  1.00 -99.0   -99 -9.00 -9.00  -99.  -99.
+      5. 0.256   0.0   0.0
+     15. 0.256   0.0   0.0
+     30. 0.251   0.0   0.0
+*PLANTING DETAILS   
+   2007313 2007334  80.0  80.0     S     R   17.  -99.   2.0  -99.  -99. -99.0 -99.0 -99.0
+*IRRIGATION         
+   1.000    0.    0.    0. GS000 IR001   0.0
+*FERTILIZERS        
+   2007313 FE006 AP002   25.   36.   92.  -99.  -99.  -99.   -99
+   2008021 FE019 AP002    5.   92.  -99.  -99.  -99.  -99.   -99
+*RESIDUES           
+*CHEMICALS          
+*TILLAGE            
+*ENVIRONMENT        
+*HARVEST            
+*SOIL               
+ USOT070001  Dept. Labs  -99    -99. Sandy clay loam                                   
+ Onatta      Italy        39.250   9.310 Lithic Xerorthents                                
+ G      0.13   6.0  0.25   81.  1.00  1.00 IB001 IB001 IB001 -99  
+    5.       0.171 0.256 0.409 1.000 0.430  1.47 1.160  23.0   6.4   1.0 0.150  6.30-99.00-99.00-99.00
+   15.       0.171 0.256 0.409 1.000 0.430  1.47 1.160  23.0   6.4   1.0 0.150  6.30-99.00-99.00-99.00
+   30.       0.165 0.251 0.404 0.638 0.430  1.49 0.960  23.0   8.8   1.0 0.130  6.50-99.00-99.00-99.00
+                    
+    5.-99.00 -99.0 -99.0 -99.0 -99.0 -99.0 -99.0 -99.0 -99.0 -99.0-99.00 -99.0 -99.0 -99.0 -99.0 -99.0  -99.  -99.
+   15.-99.00 -99.0 -99.0 -99.0 -99.0 -99.0 -99.0 -99.0 -99.0 -99.0-99.00 -99.0 -99.0 -99.0 -99.0 -99.0  -99.  -99.
+   30.-99.00 -99.0 -99.0 -99.0 -99.0 -99.0 -99.0 -99.0 -99.0 -99.0-99.00 -99.0 -99.0 -99.0 -99.0 -99.0  -99.  -99.
+                    
+    5.-99.00-99.00-99.00-99.00
+   15.-99.00-99.00-99.00-99.00
+   30.-99.00-99.00-99.00-99.00
+*CULTIVAR           
+OT0001 KABEL (11)       CN0001 16.00-0.006 45.00 12.50 18.50 33.50  1.00 1.000 235.0  95.0  1.00 0.003 21.00 18.00 10.00  81.0 0.230 0.480

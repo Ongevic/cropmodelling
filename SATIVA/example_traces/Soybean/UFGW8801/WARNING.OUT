@@ -1,0 +1,29 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:22
+
+*RUN   1        : 88 ONFARM, IRR. LEFLORE   CRGRO048 UFGW8801    1
+ MODEL          : CRGRO048 - Soybean
+ EXPERIMENT     : UFGW8801 SB CRAWFORD, IRRIG LEFLORE, GREENWOOD
+ DATA PATH      :
+ TREATMENT  1   : 88 ONFARM, IRR. LEFLORE   CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1988 155
+ Soil photosynthesis factor (SLPF) = 0.92                                      
+
+ IPWTH   YEAR DOY = 1988 155
+ Value of TAV, average annual soil temperature, is missing.                    
+ A default value of 20.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 1988 155
+ Value of TAMP, amplitude of soil temperature function, is missing.            
+ A default value of  5.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         

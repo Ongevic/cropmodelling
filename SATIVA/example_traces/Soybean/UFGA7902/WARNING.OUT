@@ -1,0 +1,20 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:21
+
+*RUN   1        : 79, Wms, Rainfed          CRGRO048 UFGA7902    1
+ MODEL          : CRGRO048 - Soybean
+ EXPERIMENT     : UFGA7902 SB IRRIGATION - WILLIAMS
+ DATA PATH      :
+ TREATMENT  1   : 79, Wms, Rainfed          CRGRO048
+  
+
+ IPRES   YEAR DOY =    0   0
+ Residue application   1                                                       
+ Incorporation percentage not specified, and incorporation depth > 0.          
+ Applied residues will be incorporated to a depth of  15.0 cm.                 
+
+ SOILDYN  YEAR DOY = 1979  74
+ Soil photosynthesis factor (SLPF) = 0.92                                      

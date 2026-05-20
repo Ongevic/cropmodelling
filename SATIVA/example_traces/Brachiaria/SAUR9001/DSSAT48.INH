@@ -1,0 +1,99 @@
+*EXP.DETAILS: SAUR9001BR BRACHIARIA ON URRAO                                         
+
+*FILES
+@N  EXP.DATA    AFILE        ADIR
+  1 EXP         SAUR9001.BRA                                                                                 
+@N  SPECIES     SPFILE       SPDIR
+  1 SPE         BRGRO048.SPE C:\DSSAT48\GENOTYPE\                                                            
+@N  ECOTYPE     EFILE        EDIR
+  1 ECO         BRGRO048.ECO C:\DSSAT48\GENOTYPE\                                                            
+@N  CULTIVAR    CFILE        CDIR
+  1 CUL         BRGRO048.CUL C:\DSSAT48\GENOTYPE\                                                            
+@N  SOIL        SFILE        SDIR
+  1 SOIL        SOIL.SOL     C:\DSSAT48\SOIL\                                                                
+@N  WEATHER     WFILE        WDIR
+  1 WEATH       SAUR9001.WTH C:\DSSAT48\Weather\                                                             
+
+*SIMULATION CONTROL
+@N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
+  1 GE              1     1     S 1990291  2150 BRACHI : C4GRASS 4 YR     CRGRO048
+@N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+  1 OP              Y     Y     N     N     N     Y     N     N     M
+@N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL METMP MEGHG
+  1 ME              M     M     E     R     S     C     R     1     P     R     2     D     0
+@N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+  1 MA              R     R     R     N     R
+@N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
+  1 OU              N     Y     Y     1     Y     Y     Y     Y     N     Y     Y     N     N
+
+!AUTOMATIC MANAGEM
+@N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+  1 PL              -99     -99   40.  100.   30.   40.   10.
+@N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+  1 IR            30.   50.  100. GS000 IR001  10.0 1.000
+@N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+  1 NI            30.   50.   25. FE001 GS000
+@N  RESIDUES    RIPCN RTIME RIDEP
+  1 RE           100.     1   20.
+@N  HARVEST     HFRST   HLAST HPCNP HRCNR
+  1 HA              0     -99  100.    0.
+
+*TREATMENTS
+@N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
+  1  0 0 0 90 Treatment 1              1   1   1   1   1   0   2   0   0   0   0   1   1
+
+*CULTIVARS
+@C  CR INGENO CNAME
+  1 BR SA0001 Brachiaria 7    
+
+*FIELDS
+@L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL    PMALB  PMWD
+  1 SAUR0001 SAUR9001   0.0    0. DR000    0.  100.     0 SCL    120. SAUR900001-99.00 -99.0
+@L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
+  1         0.00000         0.00000   1850.00               1.0  100.   1.0   0.0           0
+
+*INITIAL CONDITIONS
+@C  PCR     ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+  1 SB    1990291     0     0  1.00  1.00 -99.0     0  0.00  0.00  100.   15.
+@C   ICBL  SH2O  SNH4  SNO3
+  1    5. 0.320   0.5   6.5
+  1   15. 0.320   0.5   5.2
+  1   20. 0.390   0.5   4.4
+  1   25. 0.380   0.5   4.1
+  1   30. 0.380   0.5   3.7
+  1   35. 0.380   0.5   3.3
+  1   40. 0.380   0.5   3.0
+  1   55. 0.390   0.5   2.1
+  1   70. 0.390   0.5   2.1
+  1   95. 0.370   0.5   0.9
+  1  120. 0.370   0.5   0.9
+
+*PLANTING DETAILS
+@P    PDATE   EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+  1 1990299 1990307 100.0 100.0     S     R   10.    0.   1.0    3.  -99. -99.0 -99.0   0.0
+
+*IRRIGATION
+@I   IEFF  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+  0 1.000    0.    0.    0. GS000 IR001   0.0
+@I    IDATE  IROP IRVAL
+
+*FERTILIZERS
+@F    FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+  2 1990299 FE005 AP002    0.   50.    0.    0.    0.    0.   -99
+  2 1990330 FE005 AP002    0.   50.    0.    0.    0.    0.   -99
+
+*RESIDUES
+@R    RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET
+
+*CHEMICALS
+@C    CDATE CHCOD CHAMT  CHME CHDEP   CHT
+
+*TILLAGE
+@T    TDATE TIMPL  TDEP
+
+*ENVIRONMENT
+@E    ODATE  EDAY  ERAD  EMAX  EMIN ERAIN  ECO2  EDEW EWIND
+
+*HARVEST
+@H    HDATE  HSTG  HCOM HSIZE   HPC  HBPC
+  1 1993010   -99     C   -99  100.    0.

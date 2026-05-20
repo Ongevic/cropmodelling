@@ -1,0 +1,1711 @@
+[
+  {
+    "crop_code": "BS",
+    "crop_name": "Sugarbeet",
+    "model_code": "BSCER",
+    "module_code_048": "BSCER048",
+    "model_description": "CERES-Sugarbeet",
+    "model_family": "CERES",
+    "wrapper_adapter": "CERES",
+    "source_plant_dir": "Plant/CERES-Sugarbeet",
+    "install_crop_dir": "SUGARBEET",
+    "genotype_stem": "BSCER048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "BSCER048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "can use GSTD-like staging with crop-specific care",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "AM",
+    "crop_name": "Amaranth",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Amaranth",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "Amaranth",
+    "genotype_stem": "AMGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "BC",
+    "crop_name": "Carinata",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Carinata",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "Carinata",
+    "genotype_stem": "BCGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "BG",
+    "crop_name": "Bambara groundnut",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Bambara groundnut",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "BambaraGroundnut",
+    "genotype_stem": "BGGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "BH",
+    "crop_name": "Bahia",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Bahia",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "BAHIA",
+    "genotype_stem": "BHGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "PRFRM048",
+    "is_default_profile_module": false,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "BN",
+    "crop_name": "Dry bean",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Dry bean",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "DRYBEAN",
+    "genotype_stem": "BNGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "BR",
+    "crop_name": "Brachiaria",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Brachiaria",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "BRACHIARIA",
+    "genotype_stem": "BRGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "PRFRM048",
+    "is_default_profile_module": false,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "CB",
+    "crop_name": "Cabbage",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Cabbage",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "CABBAGE",
+    "genotype_stem": "CBGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "CH",
+    "crop_name": "Chickpea",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Chickpea",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "CHICKPEA",
+    "genotype_stem": "CHGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "CI",
+    "crop_name": "Chia",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Chia",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "Chia",
+    "genotype_stem": "CIGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "CN",
+    "crop_name": "Canola",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Canola",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "CANOLA",
+    "genotype_stem": "CNGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "CO",
+    "crop_name": "Cotton",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Cotton",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "cotton",
+    "genotype_stem": "COGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "CP",
+    "crop_name": "Cowpea",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Cowpea",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "COWPEA",
+    "genotype_stem": "CPGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "FA",
+    "crop_name": "Fallow",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Fallow",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "FALLOW",
+    "genotype_stem": "FAGRO048",
+    "genotype_extensions": [],
+    "has_ecotype_file": false,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "special_case_no_eco"
+  },
+  {
+    "crop_code": "FB",
+    "crop_name": "Faba bean",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Faba bean",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "FABABEAN",
+    "genotype_stem": "FBGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "FX",
+    "crop_name": "Flax",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Flax",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "Flax",
+    "genotype_stem": "FXGRO048",
+    "genotype_extensions": [],
+    "has_ecotype_file": false,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "special_case_no_eco"
+  },
+  {
+    "crop_code": "GB",
+    "crop_name": "Green bean",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Green bean",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "GREENBEAN",
+    "genotype_stem": "GBGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "GY",
+    "crop_name": "Guar",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Guar",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "Guar",
+    "genotype_stem": "GYGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "HM",
+    "crop_name": "Hemp",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Hemp",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "Hemp",
+    "genotype_stem": "HMGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "LT",
+    "crop_name": "Lentil",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Lentil",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "Lentil",
+    "genotype_stem": "LTGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "NP",
+    "crop_name": "Napier grass",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Napier grass",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "Napier",
+    "genotype_stem": "NPGRO048",
+    "genotype_extensions": [],
+    "has_ecotype_file": false,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "special_case_no_eco"
+  },
+  {
+    "crop_code": "PE",
+    "crop_name": "Pea",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Pea",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "PEA",
+    "genotype_stem": "PEGRO048",
+    "genotype_extensions": [],
+    "has_ecotype_file": false,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "special_case_no_eco"
+  },
+  {
+    "crop_code": "PN",
+    "crop_name": "Peanut",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Peanut",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "Peanut",
+    "genotype_stem": "PNGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "PO",
+    "crop_name": "Perennial peanut",
+    "model_code": "PRFRM",
+    "module_code_048": "PRFRM048",
+    "model_description": "FORAGE-Perennial peanut",
+    "model_family": "FORAGE",
+    "wrapper_adapter": "FORAGE",
+    "source_plant_dir": "Plant/FORAGE",
+    "install_crop_dir": "PERENNIALPEANUT",
+    "genotype_stem": "POFRM048",
+    "genotype_extensions": [],
+    "has_ecotype_file": false,
+    "default_profile_module": "PRFRM048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "needs_family_adapter"
+  },
+  {
+    "crop_code": "PP",
+    "crop_name": "Pigeonpea",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Pigeonpea",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "PIGEONPEA",
+    "genotype_stem": "PPGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "PR",
+    "crop_name": "Bellpepper",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Bellpepper",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "BellPepper",
+    "genotype_stem": "PRGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "QU",
+    "crop_name": "Quinoa",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Quinoa",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "Quinoa",
+    "genotype_stem": "QUGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "SF",
+    "crop_name": "Safflower",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Safflower",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "SAFFLOWER",
+    "genotype_stem": "SFGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "SB",
+    "crop_name": "Soybean",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Soybean",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "Soybean",
+    "genotype_stem": "SBGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "SR",
+    "crop_name": "Strawberry",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Strawberry",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "Strawberry",
+    "genotype_stem": "SRGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "SU",
+    "crop_name": "Sunflower",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Sunflower",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "SUNFLOWER",
+    "genotype_stem": "SUGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "TM",
+    "crop_name": "Tomato",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Tomato",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "TOMATO",
+    "genotype_stem": "TMGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "VB",
+    "crop_name": "Velvetbean",
+    "model_code": "CRGRO",
+    "module_code_048": "CRGRO048",
+    "model_description": "CROPGRO-Velvetbean",
+    "model_family": "CROPGRO",
+    "wrapper_adapter": "CROPGRO",
+    "source_plant_dir": "Plant/CROPGRO",
+    "install_crop_dir": "VELVETBEAN",
+    "genotype_stem": "VBGRO048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "must map CROPGRO stage variables, not blindly Zadok",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "BA",
+    "crop_name": "Barley",
+    "model_code": "CSCER",
+    "module_code_048": "CSCER048",
+    "model_description": "CERES-Barley",
+    "model_family": "CERES",
+    "wrapper_adapter": "CERES",
+    "source_plant_dir": "Plant/CERES-Wheat_Barley",
+    "install_crop_dir": "BARLEY",
+    "genotype_stem": "BACER048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CSCER048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "can use GSTD-like staging with crop-specific care",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "RY",
+    "crop_name": "Rye",
+    "model_code": "CSCER",
+    "module_code_048": "CSCER048",
+    "model_description": "CSCER-Rye",
+    "model_family": "CERES",
+    "wrapper_adapter": "CERES",
+    "source_plant_dir": "Plant/CERES-Wheat_Barley",
+    "install_crop_dir": "Rye",
+    "genotype_stem": "RYCER048",
+    "genotype_extensions": [],
+    "has_ecotype_file": false,
+    "default_profile_module": "CSCER048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "can use GSTD-like staging with crop-specific care",
+    "omniwrapper_readiness": "special_case_no_eco"
+  },
+  {
+    "crop_code": "WH",
+    "crop_name": "Wheat",
+    "model_code": "CSCER",
+    "module_code_048": "CSCER048",
+    "model_description": "CERES-Wheat",
+    "model_family": "CERES",
+    "wrapper_adapter": "CERES",
+    "source_plant_dir": "Plant/CERES-Wheat_Barley",
+    "install_crop_dir": "Wheat",
+    "genotype_stem": "WHCER048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CSCER048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "can use GSTD-like staging with crop-specific care",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "BA",
+    "crop_name": "Barley",
+    "model_code": "CSCRP",
+    "module_code_048": "CSCRP048",
+    "model_description": "CROPSIM-Barley",
+    "model_family": "CROPSIM",
+    "wrapper_adapter": "CROPSIM",
+    "source_plant_dir": "Plant/CROPSIM",
+    "install_crop_dir": "BARLEY",
+    "genotype_stem": "BACRP048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CSCER048",
+    "is_default_profile_module": false,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "advanced_adapter_needed"
+  },
+  {
+    "crop_code": "WH",
+    "crop_name": "Wheat",
+    "model_code": "CSCRP",
+    "module_code_048": "CSCRP048",
+    "model_description": "CROPSIM-Wheat",
+    "model_family": "CROPSIM",
+    "wrapper_adapter": "CROPSIM",
+    "source_plant_dir": "Plant/CROPSIM",
+    "install_crop_dir": "Wheat",
+    "genotype_stem": "WHCRP048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CSCER048",
+    "is_default_profile_module": false,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "advanced_adapter_needed"
+  },
+  {
+    "crop_code": "CS",
+    "crop_name": "Cassava",
+    "model_code": "CSCAS",
+    "module_code_048": "CSCAS048",
+    "model_description": "CROPSIM-Cassava",
+    "model_family": "CSCAS",
+    "wrapper_adapter": "CSCAS",
+    "source_plant_dir": "Plant/CSCAS",
+    "install_crop_dir": "CASSAVA",
+    "genotype_stem": "CSCAS048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CSYCA048",
+    "is_default_profile_module": false,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "advanced_adapter_needed"
+  },
+  {
+    "crop_code": "CS",
+    "crop_name": "Cassava",
+    "model_code": "CSYCA",
+    "module_code_048": "CSYCA048",
+    "model_description": "MANIHOT-Cassava",
+    "model_family": "CSYCA",
+    "wrapper_adapter": "CSYCA",
+    "source_plant_dir": "Plant/CSYCA-Cassava",
+    "install_crop_dir": "CASSAVA",
+    "genotype_stem": "CSYCA048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CSYCA048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "advanced_adapter_needed"
+  },
+  {
+    "crop_code": "ML",
+    "crop_name": "Millet",
+    "model_code": "MLCER",
+    "module_code_048": "MLCER048",
+    "model_description": "CERES-Millet",
+    "model_family": "CERES",
+    "wrapper_adapter": "CERES",
+    "source_plant_dir": "Plant/CERES-Millet",
+    "install_crop_dir": "PearlMillet",
+    "genotype_stem": "MLCER048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "MLCER048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "can use GSTD-like staging with crop-specific care",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "MZ",
+    "crop_name": "Maize",
+    "model_code": "MZCER",
+    "module_code_048": "MZCER048",
+    "model_description": "CERES-Maize",
+    "model_family": "CERES",
+    "wrapper_adapter": "CERES",
+    "source_plant_dir": "Plant/CERES-Maize",
+    "install_crop_dir": "Maize",
+    "genotype_stem": "MZCER048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "MZCER048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "can use GSTD-like staging with crop-specific care",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "MZ",
+    "crop_name": "Maize",
+    "model_code": "MZIXM",
+    "module_code_048": "MZIXM048",
+    "model_description": "IXIM-Maize",
+    "model_family": "CERES-IXIM",
+    "wrapper_adapter": "CERES",
+    "source_plant_dir": "Plant/CERES-IXIM-Maize",
+    "install_crop_dir": "Maize",
+    "genotype_stem": "MZIXM048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "MZCER048",
+    "is_default_profile_module": false,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "can use GSTD-like staging with crop-specific care",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "PT",
+    "crop_name": "Potato",
+    "model_code": "PTSUB",
+    "module_code_048": "PTSUB048",
+    "model_description": "SUBSTOR-Potato",
+    "model_family": "SUBSTOR",
+    "wrapper_adapter": "SUBSTOR",
+    "source_plant_dir": "Plant/SUBSTOR-Potato",
+    "install_crop_dir": "POTATO",
+    "genotype_stem": "PTSUB048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "PTSUB048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "VAR# (observed in local SUBSTOR wrapper)",
+    "phenology_strategy": "can use GSTD-like staging with crop-specific care",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "RI",
+    "crop_name": "Rice",
+    "model_code": "RICER",
+    "module_code_048": "RICER048",
+    "model_description": "CERES-Rice",
+    "model_family": "CERES",
+    "wrapper_adapter": "CERES",
+    "source_plant_dir": "Plant/CERES-Rice",
+    "install_crop_dir": "Rice",
+    "genotype_stem": "RICER048",
+    "genotype_extensions": [
+      "CUL",
+      "SPE"
+    ],
+    "has_ecotype_file": false,
+    "default_profile_module": "RICER048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "can use GSTD-like staging with crop-specific care",
+    "omniwrapper_readiness": "special_case_no_eco"
+  },
+  {
+    "crop_code": "SC",
+    "crop_name": "Sugarcane",
+    "model_code": "SCCAN",
+    "module_code_048": "SCCAN048",
+    "model_description": "CANEGRO-Sugarcane",
+    "model_family": "CANEGRO",
+    "wrapper_adapter": "SUGARCANE",
+    "source_plant_dir": "Plant/CANEGRO-Sugarcane",
+    "install_crop_dir": "SUGARCANE",
+    "genotype_stem": "SCCAN048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "SCCAN048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "needs_family_adapter"
+  },
+  {
+    "crop_code": "SC",
+    "crop_name": "Sugarcane",
+    "model_code": "SCCSP",
+    "module_code_048": "SCCSP048",
+    "model_description": "CASUPRO-Sugarcane",
+    "model_family": "CASUPRO",
+    "wrapper_adapter": "SUGARCANE",
+    "source_plant_dir": "Plant/CASUPRO-Sugarcane",
+    "install_crop_dir": "SUGARCANE",
+    "genotype_stem": "SCCSP048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "SCCAN048",
+    "is_default_profile_module": false,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "needs_family_adapter"
+  },
+  {
+    "crop_code": "SC",
+    "crop_name": "Sugarcane",
+    "model_code": "SCSAM",
+    "module_code_048": "SCSAM048",
+    "model_description": "SAMUCA-Sugarcane",
+    "model_family": "SAMUCA",
+    "wrapper_adapter": "SUGARCANE",
+    "source_plant_dir": "Plant/SAMUCA-Sugarcane",
+    "install_crop_dir": "SUGARCANE",
+    "genotype_stem": "SCSAM048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "SCCAN048",
+    "is_default_profile_module": false,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "needs_family_adapter"
+  },
+  {
+    "crop_code": "SG",
+    "crop_name": "Sorghum",
+    "model_code": "SGCER",
+    "module_code_048": "SGCER048",
+    "model_description": "CERES-Sorghum",
+    "model_family": "CERES",
+    "wrapper_adapter": "CERES",
+    "source_plant_dir": "Plant/CERES-Sorghum",
+    "install_crop_dir": "Sorghum",
+    "genotype_stem": "SGCER048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "SGCER048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "can use GSTD-like staging with crop-specific care",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "SW",
+    "crop_name": "Sweetcorn",
+    "model_code": "SWCER",
+    "module_code_048": "SWCER048",
+    "model_description": "CERES-Sweetcorn",
+    "model_family": "CERES",
+    "wrapper_adapter": "CERES",
+    "source_plant_dir": "Plant/CERES-SweetCorn",
+    "install_crop_dir": "SweetCorn",
+    "genotype_stem": "SWCER048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "SWCER048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "can use GSTD-like staging with crop-specific care",
+    "omniwrapper_readiness": "good_v1_target"
+  },
+  {
+    "crop_code": "PI",
+    "crop_name": "Pineapple",
+    "model_code": "PIALO",
+    "module_code_048": "PIALO048",
+    "model_description": "ALOHA-Pineapple",
+    "model_family": "ALOHA",
+    "wrapper_adapter": "ALOHA",
+    "source_plant_dir": "Plant/ALOHA-Pineapple",
+    "install_crop_dir": "PINEAPPLE",
+    "genotype_stem": "PIALO048",
+    "genotype_extensions": [
+      "CUL",
+      "SPE"
+    ],
+    "has_ecotype_file": false,
+    "default_profile_module": "PIALO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "special_case_no_eco"
+  },
+  {
+    "crop_code": "TR",
+    "crop_name": "Taro",
+    "model_code": "TRARO",
+    "module_code_048": "TRARO048",
+    "model_description": "AROIDS-Taro",
+    "model_family": "AROIDS",
+    "wrapper_adapter": "AROIDS",
+    "source_plant_dir": "Plant/AROIDS",
+    "install_crop_dir": "TARO",
+    "genotype_stem": "TRARO048",
+    "genotype_extensions": [
+      "CUL",
+      "SPE"
+    ],
+    "has_ecotype_file": false,
+    "default_profile_module": "TRARO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "special_case_no_eco"
+  },
+  {
+    "crop_code": "TN",
+    "crop_name": "Tanier",
+    "model_code": "TNARO",
+    "module_code_048": "TNARO048",
+    "model_description": "AROIDS-Tanier",
+    "model_family": "AROIDS",
+    "wrapper_adapter": "AROIDS",
+    "source_plant_dir": "Plant/AROIDS",
+    "install_crop_dir": "Tanier",
+    "genotype_stem": "TNARO048",
+    "genotype_extensions": [
+      "CUL",
+      "SPE"
+    ],
+    "has_ecotype_file": false,
+    "default_profile_module": "TNARO048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "special_case_no_eco"
+  },
+  {
+    "crop_code": "TF",
+    "crop_name": "Teff",
+    "model_code": "TFAPS",
+    "module_code_048": "TFAPS048",
+    "model_description": "NWHEAT-Teff",
+    "model_family": "NWHEAT",
+    "wrapper_adapter": "NWHEAT",
+    "source_plant_dir": "Plant/NWHEAT",
+    "install_crop_dir": "Teff",
+    "genotype_stem": "TFAPS048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "TFAPS048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT",
+      "PlantGr2.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "can use GSTD-like staging with crop-specific care",
+    "omniwrapper_readiness": "needs_family_adapter"
+  },
+  {
+    "crop_code": "TF",
+    "crop_name": "Teff",
+    "model_code": "TFCER",
+    "module_code_048": "TFCER048",
+    "model_description": "CERES-Teff",
+    "model_family": "CERES",
+    "wrapper_adapter": "CERES",
+    "source_plant_dir": "Plant/CERES-TEFF",
+    "install_crop_dir": "Teff",
+    "genotype_stem": "TFCER048",
+    "genotype_extensions": [
+      "CUL",
+      "SPE"
+    ],
+    "has_ecotype_file": false,
+    "default_profile_module": "TFAPS048",
+    "is_default_profile_module": false,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "can use GSTD-like staging with crop-specific care",
+    "omniwrapper_readiness": "special_case_no_eco"
+  },
+  {
+    "crop_code": "WH",
+    "crop_name": "Wheat",
+    "model_code": "WHAPS",
+    "module_code_048": "WHAPS048",
+    "model_description": "NWHEAT-Wheat",
+    "model_family": "NWHEAT",
+    "wrapper_adapter": "NWHEAT",
+    "source_plant_dir": "Plant/NWHEAT",
+    "install_crop_dir": "Wheat",
+    "genotype_stem": "WHAPS048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CSCER048",
+    "is_default_profile_module": false,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT",
+      "PlantGr2.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "can use GSTD-like staging with crop-specific care",
+    "omniwrapper_readiness": "needs_family_adapter"
+  },
+  {
+    "crop_code": "BM",
+    "crop_name": "Bermudagrass",
+    "model_code": "PRFRM",
+    "module_code_048": "PRFRM048",
+    "model_description": "FORAGE-Bermudagrass",
+    "model_family": "FORAGE",
+    "wrapper_adapter": "FORAGE",
+    "source_plant_dir": "Plant/FORAGE",
+    "install_crop_dir": "Bermudagrass",
+    "genotype_stem": "BMFRM048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "PRFRM048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "needs_family_adapter"
+  },
+  {
+    "crop_code": "BR",
+    "crop_name": "Brachiaria",
+    "model_code": "PRFRM",
+    "module_code_048": "PRFRM048",
+    "model_description": "FORAGE-Brachiaria",
+    "model_family": "FORAGE",
+    "wrapper_adapter": "FORAGE",
+    "source_plant_dir": "Plant/FORAGE",
+    "install_crop_dir": "BRACHIARIA",
+    "genotype_stem": "BRFRM048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "PRFRM048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "needs_family_adapter"
+  },
+  {
+    "crop_code": "BH",
+    "crop_name": "Bahiagrass",
+    "model_code": "PRFRM",
+    "module_code_048": "PRFRM048",
+    "model_description": "FORAGE-Bahiagrass",
+    "model_family": "FORAGE",
+    "wrapper_adapter": "FORAGE",
+    "source_plant_dir": "Plant/FORAGE",
+    "install_crop_dir": "BAHIA",
+    "genotype_stem": "BHFRM048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "PRFRM048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "needs_family_adapter"
+  },
+  {
+    "crop_code": "AL",
+    "crop_name": "Alfalfa",
+    "model_code": "PRFRM",
+    "module_code_048": "PRFRM048",
+    "model_description": "FORAGE-Alfalfa",
+    "model_family": "FORAGE",
+    "wrapper_adapter": "FORAGE",
+    "source_plant_dir": "Plant/FORAGE",
+    "install_crop_dir": "ALFALFA",
+    "genotype_stem": "ALFRM048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "PRFRM048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "needs_family_adapter"
+  },
+  {
+    "crop_code": "GG",
+    "crop_name": "Guinea grass",
+    "model_code": "PRFRM",
+    "module_code_048": "PRFRM048",
+    "model_description": "FORAGE-Guinea grass",
+    "model_family": "FORAGE",
+    "wrapper_adapter": "FORAGE",
+    "source_plant_dir": "Plant/FORAGE",
+    "install_crop_dir": "GUINEAGRASS",
+    "genotype_stem": "GGFRM048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "PRFRM048",
+    "is_default_profile_module": true,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "needs_family_adapter"
+  },
+  {
+    "crop_code": "SU",
+    "crop_name": "Sunflower",
+    "model_code": "SUOIL",
+    "module_code_048": "SUOIL048",
+    "model_description": "OILCROP-Sunflower",
+    "model_family": "OILCROP",
+    "wrapper_adapter": "OILCROP",
+    "source_plant_dir": "Plant/OilCrop-Sunflower",
+    "install_crop_dir": "SUNFLOWER",
+    "genotype_stem": "SUOIL048",
+    "genotype_extensions": [
+      "CUL",
+      "ECO",
+      "SPE"
+    ],
+    "has_ecotype_file": true,
+    "default_profile_module": "CRGRO048",
+    "is_default_profile_module": false,
+    "default_outputs": [
+      "PlantGro.OUT",
+      "Summary.OUT",
+      "Evaluate.OUT"
+    ],
+    "cultivar_id_strategy": "needs source-aware adapter; current generic wrapper assumes VAR-NAME",
+    "phenology_strategy": "custom",
+    "omniwrapper_readiness": "advanced_adapter_needed"
+  }
+]

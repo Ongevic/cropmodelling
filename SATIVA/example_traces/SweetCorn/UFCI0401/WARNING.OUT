@@ -1,0 +1,15 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:29
+
+*RUN   1        : 100% N                    SWCER048 UFCI0401    1
+ MODEL          : SWCER048 - Sweet corn
+ EXPERIMENT     : UFCI0401 SW 2004 MICROWEX 2
+ DATA PATH      :
+ TREATMENT  1   : 100% N                    SWCER048
+  
+
+ SOILDYN  YEAR DOY = 2004   1
+ Soil photosynthesis factor (SLPF) = 0.92                                      

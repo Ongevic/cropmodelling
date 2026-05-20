@@ -1,0 +1,104 @@
+*EXP.DETAILS: UAFD0012RI PLANT DENSITY * IRRIGATION 2000 UAF PAKISTAN                
+
+*FILES
+@N  EXP.DATA    AFILE        ADIR
+  1 EXP         UAFD0012.RIA                                                                                 
+@N  SPECIES     SPFILE       SPDIR
+  1 SPE         RICER048.SPE C:\DSSAT48\GENOTYPE\                                                            
+@N  ECOTYPE     EFILE        EDIR
+  1 ECO         RICER048.ECO C:\DSSAT48\GENOTYPE\                                                            
+@N  CULTIVAR    CFILE        CDIR
+  1 CUL         RICER048.CUL C:\DSSAT48\GENOTYPE\                                                            
+@N  SOIL        SFILE        SDIR
+  1 SOIL        UA.SOL       C:\DSSAT48\SOIL\                                                                
+@N  WEATHER     WFILE        WDIR
+  1 WEATH       UAFD0001.WTH C:\DSSAT48\Weather\                                                             
+
+*SIMULATION CONTROL
+@N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
+  1 GE              1     1     S 2000187  2150 EFFECTS OF PD & IR (2000  RICER048
+@N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+  1 OP              Y     Y     N     N     N     N     N     N     M
+@N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL METMP MEGHG
+  1 ME              M     M     E     R     S     C     R     1     G     S     2     D     0
+@N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+  1 MA              R     R     R     R     M
+@N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
+  1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+
+!AUTOMATIC MANAGEM
+@N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+  1 PL              -99     -99   40.  100.   30.   40.   10.
+@N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+  1 IR            30.   50.  100. IB001 IB001  10.0 0.500
+@N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+  1 NI            30.   50.   25. IB001 IB001
+@N  RESIDUES    RIPCN RTIME RIDEP
+  1 RE           100.     1   20.
+@N  HARVEST     HFRST   HLAST HPCNP HRCNR
+  1 HA              0     -99  100.    0.
+
+*TREATMENTS
+@N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
+  1  1 0 0 1seedling+8-Irri            1   1   0   1   1   1   1   1   0   0   0   0   1
+
+*CULTIVARS
+@C  CR INGENO CNAME
+  1 RI IB0055 Basmati 385     
+
+*FIELDS
+@L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL    PMALB  PMWD
+  1 UAFD0001 UAFD0001   0.0    0. IB000    0.  100. 00000 CL      51. UAFDLY0001-99.00 -99.0
+@L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
+  1         0.00000         0.00000      0.00               1.0  100.   1.0   0.0   -99   -99
+
+*INITIAL CONDITIONS
+@C  PCR     ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+  1 WH    2000187   500     0  1.00  1.00 -99.0     0  0.00  0.00  100.   15.
+@C   ICBL  SH2O  SNH4  SNO3
+  1    5. 0.374  10.0   0.7
+  1   15. 0.351   6.5   0.6
+  1   41. 0.362   3.3   0.3
+  1   66. 0.313   0.0   0.0
+  1   92. 0.293   0.0   0.0
+  1  109. 0.293   0.0   0.0
+  1  127. 0.293   0.0   0.0
+  1  152. 0.313   0.0   0.0
+
+*PLANTING DETAILS
+@P    PDATE   EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+  1 2000187     -99  16.0  16.0     T     H   22.    0.   5.0    0.   30.  25.0   1.0 -99.0
+
+*IRRIGATION
+@I   IEFF  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+  1 1.000   30.   75.  -99. GS000 IR001  10.0
+@I    IDATE  IROP IRVAL
+  1 2000187 IR003 100.0
+  1 2000194 IR003 100.0
+  1 2000201 IR003 100.0
+  1 2000208 IR003 100.0
+  1 2000215 IR003 100.0
+  1 2000222 IR003 100.0
+  1 2000229 IR003 100.0
+  1 2000236 IR003 100.0
+
+*FERTILIZERS
+@F    FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+  1 2000187 FE005 AP002    3.   75.  -99.  -99.  -99.  -99.   -99
+  1 2000208 FE005 AP001    1.   75.  -99.  -99.  -99.  -99.   -99
+
+*RESIDUES
+@R    RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET
+  1 2000187 RE001    50  0.50  0.00  0.00  100.   15.   -99
+
+*CHEMICALS
+@C    CDATE CHCOD CHAMT  CHME CHDEP   CHT
+
+*TILLAGE
+@T    TDATE TIMPL  TDEP
+
+*ENVIRONMENT
+@E    ODATE  EDAY  ERAD  EMAX  EMIN ERAIN  ECO2  EDEW EWIND
+
+*HARVEST
+@H    HDATE  HSTG  HCOM HSIZE   HPC  HBPC

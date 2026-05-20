@@ -1,0 +1,43 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:03
+
+*RUN   1        : P0F0 dis "on" PCLA-PDLA   CRGRO048 GHWA0205    1
+ MODEL          : CRGRO048 - Peanut
+ EXPERIMENT     : GHWA0205 PN 2002 FUNGICIDE X PHOSPHORUS EXPT GHANA
+ DATA PATH      :
+ TREATMENT  1   : P0F0 dis "on" PCLA-PDLA   CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 2002 152
+ Soil photosynthesis factor (SLPF) = 0.88                                      
+
+ SOILNI  YEAR DOY = 2002 152
+ N content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:N ratio.                 
+   - Previous crop code                 :    99                                
+   - Recommended N content for surface residue (%):   1.1                      
+   - Value read from file               : 1.500%                               
+   - Value changed to                   : 1.320%                               
+ To change allowable N content, modify SCN parameter                           
+   in RESCH048.SDA file.                                                       
+
+ SOILNI  YEAR DOY = 2002 152
+ P content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:P ratio.                 
+   - Previous crop code                 :    99                                
+   - Recommended P content for surface residue (%):   0.2                      
+   - Value read from file               : 0.250%                               
+   - Value changed to                   : 0.240%                               
+ To change allowable P content, modify SCP parameter                           
+   in RESCH048.SDA file.                                                       
+
+ NCHECK  YEAR DOY = 2002 198
+ The carbon/nutrient ratio (C/N or C/P) of the residue                         
+ or senesced biomass that was added to the soil                                
+ is outside the common range to which the CESTR                                
+ parameter in the file SOMFX048.SDA applies. You have a                        
+ residue with an extremely low nutrient concentration.                         
+ Please check your data and/or adapt the CESTR value.                          

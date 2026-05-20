@@ -1,0 +1,25 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:52
+
+*RUN   1        : INDIA 23/15               CRGRO048 GAGR9802    1
+ MODEL          : CRGRO048 - Cowpea
+ EXPERIMENT     : GAGR9802 CP 1998 UGA ENVIROTRON TEMPERATURE*CO2
+ DATA PATH      :
+ TREATMENT  1   : INDIA 23/15               CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1998 167
+ Soil photosynthesis factor (SLPF) = 0.92                                      
+
+ IPWTH   YEAR DOY = 1998 167
+ Value of TAV, average annual soil temperature, is missing.                    
+ A default value of 20.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 1998 167
+ Value of TAMP, amplitude of soil temperature function, is missing.            
+ A default value of  5.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         

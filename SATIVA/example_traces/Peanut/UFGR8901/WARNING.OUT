@@ -1,0 +1,20 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:07
+
+*RUN   1        : CHICO                     CRGRO048 UFGR8901    1
+ MODEL          : CRGRO048 - Peanut
+ EXPERIMENT     : UFGR8901 PN GREEN ACRES, NEWBERRY, FL, EIGHT CVS
+ DATA PATH      :
+ TREATMENT  1   : CHICO                     CRGRO048
+  
+
+ IPRES   YEAR DOY =    0   0
+ Residue application   1                                                       
+ Incorporation percentage not specified, and incorporation depth > 0.          
+ Applied residues will be incorporated to a depth of  15.0 cm.                 
+
+ SOILDYN  YEAR DOY = 1989 125
+ Soil photosynthesis factor (SLPF) = 0.90                                      

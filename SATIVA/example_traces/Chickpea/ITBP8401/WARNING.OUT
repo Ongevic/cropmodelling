@@ -1,0 +1,19 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:49
+
+*RUN   1        : UI IRRIGATION; ANNIGERI   CRGRO048 ITBP8401    1
+ MODEL          : CRGRO048 - Chickpea
+ EXPERIMENT     : ITBP8401 CH IRRIGATION * CULTIVARS; 1984 BP 12 FIELD
+ DATA PATH      :
+ TREATMENT  1   : UI IRRIGATION; ANNIGERI   CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1984 299
+ Soil photosynthesis factor (SLPF) = 0.90                                      

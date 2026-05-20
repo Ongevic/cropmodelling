@@ -1,0 +1,3 @@
+curl -k -i --raw -o mapping.log -X PUT "http://localhost:9200/summary" -H "Content-Type: application/json" -H "User-Agent: Fiddler" -H "Host: localhost:9200" --data-binary @es_summary_mapping.json 
+curl -k -i --raw -o data.log -X POST "http://localhost:9200/summary/_bulk?pretty" -H "Content-Type: application/json" -H "User-Agent: Fiddler" -H "Host: localhost:9200" --data-binary @summary.json
+call status.bat

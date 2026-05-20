@@ -1,0 +1,105 @@
+*EXP.DETAILS: NMCL1301SF CRITICAL STAGE BASED IRRIGATION                             
+
+*FILES
+@N  EXP.DATA    AFILE        ADIR
+  1 EXP         NMCL1301.SFA                                                                                 
+@N  SPECIES     SPFILE       SPDIR
+  1 SPE         SFGRO048.SPE C:\DSSAT48\GENOTYPE\                                                            
+@N  ECOTYPE     EFILE        EDIR
+  1 ECO         SFGRO048.ECO C:\DSSAT48\GENOTYPE\                                                            
+@N  CULTIVAR    CFILE        CDIR
+  1 CUL         SFGRO048.CUL C:\DSSAT48\GENOTYPE\                                                            
+@N  SOIL        SFILE        SDIR
+  1 SOIL        NM.SOL       C:\DSSAT48\SOIL\                                                                
+@N  WEATHER     WFILE        WDIR
+  1 WEATH       ACNM1301.WTH C:\DSSAT48\Weather\                                                             
+
+*SIMULATION CONTROL
+@N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
+  1 GE              1     1     S 2013119  2150 Common                    CRGRO048
+@N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+  1 OP              Y     N     N     N     N     N     N     N     M
+@N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL METMP MEGHG
+  1 ME              M     M     E     R     S     L     R     1     G     R     2     D     0
+@N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+  1 MA              R     R     R     R     M
+@N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
+  1 OU              N     Y     Y     1     Y     Y     Y     N     N     N     Y     N     N
+
+!AUTOMATIC MANAGEM
+@N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+  1 PL              -99     -99   40.  100.   30.   40.   10.
+@N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+  1 IR            30.   50.  100. GS000 IR001  10.0 1.000
+@N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+  1 NI            30.   50.   25. FE001 GS000
+@N  RESIDUES    RIPCN RTIME RIDEP
+  1 RE           100.     1   20.
+@N  HARVEST     HFRST   HLAST HPCNP HRCNR
+  1 HA              0     -99  100.    0.
+
+*TREATMENTS
+@N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
+  1  1 1 0 13 Irrigated                1   1   0   0   1   1   1   0   0   0   0   0   1
+
+*CULTIVARS
+@C  CR INGENO CNAME
+  1 SF IB0001 PI8311          
+
+*FIELDS
+@L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL    PMALB  PMWD
+  1 NMCL0001 ACNM1301   0.0  -99.   -99  -99.  100.   -99 CL     -99. NMCL000002-99.00 -99.0
+@L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
+  1       -99.00000       -99.00000    -99.00               1.0  100.   1.0 -99.0   -99   -99
+
+*INITIAL CONDITIONS
+@C  PCR     ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+  0             0     0     0  1.00  1.00 -99.0     0  0.00  0.00  100.    0.
+@C   ICBL  SH2O  SNH4  SNO3
+  0    5. 0.212   0.0   0.0
+  0   15. 0.230   0.0   0.0
+  0   30. 0.249   0.0   0.0
+  0   40. 0.293   0.0   0.0
+  0   50. 0.293   0.0   0.0
+  0   60. 0.282   0.0   0.0
+  0   70. 0.282   0.0   0.0
+  0   90. 0.273   0.0   0.0
+  0  110. 0.266   0.0   0.0
+  0  130. 0.276   0.0   0.0
+  0  150. 0.287   0.0   0.0
+
+*PLANTING DETAILS
+@P    PDATE   EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+  1 2013120     -99  48.0  48.0     S     R   15.    0.   3.5  -99.  -99. -99.0 -99.0 -99.0
+
+*IRRIGATION
+@I   IEFF  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+  1 1.000   30.   50.  100. GS000 IR001  10.0
+@I    IDATE  IROP IRVAL
+  1 2013135 IR004  51.0
+  1 2013151 IR004  38.0
+  1 2013162 IR004  38.0
+  1 2013175 IR004  44.0
+  1 2013180 IR004  38.0
+  1 2013188 IR004  44.0
+  1 2013206 IR004  25.0
+  1 2013217 IR004  25.0
+
+*FERTILIZERS
+@F    FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+  1 2013119 FE001 AP002   15.  100.   40.  -99.  -99.  -99.   -99
+
+*RESIDUES
+@R    RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET
+
+*CHEMICALS
+@C    CDATE CHCOD CHAMT  CHME CHDEP   CHT
+
+*TILLAGE
+@T    TDATE TIMPL  TDEP
+
+*ENVIRONMENT
+@E    ODATE  EDAY  ERAD  EMAX  EMIN ERAIN  ECO2  EDEW EWIND
+
+*HARVEST
+@H    HDATE  HSTG  HCOM HSIZE   HPC  HBPC

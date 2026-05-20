@@ -1,0 +1,27 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:44
+
+*RUN   1        : 79 Treatment 1            CRGRO048 CCQU7901    1
+ MODEL          : CRGRO048 - Brachiaria
+ EXPERIMENT     : CCQU7901 BR BRACHIARIA ON QUILICHAO
+ DATA PATH      :
+ TREATMENT  1   : 79 Treatment 1            CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1979 246
+ Initial soil water content > SAT.                                             
+                                                                               
+          FileX           Revised                                              
+ Layer  Init SW      SAT  Init SW                                              
+     3    0.491    0.483    0.483                                              
+     4    0.495    0.485    0.485                                              
+     5    0.510    0.485    0.485                                              
+     6    0.520    0.487    0.487                                              
+     7    0.527    0.487    0.487                                              

@@ -1,0 +1,200 @@
+*EXP.DETAILS: UFGA0602TM SPRING 2006,FLA 47,DRIP-IRR.                                
+
+*FILES
+@N  EXP.DATA    AFILE        ADIR
+  2 EXP         UFGA0602.TMA                                                                                 
+@N  SPECIES     SPFILE       SPDIR
+  2 SPE         TMGRO048.SPE C:\DSSAT48\GENOTYPE\                                                            
+@N  ECOTYPE     EFILE        EDIR
+  2 ECO         TMGRO048.ECO C:\DSSAT48\GENOTYPE\                                                            
+@N  CULTIVAR    CFILE        CDIR
+  2 CUL         TMGRO048.CUL C:\DSSAT48\GENOTYPE\                                                            
+@N  SOIL        SFILE        SDIR
+  2 SOIL        SOIL.SOL     C:\DSSAT48\SOIL\                                                                
+@N  WEATHER     WFILE        WDIR
+  2 WEATH       UFGA0601.WTH C:\DSSAT48\Weather\                                                             
+
+*SIMULATION CONTROL
+@N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
+  2 GE              1     1     S 2006089  2150 Water stress, WB ON       CRGRO048
+@N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+  2 OP              Y     N     N     N     N     N     N     N     M
+@N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL METMP MEGHG
+  2 ME              M     M     E     R     S     L     R     1     G     R     2     D     0
+@N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+  2 MA              R     R     A     N     R
+@N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
+  2 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+
+!AUTOMATIC MANAGEM
+@N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+  2 PL              -99     -99   40.  100.   30.   45.   40.
+@N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+  2 IR            30.   80.  100. GS000 SI005   5.0 1.000
+@N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+  2 NI           200.   50.   25. SI001 SI001
+@N  RESIDUES    RIPCN RTIME RIDEP
+  2 RE           100.    60   20.
+@N  HARVEST     HFRST   HLAST HPCNP HRCNR
+  2 HA            169     -99   75.    0.
+
+*TREATMENTS
+@N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
+  4  1 1 1 06-Ctrl WB "on"             1   1   0   1   1   1   1   0   0   0   0   1   2
+
+*CULTIVARS
+@C  CR INGENO CNAME
+  1 TM TM0001 Florida 47 2010 
+
+*FIELDS
+@L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL    PMALB  PMWD
+  1 UFIM0001 UFGA0601   0.0    0. DR000    0.  100. 00000 SA     201. UFGA010700-99.00 -99.0
+@L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
+  1       -99.00000       -99.00000    -99.00               1.0  100.   1.0 -99.0   -99   -99
+
+*INITIAL CONDITIONS
+@C  PCR     ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+  1 FA    2006050     1     0  1.00  1.00 -99.0   -99 -9.00 -9.00  -99.  -99.
+@C   ICBL  SH2O  SNH4  SNO3
+  1    5. 0.092   0.2   1.0
+  1   15. 0.075   0.2   1.0
+  1   30. 0.059   0.2   1.0
+  1   45. 0.058   0.1   0.7
+  1   60. 0.057   0.1   0.5
+  1   90. 0.087   0.1   0.4
+  1  120. 0.169   0.0   0.0
+  1  150. 0.400   0.0   0.0
+  1  180. 0.400   0.0   0.0
+
+*PLANTING DETAILS
+@P    PDATE   EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+  1 2006095 2006095   1.2   1.2     T     R  183.   90.   1.0    3.   28.  25.0   1.0 -99.0
+
+*IRRIGATION
+@I   IEFF  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+  1 1.000   20.   80.   95. GS000 IR001   0.0
+@I    IDATE  IROP IRVAL
+  1 2006093 IR005   2.9
+  1 2006094 IR005   2.9
+  1 2006095 IR005  12.0
+  1 2006096 IR005   2.9
+  1 2006097 IR005   2.9
+  1 2006098 IR005  10.0
+  1 2006099 IR005   2.9
+  1 2006100 IR005   2.9
+  1 2006101 IR005   2.9
+  1 2006102 IR005   2.9
+  1 2006103 IR005   2.9
+  1 2006104 IR005   2.9
+  1 2006105 IR005   2.9
+  1 2006106 IR005   2.9
+  1 2006107 IR005   2.9
+  1 2006108 IR005   2.9
+  1 2006109 IR005   2.9
+  1 2006110 IR005   2.9
+  1 2006111 IR005   2.9
+  1 2006112 IR005   2.9
+  1 2006113 IR005   2.9
+  1 2006114 IR005   5.4
+  1 2006115 IR005  14.0
+  1 2006116 IR005  10.0
+  1 2006117 IR005  17.0
+  1 2006118 IR005   5.4
+  1 2006119 IR005  16.0
+  1 2006120 IR005   9.4
+  1 2006121 IR005   7.5
+  1 2006122 IR005  16.0
+  1 2006123 IR005   7.5
+  1 2006124 IR005   5.4
+  1 2006125 IR005   5.4
+  1 2006126 IR005   7.4
+  1 2006127 IR005   7.4
+  1 2006128 IR005   5.5
+  1 2006129 IR005   5.5
+  1 2006130 IR005   5.5
+  1 2006131 IR005   5.5
+  1 2006132 IR005   5.5
+  1 2006133 IR005   5.5
+  1 2006134 IR005   5.0
+  1 2006135 IR005   5.0
+  1 2006136 IR005   5.0
+  1 2006137 IR005   5.0
+  1 2006138 IR005   5.0
+  1 2006139 IR005   5.0
+  1 2006140 IR005   5.0
+  1 2006141 IR005   5.0
+  1 2006142 IR005   5.0
+  1 2006143 IR005   5.0
+  1 2006144 IR005   5.0
+  1 2006145 IR005   5.0
+  1 2006146 IR005   5.0
+  1 2006147 IR005   5.0
+  1 2006148 IR005   5.0
+  1 2006149 IR005   5.0
+  1 2006150 IR005   5.0
+  1 2006151 IR005   5.0
+  1 2006152 IR005   5.0
+  1 2006152 IR005   5.0
+  1 2006153 IR005   5.0
+  1 2006154 IR005   5.3
+  1 2006155 IR005   5.3
+  1 2006156 IR005   5.3
+  1 2006157 IR005   5.3
+  1 2006158 IR005   5.3
+  1 2006159 IR005   5.3
+  1 2006160 IR005   5.3
+  1 2006161 IR005   5.3
+  1 2006162 IR005   5.3
+  1 2006163 IR005   5.3
+  1 2006164 IR005   5.3
+  1 2006165 IR005   5.3
+  1 2006166 IR005   5.3
+  1 2006167 IR005   5.3
+  1 2006168 IR005   5.3
+  1 2006169 IR005   5.3
+  1 2006170 IR005   5.3
+  1 2006171 IR005   5.3
+  1 2006172 IR005   5.3
+  1 2006173 IR005   5.3
+  1 2006174 IR005   5.3
+  1 2006175 IR005   5.3
+  1 2006176 IR005   6.3
+  1 2006177 IR005   6.3
+  1 2006178 IR005   6.3
+  1 2006179 IR005   6.3
+  1 2006180 IR005   6.3
+  1 2006181 IR005   6.3
+  1 2006182 IR005   6.3
+  1 2006183 IR005   6.3
+
+*FERTILIZERS
+@F    FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+  1    6097 FE011 AP005   10.    9.   25.   12.  -99.    1.     0
+  1    6103 FE011 AP005    1.    9.    0.    0.  -99.    0.   -99
+  1    6107 FE011 AP005    1.   18.    0.   12.  -99.    1.   -99
+  1    6114 FE011 AP005    1.   24.    0.   16.  -99.    1.   -99
+  1    6121 FE011 AP005    1.   24.    0.   16.  -99.    1.   -99
+  1    6128 FE011 AP005    1.   29.    0.   24.  -99.    1.   -99
+  1    6135 FE011 AP005    1.   29.    0.   24.  -99.    1.   -99
+  1    6142 FE011 AP005    1.   29.    0.   24.  -99.    1.   -99
+  1    6149 FE011 AP005    1.   29.    0.   24.  -99.    1.   -99
+  1    6156 FE011 AP005    1.   29.    0.   24.  -99.    1.   -99
+  1    6163 FE011 AP005    1.   29.    0.   24.  -99.    1.   -99
+  1    6170 FE011 AP005    1.   29.    0.   26.  -99.    1.   -99
+  1    6177 FE011 AP005    1.   24.    0.   12.  -99.    1.   -99
+
+*RESIDUES
+@R    RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET
+
+*CHEMICALS
+@C    CDATE CHCOD CHAMT  CHME CHDEP   CHT
+
+*TILLAGE
+@T    TDATE TIMPL  TDEP
+
+*ENVIRONMENT
+@E    ODATE  EDAY  ERAD  EMAX  EMIN ERAIN  ECO2  EDEW EWIND
+
+*HARVEST
+@H    HDATE  HSTG  HCOM HSIZE   HPC  HBPC
+  1 2006183 GS000   -99   -99  100.    0.

@@ -1,0 +1,16 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:10
+
+*RUN   1        : Potato Model validation   PTSUB048 NYCU8001    1
+ MODEL          : PTSUB048 - Potato
+ EXPERIMENT     : NYCU8001 PT NEW YORK: MODEL VALIDATION, 1980(EWING)
+ DATA PATH      :
+ TREATMENT  1   : Potato Model validation   PTSUB048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              

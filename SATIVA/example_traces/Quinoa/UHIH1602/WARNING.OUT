@@ -1,0 +1,21 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:12
+
+*RUN   1        : Zeno SD1                  CRGRO048 UHIH1602    1
+ MODEL          : CRGRO048 - Quinoa
+ EXPERIMENT     : UHIH1602 QU QUINOA SOWING DATES
+ DATA PATH      :
+ TREATMENT  1   : Zeno SD1                  CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Soil layer 1 thicker than 5 cm.                                               
+ Soil water algorithms may become unstable.                                    
+
+ SOILDYN  YEAR DOY = 2016  70
+ The pH of one or more soil layers at initialization                           
+ was outside the range pH=1-10, which is unlikely.                             
+ It was set by DSSAT to pH=7.                                                  

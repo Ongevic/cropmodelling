@@ -1,0 +1,55 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:19
+
+*RUN   1        : CENTENNIAL, PLT-1         CRGRO048 NCRM8701    1
+ MODEL          : CRGRO048 - Soybean
+ EXPERIMENT     : NCRM8701 SB WILKERSON, NORTH CAROLINA
+ DATA PATH      :
+ TREATMENT  1   : CENTENNIAL, PLT-1         CRGRO048
+  
+
+ IPRES   YEAR DOY =    0   0
+ Residue application   1                                                       
+ Incorporation percentage not specified, and incorporation depth > 0.          
+ Applied residues will be incorporated to a depth of  15.0 cm.                 
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1987 105
+ Soil photosynthesis factor (SLPF) = 0.95                                      
+
+ SOILDYN  YEAR DOY = 1987 105
+ Organic C data in one or more soil layers are zero or missing.                
+ A minimum value of OC in this layer  will be estimated using soil texture.    
+       Depth  Clay  Silt    OC                                                 
+ Layer  (cm)   (%)   (%)   (%)                                                 
+     1     5  30.0  30.0  0.97 (estimated)                                     
+     2    15  30.0  30.0  0.97 (estimated)                                     
+     3    25  30.0  30.0  0.97 (estimated)                                     
+     4    33  30.0  30.0  0.97 (estimated)                                     
+     5    46  30.0  30.0  0.97 (estimated)                                     
+     6    61  30.0  30.0  0.97 (estimated)                                     
+     7    76  30.0  30.0  0.97 (estimated)                                     
+     8   106  30.0  30.0  0.97 (estimated)                                     
+     9   136  30.0  30.0  0.97 (estimated)                                     
+
+ IPWTH   YEAR DOY = 1987 105
+ Value of TAV, average annual soil temperature, is missing.                    
+ A default value of 20.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 1987 105
+ Value of TAMP, amplitude of soil temperature function, is missing.            
+ A default value of  5.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 1987 105
+ Warning: SRAD < 1 MJ.m-2.d-1.                                                 
+ C:\DSSAT48\Weather\NCRM8701.WTH                                               
+ Line      109                                                                 
+ SRAD =   0.10 MJ.m-2.d-1                                                      

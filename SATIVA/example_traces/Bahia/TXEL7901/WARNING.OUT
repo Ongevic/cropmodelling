@@ -1,0 +1,23 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:42
+
+*RUN   1        : DRYLAND -    0 KG N/HA    PRFRM048 TXEL7901    1
+ MODEL          : PRFRM048 - Bahia grass
+ EXPERIMENT     : TXEL7901 BH PENSOCOLA BAHIAGRASS AT EAGLE LAKE, TEXAS, CROW
+ DATA PATH      :
+ TREATMENT  1   : DRYLAND -    0 KG N/HA    PRFRM048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ FRHARV  YEAR DOY = 1978  60
+ File not found. Please check file name or create file.                        
+ File: TXEL7901.MOW                                                            
+    Line:     0                                                                
+    Error key: FRHARV                                                          
+ Simulations terminated.                                                       

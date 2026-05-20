@@ -1,0 +1,15 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:05
+
+*RUN   1        : 86 Good Disease Control   CRGRO048 UFGA8601    1
+ MODEL          : CRGRO048 - Peanut
+ EXPERIMENT     : UFGA8601 PN 1986 RAINFED, FLORUNNER,GOOD VS NO DISEASE CONTROL
+ DATA PATH      :
+ TREATMENT  1   : 86 Good Disease Control   CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1986 149
+ Soil photosynthesis factor (SLPF) = 0.92                                      

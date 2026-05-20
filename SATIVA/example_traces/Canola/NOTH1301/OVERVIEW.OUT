@@ -1,0 +1,154 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:47
+
+*RUN   1        : Sim-0N                    CRGRO048 NOTH1301    1
+ MODEL          : CRGRO048 - Canola
+ EXPERIMENT     : NOTH1301 CN 2013 Nitrogen Rapeseed, West Nipissing, Ontario
+ DATA PATH      :
+ TREATMENT  1   : Sim-0N                    CRGRO048
+
+
+ CROP           : Canola           CULTIVAR : Invigor5440      ECOTYPE :CN0001
+ STARTING DATE  : MAY  5 2013
+ PLANTING DATE  : MAY 16 2013      PLANTS/m2 :    53.0    ROW SPACING :  20.cm
+ WEATHER        : NOTH   2013
+ SOIL           : NOTH030003     TEXTURE : LO    - North Bay
+ SOIL INIT COND : DEPTH:100cm EXTR. H2O:207.2mm  NO3: 71.3kg/ha  NH4:  7.3kg/ha
+ WATER BALANCE  : RAINFED
+ IRRIGATION     : NOT IRRIGATED
+ NITROGEN BAL.  : SOIL-N & N-UPTAKE SIMULATION; NO N-FIXATION
+ N-FERTILIZER   :        4 kg/ha IN     1 APPLICATIONS
+ RESIDUE/MANURE : INITIAL :     0 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:N  PHOSPH :N  PESTS  :N
+                  PHOTO   :L  ET      :R  INFIL:R  HYDROL :R  SOM    :P
+                  CO2     :D  NSWIT   :1  EVAP :R  SOIL   :1  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :N  FERT :R  RESIDUE:A  HARVEST:M
+                  WEATHER :M  TILLAGE :Y
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.153 0.378 0.521 0.225 0.378   1.00   1.40   6.90   4.90   0.50   2.10
+  5- 15 0.153 0.378 0.521 0.225 0.378   1.00   1.40   6.90   4.90   0.50   2.10
+ 15- 30 0.153 0.378 0.521 0.225 0.341   1.00   1.30   6.90   4.90   0.50   2.10
+ 30- 45 0.116 0.318 0.375 0.202 0.318   0.43   1.50   7.03   4.90   0.50   0.27
+ 45- 60 0.111 0.310 0.321 0.199 0.310   0.25   1.50   7.10   4.90   0.50   0.20
+ 60- 80 0.111 0.310 0.321 0.199 0.310   0.25   1.50   7.10   4.90   0.50   0.20
+ 80-100 0.111 0.310 0.321 0.199 0.310   0.25   1.50   7.10   4.90   0.50   0.20
+
+TOT-100  12.4  33.2  38.9  20.7  32.6  <--cm   -  kg/ha-->   71.3    7.3 107550
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT :10.00         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :74.00      DRAINAGE RATE     : 0.40         FERT. FACTOR : 1.00
+
+ Canola           CULTIVAR: CA0001-Invigor5440        ECOTYPE: CN0001
+ CSDVAR :16.00  PPSEN  :-0.01  EMG-FLW:28.50  FLW-FSD:19.00  FSD-PHM : 26.50
+ WTPSD  :0.003  SDPDVR : 22.0  SDFDUR :20.00  PODDUR :10.00  XFRUIT  :  1.00
+ THRESH : 81.0  SDPRO  :0.230  SDLIP   : 0.480
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     Sim-0N                  
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+  5 MAY    0 Start Sim        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+ 16 MAY    0 Sowing           0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+ 27 MAY   11 Emergence        1   0.00   0.0    0  6.7  0.00  0.00  0.00  0.00     0
+ 27 MAY   11 End Juven.       1   0.00   0.0    0  6.7  0.00  0.00  0.00  0.00     0
+  2 JUN   17 Flower Ind       2   0.00   0.7    0  4.4  0.00  0.20  0.00  0.00     0
+  7 JUN   22 Unifoliate       8   0.01   1.3    0  3.9  0.00  0.03  0.00  0.00     0
+  5 JUL   50 First Flwr    1728   1.45   8.8   39  2.3  0.00  0.21  0.00  0.00     1
+  5 JUL   50 End Msnode    1728   1.45   8.8   39  2.3  0.00  0.00  0.00  0.00     1
+  8 JUL   53 End Leaf      2248   1.44   8.8   43  1.9  0.00  0.59  0.00  0.00     1
+ 21 JUL   66 First Pod     4086   1.41   8.8   54  1.3  0.00  0.64  0.00  0.00     3
+ 29 JUL   74 First Seed    5214   1.40   8.8   58  1.1  0.00  0.69  0.00  0.00     5
+ 14 AUG   90 End Pod       7151   1.37   8.8   63  0.9  0.00  0.73  0.00  0.00     5
+ 31 AUG  107 Phys. Mat     7730   1.35   8.8   72  0.9  0.00  0.74  0.00  0.00     7
+  3 SEP  110 Harv. Mat     5755   0.00   8.8   51  0.9  0.00  0.68  0.00  0.00     8
+  3 SEP  110 Harvest       5755   0.00   8.8   51  0.9  0.00  0.00  0.00  0.00     8
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Emergence day (dap)                                     11          -99
+      Anthesis day (dap)                                      50          -99
+      First pod day (dap)                                     66          -99
+      First seed day (dap)                                    74          -99
+      Physiological maturity day (dap)                       107          -99
+      Harvest maturity day (dap)                             110          -99
+      Yield at harvest maturity (kg [dm]/ha)                1271          -99
+      Pod/Ear/Panicle weight at maturity (kg [dm]/ha)       1639          -99
+      Tops weight at anthesis (kg [dm]/ha)                  1728          -99
+      Tops weight at maturity (kg [dm]/ha)                  5755          -99
+      By-product produced (stalk) at maturity (kg[dm]/ha    4480          -99
+      Number at maturity (no/m2)                           45424          -99
+      Unit wt at maturity (g [dm]/unit)                   0.0028          -99
+      Number at maturity (no/unit)                         21.99          -99
+      Harvest index at maturity                            0.221          -99
+      Threshing % at maturity                              77.58          -99
+      Leaf area index, maximum                              1.50          -99
+      Leaf number per stem at maturity                      8.81          -99
+      Canopy height (m)                                     0.64          -99
+      Tops N at anthesis (kg/ha)                              39          -99
+      Tops N at maturity (kg/ha)                              51          -99
+      Stem N at maturity (kg/ha)                              12          -99
+      Grain N at maturity (kg/ha)                             36          -99
+      Grain N at maturity (%)                               2.84          -99
+      Grain oil at maturity (%)                            46.23          -99
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|--------------------------------------Environment--------------------------------------|-----------------Stress-----------------|
+                              |---------------Average--------------|-----Cumulative-----|--------Count of days--------|          (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp  Temp Solar Photop                Evapo    Pot TMIN TMIN TMAX TMAX TMAX RAIN|----Water----|---Nitrogen--|-Phosphorus-|
+                         Span   Max   Min  Mean   Rad  [day]    CO2   Rain  Trans     ET   <    <    >    >    >    >   Photo         Photo         Photo
+                         days     C     C     C MJ/m2     hr    ppm     mm     mm    mm   0 C  2 C 30 C 32 C 34 C  0mm  synth Growth  synth Growth  synth Growth
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Emergence -First Flower   39  21.2  10.7  15.9  21.3  15.38  380.0   92.4  111.3  184.2    0    0    0    0    0   13  0.000  0.000  0.000  0.184  0.000  0.000
+ First Flower-First Seed   24  24.8  12.2  18.5  22.5  15.06  380.0  106.6  102.3  116.8    0    0    3    0    0    9  0.000  0.000  0.000  0.650  0.000  0.000
+ First Seed - Phys. Mat.   33  22.4  11.9  17.2  17.8  13.91  380.0  113.6  121.6  123.9    0    0    0    0    0   17  0.000  0.000  0.000  0.734  0.000  0.000
+ Emergence  - Phys. Mat.   96  22.5  11.5  17.0  20.4  14.80  380.0  312.6  335.2  424.9    0    0    3    0    0   39  0.000  0.000  0.000  0.489  0.000  0.000
+   
+ Planting to Harvest      111  21.7  10.7  16.2  20.2  14.76  380.0  351.9  371.2  481.9    1    3    3    0    0   46  0.000  0.000  0.000  0.442  0.000  0.000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*Resource Productivity
+ Growing season length: 111 days 
+
+ Precipitation during growing season       351.9 mm[rain]
+   Dry Matter Productivity                  1.64 kg[DM]/m3[rain]          =   16.4 kg[DM]/ha per mm[rain]
+   Yield Productivity                       0.36 kg[grain yield]/m3[rain] =    3.6 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season  371.2 mm[ET]
+   Dry Matter Productivity                  1.55 kg[DM]/m3[ET]            =   15.5 kg[DM]/ha per mm[ET]
+   Yield Productivity                       0.34 kg[grain yield]/m3[ET]   =    3.4 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season       149.5 mm[EP]
+   Dry Matter Productivity                  3.85 kg[DM]/m3[EP]            =   38.5 kg[DM]/ha per mm[EP]
+   Yield Productivity                       0.85 kg[grain yield]/m3[EP]   =    8.5 kg[yield]/ha per mm[EP]
+
+ N applied during growing season              4. kg[N applied]/ha
+   Dry Matter Productivity                1438.8 kg[DM]/kg[N applied]
+   Yield Productivity                      317.8 kg[yield]/kg[N applied]
+
+ N uptake during growing season              128 kg[N uptake]/ha
+   Dry Matter Productivity                  45.0 kg[DM]/kg[N uptake]
+   Yield Productivity                        9.9 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+                    Canola YIELD :     1271 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

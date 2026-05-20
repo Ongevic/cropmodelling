@@ -1,0 +1,112 @@
+*EXP.DETAILS: LQPI1602SB EVAPOTRANSPIRATION AND CROP WATER PRODUCTIVITY              
+
+*FILES
+@N  EXP.DATA    AFILE        ADIR
+  1 EXP         LQPI1602.SBA                                                                                 
+@N  SPECIES     SPFILE       SPDIR
+  1 SPE         SBGRO048.SPE C:\DSSAT48\GENOTYPE\                                                            
+@N  ECOTYPE     EFILE        EDIR
+  1 ECO         SBGRO048.ECO C:\DSSAT48\GENOTYPE\                                                            
+@N  CULTIVAR    CFILE        CDIR
+  1 CUL         SBGRO048.CUL C:\DSSAT48\GENOTYPE\                                                            
+@N  SOIL        SFILE        SDIR
+  1 SOIL        UP.SOL       C:\DSSAT48\SOIL\                                                                
+@N  WEATHER     WFILE        WDIR
+  1 WEATH       PIR21601.WTH C:\DSSAT48\Weather\                                                             
+
+*SIMULATION CONTROL
+@N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
+  1 GE              1     1     S 2016288  2150 Exp1_PT_SR                CRGRO048
+@N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+  1 OP              Y     N     Y     N     N     N     N     Y     D
+@N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL METMP MEGHG
+  1 ME              M     M     E     R     S     L     R     1     P     S     2     D     0
+@N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+  1 MA              R     R     R     N     M
+@N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
+  1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     Y     Y     Y
+
+!AUTOMATIC MANAGEM
+@N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+  1 PL              -99     -99   70.  100.   30.   40.   10.
+@N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+  1 IR            30.   50.  100. IB001 IB001  10.0 0.800
+@N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+  1 NI            30.   50.   25. IB001 IB001
+@N  RESIDUES    RIPCN RTIME RIDEP
+  1 RE           100.     1   20.
+@N  HARVEST     HFRST   HLAST HPCNP HRCNR
+  1 HA              0     -99  100.    0.
+
+*TREATMENTS
+@N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
+  1  1 0 0 2016 PT_SR                  1   1   0   1   1   1   0   0   0   1   0   0   1
+
+*CULTIVARS
+@C  CR INGENO CNAME
+  1 SB 990248 BRS 399         
+
+*FIELDS
+@L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL    PMALB  PMWD
+  1 FSFS0002 PIR21601   0.0  -99. DR000  -99.  100.     0 SL     120. UPNITOSSO3-99.00 -99.0
+@L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
+  1        47.63000        22.72000    524.00               1.0  100.   1.0   0.0   -99   -99
+
+*INITIAL CONDITIONS
+@C  PCR     ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+  1 FA    2016288   -99   -99  1.00  1.00 -99.0     0 -9.00 -9.00  -99.  -99.
+@C   ICBL  SH2O  SNH4  SNO3
+  1    5. 0.273   0.1   1.3
+  1   15. 0.273   0.1   1.3
+  1   20. 0.273   0.1   1.3
+  1   30. 0.267   0.1   1.3
+  1   40. 0.314   0.1   1.3
+  1   50. 0.314   0.1   1.3
+  1   60. 0.342   0.1   1.3
+  1   87. 0.342   0.1   1.3
+  1  113. 0.342   0.1   1.3
+  1  140. 0.342   0.1   1.3
+  1  150. 0.325   0.1   1.3
+
+*PLANTING DETAILS
+@P    PDATE   EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+  1 2016319     -99  35.5  35.5     S     R   45.    0.   4.0  -99.  -99. -99.0 -99.0 -99.0
+
+*IRRIGATION
+@I   IEFF  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+  1 0.800   30.   50.  100. GS000 IR001  10.0
+@I    IDATE  IROP IRVAL
+  1 2016325 IR004  16.0
+  1 2016329 IR004  16.0
+  1 2017001 IR004  16.0
+  1 2017005 IR004  16.0
+  1 2017036 IR004  16.0
+  1 2017039 IR004  24.0
+  1 2017042 IR004  24.0
+  1 2017044 IR004  16.0
+  1 2017046 IR004  16.0
+  1 2017048 IR004  22.0
+  1 2017051 IR004  16.0
+  1 2017053 IR004  22.0
+
+*FERTILIZERS
+@F    FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+
+*RESIDUES
+@R    RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET
+
+*CHEMICALS
+@C    CDATE CHCOD CHAMT  CHME CHDEP   CHT
+
+*TILLAGE
+@T    TDATE TIMPL  TDEP
+  1 2016290 TI010  45.0
+  1 2016292 TI019   4.0
+  1 2016292 TI033   8.0
+  1 2016292 TI014  15.0
+
+*ENVIRONMENT
+@E    ODATE  EDAY  ERAD  EMAX  EMIN ERAIN  ECO2  EDEW EWIND
+
+*HARVEST
+@H    HDATE  HSTG  HCOM HSIZE   HPC  HBPC

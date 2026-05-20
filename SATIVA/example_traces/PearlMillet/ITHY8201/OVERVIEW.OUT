@@ -1,0 +1,148 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:08
+
+*RUN   1        : BJ 104, 200 kg N/ha       MLCER048 ITHY8201    1
+ MODEL          : MLCER048 - Pearl millet
+ EXPERIMENT     : ITHY8201 ML ICRISAT HYDERABAD FOUR NITROGEN LEVELS (CARBERRY)
+ DATA PATH      :
+ TREATMENT  1   : BJ 104, 200 kg N/ha       MLCER048
+
+
+ CROP           : Pearl millet     CULTIVAR : BJ104            ECOTYPE :IB0001
+ STARTING DATE  : JUN 16 1982
+ PLANTING DATE  : JUN 17 1982      PLANTS/m2 :    15.0    ROW SPACING :  75.cm
+ WEATHER        : ITHY   1982
+ SOIL           : IBML910083     TEXTURE : -99   -   Medium Alfisol
+ SOIL INIT COND : DEPTH:156cm EXTR. H2O: 95.5mm  NO3: 62.3kg/ha  NH4: 53.5kg/ha
+ WATER BALANCE  : RAINFED
+ IRRIGATION     : NOT IRRIGATED
+ NITROGEN BAL.  : SOIL-N & N-UPTAKE SIMULATION; NO N-FIXATION
+ N-FERTILIZER   :      200 kg/ha IN     1 APPLICATIONS
+ RESIDUE/MANURE : INITIAL :   500 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:N  PHOSPH :N  PESTS  :N
+                  PHOTO   :C  ET      :R  INFIL:S  HYDROL :R  SOM    :G
+                  CO2 341ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :N  FERT :R  RESIDUE:N  HARVEST:M
+                  WEATHER :M  TILLAGE :N
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.060 0.180 0.240 0.120 0.180   1.00   1.51   6.50   1.80   2.50   0.70
+  5- 15 0.060 0.180 0.240 0.120 0.180   1.00   1.51   6.50   1.80   2.50   0.70
+ 15- 22 0.060 0.180 0.240 0.120 0.180   1.00   1.51   6.50   1.80   2.50   0.70
+ 22- 37 0.085 0.195 0.255 0.110 0.195   0.70   1.51   6.50   4.50   3.00   0.66
+ 37- 52 0.085 0.195 0.255 0.110 0.195   0.70   1.51   6.50   4.50   3.00   0.66
+ 52- 67 0.150 0.210 0.270 0.060 0.210   0.30   1.51   6.50   5.00   3.50   0.58
+ 67- 82 0.150 0.210 0.270 0.060 0.210   0.30   1.51   6.50   5.00   3.50   0.58
+ 82-112 0.160 0.200 0.260 0.040 0.200   0.10   1.51   6.50   2.00   2.00   0.43
+112-127 0.173 0.200 0.260 0.027 0.200   0.02   1.52   6.50   0.70   1.00   0.26
+127-156 0.193 0.200 0.260 0.007 0.200   0.01   1.52   6.50   0.60   1.00   0.12
+
+TOT-156  21.4  30.9  40.3   9.5  30.9  <--cm   -  kg/ha-->   62.3   53.5 110123
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT : 6.00         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :60.00      DRAINAGE RATE     : 0.50         FERT. FACTOR : 1.00
+
+ Pearl millet     CULTIVAR: IB0033-BJ104              ECOTYPE: IB0001
+ P1     :181.70  P2O    :14.320  P2R    : 766.3  P5     :334.50
+ G1     :  0.34  G4     :  0.86  PHINT  : 43.00
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     BJ 104, 200 kg N/ha     
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+ 16 JUN    0 Start Sim        0   0.00   0.0    0  0.0  0.00  1.00  0.00  0.00     0
+ 17 JUN    0 Sowing           0   0.00   0.0    0  0.0  0.00  1.00  0.00  0.00     8
+ 18 JUN    1 Germinate        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     9
+ 22 JUN    5 Emergence        1   0.00   0.7    0  5.0  0.00  0.00  0.00  0.00     1
+  2 JUL   15 End Juveni      26   0.05   5.7    2  6.3  0.00  0.00  0.00  0.00     2
+  6 JUL   19 Floral Ini      86   0.16   7.6    5  6.0  0.00  0.02  0.00  0.00     3
+ 30 JUL   43 End Lf Gro    4148   4.72  16.5  114  2.8  0.00  0.06  0.00  0.00     4
+  2 AUG   46 Anthesis      5345   4.79  16.5  114  2.1  0.00  0.06  0.00  0.00     4
+  8 AUG   52 End Pan Gr    7465   4.63  16.5  114  1.5  0.00  0.05  0.00  0.00     5
+ 29 AUG   73 End Mn Fil   11530   1.03  16.5  114  1.0  0.00  0.00  0.00  0.00     5
+  4 SEP   79 End Tlr Fl   12023   0.81  16.5  114  1.0  0.21  0.00  0.00  0.00     6
+  5 SEP   80 Maturity     12023   0.81  16.5  114  1.0  0.49  0.00  0.00  0.00     7
+  5 SEP   80 Harvest      12023   0.81  16.5  114  1.0  0.00  0.00  0.00  0.00     7
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Anthesis day (dap)                                      46           45
+      Physiological maturity day (dap)                        80           80
+      Yield at harvest maturity (kg [dm]/ha)                4714        4587.
+      Number at maturity (no/m2)                           56600          -99
+      Unit wt at maturity (g [dm]/unit)                   0.0083          -99
+      Number at maturity (no/unit)                        3773.3          -99
+      Tops weight at maturity (kg [dm]/ha)                 12023        12820
+      By-product produced (stalk) at maturity (kg[dm]/ha    7309          -99
+      Leaf area index, maximum                              4.78         4.62
+      Harvest index at maturity                            0.392          -99
+      Grain N at maturity (kg/ha)                             47          -99
+      Tops N at maturity (kg/ha)                             114          -99
+      Stem N at maturity (kg/ha)                              67          -99
+      Grain N at maturity (%)                                1.0          -99
+      Tops weight at anthesis (kg [dm]/ha)                  3854          -99
+      Tops N at anthesis (kg/ha)                             110          -99
+      Leaf number per stem at maturity                     16.54          -99
+      Emergence day (dap)                                      5          -99
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|--------------------------------------Environment--------------------------------------|-----------------Stress-----------------|
+                              |---------------Average--------------|-----Cumulative-----|--------Count of days--------|          (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp  Temp Solar Photop                Evapo    Pot TMIN TMIN TMAX TMAX TMAX RAIN|----Water----|---Nitrogen--|-Phosphorus-|
+                         Span   Max   Min  Mean   Rad  [day]    CO2   Rain  Trans     ET   <    <    >    >    >    >   Photo         Photo         Photo
+                         days     C     C     C MJ/m2     hr    ppm     mm     mm    mm   0 C  2 C 30 C 32 C 34 C  0mm  synth Growth  synth Growth  synth Growth
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Emergence-End Juvenile    10  32.4  23.3  27.8  18.6  13.04  341.1   39.7   32.3   53.2    0    0    8    6    3    6  0.000  0.000  0.000  0.000  0.000  0.000
+ End Juvenil-Floral Init    4  34.4  23.9  29.1  22.3  13.02  341.1    0.0    2.9   25.1    0    0    4    4    3    0  0.000  0.000  0.000  0.000  0.000  0.000
+ Floral Init-End Lf Grow   24  30.6  22.4  26.5  17.4  12.93  341.1  105.4   90.3  107.5    0    0   16    6    1   19  0.000  0.000  0.000  0.060  0.000  0.000
+ End Lf Grth-Beg Grn Fil    9  30.6  22.7  26.6  21.1  12.76  341.1   74.4   45.8   45.9    0    0    7    0    0    4  0.000  0.000  0.000  0.060  0.000  0.000
+ Grain Filling Phase       27  30.1  22.3  26.2  16.3  12.50  341.2   57.7   93.1  108.5    0    0   15    3    0   12  0.009  0.029  0.000  0.001  0.000  0.000
+   
+ Planting to Harvest       81  30.9  22.6  26.8  17.9  12.78  341.1  295.8  282.0  375.8    0    0   56   22    9   43  0.009  0.022  0.000  0.037  0.000  0.000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*Resource Productivity
+ Growing season length:  81 days 
+
+ Precipitation during growing season       295.8 mm[rain]
+   Dry Matter Productivity                  4.06 kg[DM]/m3[rain]          =   40.6 kg[DM]/ha per mm[rain]
+   Yield Productivity                       1.59 kg[grain yield]/m3[rain] =   15.9 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season  282.0 mm[ET]
+   Dry Matter Productivity                  4.26 kg[DM]/m3[ET]            =   42.6 kg[DM]/ha per mm[ET]
+   Yield Productivity                       1.67 kg[grain yield]/m3[ET]   =   16.7 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season       188.7 mm[EP]
+   Dry Matter Productivity                  6.37 kg[DM]/m3[EP]            =   63.7 kg[DM]/ha per mm[EP]
+   Yield Productivity                       2.50 kg[grain yield]/m3[EP]   =   25.0 kg[yield]/ha per mm[EP]
+
+ N applied during growing season            200. kg[N applied]/ha
+   Dry Matter Productivity                  60.1 kg[DM]/kg[N applied]
+   Yield Productivity                       23.6 kg[yield]/kg[N applied]
+
+ N uptake during growing season              122 kg[N uptake]/ha
+   Dry Matter Productivity                  98.5 kg[DM]/kg[N uptake]
+   Yield Productivity                       38.6 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+              Pearl millet YIELD :     4714 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

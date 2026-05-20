@@ -1,0 +1,22 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:42
+
+*RUN   1        : clipped                   PRFRM048 UFGA2101    1
+ MODEL          : PRFRM048 - Bahia grass
+ EXPERIMENT     : UFGA2101 BH BEEF RESEARCH UNIT - CLIPPED, UNCLIPPED, AND CLIPP
+ DATA PATH      :
+ TREATMENT  1   : clipped                   PRFRM048
+  
+
+ SOILDYN  YEAR DOY = 2021  91
+ Soil photosynthesis factor (SLPF) = 0.90                                      
+
+ FRHARV  YEAR DOY = 2021  91
+ File not found. Please check file name or create file.                        
+ File: UFGA2101.MOW                                                            
+    Line:     0                                                                
+    Error key: FRHARV                                                          
+ Simulations terminated.                                                       

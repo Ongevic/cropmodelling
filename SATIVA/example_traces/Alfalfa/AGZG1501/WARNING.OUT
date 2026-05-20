@@ -1,0 +1,19 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:41
+
+*RUN   1        : Montanana,SP Irrig        PRFRM048 AGZG1501    1
+ MODEL          : PRFRM048 - Alfalfa
+ EXPERIMENT     : AGZG1501 AL IRRIGATED Aragon, Montanana, SPAIN
+ DATA PATH      :
+ TREATMENT  1   : Montanana,SP Irrig        PRFRM048
+  
+
+ FRHARV  YEAR DOY = 2015 263
+ File not found. Please check file name or create file.                        
+ File: AGZG1501.MOW                                                            
+    Line:     0                                                                
+    Error key: FRHARV                                                          
+ Simulations terminated.                                                       

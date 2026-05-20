@@ -1,0 +1,29 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:10
+
+*RUN   1        : Achirana                           CPSR1302    1
+
+ EXPERIMENT     : CPSR1302 PT CIP 2013 3 CULTIVARS
+ DATA PATH      :
+ TREATMENT  1   : Achirana
+  
+
+ IPEXP   YEAR DOY =    0   0
+ Photosynthesis method (PHOTO in FILEX) has been changed                       
+ from "L" to "C" for compatibility with crop model, PTSUB.                     
+
+ SOILDYN  YEAR DOY = 2013 213
+ Soil photosynthesis factor (SLPF) = 0.70                                      
+
+ IPWTH   YEAR DOY = 2013 213
+ Value of TAV, average annual soil temperature, is missing.                    
+ A default value of 20.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 2013 213
+ Value of TAMP, amplitude of soil temperature function, is missing.            
+ A default value of  5.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         

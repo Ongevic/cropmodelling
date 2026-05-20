@@ -1,0 +1,23 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:31
+
+*RUN   1        : 07-Ctrl"W on"             CRGRO048 UFGA0701    4
+ MODEL          : CRGRO048 - Tomato
+ EXPERIMENT     : UFGA0701 TM SPRING 2007,FLA 47,DRIP-IRR.
+ DATA PATH      :
+ TREATMENT  4   : 07-Ctrl"W on"             CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 2007  46
+ Initial soil water content > SAT.                                             
+                                                                               
+          FileX           Revised                                              
+ Layer  Init SW      SAT  Init SW                                              
+     8    0.400    0.365    0.365                                              
+     9    0.400    0.358    0.358                                              
+
+ SOILDYN  YEAR DOY = 2007  46
+ Soil photosynthesis factor (SLPF) = 0.95                                      

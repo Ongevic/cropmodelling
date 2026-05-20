@@ -1,0 +1,128 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:46
+
+*RUN   1        : No-Stress                 CRGRO048 IBMC9601    1
+ MODEL          : CRGRO048 - Cabbage
+ EXPERIMENT     : IBMC9601 CB MAUKA CAMPUS, UNIV. OF HAWAII
+ DATA PATH      :
+ TREATMENT  1   : No-Stress                 CRGRO048
+
+
+ CROP           : Cabbage          CULTIVAR : Tastie    4      ECOTYPE :CB0401
+ STARTING DATE  : DEC  9 1996
+ PLANTING DATE  : JAN 15 1997      PLANTS/m2 :     5.0    ROW SPACING :  53.cm
+ HARVEST DATE   : MAR 18 1997
+ WEATHER        : IBMC   1996
+ SOIL           : IB00720001     TEXTURE : CLLO  -   Unknown (Mauka Campus)
+ SOIL INIT COND : DEPTH: 51cm EXTR. H2O: 57.1mm  NO3: 33.9kg/ha  NH4: 13.0kg/ha
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)
+ IRRIGATION     :     1053 mm IN    44 APPLICATIONS
+ NITROGEN BAL.  : SOIL-N & N-UPTAKE SIMULATION; NO N-FIXATION
+ N-FERTILIZER   :      378 kg/ha IN     2 APPLICATIONS
+ RESIDUE/MANURE : INITIAL :     0 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:N  PHOSPH :N  PESTS  :N
+                  PHOTO   :L  ET      :R  INFIL:R  HYDROL :R  SOM    :G
+                  CO2 363ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :R  RESIDUE:N  HARVEST:R
+                  WEATHER :M  TILLAGE :N
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.154 0.266 0.365 0.112 0.370   1.00   1.37   6.70   4.80   1.80   3.61
+  5- 15 0.154 0.266 0.365 0.112 0.370   1.00   1.37   6.70   4.80   1.80   3.61
+ 15- 25 0.154 0.266 0.365 0.112 0.370   1.00   1.37   6.70   4.80   1.80   3.61
+ 25- 38 0.154 0.266 0.365 0.112 0.450   1.00   1.32   6.80   5.10   2.00   3.53
+ 38- 51 0.154 0.266 0.365 0.112 0.450   1.00   1.32   6.80   5.10   2.00   3.53
+
+TOT- 51   7.9  13.6  18.6   5.7  21.0  <--cm   -  kg/ha-->   33.9   13.0 244792
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT :10.40         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.60         FERT. FACTOR : 1.00
+
+ Cabbage          CULTIVAR: 990001-Tastie    4        ECOTYPE: CB0401
+ CSDVAR :13.09  PPSEN  : 0.00  EMG-FLW:26.00  FLW-FSD:11.00  FSD-PHM : 55.00
+ WTPSD  :0.250  SDPDVR :  2.2  SDFDUR :23.00  PODDUR :40.00  XFRUIT  :  0.60
+ THRESH : 10.0  SDPRO  :0.180  SDLIP   : 0.020
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     No-Stress               
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+  9 DEC    0 Start Sim        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+ 15 JAN    0 Transplant       8   0.03   4.0    0  4.3  0.00  0.00  0.00  0.00     0
+ 10 FEB   26 First Head     450   0.72  13.7   11  2.4  0.01  0.11  0.00  0.00     3
+ 12 MAR   56 End Msnode    2718   1.36  19.3   68  2.5  0.00  0.14  0.00  0.00     5
+ 18 MAR   62 Harvest       3196   1.30  19.3   70  2.2  0.00  0.18  0.00  0.00     5
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Anthesis day (dap)                                      21          -99
+      First pod day (dap)                                     26          -99
+      First seed day (dap)                                    32          -99
+      Physiological maturity day (dap)                       -99          -99
+      Yield at harvest maturity (kg [dm]/ha)                 178          -99
+      Pod/Ear/Panicle weight at maturity (kg [dm]/ha)       1955          -99
+      Tops weight at anthesis (kg [dm]/ha)                   262          -99
+      Tops weight at maturity (kg [dm]/ha)                  3196          -99
+      By-product produced (stalk) at maturity (kg[dm]/ha    3020          -99
+      Number at maturity (no/m2)                             133          -99
+      Unit wt at maturity (g [dm]/unit)                   0.1339          -99
+      Number at maturity (no/unit)                          1.24          -99
+      Harvest index at maturity                            0.056          -99
+      Threshing % at maturity                               9.11          -99
+      Leaf area index, maximum                              1.45          -99
+      Leaf number per stem at maturity                     19.34          -99
+      Canopy height (m)                                     0.35          -99
+      Tops N at anthesis (kg/ha)                               7          -99
+      Tops N at maturity (kg/ha)                              70          -99
+      Stem N at maturity (kg/ha)                               2          -99
+      Grain N at maturity (kg/ha)                              5          -99
+      Grain N at maturity (%)                               2.83          -99
+      Grain oil at maturity (%)                             1.99          -99
+
+
+*Resource Productivity
+ Growing season length:  63 days 
+
+ Precipitation during growing season       305.0 mm[rain]
+   Dry Matter Productivity                  1.05 kg[DM]/m3[rain]          =   10.5 kg[DM]/ha per mm[rain]
+   Yield Productivity                       0.06 kg[grain yield]/m3[rain] =    0.6 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season  247.9 mm[ET]
+   Dry Matter Productivity                  1.29 kg[DM]/m3[ET]            =   12.9 kg[DM]/ha per mm[ET]
+   Yield Productivity                       0.07 kg[grain yield]/m3[ET]   =    0.7 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season        80.4 mm[EP]
+   Dry Matter Productivity                  3.98 kg[DM]/m3[EP]            =   39.8 kg[DM]/ha per mm[EP]
+   Yield Productivity                       0.22 kg[grain yield]/m3[EP]   =    2.2 kg[yield]/ha per mm[EP]
+
+ Irrigation during growing season         1053.0 mm[irrig]
+   Dry Matter Productivity                  0.30 kg[DM]/m3[irrig]         =    3.0 kg[DM]/ha per mm[irrig]
+   Yield Productivity                       0.02 kg[grain yield]/m3[irrig]=    0.2 kg[yield]/ha per mm[irrig]
+
+ N applied during growing season            378. kg[N applied]/ha
+   Dry Matter Productivity                   8.5 kg[DM]/kg[N applied]
+   Yield Productivity                        0.5 kg[yield]/kg[N applied]
+
+ N uptake during growing season               89 kg[N uptake]/ha
+   Dry Matter Productivity                  35.9 kg[DM]/kg[N uptake]
+   Yield Productivity                        2.0 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+                   Cabbage YIELD :      178 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

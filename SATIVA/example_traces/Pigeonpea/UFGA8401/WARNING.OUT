@@ -1,0 +1,29 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:08
+
+*RUN   1        : 84 IRRIGATED 76W          CRGRO048 UFGA8401    1
+ MODEL          : CRGRO048 - Pigeon pea
+ EXPERIMENT     : UFGA8401 PP IRRIGATED & NON-IRRIGATED, GAINESVILLE, FLORIDA
+ DATA PATH      :
+ TREATMENT  1   : 84 IRRIGATED 76W          CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1984 164
+ Soil photosynthesis factor (SLPF) = 0.92                                      
+
+ SOILDYN  YEAR DOY = 1984 164
+ The CENTURY-based soil-organic-matter module needs                            
+ soil texture data, but the specified soil profile                             
+ does not have those for some layers. The model will                           
+ run with the default 30% clay, 30% silt, 40% sand.                            
+ This may give incorrect results.                                              
+
+ FPLACE  YEAR DOY = 1984 164
+ Invalid fertilizer data in experiment file.                                   
+ Fertilizer type: FE508 Aluminum sulfate                                       
+ Amount N specified:     40.0 kg/ha                                            
+ Check DETAIL.CDE file for valid fertilizer types.                             
+ No N applied on this date.                                                    

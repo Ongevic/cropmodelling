@@ -1,0 +1,34 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:13
+
+*RUN   1        : P2 I1                     RICER048 PULU0001    1
+ MODEL          : RICER048 - Rice
+ EXPERIMENT     : PULU0001 RI PAU, LUDHIANA, WATER BALANCE STUDIES, 2000
+ DATA PATH      :
+ TREATMENT  1   : P2 I1                     RICER048
+  
+
+ IPRES   YEAR DOY =    0   0
+ Residue application   1                                                       
+ Incorporation percentage not specified, and incorporation depth > 0.          
+ Applied residues will be incorporated to a depth of  15.0 cm.                 
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 2000 150
+ Soil photosynthesis factor (SLPF) = 0.90                                      
+
+ IPWTH   YEAR DOY = 2000 150
+ Value of TAV, average annual soil temperature, is missing.                    
+ A default value of 20.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 2000 150
+ Value of TAMP, amplitude of soil temperature function, is missing.            
+ A default value of  5.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         

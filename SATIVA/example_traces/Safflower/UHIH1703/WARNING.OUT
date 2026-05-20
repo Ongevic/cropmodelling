@@ -1,0 +1,35 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:14
+
+*RUN   1        : S1, R1, B1                CRGRO048 UHIH1703    1
+ MODEL          : CRGRO048 - Safflower
+ EXPERIMENT     : UHIH1703 SF TWO CVS * PLANT DENSITY & SPACING; 2017; UNIV OF H
+ DATA PATH      :
+ TREATMENT  1   : S1, R1, B1                CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 2017 111
+ The pH of one or more soil layers at initialization                           
+ was outside the range pH=1-10, which is unlikely.                             
+ It was set by DSSAT to pH=7.                                                  
+
+ TILLAGE  YEAR DOY = 2017 111
+ User-specified tillage depth less than that specified by tillage implement.   
+ Tillage operation date: 2017 114                                              
+ TI005: Chisel plow, straight point                                            
+ Implement depth =        15.0 cm                                              
+ User-specified depth of   8.0 cm will be used.                                
+
+ TILLAGE  YEAR DOY = 2017 111
+ User-specified tillage depth less than that specified by tillage implement.   
+ Tillage operation date: 2017 115                                              
+ TI033: Planter, row                                                           
+ Implement depth =         5.0 cm                                              
+ User-specified depth of   2.0 cm will be used.                                

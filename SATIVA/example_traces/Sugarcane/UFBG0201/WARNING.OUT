@@ -1,0 +1,31 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:26
+
+*RUN   1        : 1743 H2O stress 2002      SCCAN048 UFBG0201    1
+ MODEL          : SCCAN048 - Sugarcane
+ EXPERIMENT     : UFBG0201 SC NEW COEFFICIENT SCREENING
+ DATA PATH      :
+ TREATMENT  1   : 1743 H2O stress 2002      SCCAN048
+  
+
+ SOILDYN  YEAR DOY = 2002 309
+ Organic C data in one or more soil layers are zero or missing.                
+ A minimum value of OC in this layer  will be estimated using soil texture.    
+       Depth  Clay  Silt    OC                                                 
+ Layer  (cm)   (%)   (%)   (%)                                                 
+     1     5   5.0   5.0 45.00                                                 
+     2    15   5.0   5.0 45.00                                                 
+     3    20   5.0   5.0 45.00                                                 
+     4    32   5.0   5.0 46.00                                                 
+     5    45   5.0   5.0 46.00                                                 
+     6    60   5.0   5.0 40.00                                                 
+     7    71   0.0   0.0  0.07 (estimated)                                     
+
+ IPWTH   YEAR DOY = 2003 308
+ Warning: SRAD < 1 MJ.m-2.d-1.                                                 
+ C:\DSSAT48\Weather\UFBG0301.WTH                                               
+ Line      313                                                                 
+ SRAD =   0.90 MJ.m-2.d-1                                                      

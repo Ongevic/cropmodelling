@@ -1,0 +1,15 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:07
+
+*RUN   1        : 85 FLORUNNER, +fungicide  CRGRO048 UFGR8501    1
+ MODEL          : CRGRO048 - Peanut
+ EXPERIMENT     : UFGR8501 PN 1985 4 CULTIVARS, Disease treatments 5-8 deleted
+ DATA PATH      :
+ TREATMENT  1   : 85 FLORUNNER, +fungicide  CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1985 167
+ Soil photosynthesis factor (SLPF) = 0.90                                      

@@ -1,0 +1,15 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:02
+
+*RUN   1        : No Damage                 MZCER048 IUAF9902    1
+ MODEL          : MZCER048 - Maize
+ EXPERIMENT     : IUAF9902 MZ IUAF9902 EXAMPLES OF PEST DAMAGE
+ DATA PATH      :
+ TREATMENT  1   : No Damage                 MZCER048
+  
+
+ MZ_GRO  YEAR DOY = 1999 300
+   Crop mature on JD 300 due to slowed grain filling                           

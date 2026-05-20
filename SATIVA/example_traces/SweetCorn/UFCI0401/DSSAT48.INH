@@ -1,0 +1,135 @@
+*EXP.DETAILS: UFCI0401SW 2004 MICROWEX 2                                             
+
+*FILES
+@N  EXP.DATA    AFILE        ADIR
+  1 EXP         UFCI0401.SWA                                                                                 
+@N  SPECIES     SPFILE       SPDIR
+  1 SPE         SWCER048.SPE C:\DSSAT48\GENOTYPE\                                                            
+@N  ECOTYPE     EFILE        EDIR
+  1 ECO         SWCER048.ECO C:\DSSAT48\GENOTYPE\                                                            
+@N  CULTIVAR    CFILE        CDIR
+  1 CUL         SWCER048.CUL C:\DSSAT48\GENOTYPE\                                                            
+@N  SOIL        SFILE        SDIR
+  1 SOIL        SOIL.SOL     C:\DSSAT48\SOIL\                                                                
+@N  WEATHER     WFILE        WDIR
+  1 WEATH       UFCI0401.WTH C:\DSSAT48\Weather\                                                             
+
+*SIMULATION CONTROL
+@N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
+  1 GE              1     1     S 2004001  2150 DEFAULT SIMULATION CONTR  SWCER048
+@N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+  1 OP              Y     Y     N     N     N     N     N     Y     M
+@N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL METMP MEGHG
+  1 ME              M     M     E     R     S     R     R     1     G     R     2     D     0
+@N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+  1 MA              R     R     R     R     R
+@N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
+  1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     Y     Y     Y
+
+!AUTOMATIC MANAGEM
+@N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+  1 PL              -99     -99   40.  100.   30.   40.   10.
+@N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+  1 IR            30.   90.  100. GS000 IR004  10.0 1.000
+@N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+  1 NI            30.   50.   25. FE001 GS000
+@N  RESIDUES    RIPCN RTIME RIDEP
+  1 RE           100.     1   20.
+@N  HARVEST     HFRST   HLAST HPCNP HRCNR
+  1 HA              0     -99  100.    0.
+
+*TREATMENTS
+@N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
+  1  1 1 0 100% N                      1   1   0   1   1   1   1   0   0   0   0   1   1
+
+*CULTIVARS
+@C  CR INGENO CNAME
+  1 SW SW0002 Saturn sh2      
+
+*FIELDS
+@L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL    PMALB  PMWD
+  1 PINEACRE UFCI0401   0.0  -99. DR000  -99.  100.     0 S      180. IBMZ910214-99.00 -99.0
+@L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
+  1        29.41000       -82.18000     21.00               1.0   99.  99.0  99.0   -99   -99
+
+*INITIAL CONDITIONS
+@C  PCR     ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+  1 SB    2004077     0     0  1.00  1.00 -99.0     0  0.00  0.00  100.    0.
+@C   ICBL  SH2O  SNH4  SNO3
+  1    5. 0.210   0.3   2.3
+  1   15. 0.210   0.3   2.3
+  1   30. 0.210   0.3   2.3
+  1   45. 0.210   0.3   2.3
+  1   60. 0.210   0.3   2.3
+  1   90. 0.210   0.3   2.3
+  1  120. 0.210   0.3   2.3
+  1  150. 0.210   0.3   2.3
+  1  180. 0.210   0.3   2.3
+
+*PLANTING DETAILS
+@P    PDATE   EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+  1 2004078     -99 -99.0   6.1     S     R   76.  -99.   4.0  -99.  -99. -99.0 -99.0 -99.0
+
+*IRRIGATION
+@I   IEFF  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+  1 1.000   30.   75.  -99. GS000 IR001   0.0
+@I    IDATE  IROP IRVAL
+  1 2004078 IR004  17.8
+  1 2004083 IR004  12.7
+  1 2004089 IR004  12.7
+  1 2004091 IR004  12.7
+  1 2004093 IR004  12.7
+  1 2004097 IR004  12.7
+  1 2004098 IR004   2.5
+  1 2004106 IR004   2.5
+  1 2004109 IR004  12.7
+  1 2004111 IR004   2.5
+  1 2004112 IR004   2.5
+  1 2004114 IR004  12.7
+  1 2004118 IR004   6.4
+  1 2004119 IR004  12.7
+  1 2004125 IR004   2.5
+  1 2004127 IR004   2.5
+  1 2004129 IR004  15.2
+  1 2004132 IR004  15.2
+  1 2004133 IR004   5.1
+  1 2004135 IR004  15.2
+  1 2004139 IR004  15.2
+  1 2004140 IR004   3.8
+  1 2004142 IR004  15.2
+  1 2004145 IR004  20.3
+  1 2004147 IR004  20.3
+  1 2004148 IR004   2.5
+  1 2004149 IR004  20.3
+  1 2004151 IR004  20.3
+  1 2004153 IR004  20.3
+
+*FERTILIZERS
+@F    FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+  1 2004078 FE010 AP005    0.   31.  -99.  -99.  -99.  -99.   -99
+  1 2004098 FE010 AP005    0.   31.  -99.  -99.  -99.  -99.   -99
+  1 2004106 FE010 AP005    0.   16.  -99.  -99.  -99.  -99.   -99
+  1 2004111 FE010 AP005    0.   16.  -99.  -99.  -99.  -99.   -99
+  1 2004112 FE010 AP005    0.   40.  -99.  -99.  -99.  -99.   -99
+  1 2004118 FE010 AP005    0.   30.  -99.  -99.  -99.  -99.   -99
+  1 2004125 FE010 AP005    0.   10.  -99.  -99.  -99.  -99.   -99
+  1 2004126 FE010 AP005    0.   10.  -99.  -99.  -99.  -99.   -99
+  1 2004133 FE010 AP005    0.   14.  -99.  -99.  -99.  -99.   -99
+  1 2004140 FE010 AP005    0.   40.  -99.  -99.  -99.  -99.   -99
+  1 2004147 FE010 AP005    0.   14.  -99.  -99.  -99.  -99.   -99
+
+*RESIDUES
+@R    RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET
+
+*CHEMICALS
+@C    CDATE CHCOD CHAMT  CHME CHDEP   CHT
+
+*TILLAGE
+@T    TDATE TIMPL  TDEP
+
+*ENVIRONMENT
+@E    ODATE  EDAY  ERAD  EMAX  EMIN ERAIN  ECO2  EDEW EWIND
+
+*HARVEST
+@H    HDATE  HSTG  HCOM HSIZE   HPC  HBPC
+  1 2004154 GS000     H     A  100.  100.

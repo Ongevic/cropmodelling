@@ -1,0 +1,22 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:42
+
+*RUN   1        : Unfertilized              PRFRM048 UFMA1401    1
+ MODEL          : PRFRM048 - Bahia grass
+ EXPERIMENT     : UFMA1401 BH MARIANNA - NOT FERTILIZED
+ DATA PATH      :
+ TREATMENT  1   : Unfertilized              PRFRM048
+  
+
+ SOILDYN  YEAR DOY = 2014   1
+ Soil photosynthesis factor (SLPF) = 0.82                                      
+
+ FRHARV  YEAR DOY = 2014   1
+ File not found. Please check file name or create file.                        
+ File: UFMA1401.MOW                                                            
+    Line:     0                                                                
+    Error key: FRHARV                                                          
+ Simulations terminated.                                                       

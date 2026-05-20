@@ -1,0 +1,137 @@
+*EXP.DETAILS: IBMC9601CB MAUKA CAMPUS, UNIV. OF HAWAII                               
+
+*FILES
+@N  EXP.DATA    AFILE        ADIR
+  1 EXP         IBMC9601.CBA                                                                                 
+@N  SPECIES     SPFILE       SPDIR
+  1 SPE         CBGRO048.SPE C:\DSSAT48\GENOTYPE\                                                            
+@N  ECOTYPE     EFILE        EDIR
+  1 ECO         CBGRO048.ECO C:\DSSAT48\GENOTYPE\                                                            
+@N  CULTIVAR    CFILE        CDIR
+  1 CUL         CBGRO048.CUL C:\DSSAT48\GENOTYPE\                                                            
+@N  SOIL        SFILE        SDIR
+  1 SOIL        SOIL.SOL     C:\DSSAT48\SOIL\                                                                
+@N  WEATHER     WFILE        WDIR
+  1 WEATH       IBMC9601.WTH C:\DSSAT48\Weather\                                                             
+
+*SIMULATION CONTROL
+@N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
+  1 GE              1     1     S 1996344  2150 TASTIE NO-STRESS          CRGRO048
+@N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+  1 OP              Y     Y     N     N     N     N     N     N     M
+@N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL METMP MEGHG
+  1 ME              M     M     E     R     R     L     R     1     G     R     2     D     0
+@N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+  1 MA              R     R     R     N     R
+@N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
+  1 OU              N     Y     Y     2     Y     Y     Y     Y     N     N     Y     N     N
+
+!AUTOMATIC MANAGEM
+@N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+  1 PL              -99     -99   40.  100.   30.   40.   10.
+@N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+  1 IR            30.   50.  100. GS000 IR001  10.0 0.750
+@N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+  1 NI            30.   50.   25. FE001 GS000
+@N  RESIDUES    RIPCN RTIME RIDEP
+  1 RE           100.     1   20.
+@N  HARVEST     HFRST   HLAST HPCNP HRCNR
+  1 HA              0     -99  100.    0.
+
+*TREATMENTS
+@N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
+  1  1 0 0 No-Stress                   1   1   0   1   1   1   1   0   0   0   0   1   1
+
+*CULTIVARS
+@C  CR INGENO CNAME
+  1 CB 990001 Tastie    4     
+
+*FIELDS
+@L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL    PMALB  PMWD
+  1 IBMC9601 IBMC9601   0.0    0. DR000    0.  100. 00000 CLLO    76. IB00720001-99.00 -99.0
+@L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
+  1         0.00000         0.00000      0.00               1.0  100.   1.0   0.0   -99   -99
+
+*INITIAL CONDITIONS
+@C  PCR     ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+  1 CB    1996344     1     0  1.00  1.00 -99.0     0  0.00  0.00  100.    0.
+@C   ICBL  SH2O  SNH4  SNO3
+  1    5. 0.370   1.8   4.8
+  1   15. 0.370   1.8   4.8
+  1   25. 0.370   1.8   4.8
+  1   38. 0.450   2.0   5.1
+  1   51. 0.450   2.0   5.1
+
+*PLANTING DETAILS
+@P    PDATE   EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+  1 1997015     -99   5.0   5.0     T     R   53.    0.   5.0   10.   13.  22.2 -99.0 -99.0
+
+*IRRIGATION
+@I   IEFF  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+  1 1.000   30.   75.  -99. GS000 IR001   0.0
+@I    IDATE  IROP IRVAL
+  1 1997015 IR004  33.0
+  1 1997016 IR004  34.0
+  1 1997017 IR004  34.0
+  1 1997018 IR004  26.0
+  1 1997021 IR004  25.0
+  1 1997022 IR004  25.0
+  1 1997023 IR004  25.0
+  1 1997024 IR004  20.0
+  1 1997027 IR004  25.0
+  1 1997028 IR004  25.0
+  1 1997029 IR004  25.0
+  1 1997030 IR004  25.0
+  1 1997031 IR004  25.0
+  1 1997032 IR004   8.0
+  1 1997034 IR004  25.0
+  1 1997035 IR004  25.0
+  1 1997036 IR004  25.0
+  1 1997037 IR004  25.0
+  1 1997038 IR004  25.0
+  1 1997041 IR004  25.0
+  1 1997042 IR004  25.0
+  1 1997043 IR004  25.0
+  1 1997044 IR004  25.0
+  1 1997045 IR004  29.0
+  1 1997047 IR004  11.0
+  1 1997050 IR004   2.0
+  1 1997052 IR004   4.0
+  1 1997053 IR004  25.0
+  1 1997055 IR004  10.0
+  1 1997056 IR004  25.0
+  1 1997057 IR004  25.0
+  1 1997058 IR004  25.0
+  1 1997059 IR004  42.0
+  1 1997062 IR004  25.0
+  1 1997063 IR004  25.0
+  1 1997064 IR004  25.0
+  1 1997065 IR004  25.0
+  1 1997066 IR004  25.0
+  1 1997069 IR004  25.0
+  1 1997070 IR004  25.0
+  1 1997071 IR004  25.0
+  1 1997072 IR004  25.0
+  1 1997073 IR004  25.0
+  1 1997074 IR004  25.0
+
+*FERTILIZERS
+@F    FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+  1 1997015 FE005   001    3.  189.  -99.  -99.  -99.  -99.   -99
+  1 1997052 FE005   001    1.  189.  -99.  -99.  -99.  -99.   -99
+
+*RESIDUES
+@R    RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET
+
+*CHEMICALS
+@C    CDATE CHCOD CHAMT  CHME CHDEP   CHT
+
+*TILLAGE
+@T    TDATE TIMPL  TDEP
+
+*ENVIRONMENT
+@E    ODATE  EDAY  ERAD  EMAX  EMIN ERAIN  ECO2  EDEW EWIND
+
+*HARVEST
+@H    HDATE  HSTG  HCOM HSIZE   HPC  HBPC
+  1 1997077 GS000   -99   -99  100.    0.

@@ -1,0 +1,15 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:04
+
+*RUN   1        : IRRIGATED, FLORUNNER      CRGRO048 UFGA7901    1
+ MODEL          : CRGRO048 - Peanut
+ EXPERIMENT     : UFGA7901 PN IRRIGATED, FLORUNNER & STARR
+ DATA PATH      :
+ TREATMENT  1   : IRRIGATED, FLORUNNER      CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1979 128
+ Soil photosynthesis factor (SLPF) = 0.92                                      

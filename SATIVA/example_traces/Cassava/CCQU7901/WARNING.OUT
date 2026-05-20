@@ -1,0 +1,24 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:49
+
+*RUN   1        : C1*E1 MCol-22;Control     CSYCA048 CCQU7901    1
+ MODEL          : CSYCA048 - Cassava
+ EXPERIMENT     : CCQU7901 CS 1979 WATER SUPPLY * TWO CULTIVARS
+ DATA PATH      :
+ TREATMENT  1   : C1*E1 MCol-22;Control     CSYCA048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1979 115
+ The pH of one or more soil layers at initialization                           
+ was outside the range pH=1-10, which is unlikely.                             
+ It was set by DSSAT to pH=7.                                                  
+
+ CSYCA  YEAR DOY = 1979 115
+   NO reserve CH2O included in the wt of leaves,stems,and Plant. stick.        

@@ -1,0 +1,143 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:15
+
+*RUN   1        : 0 N check plot            SGCER048 ITHY8001    1
+ MODEL          : SGCER048 - Sorghum
+ EXPERIMENT     : ITHY8001 SG ICRISAT ALFISOL N 1980 EXPT 80-1
+ DATA PATH      :
+ TREATMENT  1   : 0 N check plot            SGCER048
+
+
+ CROP           : Sorghum          CULTIVAR : CSH-1            ECOTYPE :IB0001
+ STARTING DATE  : JUN 13 1980
+ PLANTING DATE  : JUN 17 1980      PLANTS/m2 :    18.0    ROW SPACING :  45.cm
+ WEATHER        : ITHY   1980
+ SOIL           : IBSG910085     TEXTURE : -99   -   Patencheru
+ SOIL INIT COND : DEPTH:172cm EXTR. H2O:150.8mm  NO3: 76.5kg/ha  NH4: 65.5kg/ha
+ WATER BALANCE  : RAINFED
+ IRRIGATION     : NOT IRRIGATED
+ NITROGEN BAL.  : SOIL-N & N-UPTAKE SIMULATION; NO N-FIXATION
+ N-FERTILIZER   :        0 kg/ha IN     0 APPLICATIONS
+ RESIDUE/MANURE : INITIAL :  1300 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:N  PHOSPH :N  PESTS  :N
+                  PHOTO   :C  ET      :R  INFIL:S  HYDROL :R  SOM    :P
+                  CO2 339ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :N  FERT :R  RESIDUE:N  HARVEST:M
+                  WEATHER :M  TILLAGE :N
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.080 0.220 0.310 0.140 0.080   1.00   1.61   7.00   2.80   4.50   0.85
+  5- 15 0.085 0.220 0.310 0.135 0.085   0.95   1.61   7.00   3.80   4.00   0.70
+ 15- 22 0.090 0.220 0.310 0.130 0.090   0.90   1.61   7.00   4.80   3.50   0.55
+ 22- 37 0.125 0.245 0.315 0.120 0.135   0.70   1.62   7.00   4.50   3.00   0.51
+ 37- 52 0.125 0.245 0.315 0.120 0.135   0.70   1.62   7.00   4.50   3.00   0.51
+ 52- 67 0.150 0.230 0.290 0.080 0.160   0.50   1.64   7.00   5.00   3.50   0.63
+ 67- 82 0.150 0.230 0.290 0.080 0.160   0.50   1.64   7.00   5.00   3.50   0.63
+ 82-112 0.160 0.240 0.310 0.080 0.175   0.10   1.64   7.00   2.00   2.00   0.10
+112-142 0.173 0.240 0.310 0.067 0.200   0.05   1.64   7.00   0.70   1.00   0.10
+142-172 0.193 0.250 0.320 0.057 0.200   0.03   1.64   7.00   0.60   1.00   0.10
+
+TOT-172  25.9  41.0  53.2  15.1  28.0  <--cm   -  kg/ha-->   76.5   65.5  94853
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT : 6.00         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :80.00      DRAINAGE RATE     : 0.30         FERT. FACTOR : 1.00
+
+ Sorghum          CULTIVAR: IB0026-CSH-1              ECOTYPE: IB0001
+ P1     :410.0  P2O    :13.60  P2R    :  40.0  P5     :640.00
+ G1     :  0.0  G2     : 5.98  PHINT  : 49.00  P3     : 152.5  P4    :  81.5
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     0 N check plot          
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+                                                                                    
+ 17 JUN    0 Sowing           0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     8
+ 18 JUN    1 Germinate        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     9
+ 22 JUN    5 Emergence        3   0.00   0.9    0  4.9  0.00  0.00  0.00  0.00     1
+ 12 JUL   25 End Juveni     152   0.64   9.8    8  5.0  0.00  0.00  0.00  0.00     2
+ 18 JUL   31 Panicle In     734   2.06  12.2   30  4.1  0.00  0.01  0.00  0.00     3
+ 14 AUG   58 End Lf Gro    4810   6.37  21.4   77  1.6  0.04  0.06  0.00  0.00     4
+ 23 AUG   67 Anthesis      6614   5.53  21.4   78  1.2  0.00  0.06  0.00  0.00     4
+ 28 AUG   72 End Pan Gr    7989   5.23  21.4   78  1.0  0.00  0.05  0.00  0.00     5
+  4 OCT  109 Maturity     13150   4.13  21.4  108  0.8  0.00  0.24  0.00  0.00     7
+  4 OCT  109 Harvest      13150   4.13  21.4  108  0.8  0.00  0.00  0.00  0.00     7
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Panicle Initiation day (dap)                            31          -99
+      Anthesis day (dap)                                      67          -99
+      Physiological maturity day (dap)                       109          -99
+      Yield at harvest maturity (kg [dm]/ha)                5465         5230
+      Number at maturity (no/m2)                           22478          -99
+      Unit wt at maturity (g [dm]/unit)                   0.0243          -99
+      Number at maturity (no/unit)                        1248.8          -99
+      Tops weight at maturity (kg [dm]/ha)                 13150        10770
+      By-product produced (stalk) at maturity (kg[dm]/ha    7685         5540
+      Leaf area index, maximum                              6.50          -99
+      Harvest index at maturity                            0.416          -99
+      Grain N at maturity (kg/ha)                             80         63.9
+      Tops N at maturity (kg/ha)                             108         89.0
+      Stem N at maturity (kg/ha)                              28         25.5
+      Grain N at maturity (%)                                1.5         1.22
+      Tops weight at anthesis (kg [dm]/ha)                  6423          -99
+      Tops N at anthesis (kg/ha)                              78          -99
+      Leaf number per stem at maturity                     21.39          -99
+      Emergence day (dap)                                      5          -99
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|--------------------------------------Environment--------------------------------------|-----------------Stress-----------------|
+                              |---------------Average--------------|-----Cumulative-----|--------Count of days--------|          (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp  Temp Solar Photop                Evapo    Pot TMIN TMIN TMAX TMAX TMAX RAIN|----Water----|---Nitrogen--|-Phosphorus-|
+                         Span   Max   Min  Mean   Rad  [day]    CO2   Rain  Trans     ET   <    <    >    >    >    >   Photo         Photo         Photo
+                         days     C     C     C MJ/m2     hr    ppm     mm     mm    mm   0 C  2 C 30 C 32 C 34 C  0mm  synth Growth  synth Growth  synth Growth
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Emergence-End Juvenile    20  32.1  23.4  27.8  15.5  13.02  338.6   39.8   36.0   86.3    0    0   16   14    4    9  0.000  0.000  0.000  0.004  0.000  0.000
+ End Juvenil-Panicle Ini    6  30.8  23.6  27.2  14.6  12.95  338.7    9.4   20.3   22.8    0    0    5    1    0    3  0.000  0.000  0.000  0.000  0.000  0.000
+ Panicle Ini-End Lf Grow   27  28.8  22.2  25.5  14.0  12.78  338.8  156.4   86.9   90.3    0    0    8    3    0   21  0.017  0.036  0.000  0.060  0.000  0.000
+ End Lf Grth-Beg Grn Fil   14  28.8  21.9  25.4  15.2  12.50  338.9  232.2   50.0   50.0    0    0    3    0    0   10  0.000  0.000  0.000  0.060  0.000  0.000
+ Grain Filling Phase       36  29.9  21.7  25.8  18.4  12.09  339.0  153.2  158.6  158.7    0    0   21    3    0   12  0.000  0.000  0.064  0.245  0.000  0.000
+   
+ Planting to Harvest      110  30.1  22.3  26.2  16.4  12.56  338.8  591.8  373.5  449.5    0    0   59   27    6   56  0.004  0.009  0.021  0.104  0.000  0.000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*Resource Productivity
+ Growing season length: 110 days 
+
+ Precipitation during growing season       591.8 mm[rain]
+   Dry Matter Productivity                  2.22 kg[DM]/m3[rain]          =   22.2 kg[DM]/ha per mm[rain]
+   Yield Productivity                       0.92 kg[grain yield]/m3[rain] =    9.2 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season  373.5 mm[ET]
+   Dry Matter Productivity                  3.52 kg[DM]/m3[ET]            =   35.2 kg[DM]/ha per mm[ET]
+   Yield Productivity                       1.46 kg[grain yield]/m3[ET]   =   14.6 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season       307.5 mm[EP]
+   Dry Matter Productivity                  4.28 kg[DM]/m3[EP]            =   42.8 kg[DM]/ha per mm[EP]
+   Yield Productivity                       1.78 kg[grain yield]/m3[EP]   =   17.8 kg[yield]/ha per mm[EP]
+
+ N uptake during growing season              119 kg[N uptake]/ha
+   Dry Matter Productivity                 110.5 kg[DM]/kg[N uptake]
+   Yield Productivity                       45.9 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+                   Sorghum YIELD :     5465 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

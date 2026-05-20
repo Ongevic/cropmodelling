@@ -1,0 +1,24 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:55
+
+*RUN   1        : 1982 Study                CRGRO048 IUAM9801    1
+ MODEL          : CRGRO048 - Fallow
+ EXPERIMENT     : IUAM9801 FA BARE SOIL TEMPERATURE STUDY, AMES, IOWA
+ DATA PATH      :
+ TREATMENT  1   : 1982 Study                CRGRO048
+  
+
+ IPWTH   YEAR DOY = 1982 292
+ Warning: SRAD < 1 MJ.m-2.d-1.                                                 
+ C:\DSSAT48\Weather\AMES8201.WTH                                               
+ Line      297                                                                 
+ SRAD =   0.60 MJ.m-2.d-1                                                      
+
+ IPWTH   YEAR DOY = 1982 301
+ Warning: SRAD < 1 MJ.m-2.d-1.                                                 
+ C:\DSSAT48\Weather\AMES8201.WTH                                               
+ Line      306                                                                 
+ SRAD =   0.50 MJ.m-2.d-1                                                      

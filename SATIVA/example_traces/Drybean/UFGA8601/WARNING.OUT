@@ -1,0 +1,15 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:53
+
+*RUN   1        : PORRILLO SINTETICO DAILY  CRGRO048 UFGA8601    1
+ MODEL          : CRGRO048 - Dry bean
+ EXPERIMENT     : UFGA8601 BN 2 CULTIVARS, 5 IRRIGATION TREATMENTS
+ DATA PATH      :
+ TREATMENT  1   : PORRILLO SINTETICO DAILY  CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1986  84
+ Soil photosynthesis factor (SLPF) = 0.92                                      

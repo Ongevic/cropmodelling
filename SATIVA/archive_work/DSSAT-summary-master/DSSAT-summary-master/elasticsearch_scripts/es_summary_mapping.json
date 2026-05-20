@@ -1,0 +1,22 @@
+{
+ "mappings" : {
+  "sampling" : {
+   "properties" : {
+    "brute.RUN" : { "type": "integer", "index" : "true" },
+    "brute.DATE" : { "type": "date", "format": "yyyy-MM-dd", "index" : "true" },
+    "brute.TR" : { "type" : "integer" },
+	"brute.meas.LAID" : { "type" : "double" },
+    "brute.out.LAID" : { "type" : "double" },
+	"brute.meas.CWAD" : { "type" : "double" },
+    "brute.out.CWAD" : { "type" : "double" },
+	"brute.meas.LWAD" : { "type" : "double" },
+    "brute.out.LWAD" : { "type" : "double" },
+	"brute.meas.GWAD" : { "type" : "double" },
+    "brute.out.GWAD" : { "type" : "double" },
+	"brute.meas.HAID" : { "type" : "double" },
+    "brute.out.HAID" : { "type" : "double" },
+	"brute.id" : { "type" : "text", "index" : "true" }
+   }
+  }
+ }
+}

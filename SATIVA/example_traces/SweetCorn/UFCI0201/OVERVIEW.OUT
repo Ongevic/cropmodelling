@@ -1,0 +1,142 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:28
+
+*RUN   1        : 0N                        SWCER048 UFCI0201    1
+ MODEL          : SWCER048 - Sweet corn
+ EXPERIMENT     : UFCI0201 SW 2002 SWEET CORN NRATE STUDY
+ DATA PATH      :
+ TREATMENT  1   : 0N                        SWCER048
+
+
+ CROP           : Sweet corn       CULTIVAR : GSS0966 sh2      ECOTYPE :IB0001
+ STARTING DATE  : JAN  1 2002
+ PLANTING DATE  : APR 26 2002      PLANTS/m2 :     5.5    ROW SPACING :  76.cm
+ HARVEST DATE   : JUL  4 2002
+ WEATHER        : UFCI   2002
+ SOIL           : IBMZ910214     TEXTURE : S     -   Millhopper Fine Sand
+ SOIL INIT COND : DEPTH:180cm EXTR. H2O: 99.9mm  NO3:  3.0kg/ha  NH4:  3.0kg/ha
+ WATER BALANCE  : AUTOMATIC IRRIGATION - REFILL PROFILE
+ IRRIGATION     : AUTOMATIC [SOIL DEPTH: 0.30 m 90.%]
+ NITROGEN BAL.  : SOIL-N & N-UPTAKE SIMULATION; NO N-FIXATION
+ N-FERTILIZER   :        0 kg/ha IN     0 APPLICATIONS
+ RESIDUE/MANURE : INITIAL :  1000 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:N  PHOSPH :N  PESTS  :N
+                  PHOTO   :R  ET      :R  INFIL:S  HYDROL :R  SOM    :G
+                  CO2 372ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :A  FERT :R  RESIDUE:R  HARVEST:R
+                  WEATHER :M  TILLAGE :Y
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.026 0.096 0.345 0.070 0.056   1.00   1.66   7.00   0.10   0.10   0.67
+  5- 15 0.025 0.105 0.345 0.080 0.056   1.00   1.66   7.00   0.10   0.10   0.67
+ 15- 30 0.075 0.120 0.345 0.045 0.056   0.70   1.66   7.00   0.10   0.10   0.17
+ 30- 45 0.025 0.086 0.345 0.061 0.056   0.30   1.66   7.00   0.10   0.10   0.17
+ 45- 60 0.025 0.072 0.345 0.047 0.056   0.30   1.66   7.00   0.10   0.10   0.17
+ 60- 90 0.028 0.072 0.345 0.044 0.076   0.10   1.66   7.00   0.10   0.10   0.17
+ 90-120 0.028 0.080 0.345 0.052 0.076   0.10   1.66   7.00   0.10   0.10   0.18
+120-150 0.029 0.090 0.345 0.061 0.050   0.05   1.66   7.00   0.10   0.10   0.15
+150-180 0.029 0.090 0.345 0.061 0.130   0.05   1.66   7.00   0.10   0.10   0.10
+
+TOT-180   5.7  15.7  62.1  10.0  13.3  <--cm   -  kg/ha-->    3.0    3.0  59262
+SOIL ALBEDO    : 0.18      EVAPORATION LIMIT : 2.00         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :60.00      DRAINAGE RATE     : 0.65         FERT. FACTOR : 0.92
+
+ Sweet corn       CULTIVAR: SW0001-GSS0966 sh2        ECOTYPE: IB0001
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     0N                      
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+  1 JAN    0 Start Sim        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     7
+ 26 APR    0 Sowing           0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     8
+ 27 APR    1 Germinate        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     9
+  1 MAY    5 Emergence       22   0.00   2.1    1  4.4  0.00  0.01  0.00  0.00     1
+  8 MAY   12 End Juveni      46   0.10   5.9    1  2.1  0.00  0.03  0.00  0.00     2
+ 13 MAY   17 Floral Ini      79   0.15   8.2    1  1.3  0.00  0.67  0.00  0.00     3
+ 12 JUN   47 75% Silkin     320   0.12  17.4    2  0.6  0.00  0.88  0.00  0.00     4
+ 21 JUN   56 Beg Gr Fil     342   0.08  17.4    2  0.7  0.00  0.86  0.00  0.00     5
+  4 JUL   69 Harvest        372   0.05  17.4    2  0.6  0.00  0.81  0.00  0.00     5
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Anthesis day (dap)                                      47          -99
+      Physiological maturity day (dap)                       -99           69
+      Yield at harvest maturity (kg [dm]/ha)                  30          259
+      Number at maturity (no/m2)                              20          -99
+      Unit wt at maturity (g [dm]/unit)                   0.1476          -99
+      Number at maturity (no/unit)                           4.2          -99
+      Tops weight at maturity (kg [dm]/ha)                   372         1563
+      By-product produced (stalk) at maturity (kg[dm]/ha     348          -99
+      Leaf area index, maximum                              0.17          1.3
+      Harvest index at maturity                            0.080          -99
+      Grain N at maturity (kg/ha)                              0          -99
+      Tops N at maturity (kg/ha)                               2          -99
+      Stem N at maturity (kg/ha)                               2          -99
+      Grain N at maturity (%)                                0.6          -99
+      Tops weight at anthesis (kg [dm]/ha)                   311          -99
+      Tops N at anthesis (kg/ha)                               2          -99
+      Leaf number per stem at maturity                     17.43          -99
+      Emergence day (dap)                                      5          -99
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|--------------------------------------Environment--------------------------------------|-----------------Stress-----------------|
+                              |---------------Average--------------|-----Cumulative-----|--------Count of days--------|          (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp  Temp Solar Photop                Evapo    Pot TMIN TMIN TMAX TMAX TMAX RAIN|----Water----|---Nitrogen--|-Phosphorus-|
+                         Span   Max   Min  Mean   Rad  [day]    CO2   Rain  Trans     ET   <    <    >    >    >    >   Photo         Photo         Photo
+                         days     C     C     C MJ/m2     hr    ppm     mm     mm    mm   0 C  2 C 30 C 32 C 34 C  0mm  synth Growth  synth Growth  synth Growth
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Emergence-End Juvenile     7  33.1  19.2  26.1  22.4  13.22  372.5   49.8   17.0   42.6    0    0    7    4    2    4  0.000  0.000  0.002  0.004  0.000  0.000
+ End Juvenil-Floral Init    5  34.4  18.4  26.4  23.1  13.36  372.5  143.8   18.1   31.9    0    0    5    5    4    5  0.000  0.000  0.312  0.552  0.000  0.000
+ Floral Init-End Lf Grow   30  31.3  17.7  24.5  19.5  13.67  372.6  137.4   77.2  152.7    0    0   22   13    4   13  0.000  0.000  0.651  0.876  0.000  0.000
+ End Lf Grth-Beg Grn Fil    9  30.9  21.2  26.0  16.5  13.88  372.8   36.5   24.7   40.7    0    0    6    5    3    7  0.000  0.000  0.643  0.869  0.000  0.000
+ Grain Filling Phase       14  30.2  21.3  25.8  15.1  13.87  372.9  124.4   36.0   57.9    0    0    9    2    0   13  0.000  0.000  0.571  0.809  0.000  0.000
+   
+ Planting to Harvest       69  31.5  19.1  25.3  18.9  13.62  372.7  499.1  184.8  350.3    0    0   53   33   13   43  0.000  0.000  0.498  0.688  0.000  0.000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*Resource Productivity
+ Growing season length:  69 days 
+
+ Precipitation during growing season       499.1 mm[rain]
+   Dry Matter Productivity                  0.07 kg[DM]/m3[rain]          =    0.7 kg[DM]/ha per mm[rain]
+   Yield Productivity                       0.01 kg[grain yield]/m3[rain] =    0.1 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season  184.8 mm[ET]
+   Dry Matter Productivity                  0.20 kg[DM]/m3[ET]            =    2.0 kg[DM]/ha per mm[ET]
+   Yield Productivity                       0.02 kg[grain yield]/m3[ET]   =    0.2 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season        23.6 mm[EP]
+   Dry Matter Productivity                  1.57 kg[DM]/m3[EP]            =   15.7 kg[DM]/ha per mm[EP]
+   Yield Productivity                       0.13 kg[grain yield]/m3[EP]   =    1.3 kg[yield]/ha per mm[EP]
+
+ Irrigation during growing season          368.0 mm[irrig]
+   Dry Matter Productivity                  0.10 kg[DM]/m3[irrig]         =    1.0 kg[DM]/ha per mm[irrig]
+   Yield Productivity                       0.01 kg[grain yield]/m3[irrig]=    0.1 kg[yield]/ha per mm[irrig]
+
+ N uptake during growing season                2 kg[N uptake]/ha
+   Dry Matter Productivity                 185.8 kg[DM]/kg[N uptake]
+   Yield Productivity                       15.0 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+                Sweet corn YIELD :       30 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

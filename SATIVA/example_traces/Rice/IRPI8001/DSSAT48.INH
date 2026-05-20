@@ -1,0 +1,131 @@
+*EXP.DETAILS: IRPI8001RI IRRI, LOS BANOS, IRRIG. & N STUDY, 1980                     
+
+*FILES
+@N  EXP.DATA    AFILE        ADIR
+  1 EXP         IRPI8001.RIA                                                                                 
+@N  SPECIES     SPFILE       SPDIR
+  1 SPE         RICER048.SPE C:\DSSAT48\GENOTYPE\                                                            
+@N  ECOTYPE     EFILE        EDIR
+  1 ECO         RICER048.ECO C:\DSSAT48\GENOTYPE\                                                            
+@N  CULTIVAR    CFILE        CDIR
+  1 CUL         RICER048.CUL C:\DSSAT48\GENOTYPE\                                                            
+@N  SOIL        SFILE        SDIR
+  1 SOIL        SOIL.SOL     C:\DSSAT48\SOIL\                                                                
+@N  WEATHER     WFILE        WDIR
+  1 WEATH       IRPI8001.WTH C:\DSSAT48\Weather\                                                             
+
+*SIMULATION CONTROL
+@N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
+  1 GE              1     1     S 1980001  2150 IRRI, LOS BANOS, IRRIG.   RICER048
+@N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+  1 OP              Y     Y     N     N     N     N     N     N     M
+@N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL METMP MEGHG
+  1 ME              M     M     E     R     S     C     R     1     G     R     2     D     0
+@N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+  1 MA              R     R     R     R     M
+@N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
+  1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+
+!AUTOMATIC MANAGEM
+@N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+  1 PL              -99     -99   40.  100.   30.   40.   10.
+@N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+  1 IR            30.   50.  100. IB001 IB001  10.0 0.900
+@N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+  1 NI            30.   50.   25. IB001 IB001
+@N  RESIDUES    RIPCN RTIME RIDEP
+  1 RE           100.     1   20.
+@N  HARVEST     HFRST   HLAST HPCNP HRCNR
+  1 HA              0     -99  100.    0.
+
+*TREATMENTS
+@N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
+  1  1 0 0 IR36, 120 kg N/ha, W1 irr   1   1   0   1   1   1   1   1   0   0   0   0   1
+
+*CULTIVARS
+@C  CR INGENO CNAME
+  1 RI IB0003 IR 36           
+
+*FIELDS
+@L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL    PMALB  PMWD
+  1 IRPI0001 IRPI8001   0.0    0. DR000    0.  100. 00000 -99      0. IBRI910023-99.00 -99.0
+@L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
+  1         0.00000         0.00000      0.00               1.0  100.   1.0   0.0   -99   -99
+
+*INITIAL CONDITIONS
+@C  PCR     ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+  1 RI    1980001   200     0  1.00  1.00 -99.0     0  0.00  0.00  100.   15.
+@C   ICBL  SH2O  SNH4  SNO3
+  1    5. 0.397  18.0   8.7
+  1   15. 0.397  15.0   5.0
+  1   29. 0.392   3.0   4.1
+  1   38. 0.264   3.0   3.8
+  1   47. 0.264   2.0   3.5
+  1   58. 0.235   2.0   3.5
+  1   69. 0.235   0.5   0.5
+  1   96. 0.213   0.5   0.5
+  1  123. 0.213   0.5   0.5
+  1  135. 0.238   0.5   0.5
+
+*PLANTING DETAILS
+@P    PDATE   EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+  1 1980009     -99 200.0 200.0     S     H   25.    0.   2.5  -99.    0.   0.0   3.0   0.0
+
+*IRRIGATION
+@I   IEFF  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+  1 1.000   30.   75.  -99. GS000 IR001   0.0
+@I    IDATE  IROP IRVAL
+  1 1980009 IR001  27.0
+  1 1980012 IR001  26.0
+  1 1980016 IR001  26.0
+  1 1980022 IR001  25.0
+  1 1980029 IR001  28.0
+  1 1980033 IR001  27.0
+  1 1980040 IR001  31.0
+  1 1980044 IR001  14.0
+  1 1980047 IR001  11.0
+  1 1980051 IR001  28.0
+  1 1980054 IR001  23.0
+  1 1980057 IR001  28.0
+  1 1980059 IR001   8.0
+  1 1980062 IR001  17.0
+  1 1980065 IR001  18.0
+  1 1980067 IR001  11.0
+  1 1980069 IR001  10.0
+  1 1980071 IR001   8.0
+  1 1980073 IR001  15.0
+  1 1980075 IR001  13.0
+  1 1980078 IR001  27.0
+  1 1980080 IR001  16.0
+  1 1980083 IR001  19.0
+  1 1980092 IR001  23.0
+  1 1980096 IR001  22.0
+  1 1980101 IR001  24.0
+  1 1980103 IR001  15.0
+  1 1980105 IR001  14.0
+  1 1980107 IR001  11.0
+  1 1980110 IR001  19.0
+  1 1980113 IR001   5.0
+  1 1980114 IR001  14.0
+  1 1980117 IR001  20.0
+  1 1980123 IR001  15.0
+
+*FERTILIZERS
+@F    FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+  1 1980008 FE005 AP001   10.  120.  -99.  -99.  -99.  -99.   -99
+
+*RESIDUES
+@R    RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET
+  1 1980001 RE001   500  0.50  0.00  0.00  100.   15.   -99
+
+*CHEMICALS
+@C    CDATE CHCOD CHAMT  CHME CHDEP   CHT
+
+*TILLAGE
+@T    TDATE TIMPL  TDEP
+
+*ENVIRONMENT
+@E    ODATE  EDAY  ERAD  EMAX  EMIN ERAIN  ECO2  EDEW EWIND
+
+*HARVEST
+@H    HDATE  HSTG  HCOM HSIZE   HPC  HBPC

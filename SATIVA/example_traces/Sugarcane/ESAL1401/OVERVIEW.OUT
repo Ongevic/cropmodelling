@@ -1,0 +1,122 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:25
+
+*RUN   1        : WithoutMulch Ratoon2      SCCAN048 ESAL1401    1
+ MODEL          : SCCAN048 - Sugarcane
+ EXPERIMENT     : ESAL1401 SC SUGARCANE GROWTH - FAZENDA AREAO (ESALQ)
+ DATA PATH      :
+ TREATMENT  1   : WithoutMulch Ratoon2      SCCAN048
+
+
+ CROP           : Sugarcane        CULTIVAR : RB867515         ECOTYPE :SC0016
+ STARTING DATE  : JUL 14 2014
+ PLANTING DATE  : JUL 15 2014      PLANTS/m2 :     1.5    ROW SPACING : 140.cm
+ HARVEST DATE   : JUN  7 2015
+ WEATHER        : SPFA   2014
+ SOIL           : BRPI020003     TEXTURE : C     - TERRA ROXA
+ SOIL INIT COND : DEPTH:120cm EXTR. H2O:111.9mm  NO3:  0.0kg/ha  NH4:  0.0kg/ha
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)
+ IRRIGATION     :      150 mm IN     5 APPLICATIONS
+ NITROGEN BAL.  : NOT SIMULATED ; NO N-STRESS
+ N-FERTILIZER   :
+ RESIDUE/MANURE :
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:N  N-FIX:N  PHOSPH :N  PESTS  :N
+                  PHOTO   :C  ET      :F  INFIL:N  HYDROL :R  SOM    :G
+                  CO2     :D  NSWIT   :1  EVAP :R  SOIL   :3  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :R  RESIDUE:N  HARVEST:R
+                  WEATHER :M  TILLAGE :N
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0- 10 0.216 0.285 0.380 0.069 0.320   0.80   1.23   5.00   1.00   0.10   1.47
+ 10- 15 0.240 0.303 0.352 0.063 0.320   1.00   1.13   5.50   1.00   0.10   1.11
+ 15- 30 0.278 0.347 0.390 0.069 0.320   0.90   1.08   5.50   1.00   0.10   0.90
+ 30- 45 0.278 0.347 0.390 0.069 0.320   0.70   1.08   5.50   1.00   0.10   0.90
+ 45- 60 0.307 0.394 0.428 0.087 0.380   0.50   1.08   5.50   1.00   0.10   0.90
+ 60- 75 0.307 0.394 0.428 0.087 0.360   0.30   1.08   5.50   1.00   0.10   0.90
+ 75- 90 0.307 0.394 0.428 0.087 0.320   0.10   1.08   5.50   1.00   0.10   0.90
+ 90-120 0.253 0.393 0.456 0.140 0.320   0.05   1.08   5.50   1.00   0.10   0.90
+
+TOT-120  33.1  44.3  50.2  11.2  39.9  <--cm   -  kg/ha-->    0.0    0.0      0
+SOIL ALBEDO    : 0.14      EVAPORATION LIMIT : 9.10         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :72.00      DRAINAGE RATE     : 0.30         FERT. FACTOR : 1.00
+
+ Sugarcane        CULTIVAR: RB7515-RB867515           ECOTYPE: SC0016
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     WithoutMulch Ratoon2    
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+ 14 JUL    0 Start sim        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+ 21 JUL    6 Emergence        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+ 16 NOV  124 Peak popul   11976   1.14   0.0    0  0.0  0.02  0.00  0.00  0.00     0
+  7 JUN  327 Harvest      74192  17.15   0.0    0  0.0  0.16  0.00  0.00  0.00     0
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Sucrose dry mass at harvest (t/ha)                   16.11          -99
+      Aerial dry biomass at harvest (t/ha)                 74.19          -99
+      Stalk (millable) dry mass at harvest (t/ha)          32.85          -99
+      Trash (residue) dry mass at harvest (t/ha)           21.71          -99
+      Green leaf area index at harvest (m2/m2)              4.67          -99
+      Leaf area index, maximum                              5.83          -99
+      Canopy height (m)                                     3.38          -99
+      Harvest index at maturity                             0.49          -99
+      Leaf number per stem at maturity                     10.00          -99
+      Emergence day (dap)                                      6          -99
+      Fresh cane yield (t/ha)                              117.9          -99
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|--------------------------------------Environment--------------------------------------|-----------------Stress-----------------|
+                              |---------------Average--------------|-----Cumulative-----|--------Count of days--------|          (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp  Temp Solar Photop                Evapo    Pot TMIN TMIN TMAX TMAX TMAX RAIN|----Water----|---Nitrogen--|-Phosphorus-|
+                         Span   Max   Min  Mean   Rad  [day]    CO2   Rain  Trans     ET   <    <    >    >    >    >   Photo         Photo         Photo
+                         days     C     C     C MJ/m2     hr    ppm     mm     mm    mm   0 C  2 C 30 C 32 C 34 C  0mm  synth Growth  synth Growth  synth Growth
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Planting to Emergence      6  23.2  10.6  16.9  16.6  10.76  380.0    2.5   13.9   18.2    0    0    0    0    0    1  0.000  0.000  0.000  0.000  0.000  0.000
+ Emergence->Stk Elongatn  322  27.6  16.3  22.0  21.0  12.18  380.0  981.7 1046.7 1425.4    0    0   72   27    0  121  0.042  0.109  0.000  0.000  0.000  0.000
+   
+ Emergence to Harvest     322  27.6  16.3  22.0  21.0  12.18  380.0  981.7 1046.7 1425.4    0    0   72   27    0  121  0.042  0.109  0.000  0.000  0.000  0.000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*Resource Productivity
+ Growing season length: 322 days 
+
+ Precipitation during growing season       981.7 mm[rain]
+   Dry Matter Productivity                  7.56 kg[DM]/m3[rain]          =   75.6 kg[DM]/ha per mm[rain]
+   Yield Productivity                       1.64 kg[grain yield]/m3[rain] =   16.4 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season 1046.7 mm[ET]
+   Dry Matter Productivity                  7.09 kg[DM]/m3[ET]            =   70.9 kg[DM]/ha per mm[ET]
+   Yield Productivity                       1.54 kg[grain yield]/m3[ET]   =   15.4 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season       785.4 mm[EP]
+   Dry Matter Productivity                  9.45 kg[DM]/m3[EP]            =   94.5 kg[DM]/ha per mm[EP]
+   Yield Productivity                       2.05 kg[grain yield]/m3[EP]   =   20.5 kg[yield]/ha per mm[EP]
+
+ Irrigation during growing season          150.0 mm[irrig]
+   Dry Matter Productivity                 49.46 kg[DM]/m3[irrig]         =  494.6 kg[DM]/ha per mm[irrig]
+   Yield Productivity                      10.74 kg[grain yield]/m3[irrig]=  107.4 kg[yield]/ha per mm[irrig]
+
+--------------------------------------------------------------------------------------------------------------
+
+                 Sugarcane YIELD :    16107 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

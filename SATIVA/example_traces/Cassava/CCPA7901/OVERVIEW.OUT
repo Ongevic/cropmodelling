@@ -1,0 +1,154 @@
+*SIMULATION OVERVIEW FILE
+  
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:48
+
+*RUN   1        : C1 MCol-1684              CSYCA048 CCPA7901    1
+ MODEL          : CSYCA048 - Cassava
+ EXPERIMENT     : CCPA7901 CS 1979 FOUR CULTIVARS
+ DATA PATH      :
+ TREATMENT  1   : C1 MCol-1684              CSYCA048
+
+
+ CROP           : Cassava          CULTIVAR : MCol-1684        ECOTYPE :990003
+ STARTING DATE  : JUL 13 1979
+ PLANTING DATE  : JUL 13 1979      PLANTS/m2 :     1.0    ROW SPACING : 100.cm
+ HARVEST DATE   : JAN  7 1980
+ WEATHER        : CCPA   1979
+ SOIL           : CCPA000030     TEXTURE : -99   -   Silty Clay Loam
+ SOIL INIT COND : DEPTH:209cm EXTR. H2O:279.5mm  NO3:  0.0kg/ha  NH4:  0.0kg/ha
+ WATER BALANCE  : RAINFED
+ IRRIGATION     : NOT IRRIGATED
+ NITROGEN BAL.  : NOT SIMULATED ; NO N-STRESS
+ N-FERTILIZER   :
+ RESIDUE/MANURE :
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:N  N-FIX:N  PHOSPH :N  PESTS  :N
+                  PHOTO   :V  ET      :H  INFIL:S  HYDROL :R  SOM    :G
+                  CO2 337ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :N  FERT :N  RESIDUE:N  HARVEST:R
+                  WEATHER :M  TILLAGE :Y
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.204 0.340 0.392 0.136 0.340   1.00   1.45   6.90   0.00   0.00   2.19
+  5- 15 0.204 0.340 0.392 0.136 0.340   1.00   1.45   6.90   0.00   0.00   2.19
+ 15- 25 0.209 0.345 0.390 0.136 0.345   0.75   1.45   7.20   0.00   0.00   1.21
+ 25- 35 0.209 0.345 0.390 0.136 0.345   0.50   1.45   7.20   0.00   0.00   1.21
+ 35- 50 0.198 0.335 0.390 0.137 0.335   0.35   1.49   8.00   0.00   0.00   0.53
+ 50- 65 0.185 0.323 0.395 0.138 0.323   0.20   1.58   8.20   0.00   0.00   0.20
+ 65- 80 0.185 0.323 0.395 0.138 0.323   0.15   1.58   8.20   0.00   0.00   0.20
+ 80- 99 0.201 0.328 0.408 0.127 0.328   0.10   1.54   8.10   0.00   0.00   0.10
+ 99-122 0.198 0.325 0.410 0.127 0.325   0.05   1.58   8.20   0.00   0.00   0.09
+122-137 0.159 0.288 0.399 0.129 0.288   0.00   1.50   8.30   0.00   0.00   0.09
+137-159 0.110 0.242 0.402 0.132 0.242   0.00   1.69   8.30   0.00   0.00   0.10
+159-184 0.047 0.177 0.351 0.130 0.177   0.00   1.59   8.00   0.00   0.00   0.08
+184-209 0.050 0.193 0.410 0.143 0.193   0.00   1.45   8.50   0.00   0.00   0.12
+
+TOT-209  31.4  59.3  82.4  28.0  59.3  <--cm   -  kg/ha-->    0.0    0.0      0
+SOIL ALBEDO    : 0.09      EVAPORATION LIMIT :11.00         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :84.00      DRAINAGE RATE     : 0.40         FERT. FACTOR : 1.00
+
+ Cassava          CULTIVAR: UC0006-MCol-1684          ECOTYPE: 990003
+  B01ND B12ND B23ND B34ND BR1FX BR2FX BR3FX BR4FX
+  150.  200.  200.  200.  2.20  3.25  3.25  1.25
+  LAXS  SLAS LLIFA LPEFR LNSLP NODWT NODLT
+ 300.0  220. 800.0   0.3  1.10  1.90  2.00
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+  
+ RUN NO.      1   1979 FOUR CULTIVARS                                         
+
+ ...... DATE ....... GROWTH STAGE    BIOMASS   LEAF       CROP N      STRESS
+ YEARDOY DOM MON DAP ............... kg/ha  AREA NUMBER kg/ha    %   H2O     N
+ 1979239  27 Aug  45 1 1stBranch       598 0.218   24.9    0 -99.0  0.00  0.00
+ 1979287  14 Oct  93 2 2ndBranch      1869 1.425   52.5    0 -99.0  0.03  0.00
+ 1979339   5 Dec 145 3 3rdBranch      3177 2.217   74.7    0 -99.0  0.05  0.00
+ 1980007   7 Jan 178 * Harvest        5366 1.975   82.4    0 -99.0  0.00  0.00
+  
+ BIOMASS  = Above-ground dry weight (Excl.seed;kg/ha)
+ LEAF AREA  = Leaf area index (m2/m2)
+ LEAF NUMBER  = Leaf number produced on main axis
+ CROP N  = Above-ground N (Excl.seed;kg/ha)
+ CROP N%  = Above-ground N concentration(%)
+ H2O STRESS = Photosynthesis stress, prior to stage (0=none,1=max)
+ N STRESS = Photosynthesis stress, prior to stage (0=none,1=max)
+  
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                           SIMULATED   MEASURED
+      --------                           ---------   --------
+      Germination  (dap)                     12        -99
+      Emergence    (dap)                     12        -99
+      1stBranch    (dap)                     45        -99
+      2ndBranch    (dap)                     93        -99
+      3rdBranch    (dap)                    145        -99
+      Harvest      (dap)                   5366       4610
+      AboveGround (kg dm/ha)               3855       7410
+      Roots+seed residue (kg dm/ha)         617        -99
+      Senesced (kg dm/ha)                   698        -99
+      Product (kg dm/ha)                   5366       4610
+      AboveGroundVegetative (kg dm/ha)     3855       7410
+      HarvestIndex (ratio)                 0.55       0.38
+      Reserves (kg dm/ha)                   267        -99
+      Product unit wt (g dm)                -99        -99
+      Product number (/m2)                  -99        -99
+      Product number (/shoot)             -99.0      -99.0
+      Maximum leaf area index               2.4        2.0
+      Final leaf number (one axis)         82.4      -99.0
+      Assimilated N (kg/ha)               -99.0      -99.0
+      AboveGround N (kg/ha)               -99.0      -99.0
+      Root N (kg/ha)                      -99.0      -99.0
+      Senesced N (kg/ha)                    0.0      -99.0
+      Product N (kg/ha)                   -99.0      -99.0
+      AboveGroundVegetative N (kg/ha)       0.0      -99.0
+      N HarvestIndex (ratio)             -99.00     -99.00
+      Product N (% dm)                    -99.0      -99.0
+      AboveGroundVegetative N (% dm)      -99.0      -99.0
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+|-------Branching tier-------|-------------Environment--------------|----------------Stress-----------------|
+                              |--------Average-------|---Cumulative--|         (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp Solar Photop         Evapo |----Water---|--Nitrogen--|--Phosphorus-|
+                         Span   Max   Min   Rad  [day]   Rain  Trans  Photo         Photo         Photo
+                         days    °C    °C MJ/m2     hr     mm     mm  synth Growth  synth Growth  synth Growth
+--------------------------------------------------------------------------------------------------------------
+ Germinate  - 1stBranch    33  30.1  18.8  18.8  12.13   30.6   23.2  0.000  0.076  0.000  0.000 -99.00 -99.00
+ 1stBranch  - 2ndBranch    48  28.9  18.9  19.8  12.00  166.8  145.0  0.032  0.151  0.000  0.000 -99.00 -99.00
+ 2ndBranch  - 3rdBranch    52  28.4  19.0  18.1  11.86  180.4  175.2  0.055  0.229  0.000  0.000 -99.00 -99.00
+ 3rdBranch  - 4thBranch    34  29.1  18.9  20.0  11.80   39.3   68.9  0.323  0.546  0.000  0.000 -99.00 -99.00
+ 16thBranch - Harvest       0 -99.0 -99.0 -99.0 -99.00    0.0    0.0  0.000  0.000  0.000  0.000 -99.00 -99.00
+  
+ 1stBranch  - Harvest     167  29.0  18.9  19.1  11.94  417.1  412.3  0.092  0.241  0.000  0.000 -99.00 -99.00
+--------------------------------------------------------------------------------------------------------------
+
+
+*RESOURCE PRODUCTIVITY
+
+ Growing season length: 167 days 
+
+ Precipitation during growth season        417.1 mm[rain]
+   Dry Matter Productivity                  0.92 kg[DM]/m3[rain]          =    9.2 kg[DM]/ha per mm[rain]
+   Yield Productivity                       1.29 kg[Sroot yield]/m3[rain] =   12.9 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growth season   412.3 mm[ET]
+   Dry Matter Productivity                  0.94 kg[DM]/m3[ET]            =    9.4 kg[DM]/ha per mm[ET]
+   Yield Productivity                       1.30 kg[Sroot yield]/m3[ET]   =   13.0 kg[yield]/ha per mm[ET]
+
+ Transpiration during growth season        231.8 mm[EP]
+   Dry Matter Productivity                  1.66 kg[DM]/m3[EP]            =   16.6 kg[DM]/ha per mm[EP]
+   Yield Productivity                       2.32 kg[Sroot yield]/m3[EP]   =   23.2 kg[yield]/ha per mm[EP]
+
+--------------------------------------------------------------------------------------------------------------
+
+          CASSAVA YIELD :     5366 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

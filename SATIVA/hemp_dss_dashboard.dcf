@@ -1,0 +1,12 @@
+name: hemp_dss_dashboard
+title: hemp_dss_dashboard
+username: alwinhopf
+account: alwinhopf
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12023730
+bundleId: 8919948
+url: https://alwinhopf.shinyapps.io/hemp_dss_dashboard/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

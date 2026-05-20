@@ -1,0 +1,19 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:16
+
+*RUN   1        : 25/15 T; 400 ppm          CRGRO048 GAGR0201    1
+ MODEL          : CRGRO048 - Soybean
+ EXPERIMENT     : GAGR0201 SB GEORGIA ENVIROTRON CONTROL STUDY, 2002
+ DATA PATH      :
+ TREATMENT  1   : 25/15 T; 400 ppm          CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 2002 274
+ Soil photosynthesis factor (SLPF) = 0.72                                      

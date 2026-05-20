@@ -1,0 +1,146 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:12
+
+*RUN   1        : Zeno SD1                  CRGRO048 UHIH1602    1
+ MODEL          : CRGRO048 - Quinoa
+ EXPERIMENT     : UHIH1602 QU QUINOA SOWING DATES
+ DATA PATH      :
+ TREATMENT  1   : Zeno SD1                  CRGRO048
+
+
+ CROP           : Quinoa           CULTIVAR : Zeno (00)        ECOTYPE :QU0001
+ STARTING DATE  : MAR 10 2016
+ PLANTING DATE  : MAR 17 2016      PLANTS/m2 :    40.0    ROW SPACING :  35.cm
+ HARVEST DATE   : AUG 16 2016
+ WEATHER        : UHIH   2016
+ SOIL           : UHIH002016     TEXTURE : SIL   -   Silty Loam
+ SOIL INIT COND : DEPTH:180cm EXTR. H2O:320.7mm  NO3:  0.0kg/ha  NH4:  0.0kg/ha
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)
+ IRRIGATION     :        0 mm IN     0 APPLICATIONS
+ NITROGEN BAL.  : NOT SIMULATED ; NO N-STRESS
+ N-FERTILIZER   :
+ RESIDUE/MANURE :
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:N  N-FIX:N  PHOSPH :N  PESTS  :N
+                  PHOTO   :L  ET      :R  INFIL:S  HYDROL :R  SOM    :G
+                  CO2 403ppm  NSWIT   :1  EVAP :R  SOIL   :3  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :R  RESIDUE:R  HARVEST:R
+                  WEATHER :M  TILLAGE :N
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0- 30 0.205 0.419 0.536 0.214 0.419   1.00   1.12   7.40   0.00   0.00   1.94
+ 30- 60 0.131 0.302 0.511 0.171 0.302   0.61   1.21   0.00   0.00   0.00   0.83
+ 60- 90 0.131 0.302 0.511 0.171 0.302   0.41   1.21   0.00   0.00   0.00   0.03
+ 90-120 0.131 0.302 0.511 0.171 0.302   0.41   1.21   0.00   0.00   0.00   0.03
+120-150 0.131 0.302 0.511 0.171 0.302   0.41   1.21   0.00   0.00   0.00   0.03
+150-180 0.131 0.302 0.511 0.171 0.302   0.41   1.21   0.00   0.00   0.00   0.03
+
+TOT-180  25.8  57.9  92.7  32.1  57.9  <--cm   -  kg/ha-->    0.0    0.0      0
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT : 6.00         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :73.00      DRAINAGE RATE     : 0.40         FERT. FACTOR : 1.00
+
+ Quinoa           CULTIVAR: UH0001-Zeno (00)          ECOTYPE: QU0001
+ CSDVAR :14.35  PPSEN  : 0.01  EMG-FLW:11.20  FLW-FSD: 8.60  FSD-PHM : 34.40
+ WTPSD  :0.065  SDPDVR :  2.2  SDFDUR :22.00  PODDUR :16.00  XFRUIT  :  1.00
+ THRESH : 75.5  SDPRO  :0.135  SDLIP   : 0.060
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     Zeno SD1                
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+ 10 MAR    0 Start Sim        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+ 17 MAR    0 Sowing           0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+  2 APR   16 Emergence        7   0.01   0.1    0  5.2  0.00  0.00  0.00  0.00     0
+  2 APR   16 End Juven.       7   0.01   0.1    0  5.2  0.00  0.00  0.00  0.00     0
+  6 APR   20 Unifoliate       8   0.01   1.2    0  4.8  0.00  0.00  0.00  0.00     0
+  3 MAY   47 Flower Ind      36   0.05   8.3    2  4.4  0.00  0.00  0.00  0.00     0
+ 23 MAY   67 Repr. bud      321   0.41  17.5   13  4.0  0.00  0.00  0.00  0.00     1
+ 29 MAY   73 1st inflor     601   0.75  21.0   23  3.7  0.00  0.00  0.00  0.00     3
+  7 JUN   82 1st Flw/Sd    1465   1.29  26.7   52  3.6  0.00  0.00  0.00  0.00     5
+ 25 JUN  100 End Sd-add    3773   1.46  37.5  117  3.1  0.00  0.00  0.00  0.00     5
+ 25 JUN  100 End Msnode    3773   1.46  37.5  117  3.1  0.00  0.00  0.00  0.00     5
+  4 JUL  109 End Leaf      4806   1.25  37.5  130  2.7  0.00  0.00  0.00  0.00     5
+ 25 JUL  130 Phys. Mat     7551   0.88  37.5  139  1.8  0.00  0.00  0.00  0.00     7
+  6 AUG  142 Harv. Mat     7424   0.10  37.5  119  1.6  0.00  0.00  0.00  0.00     8
+ 16 AUG  152 Harvest       7309   0.02  37.5  118  1.6  0.00  0.00  0.00  0.00     8
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Emergence day (dap)                                     16           13
+      Anthesis day (dap)                                      67           83
+      First pod day (dap)                                     73           68
+      First seed day (dap)                                    82           83
+      Physiological maturity day (dap)                       130          -99
+      Harvest maturity day (dap)                             142          130
+      Yield at harvest maturity (kg [dm]/ha)                3619         3920
+      Pod/Ear/Panicle weight at maturity (kg [dm]/ha)       4931          -99
+      Tops weight at anthesis (kg [dm]/ha)                   321          -99
+      Tops weight at maturity (kg [dm]/ha)                  7309         8617
+      By-product produced (stalk) at maturity (kg[dm]/ha    3690          -99
+      Number at maturity (no/m2)                            5378          -99
+      Unit wt at maturity (g [dm]/unit)                   0.0673          -99
+      Number at maturity (no/unit)                          2.20          -99
+      Harvest index at maturity                            0.495         0.46
+      Threshing % at maturity                              73.38          -99
+      Leaf area index, maximum                              1.51          -99
+      Leaf number per stem at maturity                     37.48         30.0
+      Canopy height (m)                                     0.88        0.928
+      Tops N at anthesis (kg/ha)                              13          -99
+      Tops N at maturity (kg/ha)                             118          -99
+      Stem N at maturity (kg/ha)                              21          -99
+      Grain N at maturity (kg/ha)                             76          -99
+      Grain N at maturity (%)                               2.10          -99
+      Grain oil at maturity (%)                             5.20          -99
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|--------------------------------------Environment--------------------------------------|-----------------Stress-----------------|
+                              |---------------Average--------------|-----Cumulative-----|--------Count of days--------|          (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp  Temp Solar Photop                Evapo    Pot TMIN TMIN TMAX TMAX TMAX RAIN|----Water----|---Nitrogen--|-Phosphorus-|
+                         Span   Max   Min  Mean   Rad  [day]    CO2   Rain  Trans     ET   <    <    >    >    >    >   Photo         Photo         Photo
+                         days     C     C     C MJ/m2     hr    ppm     mm     mm    mm   0 C  2 C 30 C 32 C 34 C  0mm  synth Growth  synth Growth  synth Growth
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Emergence -First Flower   51  13.9   4.3   9.1  15.9  14.18  403.6   83.0   79.1  158.9    8   14    0    0    0   26  0.000  0.000  0.000  0.000  0.000  0.000
+ First Flower-First Seed   15  19.4  10.8  15.1  16.4  15.65  403.9   82.6   51.4   52.1    0    0    0    0    0   12  0.000  0.000  0.000  0.000  0.000  0.000
+ First Seed - Phys. Mat.   48  22.1  11.9  17.0  18.8  15.74  404.1  131.6  168.8  189.7    0    0    4    2    0   25  0.000  0.000  0.000  0.000  0.000  0.000
+ Emergence  - Phys. Mat.  114  18.0   8.4  13.2  17.2  15.03  403.8  297.2  299.3  400.7    8   14    4    2    0   63  0.000  0.000  0.000  0.000  0.000  0.000
+   
+ Planting to Harvest      153  17.8   8.1  13.0  16.6  14.66  403.8  354.1  366.5  511.5   11   22    4    2    0   79  0.000  0.000  0.000  0.000  0.000  0.000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*Resource Productivity
+ Growing season length: 153 days 
+
+ Precipitation during growing season       354.1 mm[rain]
+   Dry Matter Productivity                  2.06 kg[DM]/m3[rain]          =   20.6 kg[DM]/ha per mm[rain]
+   Yield Productivity                       1.02 kg[grain yield]/m3[rain] =   10.2 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season  366.5 mm[ET]
+   Dry Matter Productivity                  1.99 kg[DM]/m3[ET]            =   19.9 kg[DM]/ha per mm[ET]
+   Yield Productivity                       0.99 kg[grain yield]/m3[ET]   =    9.9 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season       136.0 mm[EP]
+   Dry Matter Productivity                  5.38 kg[DM]/m3[EP]            =   53.8 kg[DM]/ha per mm[EP]
+   Yield Productivity                       2.66 kg[grain yield]/m3[EP]   =   26.6 kg[yield]/ha per mm[EP]
+
+--------------------------------------------------------------------------------------------------------------
+
+                    Quinoa YIELD :     3619 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

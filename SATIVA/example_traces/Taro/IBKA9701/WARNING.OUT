@@ -1,0 +1,26 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:29
+
+*RUN   1        : 0.50 PE                   TRARO048 IBKA9701    1
+ MODEL          : TRARO048 - Taro
+ EXPERIMENT     : IBKA9701 TR KULA AG PARK, IRRIGATION EXPERIMENT
+ DATA PATH      :
+ TREATMENT  1   : 0.50 PE                   TRARO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ IPWTH   YEAR DOY = 1997 156
+ Value of TAV, average annual soil temperature, is missing.                    
+ A default value of 20.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 1997 156
+ Value of TAMP, amplitude of soil temperature function, is missing.            
+ A default value of  5.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         

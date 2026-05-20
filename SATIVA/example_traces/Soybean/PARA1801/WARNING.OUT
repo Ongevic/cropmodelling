@@ -1,0 +1,26 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:20
+
+*RUN   1        : MG77_PD10_Jan06 - CAL     CRGRO048 PARA1801    1
+ MODEL          : CRGRO048 - Soybean
+ EXPERIMENT     : PARA1801 SB PLANT DENSITIES FOR MATURITY GROUPS IN LOW LATITUD
+ DATA PATH      :
+ TREATMENT  1   : MG77_PD10_Jan06 - CAL     CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 2018   1
+ Initial soil water content < LL.                                              
+                                                                               
+          FileX              SW @  Revised                                     
+ Layer  Init SW       LL   AirDry  Init SW                                     
+     3    0.262    0.301             0.301                                     
+     4    0.253    0.307             0.307                                     
+     5    0.253    0.307             0.307                                     
+     6    0.261    0.307             0.307                                     
+     7    0.261    0.307             0.307                                     
+     8    0.256    0.307             0.307                                     
+     9    0.256    0.307             0.307                                     
+    10    0.256    0.307             0.307                                     

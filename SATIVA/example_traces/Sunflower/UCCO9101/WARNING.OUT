@@ -1,0 +1,45 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:28
+
+*RUN   1        : PP91 SW-101  0.5          CRGRO048 UCCO9101    1
+ MODEL          : CRGRO048 - Sunflower
+ EXPERIMENT     : UCCO9101 SU CORDOBA PP91. VILLALOBOS ET AL.
+ DATA PATH      :
+ TREATMENT  1   : PP91 SW-101  0.5          CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1991  32
+ Organic C data in one or more soil layers are zero or missing.                
+ A minimum value of OC in this layer  will be estimated using soil texture.    
+       Depth  Clay  Silt    OC                                                 
+ Layer  (cm)   (%)   (%)   (%)                                                 
+     1     5  30.0  30.0  0.97 (estimated)                                     
+     2    15  30.0  30.0  0.97 (estimated)                                     
+     3    30  30.0  30.0  0.97 (estimated)                                     
+     4    45  30.0  30.0  0.97 (estimated)                                     
+     5    60  30.0  30.0  0.97 (estimated)                                     
+     6    90  30.0  30.0  0.97 (estimated)                                     
+     7   120  30.0  30.0  0.97 (estimated)                                     
+     8   150  30.0  30.0  0.97 (estimated)                                     
+     9   180  30.0  30.0  0.97 (estimated)                                     
+    10   210  30.0  30.0  0.97 (estimated)                                     
+    11   240  30.0  30.0  0.97 (estimated)                                     
+    12   270  30.0  30.0  0.97 (estimated)                                     
+    13   300  30.0  30.0  0.97 (estimated)                                     
+
+ IPWTH   YEAR DOY = 1991  32
+ Value of TAV, average annual soil temperature, is missing.                    
+ A default value of 20.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 1991  32
+ Value of TAMP, amplitude of soil temperature function, is missing.            
+ A default value of  5.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         

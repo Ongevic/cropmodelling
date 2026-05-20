@@ -1,0 +1,30 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:01
+
+*RUN   1        : N0 P0                     MZCER048 GHWA0401    1
+ MODEL          : MZCER048 - Maize
+ EXPERIMENT     : GHWA0401 MZ ON-STATION NXP (EXPERIMENT NO.2) 9 TRT
+ DATA PATH      :
+ TREATMENT  1   : N0 P0                     MZCER048
+  
+
+ SOILNI  YEAR DOY = 2003 283
+ P content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:P ratio.                 
+   - Previous crop code                 :    MZ                                
+   - Recommended P content for surface residue (%):   0.3                      
+   - Value read from file               : 0.100%                               
+   - Value changed to                   : 0.256%                               
+ To change allowable P content, modify SCP parameter                           
+   in RESCH048.SDA file.                                                       
+
+ NCHECK  YEAR DOY = 2004 180
+ The carbon/nutrient ratio (C/N or C/P) of the residue                         
+ or senesced biomass that was added to the soil                                
+ is outside the common range to which the CESTR                                
+ parameter in the file SOMFX048.SDA applies. You have a                        
+ residue with an extremely low nutrient concentration.                         
+ Please check your data and/or adapt the CESTR value.                          

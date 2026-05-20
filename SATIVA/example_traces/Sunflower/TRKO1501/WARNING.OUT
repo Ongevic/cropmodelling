@@ -1,0 +1,15 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:27
+
+*RUN   1        : Rainfed                   CRGRO048 TRKO1501    1
+ MODEL          : CRGRO048 - Sunflower
+ EXPERIMENT     : TRKO1501 SU KONYA SUNFLOWER EXPERIMENT (2015)
+ DATA PATH      :
+ TREATMENT  1   : Rainfed                   CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 2015 125
+ Soil photosynthesis factor (SLPF) = 0.88                                      

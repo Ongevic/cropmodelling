@@ -1,0 +1,132 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:09
+
+*RUN   1        : Radiation=100% Deficit=2. PTSUB048 AUCB7001    1
+ MODEL          : PTSUB048 - Potato
+ EXPERIMENT     : AUCB7001 PT AUSTRALIA, 1970: SOLAR RADIATION INTENSITY
+ DATA PATH      :
+ TREATMENT  1   : Radiation=100% Deficit=2. PTSUB048
+
+
+ CROP           : Potato           CULTIVAR : SEBAGO           ECOTYPE :IB0001
+ STARTING DATE  : AUG  6 1970
+ PLANTING DATE  : AUG 10 1970      PLANTS/m2 :    10.0    ROW SPACING :  71.cm
+ HARVEST DATE   : DEC 22 1970
+ WEATHER        : AUCB   1970
+ SOIL           : IBPT910002     TEXTURE : -99   -   Sandy Clay (AUST.1970 P
+ SOIL INIT COND : DEPTH: 65cm EXTR. H2O: 78.0mm  NO3: 48.2kg/ha  NH4: 20.9kg/ha
+ WATER BALANCE  : AUTOMATIC IRRIGATION - REFILL PROFILE
+ IRRIGATION     : AUTOMATIC [SOIL DEPTH: 0.30 m 80.%]
+ NITROGEN BAL.  : SOIL-N & N-UPTAKE SIMULATION; NO N-FIXATION
+ N-FERTILIZER   :      425 kg/ha IN     2 APPLICATIONS
+ RESIDUE/MANURE : INITIAL :    10 kg/ha ;      10 kg/ha IN     1 APPLICATIONS
+ ENVIRONM. OPT. : DAYL= A  0.00  SRAD= A  0.00  TMAX= A  0.00  TMIN= A  0.00
+                  RAIN= A  0.00  CO2 = A   0.0  DEW =A  0.00  WIND=A  0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:N  PHOSPH :N  PESTS  :N
+                  PHOTO   :R  ET      :R  INFIL:S  HYDROL :R  SOM    :G
+                  CO2 326ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :A  FERT :R  RESIDUE:R  HARVEST:R
+                  WEATHER :M  TILLAGE :Y
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.180 0.300 0.380 0.120 0.300   0.75   1.20   7.00   9.80   3.40   2.50
+  5- 15 0.180 0.300 0.380 0.120 0.300   0.88   1.20   7.00   8.55   3.30   2.25
+ 15- 25 0.180 0.300 0.380 0.120 0.300   1.00   1.20   7.00   7.30   3.20   2.00
+ 25- 40 0.180 0.300 0.380 0.120 0.300   0.50   1.20   7.00   5.10   2.50   1.50
+ 40- 52 0.180 0.300 0.380 0.120 0.300   0.15   1.20   7.00   4.70   2.20   1.00
+ 52- 65 0.180 0.300 0.380 0.120 0.300   0.15   1.20   7.00   4.70   2.20   1.00
+
+TOT- 65  11.7  19.5  24.7   7.8  19.5  <--cm   -  kg/ha-->   48.2   20.9 123000
+SOIL ALBEDO    : 0.14      EVAPORATION LIMIT : 5.00         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :60.00      DRAINAGE RATE     : 0.60         FERT. FACTOR : 1.00
+
+ Potato           CULTIVAR: IB0002-SEBAGO             ECOTYPE: IB0001
+ G2     :1894.00  G3     :25.1000
+ PD     :   0.53  P2     :  0.359  TC     : 21.370
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     Radiation=100% Deficit=2
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+  6 AUG    0 Start Sim        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     5
+ 10 AUG    0 Sowing           0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     7
+ 30 SEP   51 Emergence       27   0.04   0.0   12 45.8  0.00  0.00  0.00  0.00     1
+ 24 OCT   75 Beg Tuber     2767   4.24   0.0 1474 53.3  0.00  0.00  0.00  0.00     2
+ 22 DEC  134 Harvest      12960   1.09   0.0 2770 21.4  0.00  0.00  0.00  0.00     2
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Tuber initiation day (dap)                              75           75
+      Physiological maturity day (dap)                       -99          134
+      Tuber dry weight (kg [dm]/ha) harvest                10114        10044
+      Tuber fresh weight (Mg [fm]/ha) harvest              50.57         54.0
+      Total wt, harvest (kg [dm]/ha)                       12960          -99
+      By-product produced (stalk) at maturity (kg[dm]/ha  129599          -99
+      Leaf area index, maximum                              6.50         4.48
+      Tuber N at harvest (kg/ha)                          143.25          -99
+      Tuber+stem+leaf N at harvest (kg/ha)                136.42          -99
+      Tops N at maturity (kg/ha)                          136.42          -99
+      Tuber N at harvest (%)                               1.416          -99
+      Emergence day (dap)                                     51          -99
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|--------------------------------------Environment--------------------------------------|-----------------Stress-----------------|
+                              |---------------Average--------------|-----Cumulative-----|--------Count of days--------|          (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp  Temp Solar Photop                Evapo    Pot TMIN TMIN TMAX TMAX TMAX RAIN|----Water----|---Nitrogen--|-Phosphorus-|
+                         Span   Max   Min  Mean   Rad  [day]    CO2   Rain  Trans     ET   <    <    >    >    >    >   Photo         Photo         Photo
+                         days     C     C     C MJ/m2     hr    ppm     mm     mm    mm   0 C  2 C 30 C 32 C 34 C  0mm  synth Growth  synth Growth  synth Growth
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Emergence-Begin Tuber     24  23.6   9.4  16.5  19.6  12.77  325.9   33.0   94.6  100.7    0    1    4    2    0    6  0.000  0.000  0.000  0.002  0.000  0.000
+ Begin Tuber-Maturity      60  27.4  11.7  19.5  24.2  13.95  325.9   46.5  313.1  313.0    0    0   20   15    8   11  0.000  0.000  0.000  0.000  0.000  0.000
+   
+ Planting to Harvest      135  22.5   8.6  15.6  19.0  12.77  325.9  219.3  514.7  543.9    3   15   24   17    8   38  0.000  0.000  0.000  0.000  0.000  0.000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*Resource Productivity
+ Growing season length: 135 days 
+
+ Precipitation during growing season       219.3 mm[rain]
+   Dry Matter Productivity                  5.91 kg[DM]/m3[rain]          =   59.1 kg[DM]/ha per mm[rain]
+   Yield Productivity                       4.61 kg[grain yield]/m3[rain] =   46.1 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season  514.7 mm[ET]
+   Dry Matter Productivity                  2.52 kg[DM]/m3[ET]            =   25.2 kg[DM]/ha per mm[ET]
+   Yield Productivity                       1.96 kg[grain yield]/m3[ET]   =   19.6 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season       307.3 mm[EP]
+   Dry Matter Productivity                  4.22 kg[DM]/m3[EP]            =   42.2 kg[DM]/ha per mm[EP]
+   Yield Productivity                       3.29 kg[grain yield]/m3[EP]   =   32.9 kg[yield]/ha per mm[EP]
+
+ Irrigation during growing season          407.1 mm[irrig]
+   Dry Matter Productivity                  3.18 kg[DM]/m3[irrig]         =   31.8 kg[DM]/ha per mm[irrig]
+   Yield Productivity                       2.48 kg[grain yield]/m3[irrig]=   24.8 kg[yield]/ha per mm[irrig]
+
+ N applied during growing season            425. kg[N applied]/ha
+   Dry Matter Productivity                  30.5 kg[DM]/kg[N applied]
+   Yield Productivity                       23.8 kg[yield]/kg[N applied]
+
+ N uptake during growing season              346 kg[N uptake]/ha
+   Dry Matter Productivity                  37.5 kg[DM]/kg[N uptake]
+   Yield Productivity                       29.2 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+                    Potato YIELD :    10114 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

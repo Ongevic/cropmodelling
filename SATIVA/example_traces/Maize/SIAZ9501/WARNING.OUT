@@ -1,0 +1,58 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:02
+
+*RUN   1        : III - FULL IRRIGATION     MZCER048 SIAZ9501    1
+ MODEL          : MZCER048 - Maize
+ EXPERIMENT     : SIAZ9501 MZ 1995 SIA EXPERIMENT, ZARAGOSA, SPAIN
+ DATA PATH      :
+ TREATMENT  1   : III - FULL IRRIGATION     MZCER048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOLORG  YEAR DOY = 1995 136
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   1 is unlikely:      9.5                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 1995 136
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   2 is unlikely:      9.5                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 1995 136
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   3 is unlikely:      9.5                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 1995 136
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   4 is unlikely:      9.8                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 1995 136
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   5 is unlikely:      9.8                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 1995 136
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   6 is unlikely:      8.6                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 1995 136
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   7 is unlikely:      8.6                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              

@@ -1,0 +1,27 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:47
+
+*RUN   1        : IhingerHof 2013           CRGRO048 UHIH1301    1
+ MODEL          : CRGRO048 - Cabbage
+ EXPERIMENT     : UHIH1301 CB 2013 IHINGER HOF - CALIBRATION
+ DATA PATH      :
+ TREATMENT  1   : IhingerHof 2013           CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 2013   1
+ Soil photosynthesis factor (SLPF) = 0.90                                      
+
+ SOILDYN  YEAR DOY = 2013   1
+ Organic C data in one or more soil layers are zero or missing.                
+ A minimum value of OC in this layer  will be estimated using soil texture.    
+       Depth  Clay  Silt    OC                                                 
+ Layer  (cm)   (%)   (%)   (%)                                                 
+     1     5  29.0  67.0  1.51 (estimated)                                     
+     2    15  29.0  67.0  1.51 (estimated)                                     
+     3    30  29.0  67.0  1.51 (estimated)                                     
+     4    45  29.0  67.0  1.51 (estimated)                                     
+     5    60  29.0  67.0  1.51 (estimated)                                     
+     6    90  29.0  67.0  1.51 (estimated)                                     

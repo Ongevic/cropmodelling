@@ -1,0 +1,140 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:23
+
+*RUN   1        : Bucharest 1998            BSCER048 BU019801    1
+ MODEL          : BSCER048 - Sugar beet
+ EXPERIMENT     : BU019801 BS BUCHAREST, ROMANIA 1998
+ DATA PATH      :
+ TREATMENT  1   : Bucharest 1998            BSCER048
+
+
+ CROP           : Sugar beet       CULTIVAR : Emma             ECOTYPE :IB0002
+ STARTING DATE  : APR  4 1998
+ PLANTING DATE  : APR  4 1998      PLANTS/m2 :    10.0    ROW SPACING :  50.cm
+ WEATHER        : BUCH   1998
+ SOIL           : IB00000001     TEXTURE : SIC   -   DEFAULT - DEEP SILTY CL
+ SOIL INIT COND : DEPTH:210cm EXTR. H2O:276.6mm  NO3:  0.0kg/ha  NH4:  0.0kg/ha
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)
+ IRRIGATION     :        0 mm IN     0 APPLICATIONS
+ NITROGEN BAL.  : SOIL-N & N-UPTAKE SIMULATION; NO N-FIXATION
+ N-FERTILIZER   :        0 kg/ha IN     0 APPLICATIONS
+ RESIDUE/MANURE : INITIAL :     0 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:N  PHOSPH :N  PESTS  :N
+                  PHOTO   :C  ET      :R  INFIL:S  HYDROL :R  SOM    :G
+                  CO2 366ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :R  RESIDUE:R  HARVEST:M
+                  WEATHER :M  TILLAGE :Y
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.228 0.385 0.481 0.157 0.385   1.00   1.30   6.50   0.00   0.00   1.75
+  5- 15 0.228 0.385 0.481 0.157 0.385   1.00   1.30   6.50   0.00   0.00   1.75
+ 15- 30 0.249 0.406 0.482 0.157 0.406   0.64   1.30   6.50   0.00   0.00   1.60
+ 30- 45 0.249 0.406 0.465 0.157 0.406   0.47   1.35   6.50   0.00   0.00   1.45
+ 45- 60 0.249 0.406 0.465 0.157 0.406   0.35   1.35   6.50   0.00   0.00   1.45
+ 60- 90 0.308 0.456 0.468 0.148 0.456   0.22   1.35   6.50   0.00   0.00   1.10
+ 90-120 0.207 0.341 0.452 0.134 0.341   0.12   1.40   6.50   0.00   0.00   0.65
+120-150 0.243 0.365 0.455 0.122 0.365   0.07   1.40   6.50   0.00   0.00   0.30
+150-180 0.259 0.361 0.457 0.102 0.361   0.04   1.40   6.50   0.00   0.00   0.10
+180-210 0.259 0.361 0.457 0.102 0.361   0.02   1.40   6.50   0.00   0.00   0.01
+
+TOT-210  52.9  80.6  97.1  27.7  80.6  <--cm   -  kg/ha-->    0.0    0.0 213120
+SOIL ALBEDO    : 0.11      EVAPORATION LIMIT : 6.00         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :85.00      DRAINAGE RATE     : 0.30         FERT. FACTOR : 1.00
+
+ Sugar beet       CULTIVAR: BU0003-Emma               ECOTYPE: IB0002
+ P1     : 969.00  P2     : 0.0000  P5     : 730.00
+ G2     : 160.00  G3     : 25.200  PHINT  :  0.000
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     Bucharest 1998          
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+  4 APR    0 Sowing           0   0.00   0.0    0  0.0  0.00  0.00  1.00  1.00     8
+  4 APR    0 Start Sim        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     8
+  5 APR    1 Germinate        0   0.00   0.0    0  0.0  0.00  0.00  1.00  1.00     9
+  6 APR    2 Emergence       40   0.03   2.1    2  4.4  0.00  0.03  1.00  1.00     1
+ 15 MAY   41 End Juveni      41   0.08  10.3    2  4.3  0.02  0.00  1.00  1.00     2
+ 19 MAY   45 Leaf  grow      89   0.16  10.8    3  3.7  0.00  0.00  1.00  1.00     3
+ 21 JUL  108 End Lf Gro    5512   4.90  23.1  134  2.4  0.04  0.00  1.00  1.00     4
+ 12 AUG  130 Beg Ef Gro    6453   4.36  23.1  116  1.8  0.29  0.03  1.00  1.00     5
+ 13 SEP  162 End Ef Gro    5114   4.10  23.1   49  1.0  0.02  0.00  1.00  1.00     6
+ 15 SEP  164 Maturity      5114   4.10  23.1   49  1.0  0.00  0.03  1.00  1.00    10
+ 15 SEP  164 Harvest       5114   4.10  23.1   49  1.0  0.00  0.00  0.00  0.00    10
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Anthesis day (dap)                                     108          -99
+      Physiological maturity day (dap)                       164          -99
+      Yield at harvest maturity (kg [dm]/ha)               20409          -99
+      Number at maturity (no/m2)                               0          -99
+      Unit wt at maturity (g [dm]/unit)                   0.0000          -99
+      Number at maturity (no/unit)                           1.0          -99
+      Tops weight at maturity (kg [dm]/ha)                  5114          -99
+      By-product produced (stalk) at maturity (kg[dm]/ha       0          -99
+      Leaf area index, maximum                              4.90          -99
+      Harvest index at maturity                            0.800          -99
+      Tops N at maturity (kg/ha)                              49          -99
+      Stem N at maturity (kg/ha)                              49          -99
+      Tops weight at anthesis (kg [dm]/ha)                  5440          -99
+      Tops N at anthesis (kg/ha)                             134          -99
+      Leaf number per stem at maturity                     23.11          -99
+      Emergence day (dap)                                      2          -99
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|--------------------------------------Environment--------------------------------------|-----------------Stress-----------------|
+                              |---------------Average--------------|-----Cumulative-----|--------Count of days--------|          (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp  Temp Solar Photop                Evapo    Pot TMIN TMIN TMAX TMAX TMAX RAIN|----Water----|---Nitrogen--|-Phosphorus-|
+                         Span   Max   Min  Mean   Rad  [day]    CO2   Rain  Trans     ET   <    <    >    >    >    >   Photo         Photo         Photo
+                         days     C     C     C MJ/m2     hr    ppm     mm     mm    mm   0 C  2 C 30 C 32 C 34 C  0mm  synth Growth  synth Growth  synth Growth
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Emergence-End Juvenile    39  21.8   8.5  15.2  19.1  13.71  365.8   93.7   71.1  169.5    0    1    1    1    0   11  0.007  0.017  0.000  0.001  1.000  1.000
+ End Juvenil-Leaf Grow      4  16.9   8.7  12.8  22.2  14.65  366.1   46.2   17.6   19.0    0    0    0    0    0    3  0.000  0.000  0.000  0.000  1.000  1.000
+ Effec Lf Gro-End Lf Gro   63  27.9  13.3  20.6  19.7  15.17  366.3  126.6  256.1  282.1    0    0   19    6    2   22  0.006  0.036  0.000  0.000  1.000  1.000
+ End Lf Grth-Beg Ef Gro    22  34.0  17.8  25.9  14.5  14.48  366.6   41.4   60.9   79.8    0    0   21   17   10    6  0.172  0.291  0.012  0.031  1.000  1.000
+ Eff Growth Phase          32  27.6  12.2  19.9  14.9  13.25  366.9  125.7  101.5  103.8    0    0   15    6    1   12  0.009  0.023  0.001  0.002  1.000  1.000
+   
+ Planting to Harvest      164  26.9  12.3  19.6  17.9  14.28  366.3  442.8  520.0  667.4    0    1   56   30   13   56  0.029  0.061  0.002  0.005  1.000  1.000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*Resource Productivity
+ Growing season length: 164 days 
+
+ Precipitation during growing season       442.8 mm[rain]
+   Dry Matter Productivity                  1.15 kg[DM]/m3[rain]          =   11.5 kg[DM]/ha per mm[rain]
+   Yield Productivity                       4.61 kg[grain yield]/m3[rain] =   46.1 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season  520.0 mm[ET]
+   Dry Matter Productivity                  0.98 kg[DM]/m3[ET]            =    9.8 kg[DM]/ha per mm[ET]
+   Yield Productivity                       3.92 kg[grain yield]/m3[ET]   =   39.2 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season       361.9 mm[EP]
+   Dry Matter Productivity                  1.41 kg[DM]/m3[EP]            =   14.1 kg[DM]/ha per mm[EP]
+   Yield Productivity                       5.64 kg[grain yield]/m3[EP]   =   56.4 kg[yield]/ha per mm[EP]
+
+ N uptake during growing season              319 kg[N uptake]/ha
+   Dry Matter Productivity                  16.0 kg[DM]/kg[N uptake]
+   Yield Productivity                       64.0 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+                Sugar beet YIELD :    20409 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

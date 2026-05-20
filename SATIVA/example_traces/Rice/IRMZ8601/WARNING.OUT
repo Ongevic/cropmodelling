@@ -1,0 +1,29 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:12
+
+*RUN   1        : Control 0 N               RICER048 IRMZ8601    1
+ MODEL          : RICER048 - Rice
+ EXPERIMENT     : IRMZ8601 RI IRRI,MUNOZ JAN 86 UREASE INHIBITORS
+ DATA PATH      :
+ TREATMENT  1   : Control 0 N               RICER048
+  
+
+ IPRES   YEAR DOY =    0   0
+ Residue application   1                                                       
+ Incorporation percentage not specified, and incorporation depth > 0.          
+ Applied residues will be incorporated to a depth of  15.0 cm.                 
+
+ IPSOIL  YEAR DOY =    0   0
+ Invalid value for SLNF in soil file.                                          
+ Value changed to 1.0.                                                         
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1986  33
+ A default soil water conductivity constant will be used:                      
+ SWCON =  0.25 (fraction/day).                                                 

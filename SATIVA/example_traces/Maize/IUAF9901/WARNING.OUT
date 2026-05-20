@@ -1,0 +1,15 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:02
+
+*RUN   1        : N=56 KG/HA  POP=4.7 PL/M2 MZCER048 IUAF9901    1
+ MODEL          : MZCER048 - Maize
+ EXPERIMENT     : IUAF9901 MZ IUAF9900MZ MAIZE KN, 2 POP X 2 N RATES
+ DATA PATH      :
+ TREATMENT  1   : N=56 KG/HA  POP=4.7 PL/M2 MZCER048
+  
+
+ MZ_GRO  YEAR DOY = 1999 300
+   Crop mature on JD 300 due to slowed grain filling                           

@@ -1,0 +1,16 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:08
+
+*RUN   1        : BJ 104, 200 kg N/ha       MLCER048 ITHY8201    1
+ MODEL          : MLCER048 - Pearl millet
+ EXPERIMENT     : ITHY8201 ML ICRISAT HYDERABAD FOUR NITROGEN LEVELS (CARBERRY)
+ DATA PATH      :
+ TREATMENT  1   : BJ 104, 200 kg N/ha       MLCER048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              

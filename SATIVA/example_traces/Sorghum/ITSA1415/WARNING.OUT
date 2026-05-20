@@ -1,0 +1,99 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:15
+
+*RUN   1        : CSM335  2014 HP           SGCER048 ITSA1415    1
+ MODEL          : SGCER048 - Sorghum
+ EXPERIMENT     : ITSA1415 SG SORGHUM PHOSPHORUS TRIALS IN MALI
+ DATA PATH      :
+ TREATMENT  1   : CSM335  2014 HP           SGCER048
+  
+
+ SOILDYN  YEAR DOY = 2014 121
+ Soil photosynthesis factor (SLPF) = 0.60                                      
+
+ SOILNI  YEAR DOY = 2014 121
+ N content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:N ratio.                 
+   - Previous crop code                 :    SG                                
+   - Recommended N content for surface residue (%):   1.1                      
+   - Value read from file               : 0.500%                               
+   - Value changed to                   : 0.880%                               
+ To change allowable N content, modify SCN parameter                           
+   in RESCH048.SDA file.                                                       
+
+ SOILNI  YEAR DOY = 2014 121
+ P content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:P ratio.                 
+   - Previous crop code                 :    SG                                
+   - Recommended P content for surface residue (%):   0.2                      
+   - Value read from file               : 0.000%                               
+   - Value changed to                   : 0.200%                               
+ To change allowable P content, modify SCP parameter                           
+   in RESCH048.SDA file.                                                       
+
+ NCHECK  YEAR DOY = 2014 192
+ The carbon/nutrient ratio (C/N or C/P) of the residue                         
+ or senesced biomass that was added to the soil                                
+ is outside the common range to which the CESTR                                
+ parameter in the file SOMFX048.SDA applies. You have a                        
+ residue with an extremely low nutrient concentration.                         
+ Please check your data and/or adapt the CESTR value.                          
+
+ PUPTAK  YEAR DOY = 2014 292
+ N:P ratio of   2.4 is below minimum of   2.4.                                 
+ Daily P uptake will be reduced by a factor of  1.00.                          
+
+ PUPTAK  YEAR DOY = 2014 293
+ N:P ratio of   2.4 is below minimum of   2.4.                                 
+ Daily P uptake will be reduced by a factor of  0.99.                          
+
+ PUPTAK  YEAR DOY = 2014 294
+ N:P ratio of   2.4 is below minimum of   2.4.                                 
+ Daily P uptake will be reduced by a factor of  0.99.                          
+
+ PUPTAK  YEAR DOY = 2014 295
+ N:P ratio of   2.3 is below minimum of   2.4.                                 
+ Daily P uptake will be reduced by a factor of  0.99.                          
+
+ PUPTAK  YEAR DOY = 2014 296
+ N:P ratio of   2.3 is below minimum of   2.3.                                 
+ Daily P uptake will be reduced by a factor of  0.99.                          
+
+ PUPTAK  YEAR DOY = 2014 297
+ N:P ratio of   2.3 is below minimum of   2.3.                                 
+ Daily P uptake will be reduced by a factor of  0.99.                          
+
+ PUPTAK  YEAR DOY = 2014 298
+ N:P ratio of   2.3 is below minimum of   2.3.                                 
+ Daily P uptake will be reduced by a factor of  0.99.                          
+
+ PUPTAK  YEAR DOY = 2014 299
+ N:P ratio of   2.2 is below minimum of   2.3.                                 
+ Daily P uptake will be reduced by a factor of  0.99.                          
+
+ PUPTAK  YEAR DOY = 2014 300
+ N:P ratio of   2.2 is below minimum of   2.2.                                 
+ Daily P uptake will be reduced by a factor of  0.99.                          
+
+ PUPTAK  YEAR DOY = 2014 301
+ N:P ratio of   2.2 is below minimum of   2.2.                                 
+ Daily P uptake will be reduced by a factor of  0.99.                          
+
+ PUPTAK  YEAR DOY = 2014 302
+ N:P ratio of   2.2 is below minimum of   2.2.                                 
+ Daily P uptake will be reduced by a factor of  0.99.                          
+
+ PUPTAK  YEAR DOY = 2014 303
+ N:P ratio of   2.1 is below minimum of   2.2.                                 
+ Daily P uptake will be reduced by a factor of  0.99.                          
+
+ PUPTAK  YEAR DOY = 2014 304
+ N:P ratio of   2.1 is below minimum of   2.1.                                 
+ Daily P uptake will be reduced by a factor of  0.99.                          
+
+ PUPTAK  YEAR DOY = 2014 305
+ N:P ratio of   2.1 is below minimum of   2.1.                                 
+ Daily P uptake will be reduced by a factor of  0.99.                          

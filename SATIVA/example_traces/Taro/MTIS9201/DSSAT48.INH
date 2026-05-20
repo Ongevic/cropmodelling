@@ -1,0 +1,198 @@
+*EXP.DETAILS: MTIS9201TR TARO VAR EXPT, PUERTO RICO                                  
+
+*FILES
+@N  EXP.DATA    AFILE        ADIR
+  1 EXP         MTIS9201.TRA                                                                                 
+@N  SPECIES     SPFILE       SPDIR
+  1 SPE         TRARO048.SPE C:\DSSAT48\GENOTYPE\                                                            
+@N  ECOTYPE     EFILE        EDIR
+  1 ECO         TRARO048.ECO C:\DSSAT48\GENOTYPE\                                                            
+@N  CULTIVAR    CFILE        CDIR
+  1 CUL         TRARO048.CUL C:\DSSAT48\GENOTYPE\                                                            
+@N  SOIL        SFILE        SDIR
+  1 SOIL        SOIL.SOL     C:\DSSAT48\SOIL\                                                                
+@N  WEATHER     WFILE        WDIR
+  1 WEATH       MTIS9201.WTH C:\DSSAT48\Weather\                                                             
+
+*SIMULATION CONTROL
+@N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
+  1 GE              1     1     S 1992167  2150 TARO VAR EXPT, PUERTO RI  TRARO048
+@N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+  1 OP              N     N     N     N     N     N     N     N     M
+@N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL METMP MEGHG
+  1 ME              M     M     E     R     S     C     R     1     G     R     2     D     0
+@N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+  1 MA              R     R     R     R     M
+@N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
+  1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+
+!AUTOMATIC MANAGEM
+@N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+  1 PL              -99     -99   40.  100.   30.   40.   10.
+@N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+  1 IR            30.   50.  100. GS000 IR001  10.0 1.000
+@N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+  1 NI            30.   50.   25. FE001 GS000
+@N  RESIDUES    RIPCN RTIME RIDEP
+  1 RE           100.     1   20.
+@N  HARVEST     HFRST   HLAST HPCNP HRCNR
+  1 HA              0     -99  100.    0.
+
+*TREATMENTS
+@N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
+  1  1 1 0 BLANCA Cultivars            1   1   0   1   1   1   1   0   0   0   0   0   1
+
+*CULTIVARS
+@C  CR INGENO CNAME
+  1 TR IB0008 BLANCA          
+
+*FIELDS
+@L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL    PMALB  PMWD
+  1 MTIS0001 MTIS9201   0.0    0. DR000    0.  100. 00000 -99    -99. IBAR910043-99.00 -99.0
+@L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
+  1       -99.00000       -99.00000    -99.00               1.0  100.   1.0 -99.0   -99   -99
+
+*PLANTING DETAILS
+@P    PDATE   EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+  1 1992177     -99   2.4   2.4     S     R   91.    0.  13.0  -99.  -99. -99.0 -99.0   0.0
+
+*IRRIGATION
+@I   IEFF  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+  1 1.000   30.   75.  -99. GS000 IR001  10.0
+@I    IDATE  IROP IRVAL
+  1 1992177 IR001   6.0
+  1 1992178 IR001  38.0
+  1 1992181 IR001   6.0
+  1 1992184 IR001  38.0
+  1 1992188 IR001  13.0
+  1 1992192 IR001   1.0
+  1 1992197 IR001   2.0
+  1 1992198 IR001   2.0
+  1 1992209 IR001   2.0
+  1 1992213 IR001   2.0
+  1 1992216 IR001   2.0
+  1 1992218 IR001   2.0
+  1 1992223 IR001   3.0
+  1 1992224 IR001   2.0
+  1 1992232 IR001   2.0
+  1 1992246 IR001   4.0
+  1 1992248 IR001   3.0
+  1 1992255 IR001   3.0
+  1 1992260 IR001   4.0
+  1 1992262 IR001   1.0
+  1 1992265 IR001   3.0
+  1 1992274 IR001   3.0
+  1 1992276 IR001   3.0
+  1 1992279 IR001   3.0
+  1 1992281 IR001   4.0
+  1 1992283 IR001   9.0
+  1 1992286 IR001   4.0
+  1 1992290 IR001   6.0
+  1 1992293 IR001   6.0
+  1 1992295 IR001   3.0
+  1 1992297 IR001   6.0
+  1 1992304 IR001   1.0
+  1 1992311 IR001   4.0
+  1 1992314 IR001   3.0
+  1 1992316 IR001   4.0
+  1 1992323 IR001   2.0
+  1 1992325 IR001   4.0
+  1 1992330 IR001   1.0
+  1 1992339 IR001   3.0
+  1 1992342 IR001   3.0
+  1 1992344 IR001   6.0
+  1 1992346 IR001   4.0
+  1 1992353 IR001   3.0
+  1 1992366 IR001   1.0
+  1 1993005 IR001   2.0
+  1 1993008 IR001   1.0
+  1 1993011 IR001   2.0
+  1 1993015 IR001   4.0
+  1 1993019 IR001   3.0
+  1 1993022 IR001   3.0
+  1 1993027 IR001   4.0
+  1 1993036 IR001   2.0
+  1 1993041 IR001   4.0
+  1 1993043 IR001   4.0
+  1 1993047 IR001   2.0
+  1 1993050 IR001   5.0
+  1 1993053 IR001   2.0
+  1 1993055 IR001   3.0
+  1 1993057 IR001   3.0
+  1 1993060 IR001   3.0
+  1 1993061 IR001   3.0
+  1 1993063 IR001   3.0
+  1 1993067 IR001   3.0
+  1 1993068 IR001   3.0
+  1 1993071 IR001   3.0
+  1 1993074 IR001   3.0
+  1 1993076 IR001   3.0
+  1 1993078 IR001   5.0
+  1 1993081 IR001   3.0
+  1 1993083 IR001   3.0
+  1 1993092 IR001   3.0
+  1 1993106 IR001   3.0
+  1 1993108 IR001   3.0
+  1 1993109 IR001   4.0
+  1 1993132 IR001   3.0
+  1 1993306 IR001   2.0
+
+*FERTILIZERS
+@F    FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+  1 1992209 FE017   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992209 FE005   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992223 FE017   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992223 FE005   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992246 FE017   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992246 FE005   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992260 FE017   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992260 FE005   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992274 FE017   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992274 FE005   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992286 FE017   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992286 FE005   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992304 FE017   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992304 FE005   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992307 FE017   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992307 FE005   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992311 FE017   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992311 FE005   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992325 FE017   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992330 FE005   001    5.    2.  -99.  -99.  -99.  -99.   -99
+  1 1992339 FE017   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992339 FE005   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992353 FE017   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992353 FE005   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1992366 FE017   001    5.    2.  -99.  -99.  -99.  -99.   -99
+  1 1992366 FE005   001    5.    2.  -99.  -99.  -99.  -99.   -99
+  1 1993008 FE017   001    5.    2.  -99.  -99.  -99.  -99.   -99
+  1 1993015 FE017   001    5.    2.  -99.  -99.  -99.  -99.   -99
+  1 1993015 FE005   001    5.    2.  -99.  -99.  -99.  -99.   -99
+  1 1993018 FE005   001    5.    2.  -99.  -99.  -99.  -99.   -99
+  1 1993022 FE017   001    5.    2.  -99.  -99.  -99.  -99.   -99
+  1 1993022 FE005   001    5.    2.  -99.  -99.  -99.  -99.   -99
+  1 1993036 FE017   001    5.    2.  -99.  -99.  -99.  -99.   -99
+  1 1993036 FE005   001    5.    2.  -99.  -99.  -99.  -99.   -99
+  1 1993041 FE017   001    5.    2.  -99.  -99.  -99.  -99.   -99
+  1 1993041 FE005   001    5.    2.  -99.  -99.  -99.  -99.   -99
+  1 1993057 FE017   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1993057 FE005   001    5.    4.  -99.  -99.  -99.  -99.   -99
+  1 1993078 FE017   001    5.    2.  -99.  -99.  -99.  -99.   -99
+  1 1993078 FE005   001    5.    2.  -99.  -99.  -99.  -99.   -99
+  1 1993109 FE017   001    5.    2.  -99.  -99.  -99.  -99.   -99
+  1 1993109 FE005   001    5.    2.  -99.  -99.  -99.  -99.   -99
+
+*RESIDUES
+@R    RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET
+
+*CHEMICALS
+@C    CDATE CHCOD CHAMT  CHME CHDEP   CHT
+
+*TILLAGE
+@T    TDATE TIMPL  TDEP
+
+*ENVIRONMENT
+@E    ODATE  EDAY  ERAD  EMAX  EMIN ERAIN  ECO2  EDEW EWIND
+
+*HARVEST
+@H    HDATE  HSTG  HCOM HSIZE   HPC  HBPC

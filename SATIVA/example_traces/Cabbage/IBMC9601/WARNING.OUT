@@ -1,0 +1,27 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:46
+
+*RUN   1        : No-Stress                 CRGRO048 IBMC9601    1
+ MODEL          : CRGRO048 - Cabbage
+ EXPERIMENT     : IBMC9601 CB MAUKA CAMPUS, UNIV. OF HAWAII
+ DATA PATH      :
+ TREATMENT  1   : No-Stress                 CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1996 344
+ Initial soil water content > SAT.                                             
+                                                                               
+          FileX           Revised                                              
+ Layer  Init SW      SAT  Init SW                                              
+     1    0.370    0.365    0.365                                              
+     2    0.370    0.365    0.365                                              
+     3    0.370    0.365    0.365                                              
+     4    0.450    0.365    0.365                                              
+     5    0.450    0.365    0.365                                              

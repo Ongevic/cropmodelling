@@ -1,0 +1,36 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:17
+
+*RUN   1        : 0.25m ROW, NO WATER STRES CRGRO048 IUCA7901    1
+ MODEL          : CRGRO048 - Soybean
+ EXPERIMENT     : IUCA7901 SB WAYNE, IRRIGATED & NON-IRRIGATED
+ DATA PATH      :
+ TREATMENT  1   : 0.25m ROW, NO WATER STRES CRGRO048
+  
+
+ IPRES   YEAR DOY =    0   0
+ Residue application   1                                                       
+ Incorporation percentage not specified, and incorporation depth > 0.          
+ Applied residues will be incorporated to a depth of  25.0 cm.                 
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1979 135
+ Organic C data in one or more soil layers are zero or missing.                
+ A minimum value of OC in this layer  will be estimated using soil texture.    
+       Depth  Clay  Silt    OC                                                 
+ Layer  (cm)   (%)   (%)   (%)                                                 
+     1     5  30.0  30.0  0.97 (estimated)                                     
+     2    15  30.0  30.0  0.97 (estimated)                                     
+     3    30  30.0  30.0  0.97 (estimated)                                     
+     4    45  30.0  30.0  0.97 (estimated)                                     
+     5    60  30.0  30.0  0.97 (estimated)                                     
+     6    90  30.0  30.0  0.97 (estimated)                                     
+     7   120  30.0  30.0  0.97 (estimated)                                     
+     8   150  30.0  30.0  0.97 (estimated)                                     
+     9   180  30.0  30.0  0.97 (estimated)                                     

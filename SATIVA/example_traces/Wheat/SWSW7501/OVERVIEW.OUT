@@ -1,0 +1,180 @@
+*SIMULATION OVERVIEW FILE
+  
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:34
+
+*RUN   1        : 0 KG N/HA DRY             CSCER048 SWSW7501    1
+ MODEL          : CSCER048 - Wheat
+ EXPERIMENT     : SWSW7501 WH N RESPONSE,SWIFT CURRENT  7FE(N)*2IR  (DSSAT3)
+ DATA PATH      :
+ TREATMENT  1   : 0 KG N/HA DRY             CSCER048
+
+
+ CROP           : Wheat            CULTIVAR : MANITOU          ECOTYPE :CAWH01
+ STARTING DATE  : MAY 12 1975
+ PLANTING DATE  : MAY 25 1975      PLANTS/m2 :   250.0    ROW SPACING :  16.cm
+ WEATHER        : SWSW   1975
+ SOIL           : IBWH980019     TEXTURE : -99   -   Wood Mountain Loam
+ SOIL INIT COND : DEPTH:150cm EXTR. H2O:205.8mm  NO3: 32.8kg/ha  NH4: 36.0kg/ha
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)
+ IRRIGATION     :        0 mm IN     0 APPLICATIONS
+ NITROGEN BAL.  : SOIL-N & N-UPTAKE SIMULATION; NO N-FIXATION
+ N-FERTILIZER   :        0 kg/ha IN     0 APPLICATIONS
+ RESIDUE/MANURE : INITIAL :  1000 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:N  PHOSPH :N  PESTS  :N
+                  PHOTO   :C  ET      :R  INFIL:S  HYDROL :R  SOM    :G
+                  CO2 331ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :R  RESIDUE:N  HARVEST:M
+                  WEATHER :M  TILLAGE :N
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.096 0.230 0.440 0.134 0.230   1.00   1.20   7.00   4.50   4.00   1.10
+  5- 15 0.096 0.230 0.440 0.134 0.230   1.00   1.20   7.00   3.50   4.00   1.10
+ 15- 30 0.112 0.250 0.440 0.138 0.250   1.00   1.20   7.00   2.20   4.00   0.61
+ 30- 45 0.094 0.220 0.440 0.126 0.220   0.80   1.20   7.00   2.00   3.00   0.61
+ 45- 60 0.103 0.220 0.440 0.117 0.220   0.70   1.20   7.00   2.00   2.00   0.59
+ 60- 75 0.103 0.220 0.440 0.117 0.220   0.60   1.20   7.00   2.00   2.00   0.15
+ 75- 90 0.102 0.250 0.440 0.148 0.250   0.40   1.20   7.00   2.20   1.00   0.10
+ 90-120 0.102 0.250 0.440 0.148 0.250   0.30   1.20   7.00   1.00   1.00   0.10
+120-150 0.102 0.250 0.440 0.148 0.250   0.20   1.20   7.00   1.00   1.00   0.10
+
+TOT-150  15.3  35.8  66.0  20.6  35.8  <--cm   -  kg/ha-->   32.8   36.0  64080
+SOIL ALBEDO    : 0.12      EVAPORATION LIMIT : 8.00         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :60.00      DRAINAGE RATE     : 0.50         FERT. FACTOR : 1.00
+
+ Wheat            CULTIVAR: IB1500-MANITOU            ECOTYPE: CAWH01
+   P1V   P1D    P5    G1    G2    G3 PHINT
+   9.3  13.1 331.4  12.1  63.5  2.21  86.0
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+  
+ RUN NO.      1   N RESPONSE,SWIFT CURRENT  7FE(N)*2IR  (DSSAT3)              
+
+ ...... DATE ......  GROWTH STAGE BIOMASS   LEAF       CROP N      STRESS
+ YEARDOY DOM MON DAP ............. kg/ha AREA NUMBER  kg/ha   %   H2O    N
+ 1975145  25 May 365 7 Sowing         0  0.00   0.0     0   0.0  0.00  0.00
+ 1975147  27 May   2 8 Germinate      0  0.00   0.0     0   0.0  0.00  0.00
+ 1975150  30 May   5 9 Emergence      0  0.00   0.0     0   0.0  0.00  0.00
+ 1975180  29 Jun  35 1 Term Spklt   578  0.41   5.9    11   1.8  0.10  0.35
+ 1975193  12 Jul  48 2 End Veg     1797  1.61   8.9    21   1.2  0.00  0.35
+ 1975202  21 Jul  57 3 End Ear Gr  2525  1.32   8.9    24   1.0  0.34  0.41
+ 1975211  30 Jul  66 4 Beg Gr Fil  3106  0.55   8.9    26   0.8  0.50  0.18
+ 1975233  21 Aug  88 5 End Gr Fil  3501  0.00   8.9    36   1.0  0.00  0.45
+ 1975233  21 Aug  88 6 Harvest     3501  0.00   8.9    36   1.0  0.00  0.00
+  
+ BIOMASS = Above-ground dry wt (kg/ha)
+ LEAF AREA  = Leaf area index (m2/m2)
+ LEAF NUMBER  = Leaf number produced on main axis
+ CROP N  = Above-ground N (kg/ha)
+ CROP N% = Above-ground N conc (%)
+ H2O STRESS = Photosynthesis stress,average (0-1,0=none)
+ N STRESS = Photosynthesis stress,average (0-1,0=none)
+  
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                             SIMULATED     MEASURED
+      --------                             ---------     --------
+      Emergence (DAP)                            5          -99
+      Anthesis (DAP)                            59           59
+      Maturity (DAP)                            88           88
+      Product wt (kg dm/ha;no loss)           1340         1617
+      Product unit weight (g dm)             0.042        0.020
+      Product number (no/m2)                  3165         8165
+      Product number (no/group)                6.1         20.7
+      Product harvest index (ratio)           0.38         0.43
+      Maximum leaf area index                  1.6          1.2
+      Final leaf number (one axis)             8.9        -99.0
+      Final shoot number (#/m2)                520          395
+      Canopy (tops) wt (kg dm/ha)             3501         3781
+      Vegetative wt (kg dm/ha)                2161         2164
+      Root wt (kg dm/ha)                       415          -99
+      Assimilate wt (kg dm/ha)                4191          -99
+      Senesced wt (kg dm/ha)                    48          -99
+      Reserves wt (kg dm/ha)                   686          -99
+      N uptake (kg/ha)                        41.0        -99.0
+      N senesced (kg/ha)                       0.7        -99.0
+      Above-ground N (kg/ha)                  36.5         52.9
+      Root N (kg/ha)                           5.3        -99.0
+      Vegetative N (kg/ha)                     9.7          9.7
+      Product N (kg/ha)                       26.8         43.2
+      Product N harvest index (ratio)         0.74         0.82
+      Product N (%)                            2.0          2.7
+      Vegetative N (%)                         0.4          0.4
+      Leaf+stem wt,anthesis (kg dm/ha)        2667          -99
+      Leaf+stem N,anthesis (kg/ha)            24.4        -99.0
+      Leaf N,anthesis (%)                      2.5        -99.0
+
+  Seed N must be added to N uptake to obtain a         
+  balance with N in above-ground plus root material    
+
+  Measured data are obtained from the A file,either    
+  directly or by calculation from other other variables
+  using the expressions given below:                   
+                                                       
+  Product wt       Harvest wt (HWAH) /                 
+                               (Harvest%/100) (HPC)    
+  Canopy wt        Grain wt (HWAM)+Vegetative wt (VWAm)
+  Vegetative wt    Canopy wt (CWAM) - grain wt (HWAM)  
+    = leaf+stem+retained dead material                 
+  Product unit wt  Grain yield (HWAM)/Grain # (G#AM)   
+  Product #/area   Product#/tiller (H#SM) *            
+                                   tiller number (T#AM)
+  Product #/group  Product#/area (H#AM) /              
+                                tiller number (T#AM)   
+  Harvest index    Product wt (HWAM)/Canopy wt.(CWAM)  
+                                                       
+  The same procedure is followed for nitrogen aspects  
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|-------------Environment--------------|----------------Stress-----------------|
+                              |--------Average-------|---Cumulative--|         (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp Solar Photop         Evapo |----Water---|--Nitrogen--|--Phosphorus-|
+                         Span   Max   Min   Rad  [day]   Rain  Trans  Photo         Photo         Photo
+                         days    °C    °C MJ/m2     hr     mm     mm  synth Growth ' synth Growth  synth Growth
+--------------------------------------------------------------------------------------------------------------
+ Germinate  - Term Spklt   30  20.1   7.8  23.1  17.79   62.2   66.1  0.096  0.135  0.353  0.353 -99.00 -99.00
+ Term Spklt - End Veg      13  27.5  12.8  27.7  17.74    4.6   44.5  0.005  0.050  0.348  0.348 -99.00 -99.00
+ End Veg    - End Ear Gr    9  27.8  12.6  26.6  17.37    4.0   26.6  0.341  0.493  0.415  0.415 -99.00 -99.00
+ End Ear Gr - Beg Gr Fil    9  28.7  15.0  24.4  16.95    5.6   14.5  0.497  0.587  0.182  0.182 -99.00 -99.00
+ Beg Gr Fil - End Gr Fil   22  20.8   8.9  22.0  16.04   70.8   52.6  0.000  0.000  0.446  0.446 -99.00 -99.00
+  
+ Germinate  - End Gr Fil   83  23.2  10.2  24.0  17.18  147.2  204.2  0.126  0.174  0.365  0.365 -99.00 -99.00
+--------------------------------------------------------------------------------------------------------------
+
+
+*RESOURCE PRODUCTIVITY
+
+ Growing season length:  83 days 
+
+ Precipitation during growth season        147.2 mm[rain]
+   Dry Matter Productivity                  2.38 kg[DM]/m3[rain]          =   23.8 kg[DM]/ha per mm[rain]
+   Yield Productivity                       0.91 kg[grain yield]/m3[rain] =    9.1 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growth season   204.2 mm[ET]
+   Dry Matter Productivity                  1.71 kg[DM]/m3[ET]            =   17.1 kg[DM]/ha per mm[ET]
+   Yield Productivity                       0.66 kg[grain yield]/m3[ET]   =    6.6 kg[yield]/ha per mm[ET]
+
+ Transpiration during growth season         98.9 mm[EP]
+   Dry Matter Productivity                  3.54 kg[DM]/m3[EP]            =   35.4 kg[DM]/ha per mm[EP]
+   Yield Productivity                       1.36 kg[grain yield]/m3[EP]   =   13.6 kg[yield]/ha per mm[EP]
+
+ N uptake during growing season             41.0 kg[N uptake]/ha
+   Dry Matter Productivity                  85.3 kg[DM]/kg[N uptake]
+   Yield Productivity                       32.7 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+          WHEAT YIELD :     1340 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

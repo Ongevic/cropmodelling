@@ -1,0 +1,25 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:31
+
+*RUN   1        : SUNNY subirrigated        CRGRO048 UFBR9201    1
+ MODEL          : CRGRO048 - Tomato
+ EXPERIMENT     : UFBR9201 TM 1992 POTENTIAL YIELD, SUNNY, SUBIRRIGATED
+ DATA PATH      :
+ TREATMENT  1   : SUNNY subirrigated        CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1992  64
+ Soil photosynthesis factor (SLPF) = 0.97                                      
+
+ IPWTH   YEAR DOY = 1992  64
+ Value of TAV, average annual soil temperature, is missing.                    
+ A default value of 20.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 1992  64
+ Value of TAMP, amplitude of soil temperature function, is missing.            
+ A default value of  5.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         

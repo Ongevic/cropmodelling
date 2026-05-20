@@ -1,0 +1,39 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:51
+
+*RUN   1        : Irrigated DP 555 BG/RR    CRGRO048 GACM0401    1
+ MODEL          : CRGRO048 - Cotton
+ EXPERIMENT     : GACM0401 CO 2004 SIRP IRRIGATED VS RAINFED COTTON EXPERIMENT
+ DATA PATH      :
+ TREATMENT  1   : Irrigated DP 555 BG/RR    CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 2004 121
+ Soil photosynthesis factor (SLPF) = 0.93                                      
+
+ SOLORG  YEAR DOY = 2004 121
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   8 is unlikely:      9.2                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 2004 121
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   9 is unlikely:      8.1                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 2004 121
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer  10 is unlikely:      7.1                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 2004 121
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer  11 is unlikely:      7.1                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              

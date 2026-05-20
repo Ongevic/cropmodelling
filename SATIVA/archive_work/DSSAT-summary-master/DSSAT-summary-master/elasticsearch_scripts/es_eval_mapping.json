@@ -1,0 +1,27 @@
+{
+ "mappings" : {
+  "evaluation" : {
+   "properties" : {
+	"brute.RUN" : { "type": "integer", "index" : "true" },
+	"brute.TR" : { "type" : "integer" },
+	"brute.in.P1" : { "type" : "double" },
+	"brute.in.P2" : { "type" : "double" },
+	"brute.in.P5" : { "type" : "double" },
+	"brute.in.G2" : { "type" : "double" },
+	"brute.in.G3" : { "type" : "double" },
+	"brute.in.PHINT" : { "type" : "double" },
+	"brute.LAID.rmse" : { "type" : "double" },
+	"brute.LAID.nse" : { "type" : "double" },
+	"brute.CWAD.rmse" : { "type" : "double" },
+	"brute.CWAD.nse" : { "type" : "double" },
+	"brute.LWAD.rmse" : { "type" : "double" },
+	"brute.LWAD.nse" : { "type" : "double" },
+	"brute.GWAD.rmse" : { "type" : "double" },
+	"brute.GWAD.nse" : { "type" : "double" },
+	"brute.HIAD.rmse" : { "type" : "double" },
+	"brute.HIAD.nse" : { "type" : "double" },
+	"brute.id" : { "type" : "text", "index" : "true" }
+   }
+  }
+ }
+}

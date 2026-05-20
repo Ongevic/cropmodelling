@@ -1,0 +1,30 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:23
+
+*RUN   1        : NO WATER STRESS           CRGRO048 UFQU7902    1
+ MODEL          : CRGRO048 - Soybean
+ EXPERIMENT     : UFQU7902 SB BRAGG, DEFOLIATION STUDY
+ DATA PATH      :
+ TREATMENT  1   : NO WATER STRESS           CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1979 176
+ Soil photosynthesis factor (SLPF) = 0.97                                      
+
+ SOILDYN  YEAR DOY = 1979 176
+ The pH of one or more soil layers at initialization                           
+ was outside the range pH=1-10, which is unlikely.                             
+ It was set by DSSAT to pH=7.                                                  
+
+ IPWTH   YEAR DOY = 1979 176
+ Value of TAV, average annual soil temperature, is missing.                    
+ A default value of 20.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 1979 176
+ Value of TAMP, amplitude of soil temperature function, is missing.            
+ A default value of  5.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         

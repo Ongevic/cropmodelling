@@ -1,0 +1,44 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:11
+
+*RUN   1        : B (9 N app)                        WABE0301    1
+
+ EXPERIMENT     : WABE0301 PT NITROGEN FATE (ALVA ET AL., 2010)
+ DATA PATH      :
+ TREATMENT  1   : B (9 N app)
+  
+
+ IPEXP   YEAR DOY =    0   0
+ Photosynthesis method (PHOTO in FILEX) has been changed                       
+ from "L" to "C" for compatibility with crop model, PTSUB.                     
+
+ SOILDYN  YEAR DOY = 2003  87
+ Initial soil water content < LL.                                              
+                                                                               
+          FileX              SW @  Revised                                     
+ Layer  Init SW       LL   AirDry  Init SW                                     
+     4    0.070    0.076             0.076                                     
+     5    0.070    0.076             0.076                                     
+
+ IPWTH   YEAR DOY = 2003  87
+ Value of TAV, average annual soil temperature, is missing.                    
+ A default value of 20.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 2003  87
+ Value of TAMP, amplitude of soil temperature function, is missing.            
+ A default value of  5.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ SOILNI  YEAR DOY = 2003  87
+ N content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:N ratio.                 
+   - Previous crop code                 :    99                                
+   - Recommended N content for surface residue (%):   1.1                      
+   - Value read from file               : 0.000%                               
+   - Value changed to                   : 1.100%                               
+ To change allowable N content, modify SCN parameter                           
+   in RESCH048.SDA file.                                                       

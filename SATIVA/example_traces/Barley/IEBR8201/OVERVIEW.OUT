@@ -1,0 +1,179 @@
+*SIMULATION OVERVIEW FILE
+  
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:43
+
+*RUN   1        : N0*C1 0N;A.Abiad          CSCER048 IEBR8201    1
+ MODEL          : CSCER048 - Barley
+ EXPERIMENT     : IEBR8201 BA N RESPONSE,ICARDA  2FE(N)*2CU  (DSSAT3)
+ DATA PATH      :
+ TREATMENT  1   : N0*C1 0N;A.Abiad          CSCER048
+
+
+ CROP           : Barley           CULTIVAR : A.Abiad (2)      ECOTYPE :SY0001
+ STARTING DATE  : OCT 25 1982
+ PLANTING DATE  : NOV 15 1982      PLANTS/m2 :   225.0    ROW SPACING :  15.cm
+ WEATHER        : IEBR   1982
+ SOIL           : IBBA980008     TEXTURE : CL    -   Typic Calciorthid
+ SOIL INIT COND : DEPTH:105cm EXTR. H2O:118.5mm  NO3: 39.5kg/ha  NH4: 28.5kg/ha
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)
+ IRRIGATION     :        0 mm IN     0 APPLICATIONS
+ NITROGEN BAL.  : SOIL-N & N-UPTAKE SIMULATION; NO N-FIXATION
+ N-FERTILIZER   :        0 kg/ha IN     0 APPLICATIONS
+ RESIDUE/MANURE : INITIAL :   200 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:N  PHOSPH :N  PESTS  :N
+                  PHOTO   :C  ET      :R  INFIL:S  HYDROL :R  SOM    :G
+                  CO2 341ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :R  RESIDUE:N  HARVEST:M
+                  WEATHER :M  TILLAGE :N
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.170 0.290 0.460 0.120 0.180   1.00   1.10   7.00  10.00   3.00   0.63
+  5- 15 0.190 0.310 0.460 0.120 0.180   1.00   1.10   7.00   8.00   2.80   0.63
+ 15- 30 0.190 0.310 0.460 0.120 0.190   1.00   1.20   7.00   4.00   2.60   0.50
+ 30- 45 0.220 0.330 0.460 0.110 0.240   0.75   1.20   7.00   2.00   2.40   0.30
+ 45- 60 0.220 0.330 0.460 0.110 0.267   0.65   1.20   7.00   2.00   2.20   0.25
+ 60- 75 0.220 0.330 0.460 0.110 0.255   0.45   1.20   7.00   2.00   2.00   0.19
+ 75- 90 0.220 0.330 0.460 0.110 0.260   0.35   1.20   7.00   2.00   2.00   0.13
+ 90-105 0.220 0.330 0.460 0.110 0.258   0.10   1.20   7.00   2.00   2.00   0.13
+
+TOT-105  22.1  34.0  48.3  11.9  24.8  <--cm   -  kg/ha-->   39.5   28.5  37395
+SOIL ALBEDO    : 0.14      EVAPORATION LIMIT : 6.00         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :72.00      DRAINAGE RATE     : 0.50         FERT. FACTOR : 1.00
+
+ Barley           CULTIVAR: IB0101-A.Abiad (2)        ECOTYPE: SY0001
+   P1V   P1D    P5    G1    G2    G3 PHINT
+  25.3  32.3 220.0  18.2  37.8  6.05  89.0
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+  
+ RUN NO.      1   N RESPONSE,ICARDA  2FE(N)*2CU  (DSSAT3)                     
+
+ ...... DATE ......  GROWTH STAGE BIOMASS   LEAF       CROP N      STRESS
+ YEARDOY DOM MON DAP ............. kg/ha AREA NUMBER  kg/ha   %   H2O    N
+ 1982319  15 Nov 365 7 Sowing         0  0.00   0.0     0   0.0  0.00  0.00
+ 1982322  18 Nov   3 8 Germinate      0  0.00   0.0     0   0.0  0.00  0.00
+ 1982326  22 Nov   7 9 Emergence      0  0.00   0.0     0   0.0  0.00  0.00
+ 1983046  15 Feb  92 1 Max Prim     702  0.43   5.8    12   1.8  0.03  0.07
+ 1983087  28 Mar 133 2 End Veg     2073  2.09   9.1    32   1.6  0.09  0.13
+ 1983100  10 Apr 146 3 End Ear Gr  2377  1.41   9.1    32   1.4  0.75  0.23
+ 1983119  29 Apr 165 4 Bg Gr Fill  3029  0.50   9.1    32   1.1  0.70  0.01
+ 1983131  11 May 177 5 End Gr Fil  3107  0.00   9.1    35   1.1  0.38  0.20
+ 1983131  11 May 177 6 Harvest     3107  0.00   9.1    35   1.1  0.00  0.00
+  
+ BIOMASS = Above-ground dry wt (kg/ha)
+ LEAF AREA  = Leaf area index (m2/m2)
+ LEAF NUMBER  = Leaf number produced on main axis
+ CROP N  = Above-ground N (kg/ha)
+ CROP N% = Above-ground N conc (%)
+ H2O STRESS = Photosynthesis stress,average (0-1,0=none)
+ N STRESS = Photosynthesis stress,average (0-1,0=none)
+  
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                             SIMULATED     MEASURED
+      --------                             ---------     --------
+      Emergence (DAP)                            7          -99
+      Anthesis (DAP)                           151          156
+      Maturity (DAP)                           177          179
+      Product wt (kg dm/ha;no loss)           1568         1510
+      Product unit weight (g dm)             0.038        0.042
+      Product number (no/m2)                  4149         3630
+      Product number (no/group)                6.5         12.0
+      Product harvest index (ratio)           0.50         0.49
+      Maximum leaf area index                  2.1          0.8
+      Final leaf number (one axis)             9.1        -99.0
+      Final shoot number (#/m2)                634          303
+      Canopy (tops) wt (kg dm/ha)             3107         3110
+      Vegetative wt (kg dm/ha)                1538         1600
+      Root wt (kg dm/ha)                       393          -99
+      Assimilate wt (kg dm/ha)                3816          -99
+      Senesced wt (kg dm/ha)                   100          -99
+      Reserves wt (kg dm/ha)                   205          -99
+      N uptake (kg/ha)                        40.4        -99.0
+      N senesced (kg/ha)                       1.3        -99.0
+      Above-ground N (kg/ha)                  35.1        -99.0
+      Root N (kg/ha)                           5.1        -99.0
+      Vegetative N (kg/ha)                    10.2        -99.0
+      Product N (kg/ha)                       24.9        -99.0
+      Product N harvest index (ratio)         0.71       -99.00
+      Product N (%)                            1.6        -99.0
+      Vegetative N (%)                         0.7        -99.0
+      Leaf+stem wt,anthesis (kg dm/ha)        2531          -99
+      Leaf+stem N,anthesis (kg/ha)            32.1        -99.0
+      Leaf N,anthesis (%)                      3.0        -99.0
+
+  Seed N must be added to N uptake to obtain a         
+  balance with N in above-ground plus root material    
+
+  Measured data are obtained from the A file,either    
+  directly or by calculation from other other variables
+  using the expressions given below:                   
+                                                       
+  Product wt       Harvest wt (HWAH) /                 
+                               (Harvest%/100) (HPC)    
+  Canopy wt        Grain wt (HWAM)+Vegetative wt (VWAm)
+  Vegetative wt    Canopy wt (CWAM) - grain wt (HWAM)  
+    = leaf+stem+retained dead material                 
+  Product unit wt  Grain yield (HWAM)/Grain # (G#AM)   
+  Product #/area   Product#/tiller (H#SM) *            
+                                   tiller number (T#AM)
+  Product #/group  Product#/area (H#AM) /              
+                                tiller number (T#AM)   
+  Harvest index    Product wt (HWAM)/Canopy wt.(CWAM)  
+                                                       
+  The same procedure is followed for nitrogen aspects  
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|-------------Environment--------------|----------------Stress-----------------|
+                              |--------Average-------|---Cumulative--|         (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp Solar Photop         Evapo |----Water---|--Nitrogen--|--Phosphorus-|
+                         Span   Max   Min   Rad  [day]   Rain  Trans  Photo         Photo         Photo
+                         days    °C    °C MJ/m2     hr     mm     mm  synth Growth ' synth Growth  synth Growth
+--------------------------------------------------------------------------------------------------------------
+ Germinate  - Max Prim     85  10.5   0.8   9.0  10.99  106.9   92.3  0.028  0.050  0.067  0.067 -99.00 -99.00
+ Max Prim   - End Veg      41  12.8   1.6  14.1  12.42   64.4   77.2  0.085  0.099  0.128  0.128 -99.00 -99.00
+ End Veg    - End Ear Gr   13  21.7   7.0  19.8  13.44   13.8   16.0  0.748  0.806  0.233  0.233 -99.00 -99.00
+ End Ear Gr - Bg Gr Fill   19  21.7   5.3  23.6  14.04   22.0   32.3  0.695  0.766  0.005  0.005 -99.00 -99.00
+ Bg Gr Fill - End Gr Fil   12  28.7   9.8  26.1  14.60    0.0    2.5  0.385  0.431  0.204  0.204 -99.00 -99.00
+  
+ Germinate  - End Gr Fil  170  14.4   2.6  13.9  12.12  207.1  220.2  0.197  0.226  0.097  0.097 -99.00 -99.00
+--------------------------------------------------------------------------------------------------------------
+
+
+*RESOURCE PRODUCTIVITY
+
+ Growing season length: 170 days 
+
+ Precipitation during growth season        207.1 mm[rain]
+   Dry Matter Productivity                  1.50 kg[DM]/m3[rain]          =   15.0 kg[DM]/ha per mm[rain]
+   Yield Productivity                       0.76 kg[grain yield]/m3[rain] =    7.6 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growth season   220.2 mm[ET]
+   Dry Matter Productivity                  1.41 kg[DM]/m3[ET]            =   14.1 kg[DM]/ha per mm[ET]
+   Yield Productivity                       0.71 kg[grain yield]/m3[ET]   =    7.1 kg[yield]/ha per mm[ET]
+
+ Transpiration during growth season         75.4 mm[EP]
+   Dry Matter Productivity                  4.12 kg[DM]/m3[EP]            =   41.2 kg[DM]/ha per mm[EP]
+   Yield Productivity                       2.08 kg[grain yield]/m3[EP]   =   20.8 kg[yield]/ha per mm[EP]
+
+ N uptake during growing season             40.4 kg[N uptake]/ha
+   Dry Matter Productivity                  76.9 kg[DM]/kg[N uptake]
+   Yield Productivity                       38.8 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+          BARLEY YIELD :     1568 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

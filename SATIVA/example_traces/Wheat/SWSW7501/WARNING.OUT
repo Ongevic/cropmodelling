@@ -1,0 +1,16 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:34
+
+*RUN   1        : 0 KG N/HA DRY             CSCER048 SWSW7501    1
+ MODEL          : CSCER048 - Wheat
+ EXPERIMENT     : SWSW7501 WH N RESPONSE,SWIFT CURRENT  7FE(N)*2IR  (DSSAT3)
+ DATA PATH      :
+ TREATMENT  1   : 0 KG N/HA DRY             CSCER048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              

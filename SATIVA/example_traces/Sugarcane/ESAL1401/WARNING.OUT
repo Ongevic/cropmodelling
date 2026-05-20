@@ -1,0 +1,16 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:25
+
+*RUN   1        : WithoutMulch Ratoon2      SCCAN048 ESAL1401    1
+ MODEL          : SCCAN048 - Sugarcane
+ EXPERIMENT     : ESAL1401 SC SUGARCANE GROWTH - FAZENDA AREAO (ESALQ)
+ DATA PATH      :
+ TREATMENT  1   : WithoutMulch Ratoon2      SCCAN048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Soil layer 1 thicker than 5 cm.                                               
+ Soil water algorithms may become unstable.                                    

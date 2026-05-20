@@ -1,0 +1,66 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:18
+
+*RUN   1        : 95, 1ST SOW, LAB RAINFED  CRGRO048 LUGO9502    1
+ MODEL          : CRGRO048 - Soybean
+ EXPERIMENT     : LUGO9502 SB SOJA, MAJOR, LABRADOR RAINFED 95
+ DATA PATH      :
+ TREATMENT  1   : 95, 1ST SOW, LAB RAINFED  CRGRO048
+  
+
+ SOLORG  YEAR DOY = 1995 151
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   1 is unlikely:      0.6                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 1995 151
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   2 is unlikely:      0.6                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 1995 151
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   3 is unlikely:      0.6                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 1995 151
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   4 is unlikely:      0.6                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 1995 151
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   5 is unlikely:      0.6                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 1995 151
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   6 is unlikely:      0.6                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 1995 151
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   7 is unlikely:      0.6                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 1995 151
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   8 is unlikely:      0.6                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 1995 151
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   9 is unlikely:      0.6                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              

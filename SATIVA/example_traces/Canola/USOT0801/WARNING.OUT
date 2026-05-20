@@ -1,0 +1,18 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:48
+
+*RUN   1        : Ottava 2008               CRGRO048 USOT0801    1
+ MODEL          : CRGRO048 - Canola
+ EXPERIMENT     : USOT0801 CN RAPESEED OTTAVA,ITALY - N-N-N KABEL, HIGHER SR, DI
+ DATA PATH      :
+ TREATMENT  1   : Ottava 2008               CRGRO048
+  
+
+ IPWTH   YEAR DOY = 2007 357
+ Warning: SRAD < 1 MJ.m-2.d-1.                                                 
+ C:\DSSAT48\Weather\USOT0701.WTH                                               
+ Line      362                                                                 
+ SRAD =   0.90 MJ.m-2.d-1                                                      

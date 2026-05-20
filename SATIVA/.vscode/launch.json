@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Active R Script",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "\"C:\\Program Files\\R\\R-4.5.3\\bin\\x64\\Rscript.exe\" \"${file}\"",
+            "cwd": "${fileDirname}"
+        },
+        {
+            "name": "Run app.R",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "\"C:\\Program Files\\R\\R-4.5.3\\bin\\x64\\Rscript.exe\" \"${workspaceFolder}\\app.R\"",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

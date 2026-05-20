@@ -1,0 +1,19 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:54
+
+*RUN   1        : 2004                      CRGRO048 GAGR0401    1
+ MODEL          : CRGRO048 - Fallow
+ EXPERIMENT     : GAGR0401 FA SOIL TEMPERATURE TEST EXPERIMENT
+ DATA PATH      :
+ TREATMENT  1   : 2004                      CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 2004   1
+ Soil photosynthesis factor (SLPF) = 0.92                                      

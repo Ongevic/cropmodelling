@@ -1,0 +1,111 @@
+*EXP.DETAILS: UFGA8401SB BRAGG, IRRIGATED & NON-IRRIGATED                            
+
+*FILES
+@N  EXP.DATA    AFILE        ADIR
+  1 EXP         UFGA8401.SBA                                                                                 
+@N  SPECIES     SPFILE       SPDIR
+  1 SPE         SBGRO048.SPE C:\DSSAT48\GENOTYPE\                                                            
+@N  ECOTYPE     EFILE        EDIR
+  1 ECO         SBGRO048.ECO C:\DSSAT48\GENOTYPE\                                                            
+@N  CULTIVAR    CFILE        CDIR
+  1 CUL         SBGRO048.CUL C:\DSSAT48\GENOTYPE\                                                            
+@N  SOIL        SFILE        SDIR
+  1 SOIL        SOIL.SOL     C:\DSSAT48\SOIL\                                                                
+@N  WEATHER     WFILE        WDIR
+  1 WEATH       UFGA8401.WTH C:\DSSAT48\Weather\                                                             
+
+*SIMULATION CONTROL
+@N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
+  1 GE              1     1     S 1984164  2150 BRAGG, IRRIGATED & NON-I  CRGRO048
+@N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+  1 OP              Y     Y     Y     N     N     N     N     Y     M
+@N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL METMP MEGHG
+  1 ME              M     M     E     R     S     L     R     1     G     R     2     D     0
+@N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+  1 MA              R     R     R     R     M
+@N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
+  1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N
+
+!AUTOMATIC MANAGEM
+@N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+  1 PL              -99     -99   40.  100.   30.   40.   10.
+@N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+  1 IR            30.   70.  100. IB001 IB001  10.0 0.750
+@N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+  1 NI            30.   50.   25. IB001 IB001
+@N  RESIDUES    RIPCN RTIME RIDEP
+  1 RE           100.     1   20.
+@N  HARVEST     HFRST   HLAST HPCNP HRCNR
+  1 HA              0     -99  100.    0.
+
+*TREATMENTS
+@N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
+  1  1 1 0 84 IRRIGATED BRAGG          1   1   0   1   1   1   1   1   0   0   0   0   1
+
+*CULTIVARS
+@C  CR INGENO CNAME
+  1 SB IB0001 BRAGG           
+
+*FIELDS
+@L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL    PMALB  PMWD
+  1 UFGA0001 UFGA8401   0.0    0. IB000    0.  100. 00000 S      180. IBSB910015-99.00 -99.0
+@L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
+  1       -99.00000       -99.00000    -99.00               1.0  100.   1.0 -99.0   -99   -99
+
+*INITIAL CONDITIONS
+@C  PCR     ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+  1 MZ    1984164   500     0  1.00  1.00 -99.0     0  0.80  0.00   50.   10.
+@C   ICBL  SH2O  SNH4  SNO3
+  1    5. 0.086   0.6   1.5
+  1   15. 0.086   0.6   1.5
+  1   30. 0.086   0.6   1.5
+  1   45. 0.086   0.6   1.5
+  1   60. 0.086   0.6   1.5
+  1   90. 0.076   0.6   0.6
+  1  120. 0.076   0.6   0.5
+  1  150. 0.130   0.6   0.5
+  1  180. 0.258   0.6   0.5
+
+*PLANTING DETAILS
+@P    PDATE   EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+  1 1984164     -99  31.1  31.1     S     R   76.    0.   2.5  -99.  -99. -99.0 -99.0 -99.0
+
+*IRRIGATION
+@I   IEFF  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+  1 1.000   30.   75.  -99. GS000 IR001   0.0
+@I    IDATE  IROP IRVAL
+  1 1984164 IR001  12.0
+  1 1984166 IR001  12.0
+  1 1984190 IR001  17.0
+  1 1984208 IR001  18.0
+  1 1984220 IR001  18.0
+  1 1984224 IR001  17.0
+  1 1984243 IR001  21.0
+  1 1984248 IR001  27.0
+  1 1984255 IR001  22.0
+  1 1984261 IR001  25.0
+  1 1984268 IR001  41.0
+  1 1984271 IR001  29.0
+  1 1984277 IR001  28.0
+  1 1984289 IR001  33.0
+  1 1984295 IR001  21.0
+
+*FERTILIZERS
+@F    FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+  1 1984164 IB002   001    5.   40.   35.  131.  -99.  -99.   -99
+
+*RESIDUES
+@R    RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET
+  1 1984164 RE203  1000  0.80  0.00  0.00   50.   15.   -99
+
+*CHEMICALS
+@C    CDATE CHCOD CHAMT  CHME CHDEP   CHT
+
+*TILLAGE
+@T    TDATE TIMPL  TDEP
+
+*ENVIRONMENT
+@E    ODATE  EDAY  ERAD  EMAX  EMIN ERAIN  ECO2  EDEW EWIND
+
+*HARVEST
+@H    HDATE  HSTG  HCOM HSIZE   HPC  HBPC

@@ -1,0 +1,4 @@
+$BATCH
+@FILEX                                                                                        TRTNO     RP     SQ     OP     CO
+KSAS8101.WHX                                                                                      1      1      0      0      0
+

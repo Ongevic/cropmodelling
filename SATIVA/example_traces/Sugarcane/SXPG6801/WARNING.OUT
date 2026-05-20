@@ -1,0 +1,38 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:25
+
+*RUN   1        : Dec 1968                  SCCAN048 SXPG6801    1
+ MODEL          : SCCAN048 - Sugarcane
+ EXPERIMENT     : SXPG6801 SC AGROWTHHR - POGOLA EVALUATION EXPERIMENT
+ DATA PATH      :
+ TREATMENT  1   : Dec 1968                  SCCAN048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1968 352
+ The pH of one or more soil layers at initialization                           
+ was outside the range pH=1-10, which is unlikely.                             
+ It was set by DSSAT to pH=7.                                                  
+
+ SOILDYN  YEAR DOY = 1968 352
+ Organic C data in one or more soil layers are zero or missing.                
+ A minimum value of OC in this layer  will be estimated using soil texture.    
+       Depth  Clay  Silt    OC                                                 
+ Layer  (cm)   (%)   (%)   (%)                                                 
+     1     5  30.0  30.0  0.97 (estimated)                                     
+     2    15  30.0  30.0  0.97 (estimated)                                     
+     3    17  30.0  30.0  0.97 (estimated)                                     
+     4    32  30.0  30.0  0.97 (estimated)                                     
+     5    47  30.0  30.0  0.97 (estimated)                                     
+     6    62  30.0  30.0  0.97 (estimated)                                     
+     7    92  30.0  30.0  0.97 (estimated)                                     
+     8   122  30.0  30.0  0.97 (estimated)                                     
+     9   152  30.0  30.0  0.97 (estimated)                                     
+    10   182  30.0  30.0  0.97 (estimated)                                     
+    11   272  30.0  30.0  0.97 (estimated)                                     

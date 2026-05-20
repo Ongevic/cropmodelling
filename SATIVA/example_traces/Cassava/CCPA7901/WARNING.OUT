@@ -1,0 +1,19 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:48
+
+*RUN   1        : C1 MCol-1684              CSYCA048 CCPA7901    1
+ MODEL          : CSYCA048 - Cassava
+ EXPERIMENT     : CCPA7901 CS 1979 FOUR CULTIVARS
+ DATA PATH      :
+ TREATMENT  1   : C1 MCol-1684              CSYCA048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ CSYCA  YEAR DOY = 1979 194
+   NO reserve CH2O included in the wt of leaves,stems,and Plant. stick.        

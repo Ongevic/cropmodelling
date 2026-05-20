@@ -1,0 +1,26 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:27
+
+*RUN   1        : Heliasol 0N               CRGRO048 INRA0501    1
+ MODEL          : CRGRO048 - Sunflower
+ EXPERIMENT     : INRA0501 SU RESPONSE OF SUNFLOWER TO N FERTILIZER
+ DATA PATH      :
+ TREATMENT  1   : Heliasol 0N               CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILNI  YEAR DOY = 2005   1
+ N content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:N ratio.                 
+   - Previous crop code                 :    WH                                
+   - Recommended N content for surface residue (%):   0.6                      
+   - Value read from file               : 0.800%                               
+   - Value changed to                   : 0.708%                               
+ To change allowable N content, modify SCN parameter                           
+   in RESCH048.SDA file.                                                       

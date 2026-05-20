@@ -1,0 +1,86 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:46
+
+*RUN   1        : JAN   46 CM ROWSPACE      CRGRO048 IBPF8601    1
+ MODEL          : CRGRO048 - Cabbage
+ EXPERIMENT     : IBPF8601 CB PULEHU EXP. FARM, MAUI, HI
+ DATA PATH      :
+ TREATMENT  1   : JAN   46 CM ROWSPACE      CRGRO048
+
+
+ CROP           : Cabbage          CULTIVAR : CG        4      ECOTYPE :CB0402
+ STARTING DATE  : JAN 14 1986
+ PLANTING DATE  : JAN 14 1986      PLANTS/m2 :     5.7    ROW SPACING :  46.cm
+ HARVEST DATE   : APR  1 1986
+ WEATHER        : IBPF   1986
+ SOIL           : IB00830003     TEXTURE : -99   -   Unknown (Pulehu Experim
+ WATER BALANCE  : NOT SIMULATED ; NO H2O-STRESS
+ IRRIGATION     :
+ NITROGEN BAL.  : NOT SIMULATED ; NO N-STRESS
+ N-FERTILIZER   :
+ RESIDUE/MANURE :
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :N  NITROGEN:N  N-FIX:N  PHOSPH :N  PESTS  :N
+                  PHOTO   :L  ET      :R  INFIL:S  HYDROL :R  SOM    :G
+                  CO2 346ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :N  FERT :N  RESIDUE:N  HARVEST:R
+                  WEATHER :M  TILLAGE :N
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+ Cabbage          CULTIVAR: 990002-CG        4        ECOTYPE: CB0402
+ CSDVAR :13.09  PPSEN  : 0.00  EMG-FLW:27.00  FLW-FSD:13.00  FSD-PHM : 55.00
+ WTPSD  :0.190  SDPDVR :  2.2  SDFDUR :23.00  PODDUR :10.00  XFRUIT  :  0.75
+ THRESH : 10.0  SDPRO  :0.180  SDLIP   : 0.020
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     JAN   46 CM ROWSPACE    
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+ 14 JAN    0 Start Sim        8   0.03   4.0    0  4.3  0.00  0.00  0.00  0.00     0
+ 14 JAN    0 Transplant       8   0.03   4.0    0  4.3  0.00  0.00  0.00  0.00     0
+ 18 FEB   35 First Head    1159   2.88  16.1   51  4.4  0.00  0.00  0.00  0.00     3
+ 25 MAR   70 End Msnode    5781   3.46  21.2  147  2.5  0.00  0.00  0.00  0.00     5
+ 26 MAR   71 End Leaf      5903   3.45  21.2  149  2.5  0.00  0.00  0.00  0.00     5
+  1 APR   77 Harvest       6738   3.39  21.2  165  2.4  0.00  0.00  0.00  0.00     5
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Anthesis day (dap)                                      28          -99
+      First pod day (dap)                                     35          -99
+      First seed day (dap)                                    43          -99
+      Physiological maturity day (dap)                       -99          -99
+      Yield at harvest maturity (kg [dm]/ha)                 453          -99
+      Pod/Ear/Panicle weight at maturity (kg [dm]/ha)       4634         5430
+      Tops weight at anthesis (kg [dm]/ha)                   577          -99
+      Tops weight at maturity (kg [dm]/ha)                  6738          -99
+      By-product produced (stalk) at maturity (kg[dm]/ha    6290          -99
+      Number at maturity (no/m2)                             365          -99
+      Unit wt at maturity (g [dm]/unit)                   0.1242          -99
+      Number at maturity (no/unit)                          0.91          -99
+      Harvest index at maturity                            0.067          -99
+      Threshing % at maturity                               9.78          -99
+      Leaf area index, maximum                              3.51          -99
+      Leaf number per stem at maturity                     21.15          -99
+      Canopy height (m)                                     0.36          -99
+      Tops N at anthesis (kg/ha)                              26          -99
+      Tops N at maturity (kg/ha)                             165          -99
+      Stem N at maturity (kg/ha)                               5          -99
+      Grain N at maturity (kg/ha)                             12          -99
+      Grain N at maturity (%)                               2.75          -99
+      Grain oil at maturity (%)                             1.88          -99
+
+--------------------------------------------------------------------------------------------------------------
+
+                   Cabbage YIELD :      453 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

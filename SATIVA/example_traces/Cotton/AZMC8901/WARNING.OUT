@@ -1,0 +1,36 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:50
+
+*RUN   1        : Control - 350 ppm         CRGRO048 AZMC8901    1
+ MODEL          : CRGRO048 - Cotton
+ EXPERIMENT     : AZMC8901 CO 1989 FACE EXPERIMENT
+ DATA PATH      :
+ TREATMENT  1   : Control - 350 ppm         CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1989 100
+ Soil photosynthesis factor (SLPF) = 0.90                                      
+
+ SOILDYN  YEAR DOY = 1989 100
+ Organic C data in one or more soil layers are zero or missing.                
+ A minimum value of OC in this layer  will be estimated using soil texture.    
+       Depth  Clay  Silt    OC                                                 
+ Layer  (cm)   (%)   (%)   (%)                                                 
+     1     5  34.0  31.0  0.41                                                 
+     2    15  34.0  31.0  0.35                                                 
+     3    30  34.0  31.0  0.27                                                 
+     4    40  34.0  31.0  0.24                                                 
+     5    50  34.0  31.0  0.24                                                 
+     6    60  34.0  31.0  0.16                                                 
+     7    70  34.0  31.0  0.16                                                 
+     8    90  30.0  25.0  0.30                                                 
+     9   110  25.0  20.0  0.10                                                 
+    10   120  25.0  20.0  0.10                                                 
+    11   130  25.0  20.0  0.10                                                 
+    12   150  20.0  20.0  0.67 (estimated)                                     
+    13   170  20.0  20.0  0.67 (estimated)                                     
+    14   190  18.0  17.0  0.59 (estimated)                                     
+    15   210  18.0  17.0  0.59 (estimated)                                     

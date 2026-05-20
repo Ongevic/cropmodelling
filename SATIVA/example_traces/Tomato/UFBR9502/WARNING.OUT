@@ -1,0 +1,38 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:31
+
+*RUN   1        : Aauto irr,N-BAl 'OFF'     CRGRO048 UFBR9502    1
+ MODEL          : CRGRO048 - Tomato
+ EXPERIMENT     : UFBR9502 TM SPRING 1995,SUNNY,SUB-IRR.,BRADENTON,FL
+ DATA PATH      :
+ TREATMENT  1   : Aauto irr,N-BAl 'OFF'     CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1995  44
+ Initial soil water content > SAT.                                             
+                                                                               
+          FileX           Revised                                              
+ Layer  Init SW      SAT  Init SW                                              
+     9    0.400    0.396    0.396                                              
+    10    0.400    0.374    0.374                                              
+    11    0.400    0.374    0.374                                              
+    12    0.400    0.374    0.374                                              
+    13    0.400    0.374    0.374                                              
+    14    0.400    0.324    0.324                                              
+    15    0.400    0.294    0.294                                              
+
+ SOILDYN  YEAR DOY = 1995  44
+ Soil photosynthesis factor (SLPF) = 0.97                                      
+
+ IPWTH   YEAR DOY = 1995  44
+ Value of TAV, average annual soil temperature, is missing.                    
+ A default value of 20.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 1995  44
+ Value of TAMP, amplitude of soil temperature function, is missing.            
+ A default value of  5.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         

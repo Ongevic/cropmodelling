@@ -1,0 +1,37 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:32
+
+*RUN   1        : El Batan black            CRGRO048 CIEB9701    1
+ MODEL          : CRGRO048 - Velvet bean
+ EXPERIMENT     : CIEB9701 VB 1997 CIMMYT ES EL BATAN
+ DATA PATH      :
+ TREATMENT  1   : El Batan black            CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOLORG  YEAR DOY = 1997 160
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   1 is unlikely:      6.7                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 1997 160
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   2 is unlikely:      6.7                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ SOLORG  YEAR DOY = 1997 160
+ The initialized C:N ratio of the soil organic                                 
+ matter (humus) in layer   4 is unlikely:      9.0                             
+ A C:N ratio of 10.0 will be used to calculate initial soil organic N.         
+ Please check your SOIL.SOL file.                                              
+
+ FREEZE  YEAR DOY = 1997 288
+ Freeze occurred at  116 days after planting.                                  

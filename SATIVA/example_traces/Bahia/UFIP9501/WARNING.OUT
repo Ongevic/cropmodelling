@@ -1,0 +1,26 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:42
+
+*RUN   1        : 360vpm/Baseline           PRFRM048 UFIP9501    1
+ MODEL          : PRFRM048 - Bahia grass
+ EXPERIMENT     : UFIP9501 BH IRRIGATION PARK CO2 & TEMP RESPONSE
+ DATA PATH      :
+ TREATMENT  1   : 360vpm/Baseline           PRFRM048
+  
+
+ SOILDYN  YEAR DOY = 1995  69
+ Initial soil water content < LL.                                              
+                                                                               
+          FileX              SW @  Revised                                     
+ Layer  Init SW       LL   AirDry  Init SW                                     
+    11    0.191    0.205             0.205                                     
+
+ FRHARV  YEAR DOY = 1995  69
+ File not found. Please check file name or create file.                        
+ File: UFIP9501.MOW                                                            
+    Line:     0                                                                
+    Error key: FRHARV                                                          
+ Simulations terminated.                                                       

@@ -1,0 +1,151 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:58
+
+*RUN   1        : CA-Suther 2016            CRGRO048 GLOB1632    1
+ MODEL          : CRGRO048 - Lentil
+ EXPERIMENT     : GLOB1632 LT GLOBAL LENTIL EXPERIMENT 9 LOCATIONS 2016-2018
+ DATA PATH      :
+ TREATMENT  1   : CA-Suther 2016            CRGRO048
+
+
+ CROP           : Lentil           CULTIVAR : CDC Maximim      ECOTYPE :LAT001
+ STARTING DATE  : JAN  1 2016
+ PLANTING DATE  : APR 27 2016      PLANTS/m2 :   150.0    ROW SPACING :  25.cm
+ WEATHER        : SKSL   2016
+ SOIL           : CAOT900010     TEXTURE : SIL   -   OTH  O.DBC
+ SOIL INIT COND : DEPTH:150cm EXTR. H2O:201.8mm  NO3: 46.6kg/ha  NH4:  6.7kg/ha
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)
+ IRRIGATION     :        0 mm IN     0 APPLICATIONS
+ NITROGEN BAL.  : SOIL-N, N-UPTAKE & DYNAMIC N-FIXATION SIMULATION
+ N-FERTILIZER   :        0 kg/ha IN     0 APPLICATIONS
+ RESIDUE/MANURE : INITIAL :     0 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:Y  PHOSPH :N  PESTS  :N
+                  PHOTO   :L  ET      :R  INFIL:S  HYDROL :R  SOM    :P
+                  CO2 402ppm  NSWIT   :1  EVAP :R  SOIL   :1  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :R  RESIDUE:N  HARVEST:M
+                  WEATHER :M  TILLAGE :N
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.136 0.284 0.497 0.148 0.260   1.00   1.33   7.00  10.60   1.00   2.27
+  5- 15 0.136 0.284 0.497 0.148 0.260   1.00   1.33   7.00   9.00   1.00   2.27
+ 15- 30 0.133 0.279 0.486 0.146 0.287   1.00   1.36   7.00   3.33   0.47   1.47
+ 30- 45 0.127 0.269 0.461 0.142 0.297   0.82   1.43   7.00   1.10   0.20   0.81
+ 45- 60 0.118 0.253 0.424 0.135 0.290   0.47   1.53   7.00   1.10   0.20   0.28
+ 60- 90 0.113 0.243 0.403 0.131 0.313   0.30   1.58   7.00   1.10   0.20   0.06
+ 90-120 0.187 0.316 0.377 0.129 0.320   0.12   1.61   7.00   1.10   0.20   0.22
+120-150 0.225 0.353 0.366 0.128 0.320   0.08   1.62   7.00   1.10   0.20   0.32
+
+TOT-150  23.5  43.7  62.4  20.2  45.6  <--cm   -  kg/ha-->   46.6    6.7 128108
+SOIL ALBEDO    : 0.12      EVAPORATION LIMIT : 8.00         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :61.00      DRAINAGE RATE     : 0.60         FERT. FACTOR : 1.00
+
+ Lentil           CULTIVAR: CAND04-CDC Maximim        ECOTYPE: LAT001
+ CSDVAR :15.80  PPSEN  :-0.11  EMG-FLW:26.50  FLW-FSD:10.00  FSD-PHM : 21.00
+ WTPSD  :0.044  SDPDVR : 1.30  SDFDUR :20.00  PODDUR :14.00  XFRUIT  :  1.00
+ THRESH : 69.0  SDPRO  :0.286  SDLIP   : 0.020
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     CA-Suther 2016          
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+  1 JAN    0 Start Sim        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+ 27 APR    0 Sowing           0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+  6 MAY    9 Emergence       20   0.03   0.0    1  3.3  0.00  0.00  0.00  0.00     0
+  6 MAY    9 End Juven.      20   0.03   0.0    1  3.3  0.00  0.00  0.00  0.00     0
+ 14 MAY   17 Unifoliate      31   0.05   1.0    1  3.3  0.00  0.00  0.00  0.00     0
+ 14 MAY   17 Flower Ind      31   0.05   1.0    1  3.3  0.00  0.00  0.00  0.00     0
+ 17 JUN   51 First Flwr    1415   1.37   8.3   41  2.9  0.03  0.00  0.00  0.00     1
+ 27 JUN   61 First Pod     2302   1.74  10.3   61  2.7  0.16  0.00  0.00  0.00     3
+ 30 JUN   64 First Seed    2588   1.80  10.8   66  2.5  0.28  0.00  0.00  0.00     5
+ 12 JUL   76 End Pod       2922   1.38  11.9   64  2.2  0.55  0.00  0.00  0.00     5
+ 16 JUL   80 End Msnode    3203   1.26  12.5   68  2.1  0.00  0.00  0.00  0.00     5
+ 19 JUL   83 End Leaf      3288   1.23  12.5   70  2.1  0.59  0.00  0.00  0.00     5
+ 21 JUL   85 Phys. Mat     3341   1.19  12.5   70  2.1  0.58  0.00  0.00  0.00     7
+ 24 JUL   88 Harv. Mat     2914   0.65  12.5   62  2.1  0.65  0.00  0.00  0.00     8
+ 24 JUL   88 Harvest       2914   0.65  12.5   62  2.1  0.00  0.00  0.00  0.00     8
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Emergence day (dap)                                      9           14
+      Anthesis day (dap)                                      51           51
+      First pod day (dap)                                     61          -99
+      First seed day (dap)                                    64           69
+      Physiological maturity day (dap)                        85          100
+      Harvest maturity day (dap)                              88          -99
+      Yield at harvest maturity (kg [dm]/ha)                 812          -99
+      Pod/Ear/Panicle weight at maturity (kg [dm]/ha)       1259          -99
+      Tops weight at anthesis (kg [dm]/ha)                  1415          -99
+      Tops weight at maturity (kg [dm]/ha)                  2914          -99
+      By-product produced (stalk) at maturity (kg[dm]/ha    2100          -99
+      Number at maturity (no/m2)                            3197          -99
+      Unit wt at maturity (g [dm]/unit)                   0.0254          -99
+      Number at maturity (no/unit)                          1.30          -99
+      Harvest index at maturity                            0.279          -99
+      Threshing % at maturity                              64.50          -99
+      Leaf area index, maximum                              1.80          -99
+      Leaf number per stem at maturity                     12.46          -99
+      Canopy height (m)                                     0.31          -99
+      Tops N at anthesis (kg/ha)                              41          -99
+      Tops N at maturity (kg/ha)                              62          -99
+      Stem N at maturity (kg/ha)                              14          -99
+      Grain N at maturity (kg/ha)                             32          -99
+      Grain N at maturity (%)                               3.95          -99
+      Grain oil at maturity (%)                             2.95          -99
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|--------------------------------------Environment--------------------------------------|-----------------Stress-----------------|
+                              |---------------Average--------------|-----Cumulative-----|--------Count of days--------|          (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp  Temp Solar Photop                Evapo    Pot TMIN TMIN TMAX TMAX TMAX RAIN|----Water----|---Nitrogen--|-Phosphorus-|
+                         Span   Max   Min  Mean   Rad  [day]    CO2   Rain  Trans     ET   <    <    >    >    >    >   Photo         Photo         Photo
+                         days     C     C     C MJ/m2     hr    ppm     mm     mm    mm   0 C  2 C 30 C 32 C 34 C  0mm  synth Growth  synth Growth  synth Growth
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Emergence -First Flower   42  28.4   6.8  17.6  29.4  15.97  403.8   74.3  105.4  299.3    4    7   18   13    9   15  0.002  0.028  0.000  0.000  0.000  0.000
+ First Flower-First Seed   13  30.7  11.0  20.8  29.3  16.51  404.1   17.0   63.9   91.6    0    0    7    5    5    5  0.077  0.190  0.000  0.000  0.000  0.000
+ First Seed - Phys. Mat.   21  31.6  11.8  21.7  28.4  16.16  404.2   43.6   75.1  148.7    0    0   12   10    8   11  0.299  0.451  0.000  0.000  0.000  0.000
+ Emergence  - Phys. Mat.   76  29.7   8.9  19.3  29.1  16.11  404.0  134.9  244.4  539.5    4    7   37   28   22   31  0.097  0.173  0.000  0.000  0.000  0.000
+   
+ Planting to Harvest       89  30.0   8.3  19.2  29.2  15.94  403.9  141.8  257.5  646.0    4   10   46   36   29   33  0.099  0.169  0.000  0.000  0.000  0.000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*Resource Productivity
+ Growing season length:  89 days 
+
+ Precipitation during growing season       141.8 mm[rain]
+   Dry Matter Productivity                  2.06 kg[DM]/m3[rain]          =   20.6 kg[DM]/ha per mm[rain]
+   Yield Productivity                       0.57 kg[grain yield]/m3[rain] =    5.7 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season  257.5 mm[ET]
+   Dry Matter Productivity                  1.13 kg[DM]/m3[ET]            =   11.3 kg[DM]/ha per mm[ET]
+   Yield Productivity                       0.32 kg[grain yield]/m3[ET]   =    3.2 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season       147.3 mm[EP]
+   Dry Matter Productivity                  1.98 kg[DM]/m3[EP]            =   19.8 kg[DM]/ha per mm[EP]
+   Yield Productivity                       0.55 kg[grain yield]/m3[EP]   =    5.5 kg[yield]/ha per mm[EP]
+
+ N uptake during growing season               79 kg[N uptake]/ha
+   Dry Matter Productivity                  36.9 kg[DM]/kg[N uptake]
+   Yield Productivity                       10.3 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+                    Lentil YIELD :      812 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

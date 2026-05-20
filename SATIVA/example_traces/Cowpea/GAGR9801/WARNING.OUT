@@ -1,0 +1,19 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:52
+
+*RUN   1        : TVU 3046 INDIA            CRGRO048 GAGR9801    1
+ MODEL          : CRGRO048 - Cowpea
+ EXPERIMENT     : GAGR9801 CP GRIFFIN 1998 FIELD EXPERIMENT
+ DATA PATH      :
+ TREATMENT  1   : TVU 3046 INDIA            CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1998 155
+ Soil photosynthesis factor (SLPF) = 0.92                                      

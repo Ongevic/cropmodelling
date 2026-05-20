@@ -1,0 +1,20 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:45
+
+*RUN   1        : 82 Treatment 1            CRGRO048 CNCH8201    1
+ MODEL          : CRGRO048 - Brachiaria
+ EXPERIMENT     : CNCH8201 BR BRACHIARIA ON LA ROMELIA
+ DATA PATH      :
+ TREATMENT  1   : 82 Treatment 1            CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOMINI  YEAR DOY = 1982  32
+ Reported initial value of total N ( 0.36% in layer 1) was not used            
+ because resulting C:N ratios were not within range of acceptable values.      

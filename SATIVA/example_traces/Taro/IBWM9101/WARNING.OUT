@@ -1,0 +1,16 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:30
+
+*RUN   1        : 0 NITROGEN                TRARO048 IBWM9101    1
+ MODEL          : TRARO048 - Taro
+ EXPERIMENT     : IBWM9101 TR TARO NITROGEN EXPERIMENT, WAIMANALO
+ DATA PATH      :
+ TREATMENT  1   : 0 NITROGEN                TRARO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              

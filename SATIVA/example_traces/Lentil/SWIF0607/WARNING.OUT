@@ -1,0 +1,16 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:00
+
+*RUN   1        : rainfed   2006            CRGRO048 SWIF0607    1
+ MODEL          : CRGRO048 - Lentil
+ EXPERIMENT     : SWIF0607 LT RAINFED AND IRRIGATED LENTIL AT SWIFT CURRENT
+ DATA PATH      :
+ TREATMENT  1   : rainfed   2006            CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Soil layer 1 thicker than 5 cm.                                               
+ Soil water algorithms may become unstable.                                    

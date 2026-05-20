@@ -1,0 +1,15 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:58
+
+*RUN   1        : Low N + Optim Irr FreshH  CRGRO048 UFGA0701    1
+ MODEL          : CRGRO048 - Green bean
+ EXPERIMENT     : UFGA0701 GB SNAP BEAN SPRING 2007
+ DATA PATH      :
+ TREATMENT  1   : Low N + Optim Irr FreshH  CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 2007  68
+ Soil photosynthesis factor (SLPF) = 0.92                                      

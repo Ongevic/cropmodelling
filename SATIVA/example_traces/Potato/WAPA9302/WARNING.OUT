@@ -1,0 +1,92 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:11
+
+*RUN   1        : I1 T1 Russet Burbank      PTSUB048 WAPA9302    1
+ MODEL          : PTSUB048 - Potato
+ EXPERIMENT     : WAPA9302 PT PATERSON, WASHINGTON - 1993
+ DATA PATH      :
+ TREATMENT  1   : I1 T1 Russet Burbank      PTSUB048
+  
+
+ SOILDYN  YEAR DOY = 1993  60
+ Initial soil water content > SAT.                                             
+                                                                               
+          FileX           Revised                                              
+ Layer  Init SW      SAT  Init SW                                              
+     3    0.304    0.300    0.300                                              
+     4    0.304    0.300    0.300                                              
+     5    0.304    0.300    0.300                                              
+
+ TILLAGE  YEAR DOY = 1993  60
+ User-specified tillage depth greater than that specified by tillage implement.
+ Tillage operation date: 1993  74                                              
+ TI011: Cultivator, field                                                      
+ User-specified depth = 15.0 cm                                                
+ Implement depth of     10.0 cm will be used.                                  
+
+ TILLAGE  YEAR DOY = 1993  60
+ User-specified tillage depth greater than that specified by tillage implement.
+ Tillage operation date: 1993  78                                              
+ TI025: Drill, double-disk                                                     
+ User-specified depth = 15.0 cm                                                
+ Implement depth of      5.0 cm will be used.                                  
+
+ TILLAGE  YEAR DOY = 1993  60
+ User-specified tillage depth greater than that specified by tillage implement.
+ Tillage operation date: 1993  96                                              
+ TI033: Planter, row                                                           
+ User-specified depth = 15.0 cm                                                
+ Implement depth of      5.0 cm will be used.                                  
+
+ TILLAGE  YEAR DOY = 1993  60
+ User-specified tillage depth greater than that specified by tillage implement.
+ Tillage operation date: 1993 103                                              
+ TI013: Cultivator, ridge till                                                 
+ User-specified depth = 15.0 cm                                                
+ Implement depth of      3.0 cm will be used.                                  
+
+ TILLAGE  YEAR DOY = 1993  60
+ User-specified tillage depth greater than that specified by tillage implement.
+ Tillage operation date: 1993 112                                              
+ TI026: Drill, deep furrow                                                     
+ User-specified depth = 15.0 cm                                                
+ Implement depth of     10.0 cm will be used.                                  
+
+ IPWTH   YEAR DOY = 1993 100
+ Warning: SRAD < 1 MJ.m-2.d-1.                                                 
+ C:\DSSAT48\Weather\WAPA9301.WTH                                               
+ Line      105                                                                 
+ SRAD =   0.30 MJ.m-2.d-1                                                      
+
+ IPWTH   YEAR DOY = 1993 102
+ Warning: SRAD < 1 MJ.m-2.d-1.                                                 
+ C:\DSSAT48\Weather\WAPA9301.WTH                                               
+ Line      107                                                                 
+ SRAD =   0.10 MJ.m-2.d-1                                                      
+
+ IPWTH   YEAR DOY = 1993 103
+ Warning: SRAD < 1 MJ.m-2.d-1.                                                 
+ C:\DSSAT48\Weather\WAPA9301.WTH                                               
+ Line      108                                                                 
+ SRAD =   0.30 MJ.m-2.d-1                                                      
+
+ IPWTH   YEAR DOY = 1993 118
+ Warning: SRAD < 1 MJ.m-2.d-1.                                                 
+ C:\DSSAT48\Weather\WAPA9301.WTH                                               
+ Line      123                                                                 
+ SRAD =   0.60 MJ.m-2.d-1                                                      
+
+ IPWTH   YEAR DOY = 1993 119
+ Warning: SRAD < 1 MJ.m-2.d-1.                                                 
+ C:\DSSAT48\Weather\WAPA9301.WTH                                               
+ Line      124                                                                 
+ SRAD =   0.80 MJ.m-2.d-1                                                      
+
+ IPWTH   YEAR DOY = 1993 123
+ Warning: SRAD < 1 MJ.m-2.d-1.                                                 
+ C:\DSSAT48\Weather\WAPA9301.WTH                                               
+ Line      128                                                                 
+ SRAD =   0.20 MJ.m-2.d-1                                                      

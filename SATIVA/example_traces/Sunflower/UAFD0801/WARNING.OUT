@@ -1,0 +1,15 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:28
+
+*RUN   1        : Hysun-33-0 Kg N ha-1      CRGRO048 UAFD0801    1
+ MODEL          : CRGRO048 - Sunflower
+ EXPERIMENT     : UAFD0801 SU CULTIVAR BY NITROGEN RESPONSE - FAISALABAD
+ DATA PATH      :
+ TREATMENT  1   : Hysun-33-0 Kg N ha-1      CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 2008  53
+ Soil photosynthesis factor (SLPF) = 0.90                                      

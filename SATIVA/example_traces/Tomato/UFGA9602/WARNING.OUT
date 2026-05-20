@@ -1,0 +1,15 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:32
+
+*RUN   1        : 96-CONT N-B "off" AI      CRGRO048 UFGA9602    4
+ MODEL          : CRGRO048 - Tomato
+ EXPERIMENT     : UFGA9602 TM SPRING 1996,AGRISET,IRR.CUT,DRIP-IRR
+ DATA PATH      :
+ TREATMENT  4   : 96-CONT N-B "off" AI      CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1996  61
+ Soil photosynthesis factor (SLPF) = 0.92                                      

@@ -1,0 +1,149 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:03
+
+*RUN   1        : 98 DATE 1 CHINESE  DEF    CRGRO048 GHNY9801    1
+ MODEL          : CRGRO048 - Peanut
+ EXPERIMENT     : GHNY9801 PN 1998 VARIETY X PLANTING DATE EXPERIMENT
+ DATA PATH      :
+ TREATMENT  1   : 98 DATE 1 CHINESE  DEF    CRGRO048
+
+
+ CROP           : Peanut           CULTIVAR : CHINESE TMV2 TAM ECOTYPE :PN0019
+ STARTING DATE  : MAY 22 1998
+ PLANTING DATE  : MAY 22 1998      PLANTS/m2 :    18.0    ROW SPACING :  50.cm
+ WEATHER        : GHNY   1998
+ SOIL           : GH00970003     TEXTURE : SALO  - SAVANNA OCHROSOL
+ SOIL INIT COND : DEPTH: 90cm EXTR. H2O:106.1mm  NO3:  0.1kg/ha  NH4:  0.1kg/ha
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)
+ IRRIGATION     :        0 mm IN     0 APPLICATIONS
+ NITROGEN BAL.  : SOIL-N, N-UPTAKE & DYNAMIC N-FIXATION SIMULATION
+ N-FERTILIZER   : NO N-FERTILIZER APPLIED
+ RESIDUE/MANURE : INITIAL :  1000 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:Y  PHOSPH :N  PESTS  :Y
+                  PHOTO   :L  ET      :R  INFIL:S  HYDROL :R  SOM    :G
+                  CO2 366ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :N  RESIDUE:N  HARVEST:M
+                  WEATHER :M  TILLAGE :N
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.060 0.247 0.359 0.187 0.074   1.00   1.39   6.70   0.01   0.01   0.41
+  5- 15 0.050 0.227 0.359 0.177 0.074   1.00   1.39   6.70   0.01   0.01   0.41
+ 15- 30 0.050 0.228 0.340 0.178 0.074   0.70   1.59   6.40   0.01   0.01   0.32
+ 30- 45 0.105 0.229 0.342 0.124 0.214   0.35   1.59   6.10   0.01   0.01   0.28
+ 45- 60 0.120 0.205 0.342 0.085 0.208   0.25   1.63   6.10   0.01   0.01   0.28
+ 60- 90 0.130 0.200 0.347 0.070 0.203   0.05   1.45   6.00   0.01   0.01   0.17
+
+TOT- 90   8.8  19.4  31.2  10.6  14.6  <--cm   -  kg/ha-->    0.1    0.1  37100
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT : 6.00         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :78.00      DRAINAGE RATE     : 0.65         FERT. FACTOR : 0.84
+
+ Peanut           CULTIVAR: GH0001-CHINESE TMV2 TAM   ECOTYPE: PN0019
+ CSDVAR :11.84  PPSEN  : 0.00  EMG-FLW:18.00  FLW-FSD:17.50  FSD-PHM : 53.00
+ WTPSD  :0.360  SDPDVR : 1.65  SDFDUR :29.00  PODDUR :15.00  XFRUIT  :  0.72
+ THRESH : 74.5  SDPRO  :0.270  SDLIP   : 0.510
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     98 DATE 1 CHINESE  DEF  
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+ 22 MAY    0 Start Sim        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+ 22 MAY    0 Sowing           0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+ 28 MAY    6 Emergence       19   0.02   0.0    1  4.8  0.00  0.00  0.00  0.00     0
+ 28 MAY    6 End Juven.      19   0.02   0.0    1  4.8  0.00  0.00  0.00  0.00     0
+  1 JUN   10 Unifoliate      29   0.05   1.6    1  4.8  0.00  0.23  0.00  0.00     0
+ 13 JUN   22 Flower Ind     138   0.28   6.4    5  3.6  0.00  0.02  0.00  0.00     0
+ 16 JUN   25 First Flwr     189   0.38   7.4    7  3.6  0.00  0.00  0.00  0.00     1
+ 23 JUN   32 First Peg      435   0.77   9.6   15  3.5  0.06  0.00  0.00  0.00     2
+ 28 JUN   37 First Pod      669   1.14  11.3   23  3.5  0.04  0.00  0.00  0.00     3
+  4 JUL   43 First Seed    1180   1.76  13.3   39  3.3  0.01  0.00  0.00  0.00     5
+ 26 AUG   96 End Msnode    5027   2.60  23.9  137  2.7  0.04  0.00  0.00  0.00     5
+ 27 AUG   97 End Pod       5087   2.58  23.9  137  2.7  0.00  0.29  0.00  0.00     8
+ 27 AUG   97 Phys. Mat     5087   2.58  23.9  137  2.7  0.00  0.00  0.00  0.00     8
+ 27 AUG   97 Harv. Mat     5087   2.58  23.9  137  2.7  0.00  0.00  0.00  0.00     8
+ 27 AUG   97 Harvest       5087   2.58  23.9  137  2.7  0.00  0.00  0.00  0.00     8
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Emergence day (dap)                                      6          -99
+      Anthesis day (dap)                                      25           24
+      First pod day (dap)                                     37          -99
+      First seed day (dap)                                    43          -99
+      Physiological maturity day (dap)                        97           98
+      Harvest maturity day (dap)                              97          -99
+      Yield at harvest maturity (kg [dm]/ha)                1607        1491.
+      Pod/Ear/Panicle weight at maturity (kg [dm]/ha)       2164        2072.
+      Tops weight at anthesis (kg [dm]/ha)                   189          -99
+      Tops weight at maturity (kg [dm]/ha)                  5087        5091.
+      By-product produced (stalk) at maturity (kg[dm]/ha    3480          -99
+      Number at maturity (no/m2)                             631          -99
+      Unit wt at maturity (g [dm]/unit)                   0.2548          -99
+      Number at maturity (no/unit)                          1.63          -99
+      Harvest index at maturity                            0.316          -99
+      Threshing % at maturity                              74.28        71.95
+      Leaf area index, maximum                              3.13          -99
+      Leaf number per stem at maturity                     23.92          -99
+      Canopy height (m)                                     0.48          -99
+      Tops N at anthesis (kg/ha)                               7          -99
+      Tops N at maturity (kg/ha)                             137          -99
+      Stem N at maturity (kg/ha)                              20          -99
+      Grain N at maturity (kg/ha)                             82          -99
+      Grain N at maturity (%)                               5.08          -99
+      Grain oil at maturity (%)                            49.88          -99
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|--------------------------------------Environment--------------------------------------|-----------------Stress-----------------|
+                              |---------------Average--------------|-----Cumulative-----|--------Count of days--------|          (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp  Temp Solar Photop                Evapo    Pot TMIN TMIN TMAX TMAX TMAX RAIN|----Water----|---Nitrogen--|-Phosphorus-|
+                         Span   Max   Min  Mean   Rad  [day]    CO2   Rain  Trans     ET   <    <    >    >    >    >   Photo         Photo         Photo
+                         days     C     C     C MJ/m2     hr    ppm     mm     mm    mm   0 C  2 C 30 C 32 C 34 C  0mm  synth Growth  synth Growth  synth Growth
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Emergence -First Flower   19  31.5  23.5  27.5  15.7  12.53  366.2   99.1   52.5   76.1    0    0   13    7    1    5  0.000  0.000  0.000  0.065  0.000  0.000
+ First Flower-First Seed   18  31.9  26.3  29.1  18.4  12.55  366.4   70.9   74.8   84.7    0    0   16   10    1    4  0.000  0.035  0.000  0.000  0.000  0.000
+ First Seed - Phys. Mat.   54  30.4  25.0  27.7  14.7  12.40  366.7  168.1  186.9  195.8    0    0   32    6    1   20  0.024  0.035  0.000  0.005  0.000  0.000
+ Emergence  - Phys. Mat.   91  30.9  25.0  27.9  15.7  12.46  366.5  338.1  314.2  356.5    0    0   61   23    3   29  0.014  0.028  0.000  0.017  0.000  0.000
+   
+ Planting to Harvest       98  31.0  24.9  28.0  15.9  12.46  366.5  359.0  318.6  390.5    0    0   66   27    6   31  0.013  0.026  0.000  0.015  0.000  0.000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*Resource Productivity
+ Growing season length:  98 days 
+
+ Precipitation during growing season       359.0 mm[rain]
+   Dry Matter Productivity                  1.42 kg[DM]/m3[rain]          =   14.2 kg[DM]/ha per mm[rain]
+   Yield Productivity                       0.45 kg[grain yield]/m3[rain] =    4.5 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season  318.6 mm[ET]
+   Dry Matter Productivity                  1.60 kg[DM]/m3[ET]            =   16.0 kg[DM]/ha per mm[ET]
+   Yield Productivity                       0.50 kg[grain yield]/m3[ET]   =    5.0 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season       183.4 mm[EP]
+   Dry Matter Productivity                  2.77 kg[DM]/m3[EP]            =   27.7 kg[DM]/ha per mm[EP]
+   Yield Productivity                       0.88 kg[grain yield]/m3[EP]   =    8.8 kg[yield]/ha per mm[EP]
+
+ N uptake during growing season               12 kg[N uptake]/ha
+   Dry Matter Productivity                 423.9 kg[DM]/kg[N uptake]
+   Yield Productivity                      133.9 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+                    Peanut YIELD :     1607 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

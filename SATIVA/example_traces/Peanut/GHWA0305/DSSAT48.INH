@@ -1,0 +1,93 @@
+*EXP.DETAILS: GHWA0305PN 2003 FUNGICIDE X PHOSPHORUS EXPT GHANA                      
+
+*FILES
+@N  EXP.DATA    AFILE        ADIR
+  2 EXP         GHWA0305.PNA                                                                                 
+@N  SPECIES     SPFILE       SPDIR
+  2 SPE         PNGRO048.SPE C:\DSSAT48\GENOTYPE\                                                            
+@N  ECOTYPE     EFILE        EDIR
+  2 ECO         PNGRO048.ECO C:\DSSAT48\GENOTYPE\                                                            
+@N  CULTIVAR    CFILE        CDIR
+  2 CUL         PNGRO048.CUL C:\DSSAT48\GENOTYPE\                                                            
+@N  SOIL        SFILE        SDIR
+  2 SOIL        GH.SOL       C:\DSSAT48\SOIL\                                                                
+@N  WEATHER     WFILE        WDIR
+  2 WEATH       GHWA0301.WTH C:\DSSAT48\Weather\                                                             
+
+*SIMULATION CONTROL
+@N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
+  2 GE              1     1     S 2003152  2150 DISEASE                   CRGRO048
+@N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+  2 OP              Y     Y     Y     Y     N     Y     N     N     M
+@N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL METMP MEGHG
+  2 ME              M     M     E     R     S     L     R     1     P     R     2     D     0
+@N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+  2 MA              R     A     R     N     M
+@N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
+  2 OU              N     Y     Y     1     Y     Y     Y     Y     Y     Y     Y     N     Y
+
+!AUTOMATIC MANAGEM
+@N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+  2 PL              -99     -99   40.  100.   30.   40.   10.
+@N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+  2 IR            30.   50.  100. GS000 IR001  10.0 1.000
+@N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+  2 NI            30.   50.   25. FE001 GS000
+@N  RESIDUES    RIPCN RTIME RIDEP
+  2 RE           100.     1   20.
+@N  HARVEST     HFRST   HLAST HPCNP HRCNR
+  2 HA              0     -99  100.    0.
+
+*TREATMENTS
+@N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
+  1  1 1 0 P0F0 dis"on" PCLA,PDLA      1   1   0   1   1   0   0   0   0   0   0   1   2
+
+*CULTIVARS
+@C  CR INGENO CNAME
+  1 PN GH0001 CHINESE TMV2 TAM
+
+*FIELDS
+@L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL    PMALB  PMWD
+  1 BAMAHU03 GHWA0301   0.0  -99.   -99  -99.  100.   -99 SL      90. GHWA030001-99.00 -99.0
+@L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
+  1        -2.00000         9.94500    380.00            1024.0 3200.   1.0 -99.0   -99   -99
+
+*INITIAL CONDITIONS
+@C  PCR     ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+  1 PN    2003170   500     0  1.00  1.00 -99.0  1000  1.50  0.25  100.    0.
+@C   ICBL  SH2O  SNH4  SNO3
+  1    5. 0.200   0.0   0.0
+  1   15. 0.220   0.0   0.0
+  1   30. 0.220   0.0   0.0
+  1   45. 0.230   0.0   0.0
+  1   60. 0.230   0.0   0.0
+  1   75. 0.230   0.0   0.0
+  1   90. 0.230   0.0   0.0
+
+*PLANTING DETAILS
+@P    PDATE   EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+  1 2003170 2003177  20.0  20.0     S     R   50.  -99.   5.0  -99.  -99. -99.0 -99.0 -99.0
+
+*IRRIGATION
+@I   IEFF  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+  0 1.000    0.    0.    0. GS000 IR001   0.0
+@I    IDATE  IROP IRVAL
+
+*FERTILIZERS
+@F    FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+
+*RESIDUES
+@R    RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET
+
+*CHEMICALS
+@C    CDATE CHCOD CHAMT  CHME CHDEP   CHT
+
+*TILLAGE
+@T    TDATE TIMPL  TDEP
+
+*ENVIRONMENT
+@E    ODATE  EDAY  ERAD  EMAX  EMIN ERAIN  ECO2  EDEW EWIND
+
+*HARVEST
+@H    HDATE  HSTG  HCOM HSIZE   HPC  HBPC
+  1    3266 GS011     H     A  100.    0.

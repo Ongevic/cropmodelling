@@ -1,0 +1,25 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:05
+
+*RUN   1        : Non-nod (M4-2), 0kgN      CRGRO048 UFGA8201    1
+ MODEL          : CRGRO048 - Peanut
+ EXPERIMENT     : UFGA8201 PN N FERT ON NON-NOD, FLORUNNER & EARLY BUNCH
+ DATA PATH      :
+ TREATMENT  1   : Non-nod (M4-2), 0kgN      CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1982 130
+ Soil photosynthesis factor (SLPF) = 0.92                                      
+
+ SOILNI  YEAR DOY = 1982 130
+ N content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:N ratio.                 
+   - Previous crop code                 :    PN                                
+   - Recommended N content for surface residue (%):   1.2                      
+   - Value read from file               : 0.800%                               
+   - Value changed to                   : 0.960%                               
+ To change allowable N content, modify SCN parameter                           
+   in RESCH048.SDA file.                                                       

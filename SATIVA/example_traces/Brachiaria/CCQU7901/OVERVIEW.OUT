@@ -1,0 +1,139 @@
+*SIMULATION OVERVIEW FILE
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:44
+
+*RUN   1        : 79 Treatment 1            CRGRO048 CCQU7901    1
+ MODEL          : CRGRO048 - Brachiaria
+ EXPERIMENT     : CCQU7901 BR BRACHIARIA ON QUILICHAO
+ DATA PATH      :
+ TREATMENT  1   : 79 Treatment 1            CRGRO048
+
+
+ CROP           : Brachiaria       CULTIVAR : Brachiaria 5     ECOTYPE :BR0001
+ STARTING DATE  : SEP  3 1979
+ PLANTING DATE  : SEP 11 1979      PLANTS/m2 :   100.0    ROW SPACING :  10.cm
+ HARVEST DATE   : MAY  5 1982
+ WEATHER        : CCQU   1979
+ SOIL           : CCQU790001     TEXTURE : CLLO  -   QUILICHAO
+ SOIL INIT COND : DEPTH: 60cm EXTR. H2O: 69.0mm  NO3: 15.0kg/ha  NH4:  5.4kg/ha
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)
+ IRRIGATION     :        0 mm IN     0 APPLICATIONS
+ NITROGEN BAL.  : SOIL-N & N-UPTAKE SIMULATION; NO N-FIXATION
+ N-FERTILIZER   :      100 kg/ha IN     2 APPLICATIONS
+ RESIDUE/MANURE : INITIAL :     0 kg/ha ;       0 kg/ha IN     0 APPLICATIONS
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:N  PHOSPH :N  PESTS  :Y
+                  PHOTO   :C  ET      :R  INFIL:S  HYDROL :R  SOM    :P
+                  CO2 337ppm  NSWIT   :1  EVAP :R  SOIL   :2  STEMP  :D
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :R  RESIDUE:N  HARVEST:R
+                  WEATHER :M  TILLAGE :N
+
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS
+
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %
+-------------------------------------------------------------------------------
+  0-  5 0.351 0.468 0.483 0.117 0.470   1.00   0.96   4.10   3.90   1.00   5.10
+  5- 15 0.351 0.468 0.483 0.117 0.473   1.00   0.96   4.10   3.80   1.00   5.10
+ 15- 20 0.351 0.468 0.483 0.117 0.491   1.00   0.96   4.10   3.20   1.00   5.10
+ 20- 30 0.356 0.470 0.485 0.114 0.495   0.70   1.02   3.90   2.96   0.90   3.77
+ 30- 40 0.356 0.470 0.485 0.114 0.510   0.70   1.02   3.90   2.00   0.50   3.77
+ 40- 50 0.366 0.480 0.487 0.114 0.520   0.40   1.12   3.90   1.46   0.80   2.77
+ 50- 60 0.366 0.480 0.487 0.114 0.527   0.40   1.12   3.90   1.10   1.00   2.77
+
+TOT- 60  21.5  28.4  29.1   6.9  30.1  <--cm   -  kg/ha-->   15.0    5.4 236876
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT : 6.70         MIN. FACTOR  : 1.00
+RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.18         FERT. FACTOR : 1.00
+
+ Brachiaria       CULTIVAR: CC0005-Brachiaria 5       ECOTYPE: BR0001
+ CSDVAR :12.00  PPSEN  : 0.20  EMG-FLW:99.00  FLW-FSD:18.00  FSD-PHM : 33.00
+ WTPSD  :0.002  SDPDVR :  2.0  SDFDUR :18.00  PODDUR :20.00  XFRUIT  :  0.01
+ THRESH : 78.0  SDPRO  :0.398  SDLIP   : 0.500
+
+
+*SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
+
+ RUN NO.     1     79 Treatment 1          
+
+        CROP GROWTH     BIOMASS         LEAF   CROP N     STRESS      STRESS                                           
+   DATE  AGE STAGE        kg/ha    LAI   NUM  kg/ha  %   H2O  Nitr Phos1 Phos2  RSTG                                   
+ ------  --- ----------   -----  -----  ----  ---  ---  ----  ----  ----  ----  ----                                   
+  3 SEP    0 Start Sim        0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+ 11 SEP    0 Sowing           0   0.00   0.0    0  0.0  0.00  0.00  0.00  0.00     0
+ 16 SEP    5 Emergence        1   0.00   0.1    0  2.2  0.00  0.00  0.00  0.00     0
+ 27 SEP   16 First Leaf       1   0.00   1.0    0  2.2  0.66  0.00  0.00  0.00     0
+  5 MAY  967 Harvest       9694   8.47  11.2  280  2.9  0.48  0.00  0.00  0.00     0
+
+
+*MAIN GROWTH AND DEVELOPMENT VARIABLES
+
+@     VARIABLE                                         SIMULATED     MEASURED
+      --------                                         ---------     --------
+      Emergence day (dap)                                      5          -99
+      Anthesis day (dap)                                     -99          -99
+      Physiological maturity day (dap)                       -99          -99
+      Yield at harvest maturity (kg [dm]/ha)                   0          -99
+      Pod/Ear/Panicle weight at maturity (kg [dm]/ha)          0          -99
+      Tops weight at anthesis (kg [dm]/ha)                     0          -99
+      Tops weight at maturity (kg [dm]/ha)                  9694          -99
+      By-product produced (stalk) at maturity (kg[dm]/ha    9690          -99
+      Number at maturity (no/m2)                               0          -99
+      Unit wt at maturity (g [dm]/unit)                   0.0000          -99
+      Number at maturity (no/unit)                          0.00          -99
+      Harvest index at maturity                            0.000          -99
+      Threshing % at maturity                               0.00          -99
+      Leaf area index, maximum                              8.71          -99
+      Leaf number per stem at maturity                     11.20          -99
+      Canopy height (m)                                     0.50          -99
+      Tops N at anthesis (kg/ha)                               0          -99
+      Tops N at maturity (kg/ha)                             280          -99
+      Stem N at maturity (kg/ha)                              61          -99
+      Grain N at maturity (kg/ha)                              0          -99
+      Grain N at maturity (%)                               0.00          -99
+      Grain oil at maturity (%)                             0.00          -99
+
+
+*ENVIRONMENTAL AND STRESS FACTORS
+
+ |-----Development Phase------|--------------------------------------Environment--------------------------------------|-----------------Stress-----------------|
+                              |---------------Average--------------|-----Cumulative-----|--------Count of days--------|          (0=Min, 1=Max Stress)         |
+                         Time  Temp  Temp  Temp Solar Photop                Evapo    Pot TMIN TMIN TMAX TMAX TMAX RAIN|----Water----|---Nitrogen--|-Phosphorus-|
+                         Span   Max   Min  Mean   Rad  [day]    CO2   Rain  Trans     ET   <    <    >    >    >    >   Photo         Photo         Photo
+                         days     C     C     C MJ/m2     hr    ppm     mm     mm    mm   0 C  2 C 30 C 32 C 34 C  0mm  synth Growth  synth Growth  synth Growth
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Emergence  - Phys. Mat.  962  28.4  17.5  23.0  21.7  11.98  339.3   3345   2560   4803    0   57  219   34    2  388  0.409  0.483  0.000  0.000  0.000  0.000
+   
+ Planting to Harvest      968  28.4  17.6  23.0  21.7  11.98  339.2   3422   2588   4836    0   57  219   34    2  392  0.406  0.480  0.000  0.000  0.000  0.000
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*Resource Productivity
+ Growing season length: 968 days 
+
+ Precipitation during growing season      3422.2 mm[rain]
+   Dry Matter Productivity                  0.28 kg[DM]/m3[rain]          =    2.8 kg[DM]/ha per mm[rain]
+   Yield Productivity                       0.00 kg[grain yield]/m3[rain] =    0.0 kg[yield]/ha per mm[rain]
+
+ Evapotranspiration during growing season 2588.4 mm[ET]
+   Dry Matter Productivity                  0.37 kg[DM]/m3[ET]            =    3.7 kg[DM]/ha per mm[ET]
+   Yield Productivity                       0.00 kg[grain yield]/m3[ET]   =    0.0 kg[yield]/ha per mm[ET]
+
+ Transpiration during growing season      1871.3 mm[EP]
+   Dry Matter Productivity                  0.52 kg[DM]/m3[EP]            =    5.2 kg[DM]/ha per mm[EP]
+   Yield Productivity                       0.00 kg[grain yield]/m3[EP]   =    0.0 kg[yield]/ha per mm[EP]
+
+ N applied during growing season            100. kg[N applied]/ha
+   Dry Matter Productivity                  96.9 kg[DM]/kg[N applied]
+   Yield Productivity                        0.0 kg[yield]/kg[N applied]
+
+ N uptake during growing season             1268 kg[N uptake]/ha
+   Dry Matter Productivity                   7.6 kg[DM]/kg[N uptake]
+   Yield Productivity                        0.0 kg[yield]/kg[N uptake]
+
+--------------------------------------------------------------------------------------------------------------
+
+                Brachiaria YIELD :        0 kg/ha    [Dry weight] 
+
+**************************************************************************************************************

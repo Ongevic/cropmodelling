@@ -1,0 +1,25 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:03
+
+*RUN   1        : RAINFED LOW NITROGEN      MZCER048 UFGA8201    1
+ MODEL          : MZCER048 - Maize
+ EXPERIMENT     : UFGA8201 MZ NIT X IRR, GAINESVILLE 2N*3I
+ DATA PATH      :
+ TREATMENT  1   : RAINFED LOW NITROGEN      MZCER048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1982  56
+ Soil photosynthesis factor (SLPF) = 0.92                                      
+
+ IPWTH   YEAR DOY = 1982  98
+ Warning: SRAD < 1 MJ.m-2.d-1.                                                 
+ C:\DSSAT48\Weather\UFGA8201.WTH                                               
+ Line      103                                                                 
+ SRAD =   0.80 MJ.m-2.d-1                                                      

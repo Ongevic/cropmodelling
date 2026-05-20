@@ -1,0 +1,20 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:06
+
+*RUN   1        : 46-CM ROW SPACING, GEOMET CRGRO048 UFGA8702    1
+ MODEL          : CRGRO048 - Peanut
+ EXPERIMENT     : UFGA8702 PN ROW SPACING & GEOMETRY, FLORUNNER, IRRI
+ DATA PATH      :
+ TREATMENT  1   : 46-CM ROW SPACING, GEOMET CRGRO048
+  
+
+ IPRES   YEAR DOY =    0   0
+ Residue application   1                                                       
+ Incorporation percentage not specified, and incorporation depth > 0.          
+ Applied residues will be incorporated to a depth of  15.0 cm.                 
+
+ SOILDYN  YEAR DOY = 1987 152
+ Soil photosynthesis factor (SLPF) = 0.92                                      

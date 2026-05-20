@@ -1,0 +1,16 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:10
+
+*RUN   1        : Kap-90-1                           DIJY9001    1
+
+ EXPERIMENT     : DIJY9001 PT GROWTH DATA-DENMARK (EDLEFSEN, 1991)
+ DATA PATH      :
+ TREATMENT  1   : Kap-90-1
+  
+
+ IPEXP   YEAR DOY =    0   0
+ Photosynthesis method (PHOTO in FILEX) has been changed                       
+ from "L" to "C" for compatibility with crop model, PTSUB.                     

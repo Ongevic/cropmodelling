@@ -1,0 +1,23 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:43
+
+*RUN   1        : N0*C1 0N;A.Abiad          CSCER048 IEBR8201    1
+ MODEL          : CSCER048 - Barley
+ EXPERIMENT     : IEBR8201 BA N RESPONSE,ICARDA  2FE(N)*2CU  (DSSAT3)
+ DATA PATH      :
+ TREATMENT  1   : N0*C1 0N;A.Abiad          CSCER048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1982 298
+ Initial soil water content < LL.                                              
+                                                                               
+          FileX              SW @  Revised                                     
+ Layer  Init SW       LL   AirDry  Init SW                                     
+     2    0.180    0.190             0.190                                     

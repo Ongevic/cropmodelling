@@ -1,0 +1,19 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:32:53
+
+*RUN   1        : A 193 : SEED-SIZE TRIAL   CRGRO048 CCPA9001    1
+ MODEL          : CRGRO048 - Dry bean
+ EXPERIMENT     : CCPA9001 BN PALMIRA SEED SIZE TRIAL - 16 CULTIVARS
+ DATA PATH      :
+ TREATMENT  1   : A 193 : SEED-SIZE TRIAL   CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1990  58
+ Soil photosynthesis factor (SLPF) = 0.81                                      

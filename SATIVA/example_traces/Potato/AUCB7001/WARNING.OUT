@@ -1,0 +1,16 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:09
+
+*RUN   1        : Radiation=100% Deficit=2. PTSUB048 AUCB7001    1
+ MODEL          : PTSUB048 - Potato
+ EXPERIMENT     : AUCB7001 PT AUSTRALIA, 1970: SOLAR RADIATION INTENSITY
+ DATA PATH      :
+ TREATMENT  1   : Radiation=100% Deficit=2. PTSUB048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              

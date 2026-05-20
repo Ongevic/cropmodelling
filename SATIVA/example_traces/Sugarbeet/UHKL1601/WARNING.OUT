@@ -1,0 +1,16 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:24
+
+*RUN   1        : 0 %  fungicid                      UHKL1601    1
+
+ EXPERIMENT     : UHKL1601 BS U OF HOHENHEIM, 2016, LEAT SPOT AND FUNGICIDE LEVE
+ DATA PATH      :
+ TREATMENT  1   : 0 %  fungicid
+  
+
+ IPEXP   YEAR DOY =    0   0
+ Photosynthesis method (PHOTO in FILEX) has been changed                       
+ from "L" to "C" for compatibility with crop model, BSCER.                     

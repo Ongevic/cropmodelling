@@ -1,0 +1,15 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:21
+
+*RUN   1        : IRRIGATED                 CRGRO048 UFGA7802    1
+ MODEL          : CRGRO048 - Soybean
+ EXPERIMENT     : UFGA7802 SB BRAGG, IRR*INSECT DAMAGE
+ DATA PATH      :
+ TREATMENT  1   : IRRIGATED                 CRGRO048
+  
+
+ SOILDYN  YEAR DOY = 1978 166
+ Soil photosynthesis factor (SLPF) = 0.92                                      

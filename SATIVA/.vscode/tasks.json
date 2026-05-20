@@ -1,0 +1,43 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Active R Script",
+            "type": "shell",
+            "command": "\"C:\\Program Files\\R\\R-4.5.3\\bin\\x64\\Rscript.exe\"",
+            "args": [
+                "${file}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": false
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run app.R",
+            "type": "shell",
+            "command": "\"C:\\Program Files\\R\\R-4.5.3\\bin\\x64\\Rscript.exe\"",
+            "args": [
+                "${workspaceFolder}\\app.R"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": false
+            },
+            "problemMatcher": []
+        }
+    ]
+}

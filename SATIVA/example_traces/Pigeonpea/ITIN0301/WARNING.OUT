@@ -1,0 +1,33 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:08
+
+*RUN   1        : 2003 ICPL88039            CRGRO048 ITIN0301    1
+ MODEL          : CRGRO048 - Pigeon pea
+ EXPERIMENT     : ITIN0301 PP IRRIGATED & NON-IRRIGATED, INDORE INDIA
+ DATA PATH      :
+ TREATMENT  1   : 2003 ICPL88039            CRGRO048
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 2003   1
+ Initial soil water content < LL.                                              
+                                                                               
+          FileX              SW @  Revised                                     
+ Layer  Init SW       LL   AirDry  Init SW                                     
+     6    0.172    0.177             0.177                                     
+
+ SOILDYN  YEAR DOY = 2003   1
+ Soil photosynthesis factor (SLPF) = 0.88                                      
+
+ SOILDYN  YEAR DOY = 2003   1
+ The CENTURY-based soil-organic-matter module needs                            
+ soil texture data, but the specified soil profile                             
+ does not have those for some layers. The model will                           
+ run with the default 30% clay, 30% silt, 40% sand.                            
+ This may give incorrect results.                                              

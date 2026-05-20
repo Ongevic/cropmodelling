@@ -1,0 +1,22 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.8.5.000 -release  APR 28, 2026 22:33:30
+
+*RUN   1        : BLANCA Cultivars          TRARO048 MTIS9201    1
+ MODEL          : TRARO048 - Taro
+ EXPERIMENT     : MTIS9201 TR TARO VAR EXPT, PUERTO RICO
+ DATA PATH      :
+ TREATMENT  1   : BLANCA Cultivars          TRARO048
+  
+
+ IPWTH   YEAR DOY = 1992 167
+ Value of TAV, average annual soil temperature, is missing.                    
+ A default value of 20.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         
+
+ IPWTH   YEAR DOY = 1992 167
+ Value of TAMP, amplitude of soil temperature function, is missing.            
+ A default value of  5.0°C is being used for this simulation,                 
+ which may produce inaccurate results.                                         

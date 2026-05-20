@@ -1,0 +1,102 @@
+*EXP.DETAILS: UAFD0801SU CULTIVAR BY NITROGEN RESPONSE - FAISALABAD                  
+
+*FILES
+@N  EXP.DATA    AFILE        ADIR
+  1 EXP         UAFD0801.SUA                                                                                 
+@N  SPECIES     SPFILE       SPDIR
+  1 SPE         SUGRO048.SPE C:\DSSAT48\GENOTYPE\                                                            
+@N  ECOTYPE     EFILE        EDIR
+  1 ECO         SUGRO048.ECO C:\DSSAT48\GENOTYPE\                                                            
+@N  CULTIVAR    CFILE        CDIR
+  1 CUL         SUGRO048.CUL C:\DSSAT48\GENOTYPE\                                                            
+@N  SOIL        SFILE        SDIR
+  1 SOIL        UA.SOL       C:\DSSAT48\SOIL\                                                                
+@N  WEATHER     WFILE        WDIR
+  1 WEATH       UAFD0801.WTH C:\DSSAT48\Weather\                                                             
+
+*SIMULATION CONTROL
+@N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
+  1 GE              1     1     P 2008053  2150 DEFAULT SIMULATION CONTR  CRGRO048
+@N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+  1 OP              Y     Y     N     N     N     N     N     Y     M
+@N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL METMP MEGHG
+  1 ME              M     M     E     R     S     L     R     1     P     R     2     D     0
+@N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+  1 MA              R     R     R     N     M
+@N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
+  1 OU              N     Y     Y     1     Y     Y     Y     Y     N     N     Y     N     N
+
+!AUTOMATIC MANAGEM
+@N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+  1 PL              -99     -99    0.    0.    0.    0.    0.
+@N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+  1 IR             0.    0.    0. GS000 IR001  10.0 1.000
+@N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+  1 NI             0.    0.    0. FE001 GS000
+@N  RESIDUES    RIPCN RTIME RIDEP
+  1 RE             0.     0    0.
+@N  HARVEST     HFRST   HLAST HPCNP HRCNR
+  1 HA              0     -99   10.    0.
+
+*TREATMENTS
+@N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
+  1  1 0 0 Hysun-33-0 Kg N ha-1        1   1   1   1   1   1   1   0   0   0   0   0   1
+
+*CULTIVARS
+@C  CR INGENO CNAME
+  1 SU IB0018 Hysun-33        
+
+*FIELDS
+@L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL    PMALB  PMWD
+  1 FSD80001 UAFD0801   0.0    0. DR000    0.  100. 00000 SL       0. UAFD040001-99.00 -99.0
+@L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
+  1         0.00000         0.00000      0.00               1.0  100.   1.0   0.0   -99   -99
+
+*INITIAL CONDITIONS
+@C  PCR     ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID
+  1 WH    2008001  1000     0  1.00  1.00 -99.0  2000  0.61  0.00  100.   30.
+@C   ICBL  SH2O  SNH4  SNO3
+  1    5. 0.253   0.4   4.0
+  1   15. 0.253   0.4   4.0
+  1   30. 0.254   0.4   4.0
+  1   45. 0.254   0.4   4.0
+  1   60. 0.254   0.4   4.0
+  1   76. 0.254   0.4   4.0
+  1   92. 0.254   0.4   4.0
+  1  109. 0.255   0.4   4.0
+  1  127. 0.255   0.4   4.0
+  1  152. 0.272   0.4   4.0
+
+*PLANTING DETAILS
+@P    PDATE   EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL
+  1 2008053     -99   7.0   6.0     S     R   70.    0.   4.0  -99.  -99. -99.0 -99.0   0.0
+
+*IRRIGATION
+@I   IEFF  IDEP  ITHR  IEPT  IOFF  IAME  IAMT
+  1 1.000   30.   50.  100. GS000 IR001  10.0
+@I    IDATE  IROP IRVAL
+  1 2008053 IR001  70.0
+  1 2008074 IR001  70.0
+  1 2008088 IR001  70.0
+  1 2008119 IR001  90.0
+  1 2008138 IR001  90.0
+  1 2008158 IR001  95.0
+
+*FERTILIZERS
+@F    FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD
+  1 2008053 FE005   001    0.    0.    0.    0.  -99.  -99.   -99
+
+*RESIDUES
+@R    RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET
+
+*CHEMICALS
+@C    CDATE CHCOD CHAMT  CHME CHDEP   CHT
+
+*TILLAGE
+@T    TDATE TIMPL  TDEP
+
+*ENVIRONMENT
+@E    ODATE  EDAY  ERAD  EMAX  EMIN ERAIN  ECO2  EDEW EWIND
+
+*HARVEST
+@H    HDATE  HSTG  HCOM HSIZE   HPC  HBPC
