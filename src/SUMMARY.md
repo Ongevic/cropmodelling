@@ -31,3 +31,11 @@
 * [Visualizing Results](visualizing-results.md)
 * [Troubleshooting](troubleshooting.md)
 * [Attribution and Disclaimer](attribution-and-license.md)
+
+---
+
+## pSIMS 2.0 — Running the Pipeline
+
+* [pSIMS Explained for Crop Modellers](psims-explained.md)
+* [Windows Setup and Run Guide](psims-windows-setup.md)
+* [Linux HPC Setup and Run Guide](psims-linux-hpc-setup.md)
